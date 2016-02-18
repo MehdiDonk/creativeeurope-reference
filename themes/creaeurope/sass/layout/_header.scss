@@ -1,0 +1,44 @@
+header.main-banner {
+  text-align:left;
+  height: 520px;
+  padding: 0;
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0.8),
+                  rgba(0, 0, 0, 0.4)
+  ),
+  url('../images/headers/homepage-1920.jpg');
+  background-size: cover;
+  margin: 0;
+  
+  video {
+	width: 100%;
+	margin-top: 140px;
+	
+	@include box-shadow(0 0 30px $primary-deep-dark-color);
+  }
+}
+
+header.main-banner h1 {
+  color: #fff;
+  margin: 0 !important;
+  margin-top: 0.47133em !important;
+}
+
+header.main-banner h2 {
+  font-family: $font-stack;
+  text-transform: initial;
+  font-size: 1.333em;
+  color: #fff;
+  margin-top: (1.414em / 3) !important;
+  margin-bottom: 1.414em !important;
+}
+
+header hgroup {
+	margin-top: 90px;
+	
+	img {
+		border: 1px solid #fff;
+		padding: 10px;
+	}
+}

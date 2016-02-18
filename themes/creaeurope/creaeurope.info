@@ -1,0 +1,62 @@
+name = creaeurope
+description = Responsive template with Europa banner
+package = creaeurope_theme
+base theme = ec_resp
+
+version = "7.x-2.0"
+core = "7.x"
+php = "5.2.4"
+
+; SETTINGS
+settings[videohome_youtube_id] = "3fiCRpgOpvU"
+settings[headline] = "Creative Europe"
+settings[tagline] = "Creative europe is the European Commismission famework programme for support to the culture and audiovisual sectors"
+settings[facebook] = "https://www.facebook.com/pages/Rickroll/112734362072616?fref=ts&rf=111143328909321"
+settings[twitter] = "https://twitter.com/rickroll"
+settings[newsletter] = "https://ec.europa.eu/coreservices/mailing/index.cfm"
+settings[videoabout] = "http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4"
+
+; CSS
+stylesheets[all][] = "css/creaeurope.css"
+stylesheets[print][] = "css/creaeurope_print.css"
+
+; SCRIPTS
+scripts[] = scripts/custom.js
+
+; REGIONS
+regions[header_top] = "Header Top"
+regions[header_right] = "Header Right"
+
+regions[featured] = "Featured"
+regions[breadcrumbss] = "Breadcrumbs"
+regions[tools] = "Tools"
+regions[help] = "Help"
+
+regions[sidebar_left] = "Sidebar Left"
+regions[sidebar_right] = "Sidebar Right"
+
+regions[content_top] = "Content Top"
+regions[content] = "Content"
+regions[content_right] = "Content Right"
+regions[content_bottom] = "Content Bottom"
+
+regions[highlights] = "Highlights"
+regions[whatsnew] = "What is new"
+regions[projectresults] = "Project results"
+regions[sections] = "Sections"
+regions[strands] = "Strands"
+regions[actions] = "Actions"
+regions[footer] = "Footer"
+regions[footer_topleft] = "Footer Top Left"
+regions[footer_bottomleft] = "Footer Bottom Left"
+regions[footer_bottommiddle] = "Footer Bottom Middle"
+regions[footer_bottomright] = "Footer Bottom Right"
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by drupal . org packaging script on 2011-01-05
+project = "drupal"
+datestamp = "1294208756"
+
+multisite_version = "2.0"

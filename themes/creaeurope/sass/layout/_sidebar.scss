@@ -1,0 +1,63 @@
+aside {
+	padding: 0;
+	
+	.sidebar-wrapper {
+		background: #fff;
+		padding: 15px;
+		margin-left: 15px;
+		margin-top: 30px;
+	
+		& > div {
+			margin-bottom: 30px;
+		}
+	
+	}
+	
+	h2 {
+		font-size: 1em;
+		color: $text-color;
+		padding: 20px 0;
+		margin-bottom: 20px;
+		margin-top: 0 !important;
+		border-bottom: 1px solid $text-color-light;
+	}
+	
+	.button {
+		width: 100%;
+		text-align: center;
+		margin-top: 15px;
+	}
+	
+	/* AT A GLANCE */
+	#block-views-highlights-block-1 {
+		.image {
+			position: relative;
+			
+			img {
+				width: 100%;
+				height: auto;
+				margin: 0 !important;
+				display: block;
+			}
+		
+			h1 {
+				position: absolute;
+				bottom: 0;
+				background: rgba(0, 0, 0, .5);
+				z-index: 9;
+				font-size: 1em !important;
+				width: 100%;
+				height: 100%;
+				margin: 0 !important;
+				
+				a {
+					font-size: 1.333em !important;
+					color: #fff;
+					position: absolute;
+					bottom: 15px;
+					left: 15px;
+				}
+			}
+		}
+	}
+}

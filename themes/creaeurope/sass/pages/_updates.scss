@@ -1,0 +1,162 @@
+.updates-header {
+	background: transparent !important;
+	height: auto !important;
+	margin-bottom: 30px !important;
+}
+
+/* Page last updates */
+.page-news-events-calls {
+	background: $light-background-color;
+  
+  .sidebar-wrapper {
+    margin-top: 0;
+  }
+
+	article {
+		color: #fff;
+		position: relative;
+		overflow: hidden;
+		
+		.update-category {
+			text-transform: uppercase;
+			font-family: $font-stack-bold;
+			background: $primary-color;
+			padding: 6px 20px;
+			font-size: .85em;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		
+		img {
+			width: 100%;
+			min-height: 100%;
+			height: auto;
+		}
+		
+		.dark-filter-background {
+			position: absolute;
+			left: 0;
+			top: 0;
+			background: rgba(0, 0, 0, .5);
+			width: calc(100% - 30px);
+			height: 100%;
+			margin: 0 15px;
+		}
+		
+		h1 {
+			margin: 0 !important;
+			
+			a {
+				color: #fff;
+			}
+		}
+		
+		p {
+			margin-bottom: 0 !important;
+		}
+		
+		p.date-published + p {
+			margin-top: 15px;
+		}
+		
+		.update-highlight--content {
+			position: absolute;
+			left: 45px;
+			bottom: 30px;
+		}
+		
+		&.update-highlight--big {
+			height: 520px;
+			margin-bottom: 5px;
+			
+			h1 {
+				font-size: 2.369em !important;
+			}
+						
+			.update-highlight--content {
+				max-width: calc(50% - 30px );
+			}
+		}
+		
+		&.update-highlight--medium {
+			padding-right: 0;
+			padding-right: 5px;
+			height: 340px;
+			
+			h1 {
+				font-size: 1.333em !important;
+			}
+			
+			.dark-filter-background {
+				width: calc(100% - 20px);
+			}
+		}
+		
+		&.update-highlight--small {
+			padding-left: 0;
+			margin-top: 5px;
+			height: calc(340px / 2 - 5px / 2);
+			
+			.update-highlight--content {
+				left: 15px;
+				bottom: 15px;
+			}
+			
+			h1 {
+				font-size: 1.333em !important;
+			}			
+			
+			.dark-filter-background {
+				width: calc(100% - 15px);
+				margin: 0;
+			}
+			
+			&.update-highlight--small:nth-child(2) {
+				margin-top: 0 !important;
+			}
+		}
+		
+		&.update-highlight--list {
+			background: #fff;
+			color: $text-color;
+			margin-bottom: 15px;
+			height: 200px;
+			
+			h1 {
+				font-size: 1.333em !important;
+				
+				a {
+					color: $primary-color;
+				}
+			}
+			
+			div {
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+			
+			& > div:first-child {
+				position: relative;
+				padding: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				height: 100%;
+				
+				img {
+					width: 100%;
+					height: 100%;
+				}
+				
+				.update-category {
+					position: absolute;
+					left: 0;
+					top: 15px;
+					color: #fff;
+					padding-top:5px;
+					padding-bottom: 5px;
+				}
+			}
+		}
+	}
+	
+}

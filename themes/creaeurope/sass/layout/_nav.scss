@@ -1,0 +1,135 @@
+/* Main menu */
+.navbar {
+	background-color: $primary-deep-dark-color !important;
+	border-color: transparent !important;
+	height: 75px;
+	@include transition-property(all);
+	@include transition-duration(.2s);
+	
+	&.affix {
+		height: 60px;
+		
+		.menu.nav > li > a {
+			height: 60px;
+			line-height: 60px;
+		}
+		
+		.navbar-collapse {
+			border: none;
+		}
+		
+		.sm {
+			height: 60px;
+			line-height: 60px;
+		}
+		
+	}
+	
+	.navbar-collapse {
+		padding: 0;
+		@include transition-property(all);
+		@include transition-duration(.2s);
+	}
+	
+	.menu.nav > li {
+		padding: 0;
+		
+		& > a {
+			background: none !important;
+			padding: 0 15px;
+			color: #fff;
+			height: 75px;
+			line-height: 75px;
+			text-transform: uppercase !important;
+			font-size: 1em;
+			@include transition-property(all);
+			@include transition-duration(.2s);
+			@include border-radius(0);
+			
+			&:hover {
+				border-bottom: 4px solid rgba(255, 255, 255, .5) !important;
+			}
+		}
+		
+		&.open a { 
+				border-bottom: 4px solid rgba(255, 255, 255, 1) !important;
+			}
+	}
+	
+	/* Drop-down panel */
+	.menu.dropdown-menu {
+		padding: 0;
+		margin-top:1px !important;
+		@include border-radius(0);	
+		@include box-shadow(#bbb 0 1px 2px);		
+		
+		a {
+			@include border-radius(0);	
+			border: none;
+			text-transform: uppercase !important;
+			color: $primary-color;
+			padding: 10px;
+			position: relative;
+			overflow: hidden;
+			@include transition-property(all);
+			@include transition-duration(.2s);
+		}
+		a:before {
+			content: '';
+			width: 5px;
+			height: 5px;
+			background: $primary-color;
+			position: absolute;
+			@include border-radius(50%);
+			@include transition-property(all);
+			@include transition-duration(.4s);
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			opacity: 0;
+			z-index: -1;
+		}
+		a:hover:before {
+			width: 700px;
+			height: 700px;
+			opacity: .15;
+		}
+	}
+	
+	.button {
+		display: initial;
+	}
+
+}
+/* Social Media */
+.sm {
+	height: 75px;
+	line-height: 75px;
+	float: right;
+	padding-right: 15px;
+}
+
+.icon {
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 10px;
+	opacity: .8;
+	vertical-align: middle;
+	@include transition-property(all);
+	@include transition-duration(.4s);
+	
+	&:hover {
+		opacity: 1;
+	}
+
+	&.facebook {
+		background:url('../images/pictos/fb.svg') no-repeat;
+	}
+	
+	&.twitter {
+		background:url('../images/pictos/twitter.svg') no-repeat;
+	}
+}

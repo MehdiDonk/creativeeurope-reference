@@ -1,0 +1,109 @@
+.front .navbar {
+	background-color: transparent !important;
+	
+	.navbar-collapse {
+		border-bottom: 1px solid rgba(255, 255, 255, .5);
+	}
+	
+	&.affix {
+		background-color: $primary-deep-dark-color !important;
+		
+		.navbar-collapse {		
+			border-bottom: none !important;
+		}
+	}
+}
+.front header.main-banner {
+  text-align: center;
+  
+  h1 {
+    margin: 1.414em 0 0.5em !important;
+  }
+}
+
+.hp-whatsnew {
+    margin-top: 180px;
+
+	article {
+		display: inline-block;
+		margin-top: 30px;
+		width: 100%;
+		
+		.image {
+			padding: 0;
+			border: none;
+			overflow: hidden;
+			
+			img {
+				width: auto;
+				height: 180px;
+				margin: auto;
+				left: 0;
+				right: 0;
+			}
+		}
+		
+		.info {
+			padding-left: 30px;
+			
+			p.event-date span {
+				color: $text-color;
+				text-transform: uppercase;
+				font-family: $font-stack-bold;
+			}
+		}
+		
+		.article-content p {
+			margin-top: 15px;
+		}
+		
+		h3 {
+			font-family: $font-stack;
+			margin:0 !important;
+			padding-top: 15px !important;
+			font-size: 1.333em;
+			border-top: 1px solid $text-color-light;
+
+			
+			a {
+				color: $primary-color;
+			}
+		}
+		
+		h4 {
+			margin:0 !important;
+			color: $text-color;
+			font-family: $font-stack-bold;
+			font-size: .8em;
+		}
+		
+		h4:first-child {
+			border-top: 1px solid $text-color-light;
+			padding-top: 15px !important;
+		}
+		
+		p {
+			font-size: .85em;
+			color: $text-color;
+		}
+	}
+}
+
+.more-updates {
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	color: $text-color;
+}
+
+.hp-projectresults .container-fluid {
+	padding: 0;
+}
+
+.actions {
+	background: $light-background-color;
+	padding-bottom: 60px;
+	
+	.view-actions {
+		display: inline-block;
+	}	
+}
