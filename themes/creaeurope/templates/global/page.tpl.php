@@ -98,17 +98,33 @@
 <?php
 global $base_url;
 ?>
-<div class="videowrap">
-  <label class="closebox">×</label>
-  <iframe id="video" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<a id="top-page"></a>
-
 <div class="container">
-  <?php print $regions['header_top']; ?>
+  <div class="row">
+    <?php if ($messages): ?>
+      <div id="messages">
+        <?php print $messages; ?>
+      </div><!-- /#messages -->
+    <?php endif; ?>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-12">
+      <?php print $regions['tools']; ?>
+    </div>
+  </div>
+  
+  <div class="row">
+    <?php if ($tabs): ?>
+      <div class="tabs">
+        <?php print render($tabs); ?>
+      </div>
+    <?php endif; ?>
+  </div>
+  <div class="row">
+    <?php print $regions['help']; ?>
+  </div>
 </div>
-
+ 
 <div id="layout-header">
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
@@ -119,48 +135,16 @@ global $base_url;
     <div id="sub-title" class="hidden-xs"><?php print $site_slogan; ?></div>
   </div>
 </div><!-- /#layout-header -->
+
 <?php print render($page['breadcrumbs']); ?>
-<header role="banner" class="main-banner jumbotron">
+
+<header role="banner">
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
-  </div>
-  <div class="container">
-    <div class="slider-highlights col-md-push-2 col-md-8">
-	  <hgroup>
-		<h1><?php print $headline; ?></h1>
-		<h2><?php print $tagline; ?></h2>
-	  </hgroup>
-	  <?php print render($page['highlights']); ?>
-    </div>
   </div>
 </header>
 
 <div id="layout-body" class="container">
-  <div class="row">
-    <?php print render($title_prefix); ?>
-
-    <?php if ($title): ?>
-      <?php $title_image = (isset($node->field_thumbnail[LANGUAGE_NONE][0]['uri']) && $node->type == 'community' ? image_style_url('communities_thumbnail', $node->field_thumbnail[LANGUAGE_NONE][0]['uri']) : '');?>
-      <h1 class="col-lg-<?php print $cols['title']['lg']; ?> col-md-<?php print $cols['title']['md']; ?> col-sm-<?php print $cols['title']['sm']; ?> col-xs-<?php print $cols['title']['xs']; ?>" id="page-title">
-        <?php if ($title_image): ?>
-          <img src="<?php print $title_image; ?>" alt="<?php print $title; ?>" />
-        <?php endif; ?>
-        <?php print $title; ?>
-      </h1>
-    <?php endif; ?>
-
-    <?php print render($title_suffix); ?>
-
-    <div class="col-lg-<?php print $cols['tools']['lg']; ?> col-md-<?php print $cols['tools']['md']; ?> col-sm-<?php print $cols['tools']['sm']; ?> col-xs-<?php print $cols['tools']['xs']; ?>">
-      <?php print $regions['tools']; ?>
-    </div>
-  </div>
-
-  <?php if ($messages): ?>
-    <div id="messages">
-      <?php print $messages; ?>
-    </div><!-- /#messages -->
-  <?php endif; ?>
 
   <div class="row">
     <?php if ($regions['sidebar_left']): ?>
@@ -169,145 +153,29 @@ global $base_url;
       </div>
     <?php endif; ?>
 
-    <div id="content-wrapper" class="col-lg-<?php print $cols['content_main']['lg']; ?> col-md-<?php print $cols['content_main']['md']; ?> col-sm-<?php print $cols['content_main']['sm']; ?> col-md-<?php print $cols['content_main']['xs']; ?>">
-
+	<section class="main-content-wrapper col-md-8">	
       <a id="content"></a>
-
-      <?php if ($title): ?>
-        <h1 class="title" id="content-title">
-          <?php print $title; ?>
-        </h1>
-      <?php endif; ?>
 
       <?php print $regions['content_top']; ?>
 
-      <a id="main-content"></a>
-
-      <?php if ($tabs): ?>
-        <div class="tabs">
-          <?php print render($tabs); ?>
-        </div>
-      <?php endif; ?>
-
-      <?php print $regions['help']; ?>
-
-      <?php if ($action_links): ?>
-        <ul class="action-links">
-          <?php print render($action_links); ?>
-        </ul>
-      <?php endif; ?>
-
-      <div class="row">
-        <div class="col-lg-<?php print $cols['content']['lg']; ?> col-md-<?php print $cols['content']['md']; ?> col-sm-<?php print $cols['content']['sm']; ?> col-xs-<?php print $cols['content']['xs']; ?>">
-          <?php print $regions['content']; ?>
-        </div>
-
-        <div class="col-lg-<?php print $cols['content_right']['lg']; ?> col-md-<?php print $cols['content_right']['md']; ?> col-sm-<?php print $cols['content_right']['sm']; ?> col-xs-<?php print $cols['content_right']['xs']; ?>">
-          <?php print $regions['content_right']; ?>
-        </div>
-      </div>
+      <?php print $regions['content']; ?>
 
       <?php print $feed_icons; ?>
 
       <?php print $regions['content_bottom']; ?>
-    </div>
-
-    <div class="clearfix visible-sm visible-xs"></div>
-    <?php if ($cols['sidebar_right']['md'] == 12): ?>
-      <div class="clearfix visible-md"></div>
-    <?php endif; ?>
+    </section>
 
     <?php if ($regions['sidebar_right']): ?>
-      <div id="sidebar-right" class="col-lg-<?php print ($cols['sidebar_right']['lg']); ?> col-md-<?php print ($cols['sidebar_right']['md']); ?> col-sm-<?php print ($cols['sidebar_right']['sm']); ?> col-xs-<?php print ($cols['sidebar_right']['xs']); ?> sidebar-right visible-lg visible-md">
-        <?php print $regions['sidebar_right']; ?>
-      </div>
+      <aside class="col-md-4">
+	    <div class="sidebar-wrapper">
+          <?php print $regions['sidebar_right']; ?>
+        </div>
+	  </aside>
     <?php endif; ?>
   </div>
-
-
-
 </div>
 
-</div><!-- /#layout-body -->
-
-<!-- #News -->
-<?php print render($page['whatsnew']); ?>
-<!-- /#News -->
-
-<!-- #Strands -->
-<section class="strands dark-section">
-  <div class="container">
-	<hgroup class="col-lg-8 col-lg-offset-2">
-	  <h2 class="section-title">Creative europe strands</h2>
-	  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere sed sem vehicula porta. In ultricies malesuada rutrum. Mauris ullamcorper est viverra bibendum fringilla. Sed id velit ante</h3>
-	</hgroup>
-  </div>
-  <?php if ($page['sections']): ?>
-	<div class="dark-section--content">
-	  <div class="container">
-		<?php print render($page['sections']); ?>
-	  </div>
-	</div>
-<?php endif; ?>
-</section>
-<!-- /#Strands -->
-
-
-<!-- #Actions -->
-
-<section class="actions">
-  <div class="container">
-	<hgroup class="big-heading col-lg-8 col-lg-offset-2">
-      <h2 class="section-title">Creative europe Actions</h2>
-      <h3>Lorem ipsum doloret sit amet et consictuer</h3>
-    </hgroup>
-    <article class="col-lg-4 image-text-box">
-      <div class="image-text-box--wrapper">
-        <img src="http://s-eac-lamp3.eac.cec.eu.int/dev-platform9/platform/sites/default/files/styles/project_results_big/public/mercedes-benz-la-slc-claudy-focan-dikkenek-01.jpg?itok=hgzuXOJC" />
-        <h3 class="box-title">European Capitals of culture</h3>
-        <p>DLorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#" class="button button--large button--primary">
-          Learn more
-        </a>
-      </div>
-    </article>
-
-    <article class="col-lg-4 image-text-box">
-      <div class="image-text-box--wrapper">
-        <img src="http://s-eac-lamp3.eac.cec.eu.int/dev-platform9/platform/sites/default/files/styles/project_results_big/public/mercedes-benz-la-slc-claudy-focan-dikkenek-01.jpg?itok=hgzuXOJC" />
-        <h3 class="box-title">European Heritage Label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. with </p>
-        <a href="#" class="button button--large button--primary">
-          Learn more
-        </a>
-      </div>
-    </article>
-
-    <article class="col-lg-4 image-text-box">
-      <div class="image-text-box--wrapper">
-        <img src="http://s-eac-lamp3.eac.cec.eu.int/dev-platform9/platform/sites/default/files/styles/project_results_big/public/mercedes-benz-la-slc-claudy-focan-dikkenek-01.jpg?itok=hgzuXOJC" />
-        <h3 class="box-title">Prize for literature</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. with </p>
-        <a href="#" class="button button--large button--primary">
-          Learn more
-        </a>
-      </div>
-    </article>
-
-  </div>
-
-  <div>
-    <button type="button" class="btn btn-danger" aria-label="Left Align">
-      <span aria-hidden="true">More actions and prizes</span>
-    </button>
-  </div>
-</section>
-<!-- /#Actions -->
-
-<!-- #Project results -->
-<?php if ($page['projectresults']): ?>
-  <?php print render($page['projectresults']); ?>
-<?php endif; ?>
+<!-- /#layout-body -->
 
 <!-- link to top -->
 <a href="#top-page" class="btn-back-top">
@@ -315,25 +183,32 @@ global $base_url;
 </a>
 
 <!-- #footer -->
-<div class="footer">
+<footer>
   <div class="container">
-    <div class="col-lg-8 topleft">
-      <?php print render($page['footer_topleft']); ?>
-    </div>
-    <div class="col-lg-4 sm" >
-      <?php print $facebook . $twitter . $newsletter; ?>
-    </div>
+    <div class="row footer--row-one">
+      <div class="col-lg-8 feedback-form">
+        <?php print render($page['footer_topleft']); ?>
+      </div>
+      <div class="sm" >
+        <?php print $facebook . $twitter . $newsletter; ?>
+      </div>
+	</div>
+    <div class="row">
+      <div class="col-lg-4 bottomleft">
+        <?php print render($page['footer_bottomleft']); ?>
+      </div>
+      <div class="col-lg-4 bottomright" >
+        <?php print render($page['footer_bottommiddle']); ?>
+      </div>
+      <div class="col-lg-4 bottomright" >
+        <?php print render($page['footer_bottomright']); ?>
+      </div>
+	</div>
   </div>
-  <div class="container">
-    <div class="col-lg-4 bottomleft">
-      <?php print render($page['footer_bottomleft']); ?>
-    </div>
-    <div class="col-lg-4 bottomright" >
-      <?php print render($page['footer_bottommiddle']); ?>
-    </div>
-    <div class="col-lg-4 bottomright" >
-      <?php print render($page['footer_bottomright']); ?>
-    </div>
+  <div class="footer--last-update">
+    <div class="footer--last-update--wrapper">
+      <?php print $regions['footer']; ?>
+	</div>
   </div>
-</div>
-<!-- /#footer -->      <?php print $regions['footer']; ?>
+</footer>
+<!-- /#footer -->      

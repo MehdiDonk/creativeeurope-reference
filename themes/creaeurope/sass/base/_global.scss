@@ -442,6 +442,42 @@ a:visited {
 
 
 
+/* Item list: picture, title and abstract */
+.aside-list-item {
+  margin-bottom: 15px;
+  
+  .img-container {
+    padding-right: 0;
+    height: 90px;
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+    
+    a {
+      display: block;
+    }
+  }
+  
+  .content-container {
+  
+    h3 {
+      margin-top:0 !important;
+      font-size: 1em !important;
+    }
+    
+    p {
+      color: $text-color;
+    }
+  }
+}
+
+
+
+
+
 
 
 /* Content with big picto on the left */

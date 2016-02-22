@@ -55,7 +55,7 @@
 <?php print render($title_suffix); ?>
 
   <div class="content"<?php print $content_attributes; ?>>
-  <?php 
+  <?php
     print $content;
    ?>
   </div>

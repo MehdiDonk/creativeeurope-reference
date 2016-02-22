@@ -1,5 +1,34 @@
 <section class="hp-projectresults">
-  <?php if ($title && $block->subject): ?>
+  <?php 
+/**
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ * @file
+ */
+if ($title && $block->subject): ?>
     <h2 class="section-title">
       <?php print $block->subject ?>
     </h2>

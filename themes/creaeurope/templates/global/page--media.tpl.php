@@ -129,64 +129,43 @@ global $base_url;
 	    <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/pictos/media.svg">
 	      <h1><?php print $title; ?></h1>
-	      <h2><?php print $regions['content']; ?></h2>
+	      <h2><?php print render($page['content']); ?></h2>
 	    </hgroup>
 	  </div>
-
 	</div>
   </div>
 </header>
-
-<!-- #News -->
-
-<div class="container ">
-	<div class="row">
-  	<?php if ($page['whatsnew']): ?>
-      <div class="col-lg-8"><?php print render($page['whatsnew']); ?></div>
-     <?php endif; ?>
-    	<div class="col-lg-4">
-			<h4><?php print t("Get some inspiration"); ?></h4>
-			<?php print render($page['actions']); ?></div>
-  </div>
-</div>
-<!-- /#News -->
-
-<!-- #Strands -->
-<section class="strands row">
-  <?php if ($page['strands']): ?>
-  <!-- #Gris foncé -->
-		<div class="dark-section">
-      <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <?php print render($page['strands']); ?>
-          </div>
+<aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <?php print render($page['whatsnew']); ?>
+      </div>
+      <div class="col-md-4">
+        <?php print render($page['projectresults']); ?>
       </div>
     </div>
-  <?php endif; ?>
-    <!-- #Gris clair -->
+  </div>  
+</aside>
 
-  <?php if ($page['sections']): ?>
-  <div class="dark-section">
-    <div class="dark-section--content">
-      <div class="container">
-        <div class="row">
+<section class="section--opportunities dark-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 big-heading">
         <?php print render($page['sections']); ?>
       </div>
+    </div>
+  </div>
+  <div class="dark-section--content">
+    <div class="container">
+      <div class="row">
+        <?php print render($page['strands']); ?>
       </div>
     </div>
   </div>
-<?php endif; ?>
 </section>
-<!-- /#Strands -->
 
-<!-- #Project results -->
-<div class="container">
-  <div class="row">
-		<?php if ($page['projectresults']): ?>
-      <?php print render($page['projectresults']); ?>
-    <?php endif; ?>
-  </div>
-</div>
+
 <!-- link to top -->
 <a href="#top-page" class="btn-back-top">
   <span class="glyphicon glyphicon-chevron-up"></span>
