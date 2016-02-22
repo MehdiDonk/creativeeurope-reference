@@ -156,7 +156,7 @@ global $base_url;
       </div>
     </div>
   </div>
-  <div class="dark-section--content">
+  <div class="dark-section--content list--icon-title">
     <div class="container">
       <div class="row">
         <?php print render($page['strands']); ?>

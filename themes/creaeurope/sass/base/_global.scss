@@ -219,6 +219,18 @@ a:visited {
 
 
 
+/* List of picto + link title elements */
+.list--icon-title .wrapper-title a {
+  color: $dark-background-text-color;
+  text-transform: uppercase;
+  font-size: 1.3 em;
+  font-family: $font-stack-bold;
+}
+
+
+
+
+
 /* Image + picto box */
 .picto-text-box {
 	text-align: center;
