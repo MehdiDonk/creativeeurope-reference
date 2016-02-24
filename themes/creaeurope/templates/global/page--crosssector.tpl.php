@@ -119,7 +119,7 @@ global $base_url;
 
 <?php print render($page['breadcrumbs']); ?>
 
-<header role="banner" class="main-banner about-header jumbotron">
+<header role="banner" class="main-banner cross-sector-header jumbotron">
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
@@ -127,9 +127,9 @@ global $base_url;
     <div class="row">
       <div class="col-md-7">
 	    <hgroup>
-          <img alt="" src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/pictos/media.svg">
+          <img alt="" src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/pictos/cross-sector.svg">
 	      <h1><?php print $title; ?></h1>
-	      <h2><?php print $regions['content']; ?></h2>
+	      <?php print $regions['content']; ?>
 	    </hgroup>
 	  </div>
 
@@ -137,50 +137,24 @@ global $base_url;
   </div>
 </header>
 
-<!-- #News -->
+<!-- #Content -->
 
-<div style="background-color:#E8E8E8;">
-<div style="padding-top:35px;"></div>
-<div class="container ">
-	<div class="row">
-  	<?php if ($page['whatsnew']): ?>
-      <div class="col-lg-8" style="background-color:white;"><?php print render($page['whatsnew']); ?></div>
-     <?php endif; ?>
-    	<div class="col-lg-4" style="background-color:white; padding:15px;    width: calc(32% - 20px); margin-left: 15px;">
-			<?php print render($page['actions']); ?></div>
-  </div>
-</div>
-<div style="padding-top:35px;background-color:#E8E8E8;"></div>
+<div class="container">
+  <div class="row">
+    <?php if ($page['whatsnew']): ?>
+      <section class="col-lg-8 main-content-wrapper"><?php print render($page['whatsnew']); ?></section>
+    <?php endif; ?>
+     
+    <?php if ($regions['sidebar_right']): ?>
+      <aside class="col-md-4">
+        <div class="sidebar-wrapper">
+          <?php print $regions['sidebar_right']; ?>
+        </div>
+      </aside>
+    <?php endif; ?>  </div>
 </div>
 <!-- /#News -->
 
-<!-- #Strands -->
-<section class="strands row">
-  <?php if ($page['strands']): ?>
-  <!-- #Gris foncé -->
-		<div class="dark-section">
-      <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <?php print render($page['strands']); ?>
-          </div>
-      </div>
-    </div>
-  <?php endif; ?>
-    <!-- #Gris clair -->
-
-  <?php if ($page['sections']): ?>
-  <div class="dark-section">
-    <div class="dark-section--content">
-      <div class="container">
-        <div class="row">
-        <?php print render($page['sections']); ?>
-      </div>
-      </div>
-    </div>
-  </div>
-<?php endif; ?>
-</section>
-<!-- /#Strands -->
 
 <!-- #Project results -->
 <div class="container">

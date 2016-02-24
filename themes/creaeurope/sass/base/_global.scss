@@ -110,6 +110,59 @@ a:visited {
 
 
 
+section.overview--main-content {
+  background: #fff;
+  padding-bottom: 60px;
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+}
+
+
+
+
+/* PROMO STRIPE */
+.overview--promo-stripe {
+  background: #fff;
+  padding: 60px 0;
+  
+  .container > .row {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .overview--promo-content {
+		font-family: $font-stack-bold;
+    color: $primary-dark-color;
+    font-size: 1.4em;
+    align-self:center;
+    
+    p {
+      margin: 0;
+    }
+    
+  }
+  
+  .overview--promo-button {
+    align-self:center;
+    
+    a {
+      float: right;
+    }
+    
+  }
+}
+
+
+
+
+
 .not-front {
 	background: $light-background-color;
 }
@@ -220,13 +273,64 @@ a:visited {
 
 
 /* List of picto + link title elements */
-.list--icon-title .wrapper-title a {
-  color: $dark-background-text-color;
-  text-transform: uppercase;
-  font-size: 1.3 em;
-  font-family: $font-stack-bold;
-}
+.list--icon-title {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  
+  .view-content {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 
+ .list--icon-title--wrapper {
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+ 
+    .wrapper-picto {
+      align-self:center;
+      
+      svg {
+        border: 1px solid $secondary-color;
+        padding: 4px;
+        transition: .4s all;
+      }
+      
+      path {
+        fill: $dark-background-text-color;
+        transition: .4s all;
+      }
+    }
+    
+    .wrapper-title {
+      align-self:center;
+      padding-left: 0;
+    
+    a {
+      color: $dark-background-text-color;
+      text-transform: uppercase;
+      font-family: $font-stack-bold;
+    }
+      
+    }
+    
+    &:hover {
+      svg {
+        background: $secondary-color;
+      }
+      
+      path {
+        fill: #fff;
+      }
+      
+    }
+    
+  }
+  
+}
 
 
 
@@ -450,44 +554,6 @@ a:visited {
 		}
 	}
 }
-
-
-
-
-/* Item list: picture, title and abstract */
-.aside-list-item {
-  margin-bottom: 15px;
-  
-  .img-container {
-    padding-right: 0;
-    height: 90px;
-    overflow: hidden;
-    
-    img {
-      width: 100%;
-      height: auto;
-    }
-    
-    a {
-      display: block;
-    }
-  }
-  
-  .content-container {
-  
-    h3 {
-      margin-top:0 !important;
-      font-size: 1em !important;
-    }
-    
-    p {
-      color: $text-color;
-    }
-  }
-}
-
-
-
 
 
 

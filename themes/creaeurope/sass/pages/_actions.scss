@@ -1,0 +1,16 @@
+.actions-box--wrapper {
+  background: #F6F6F6;
+  padding: 60px 0 30px;
+  
+  .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+    article {
+      display: flex;
+      margin-bottom: 30px;
+    }
+
+  }
+
+}

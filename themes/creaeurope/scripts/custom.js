@@ -1,6 +1,6 @@
 (function ($) {
 	$( document ).ready(function() {
-		jQuery('img.svg').each(function(){
+		jQuery('img.svg, .svg img').each(function(){
 			var $img = jQuery(this);
 			var imgID = $img.attr('id');
 			var imgClass = $img.attr('class');

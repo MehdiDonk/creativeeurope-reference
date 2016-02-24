@@ -37,8 +37,82 @@ header.main-banner h2 {
 header hgroup {
 	margin-top: 90px;
 	
+  p {
+    font-size: 1.333em !important;
+    color: #fff;
+  }
+  
 	img {
 		border: 1px solid #fff;
 		padding: 10px;
 	}
+}
+
+
+
+
+header.about-header {
+  padding: 0;
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0.8),
+                  rgba(0, 0, 0, 0.4)
+  ),
+  url('../images/headers/about-1920.jpg');
+  background-size: cover;
+}
+.page-about {
+	.content-wrapper {
+		background: $light-background-color;
+		
+		h3 {
+			text-align: left;
+			
+			&:after {
+				right: auto;
+			}
+		}
+	}
+}
+
+
+
+
+header.culture-header {
+  padding: 0;
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.4)
+  ),
+  url('../images/headers/culture-overview-1920.jpg');
+  background-size: cover;
+}
+
+
+
+
+header.media-header {
+  padding: 0;
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.4)
+  ),
+  url('../images/headers/media-overview-1920.jpg');
+  background-size: cover;
+}
+
+
+
+
+header.cross-sector-header {
+  padding: 0;
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.4)
+  ),
+  url('../images/headers/cross-sector-overview-1920.jpg');
+  background-size: cover;
 }

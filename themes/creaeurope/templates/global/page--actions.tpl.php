@@ -125,9 +125,9 @@ global $base_url;
     <div class="row">
       <div class="col-md-6">
 	    <hgroup>
-          <img alt="" src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/pictos/media.svg">
+          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/media.svg">
 	      <h1><?php print $title; ?></h1>
-	      <h2><?php print $regions['content']; ?></h2>
+	      <?php print $regions['content']; ?>
 	    </hgroup>
 	  </div>
       <div class="col-md-offset-1 col-md-5">
@@ -139,68 +139,37 @@ global $base_url;
   </div>
 </header>
 
-<!-- #News -->
-<?php if ($page['whatsnew']): ?>
-  <section class="strands">
-    <div class="container ">
-      <div class="row">
-        <?php print render($page['whatsnew']); ?>
-      </div>
-    </div>
-  </section>
-<?php endif; ?>
-
-<!-- /#News -->
-
-<!-- #Content highlight -->
-<section class="content-highlight dark-section">
-  <?php if ($page['strands']): ?>
-  <!-- #Gris foncé -->
-    <div class="container">
-	  <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <?php print render($page['strands']); ?>
-        </div>
-      </div>
-    </div>
-  <?php endif; ?>
-    <!-- #Gris clair -->
-
-  <?php if ($page['sections']): ?>
-  <div class="dark-section">
-    <div class="dark-section--content">
-      <div class="container">
-        <div class="row">
-        <?php print render($page['sections']); ?>
-      </div>
-      </div>
-    </div>
-  </div>
-<?php endif; ?>
-</section>
-<!-- /#Content Highlight -->
-
-
 <!-- #3 columns -->
-<?php if ($page['actions']): ?>
-  <section class="content-wrapper">
-    <div class="container">
-	  <div class="row">
-        <?php print render($page['actions']); ?>
-	  </div>
-    </div>
-  </section>
-<?php endif; ?>
+
 <!-- /#3 columns -->
 
 <!-- #Project results -->
 <div class="container">
-  <div class="col-lg-12">
-		<?php if ($page['projectresults']): ?>
-      <?php print render($page['projectresults']); ?>
-    <?php endif; ?>
+  <div class="row">
+    <div class="content" data-thmr="thmr_287 thmr_279">
+      <div class="col-lg-6">
+        <?php print render($page['column_left']); ?>
+      </div>
+      <div class="col-lg-6">
+        <?php print render($page['column_right']); ?>
+      </div>
+    </div>
+  </div>
   </div>
 </div>
+
+</div>
+
+<?php if ($page['projectresults']): ?>
+  <section class="actions-box--wrapper">
+    <div class="container">
+      <div class="row">
+        <?php print render($page['projectresults']); ?>
+      </div>
+    </div>
+  </section>
+<?php endif; ?>
+
 <!-- link to top -->
 <a href="#top-page" class="btn-back-top">
   <span class="glyphicon glyphicon-chevron-up"></span>

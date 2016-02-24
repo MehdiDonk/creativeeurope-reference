@@ -119,7 +119,7 @@ global $base_url;
 
 <?php print render($page['breadcrumbs']); ?>
 
-<header role="banner" class="main-banner about-header jumbotron">
+<header role="banner" class="main-banner media-header jumbotron">
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
@@ -129,24 +129,25 @@ global $base_url;
 	    <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/pictos/media.svg">
 	      <h1><?php print $title; ?></h1>
-	      <h2><?php print render($page['content']); ?></h2>
+	      <?php print render($page['content_top']); ?>
 	    </hgroup>
 	  </div>
 	</div>
   </div>
 </header>
-<aside>
+
+<section class="overview--main-content">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
         <?php print render($page['whatsnew']); ?>
       </div>
-      <div class="col-md-4">
+      <aside class="col-md-4 list-projects--wrapper">
         <?php print render($page['projectresults']); ?>
-      </div>
+      </aside>
     </div>
   </div>  
-</aside>
+</section>
 
 <section class="section--opportunities dark-section">
   <div class="container">
@@ -164,6 +165,20 @@ global $base_url;
     </div>
   </div>
 </section>
+
+<section class="overview--promo-stripe">
+  <div class="container">
+    <div class="row">
+      <?php print render($page['actions']); ?>
+    </div>
+  </div>
+</section>
+
+<aside class="find-more--wrapper">
+  <div class="container">
+    <?php print render($page['highlights']); ?>
+  </div>
+</aside>
 
 
 <!-- link to top -->

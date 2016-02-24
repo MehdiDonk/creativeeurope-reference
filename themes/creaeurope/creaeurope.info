@@ -54,6 +54,9 @@ regions[footer_bottomright] = "Footer Bottom Right"
 
 settings[shortcut_module_link] = 0
 
+regions[column_left] = "Column Left"
+regions[column_right] = "Column Right"
+
 
 ; Information added by drupal . org packaging script on 2011-01-05
 project = "drupal"
