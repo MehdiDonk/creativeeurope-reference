@@ -127,7 +127,7 @@ global $base_url;
     <div class="row">
       <div class="col-md-7">
 	    <hgroup>
-          <img alt="" src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/pictos/media.svg">
+          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/media.svg">
 	      <h1><?php print $title; ?></h1>
 	      <?php print render($page['content_top']); ?>
 	    </hgroup>

@@ -1,10 +1,22 @@
 <?php
-
 /**
  * @file
- * Template.php file for creative europe theme.
+ * Template.php.
  *
- * Implement preprocess functions and alter hooks.
+ * PHP version 5
+ *
+ * @category Production
+ *
+ * @package Creaeurope/Theme
+ *
+ * @author EAC WEB <EAC-LIST-C4@nomail.ec.europa.eu>
+ *
+ * @copyright 2015 European-Commission
+ *
+ * @license http://ec.europa.eu Europa
+ * @link NA
+ *
+ * Ec_resp's theme implementation to display a single Drupal page.
  */
 
 /**
@@ -33,7 +45,7 @@ function creaeurope_preprocess_page(&$variables) {
 }
 
 /**
- *
+ * Implements template_preprocess_block().
  */
 function creaeurope_preprocess_block(&$variables) {
   $empty = '';
@@ -43,12 +55,11 @@ function creaeurope_preprocess_block(&$variables) {
 }
 
 /**
- *
+ * Implements template_preprocess_node().
  */
 function creaeurope_preprocess_node(&$variables) {
   $node = $variables['node'];
   if ($node->type == 'page') {
-    dpm($variables);
     $content = $variables['content'];
     if (isset($content['field_picto_title'])) {
       $image_vars = array(

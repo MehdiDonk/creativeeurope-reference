@@ -210,7 +210,22 @@
 }
 
 .page-news-events-calls {
-  background: #fff;    
+  background: #fff;
+
+  article.update-highlight--list {
+    border: none;
+    padding-top: 0;
+    
+    &:nth-child(3n+1) {
+      clear: none;
+    }
+    
+    .update-highlight--list--img {
+      height: 120px;
+    }
+          
+  }
+    
 }
 
 .page-calls {
