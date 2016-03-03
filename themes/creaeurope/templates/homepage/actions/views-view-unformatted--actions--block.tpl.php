@@ -11,7 +11,7 @@
   <h2 class="section-title"><?php print $title; ?></h2>
 <?php endif; ?>
 <?php foreach ($rows as $id => $row): ?>
-  <article class="col-lg-3 image-text-box">
+  <article class="col-lg-4 image-text-box">
     <div class="image-text-box--wrapper">
       <?php print $row; ?>
     </div>

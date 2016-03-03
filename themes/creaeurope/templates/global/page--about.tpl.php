@@ -229,6 +229,10 @@ global $base_url;
       </div>
 	</div>
   </div>
-  <?php print $regions['footer']; ?>
+  <div class="footer--last-update">
+    <div class="footer--last-update--wrapper">
+      <?php print $regions['footer']; ?>
+	</div>
+  </div>
 </footer>
 <!-- /#footer -->      

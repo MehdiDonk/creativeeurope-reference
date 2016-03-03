@@ -52,7 +52,6 @@ header hgroup {
 
 
 header.about-header {
-  padding: 0;
   background:
   linear-gradient(
                   rgba(0, 0, 0, 0.8),
@@ -79,7 +78,6 @@ header.about-header {
 
 
 header.culture-header {
-  padding: 0;
   background:
   linear-gradient(
                   rgba(0, 0, 0, 0.2),
@@ -93,7 +91,6 @@ header.culture-header {
 
 
 header.media-header {
-  padding: 0;
   background:
   linear-gradient(
                   rgba(0, 0, 0, 0.2),
@@ -107,7 +104,6 @@ header.media-header {
 
 
 header.cross-sector-header {
-  padding: 0;
   background:
   linear-gradient(
                   rgba(0, 0, 0, 0.2),
@@ -115,4 +111,68 @@ header.cross-sector-header {
   ),
   url('../images/headers/cross-sector-overview-1920.jpg');
   background-size: cover;
+}
+
+
+
+
+
+header.actions-header {
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0),
+                  rgba(0, 0, 0, 0.6)
+  ),
+  url('../images/headers/actions-overview-1920.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+.ehl header {
+  position: relative;
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0),
+                  rgba(0, 0, 0, 0.6)
+  ),
+  url('../images/headers/ehl-1920.jpg');
+  background-size: cover;
+  height: 420px;
+  
+  .logo--mini-site {
+    border-top: 4px solid rgba(255, 255, 255, .5);
+    border-bottom: 4px solid rgba(255, 255, 255, .5);
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:20px;
+    height: 240px;
+    text-align: center;
+    
+    img {
+      height:192px;
+    }
+  }
+  
+  .baseline--mini-site {
+    padding-top:20px;
+    padding-bottom:20px;
+    height: 240px;
+    border-top: 4px solid rgba(255, 255, 255, .5);
+    border-bottom: 4px solid rgba(255, 255, 255, .5);
+    margin-top:20px;
+    
+    h2 {
+      color: #fff;
+      text-transform: uppercase;
+      font-family: $font-stack;
+      font-size: 4em;
+      margin-top: 0 !important;
+      line-height: 1em;
+    }
+    
+  }
+  
 }

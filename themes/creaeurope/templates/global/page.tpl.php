@@ -124,8 +124,13 @@ global $base_url;
     <?php print $regions['help']; ?>
   </div>
 </div>
- 
 <div id="layout-header">
+  <div class="container">
+    <div class="europa-tools">
+      <?php print $regions['header_top']; ?>
+    </div>
+  </div>
+
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
@@ -135,13 +140,14 @@ global $base_url;
     <div id="sub-title" class="hidden-xs"><?php print $site_slogan; ?></div>
   </div>
 </div><!-- /#layout-header -->
-
+ 
 <?php print render($page['breadcrumbs']); ?>
 
-<header role="banner">
+<header role="banner" class="<?php print $classes; ?>">
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
+  <?php print render($page['content_top']); ?>
 </header>
 
 <div id="layout-body" class="container">
@@ -155,8 +161,6 @@ global $base_url;
 
 	<section class="main-content-wrapper col-md-8">	
       <a id="content"></a>
-
-      <?php print $regions['content_top']; ?>
 
       <?php print $regions['content']; ?>
 

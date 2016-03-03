@@ -173,7 +173,7 @@ global $base_url;
 <!-- #Actions -->
 
 <?php if ($page['actions']): ?>
-  <section class="actions">
+  <section class="actions-box--wrapper">
     <div class="container">
 	  <div class="row">
         <?php print render($page['actions']); ?>
@@ -216,6 +216,10 @@ global $base_url;
       </div>
 	</div>
   </div>
-  <?php print $regions['footer']; ?>
+  <div class="footer--last-update">
+    <div class="footer--last-update--wrapper">
+      <?php print $regions['footer']; ?>
+	</div>
+  </div>
 </footer>
-<!-- /#footer -->      
+<!-- /#footer -->

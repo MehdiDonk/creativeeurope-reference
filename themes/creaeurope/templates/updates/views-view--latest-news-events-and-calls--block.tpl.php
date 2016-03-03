@@ -27,7 +27,7 @@
  * @ingroup views_templates
  */
 ?>
-
+<section class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
     <?php print $title; ?>
@@ -84,5 +84,5 @@
       <?php print $feed_icon; ?>
     </div>
   <?php endif; ?>
-
+</section>
 <?php /* class view */ ?>

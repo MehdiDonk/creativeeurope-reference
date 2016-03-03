@@ -129,7 +129,7 @@ global $base_url;
   </div>
 </header>
 
-<div class="container">
+<section class="updates-container container">
   <?php if ($page['whatsnew']): ?>
     <div class="row">
       <?php print render($page['whatsnew']); ?>
@@ -139,9 +139,9 @@ global $base_url;
     <?php print render($page['strands']); ?>
     <?php print render($page['sections']); ?>
   </div>
-</div>
+</section>
 
-<div id="layout-body" class="container">
+<section id="layout-body" class="updates-container container">
   <div class="row">
     <?php print render($title_prefix); ?>
     <?php if ($title): ?>
@@ -171,10 +171,9 @@ global $base_url;
       <div id="sidebar-left" class="col-lg-<?php print ($cols['sidebar_left']['lg']); ?> col-md-<?php print ($cols['sidebar_left']['md']); ?> col-sm-<?php print ($cols['sidebar_left']['sm']); ?> col-xs-<?php print ($cols['sidebar_left']['xs']); ?> sidebar-left visible-lg visible-md">
         <?php print $regions['sidebar_left']; ?>
       </div>
-    <?php endif; ?>
+    <?php endif; ?> 
+    
   <div class="row">
-    <div class="col-md-8">
-
       <a id="content"></a>
 
       <?php if ($title): ?>
@@ -184,42 +183,33 @@ global $base_url;
       <?php endif; ?>
 
       <?php print $regions['content_top']; ?>
+  </div>
+  
+  <a id="main-content"></a>
 
-      <a id="main-content"></a>
+  <?php print $regions['help']; ?>
 
-      <?php print $regions['help']; ?>
+  <?php if ($action_links): ?>
+    <ul class="action-links">
+      <?php print render($action_links); ?>
+    </ul>
+  <?php endif; ?>
 
-      <?php if ($action_links): ?>
-        <ul class="action-links">
-          <?php print render($action_links); ?>
-        </ul>
-      <?php endif; ?>
+  <?php print $regions['content_bottom']; ?>
 
-      <?php print $regions['content']; ?>
-
-        <div class="col-lg-<?php print $cols['content_right']['lg']; ?> col-md-<?php print $cols['content_right']['md']; ?> col-sm-<?php print $cols['content_right']['sm']; ?> col-xs-<?php print $cols['content_right']['xs']; ?>">
-          <?php print $regions['content_right']; ?>
-        </div>
-
-      <?php print $feed_icons; ?>
-
-      <?php print $regions['content_bottom']; ?>
+    <div class="col-lg-<?php print $cols['content_right']['lg']; ?> col-md-<?php print $cols['content_right']['md']; ?> col-sm-<?php print $cols['content_right']['sm']; ?> col-xs-<?php print $cols['content_right']['xs']; ?>">
+      <?php print $regions['content_right']; ?>
     </div>
+
+  <?php print $feed_icons; ?>
+
 
     <div class="clearfix visible-sm visible-xs"></div>
     <?php if ($cols['sidebar_right']['md'] == 12): ?>
       <div class="clearfix visible-md"></div>
     <?php endif; ?>
 
-    <?php if ($regions['sidebar_right']): ?>
-      <aside class="col-md-4">
-	    <div class="sidebar-wrapper">
-          <?php print $regions['sidebar_right']; ?>
-       </div>    
-	</aside>
-    <?php endif; ?>
-  </div>
-</div>
+</section>
 <!-- /#layout-body -->
 
 
@@ -274,6 +264,10 @@ global $base_url;
       </div>
 	</div>
   </div>
-  <?php print $regions['footer']; ?>
+  <div class="footer--last-update">
+    <div class="footer--last-update--wrapper">
+      <?php print $regions['footer']; ?>
+	</div>
+  </div>
 </footer>
 <!-- /#footer -->      

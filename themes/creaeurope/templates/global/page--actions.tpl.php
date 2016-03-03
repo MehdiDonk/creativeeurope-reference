@@ -100,11 +100,13 @@ global $base_url;
 ?>
 <a id="top-page"></a>
 
-<div class="container">
-  <?php print $regions['header_top']; ?>
-</div>
-
 <div id="layout-header">
+  <div class="container">
+    <div class="europa-tools">
+      <?php print $regions['header_top']; ?>
+    </div>
+  </div>
+
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
@@ -117,25 +119,20 @@ global $base_url;
 
 <?php print render($page['breadcrumbs']); ?>
 
-<header role="banner" class="main-banner about-header jumbotron">
+<header role="banner" class="main-banner actions-header jumbotron">
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-	    <hgroup>
-          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/media.svg">
-	      <h1><?php print $title; ?></h1>
-	      <?php print $regions['content']; ?>
-	    </hgroup>
-	  </div>
-      <div class="col-md-offset-1 col-md-5">
-          <video controls>
-            <source src="<?php print $videoabout; ?>" type="video/mp4">
-          </video>    
+        <hgroup>
+            <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/actions.svg">
+          <h1><?php print $title; ?></h1>
+          <?php print render($page['content_top']); ?>
+        </hgroup>
       </div>
-	</div>
+    </div>
   </div>
 </header>
 
@@ -144,21 +141,20 @@ global $base_url;
 <!-- /#3 columns -->
 
 <!-- #Project results -->
-<div class="container">
-  <div class="row">
-    <div class="content" data-thmr="thmr_287 thmr_279">
-      <div class="col-lg-6">
-        <?php print render($page['column_left']); ?>
-      </div>
-      <div class="col-lg-6">
-        <?php print render($page['column_right']); ?>
+<section class="overview--main-content">
+  <div class="container">
+    <div class="row">
+      <div class="content" data-thmr="thmr_287 thmr_279">
+        <div class="col-lg-6">
+          <?php print render($page['column_left']); ?>
+        </div>
+        <div class="col-lg-6">
+          <?php print render($page['column_right']); ?>
+        </div>
       </div>
     </div>
   </div>
-  </div>
-</div>
-
-</div>
+</section>
 
 <?php if ($page['projectresults']): ?>
   <section class="actions-box--wrapper">
@@ -198,6 +194,10 @@ global $base_url;
       </div>
 	</div>
   </div>
-  <?php print $regions['footer']; ?>
+  <div class="footer--last-update">
+    <div class="footer--last-update--wrapper">
+      <?php print $regions['footer']; ?>
+	</div>
+  </div>
 </footer>
 <!-- /#footer -->      
