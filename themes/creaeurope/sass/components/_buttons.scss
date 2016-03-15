@@ -10,6 +10,7 @@ $btn-background: (
 // The color mixin
 @mixin button-color($color) {
   background-color: $color;
+  text-align: center;
 
   &:hover,
   &:active,
@@ -27,7 +28,7 @@ $btn-background: (
 .#{$btn-name} {
   // Default styles
   padding: .6em 1.4em;
-  font-family: $font-stack-bold;
+  font-family: $font-stack;
   color: #fff !important;
   text-transform: uppercase;
   transition: background .3s;
@@ -35,20 +36,6 @@ $btn-background: (
   line-height: normal;
   @include border-radius(0 !important);
   border: none;
-
-  // Modifiers
-  &--large {
-    font-size: 1em / $btn-size-ratio;
-    padding: .8em 2em;
-  }
-
-  &--medium {
-    font-size: 1em / $btn-size-ratio;
-  }
-  
-  &--small {
-    font-size: .8em / $btn-size-ratio;
-  }
 
   // Color schemes
   @each $key, $value in $btn-background {
@@ -61,5 +48,46 @@ $btn-background: (
 .button-more-section--wrapper {
 	margin: 0;
 	text-align: center;
-	margin-top: 30px;
+  margin: 0 auto;
+}
+
+
+
+
+
+/* Small resolution : Small devices - Min breakpoint -768px */
+@include breakpoint(sm-min){
+  .#{$btn-name} {
+    font-family: $font-stack-bold;
+  }
+}
+
+
+
+
+
+/* Large resolution : Large devices - Min breakpoint -1200px */
+@include breakpoint(lg-min){
+  .#{$btn-name} {
+    // Modifiers
+    &--large {
+      font-size: 1em / $btn-size-ratio;
+      padding: .8em 2em;
+    }
+
+    &--medium {
+      font-size: 1em / $btn-size-ratio;
+    }
+    
+    &--small {
+      font-size: .8em / $btn-size-ratio;
+    }
+
+    // Color schemes
+    @each $key, $value in $btn-background {
+      &--#{$key} {
+        @include button-color($value);
+      }
+    }
+  }
 }

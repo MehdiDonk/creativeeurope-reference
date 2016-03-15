@@ -1,15 +1,16 @@
 header.main-banner {
+  padding-top: 60px !important;
   text-align:left;
-  height: 520px;
   padding: 0;
   background:
   linear-gradient(
                   rgba(0, 0, 0, 0.8),
                   rgba(0, 0, 0, 0.4)
   ),
-  url('../images/headers/homepage-1920.jpg');
+  url('../images/headers/homepage-1920.jpg') center;
   background-size: cover;
   margin: 0;
+  height: 100vh;
   
   video {
 	width: 100%;
@@ -175,4 +176,28 @@ header.actions-header {
     
   }
   
+}
+
+
+
+
+
+/* Small resolution : Small devices - Min breakpoint -768px */
+@include breakpoint(sm-min){
+  header.main-banner {
+    height: 580px;
+  }
+}
+
+
+
+
+
+/* Medium resolution : Medium devices - Min breakpoint -992px */
+@include breakpoint(md-min){
+  header.main-banner {
+    padding-top: 0 !important;
+    height: auto;
+    height: 520px;
+  }
 }

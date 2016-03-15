@@ -129,19 +129,14 @@ global $base_url;
   </div>
 </header>
 
-<section class="updates-container container">
-  <?php if ($page['whatsnew']): ?>
-    <div class="row">
-      <?php print render($page['whatsnew']); ?>
-    </div>
-  <?php endif; ?>
-  <div class="row">
-    <?php print render($page['strands']); ?>
-    <?php print render($page['sections']); ?>
-  </div>
-</section>
+<?php if ($action_links): ?>
+  <ul class="action-links">
+    <?php print render($action_links); ?>
+  </ul>
+<?php endif; ?>
 
 <section id="layout-body" class="updates-container container">
+  <a id="main-content"></a>
   <div class="row">
     <?php print render($title_prefix); ?>
     <?php if ($title): ?>
@@ -184,32 +179,49 @@ global $base_url;
 
       <?php print $regions['content_top']; ?>
   </div>
-  
-  <a id="main-content"></a>
+ </section>
+ 
+<?php print $regions['help']; ?>
 
-  <?php print $regions['help']; ?>
-
-  <?php if ($action_links): ?>
-    <ul class="action-links">
-      <?php print render($action_links); ?>
-    </ul>
-  <?php endif; ?>
-
-  <?php print $regions['content_bottom']; ?>
-
-    <div class="col-lg-<?php print $cols['content_right']['lg']; ?> col-md-<?php print $cols['content_right']['md']; ?> col-sm-<?php print $cols['content_right']['sm']; ?> col-xs-<?php print $cols['content_right']['xs']; ?>">
+<div class="updates-container container">
+  <!-- calls -->
+  <section class="view-all--wrapper">
+    <div class="view-all--title-wrapper">
       <?php print $regions['content_right']; ?>
     </div>
+    <div class="row update-highlight--wrapper">
+      <?php print $regions['content_bottom']; ?>
+    </div>
+  </section>
+  <!-- news -->
+  <section class="view-all--wrapper">
+    <div class="view-all--title-wrapper">
+      <?php print render($page['highlights']); ?>
+    </div>
+    <div class="row update-highlight--wrapper">
+      <?php print render($page['whatsnew']); ?>
+    </div>
+  </section>
+  <!-- events -->
+  <section class="view-all--wrapper">
+    <div class="view-all--title-wrapper">
+      <?php print render($page['sections']); ?>
+    </div>
+    <div class="row update-highlight--wrapper">
+      <?php print render($page['strands']); ?>
+    </div>
+  </section>
+</div>
 
-  <?php print $feed_icons; ?>
+
+<?php print $feed_icons; ?>
 
 
-    <div class="clearfix visible-sm visible-xs"></div>
-    <?php if ($cols['sidebar_right']['md'] == 12): ?>
-      <div class="clearfix visible-md"></div>
-    <?php endif; ?>
+<div class="clearfix visible-sm visible-xs"></div>
+<?php if ($cols['sidebar_right']['md'] == 12): ?>
+  <div class="clearfix visible-md"></div>
+<?php endif; ?>
 
-</section>
 <!-- /#layout-body -->
 
 

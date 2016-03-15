@@ -32,5 +32,48 @@
 		
 			}, 'xml');
 		});
+    
+    
+    
+    
+    
+    /* RESPONSIVE NAVIGATION */
+    
+    $('.menu-mobile--main-button').click(function(){
+      var dataToToggle = $(this).attr('data-nav-toggle');
+      var toggleDirection = "Left";
+      $(this).toggleClass('open');
+      
+      mobileNavToggle(dataToToggle,toggleDirection);
     });
+    
+    function mobileNavToggle(dataToToggle,toggleDirection){
+      var toggleContainer = 'div[data-nav-toggle=' + dataToToggle + ']';
+      $(toggleContainer).toggle('slide', 0);
+      
+      var listItems = $(toggleContainer + ' > ul > li');
+      
+      var arrayItemClass = new Array();
+
+      if(!$('button[data-nav-toggle=' + dataToToggle + ']').hasClass('open')) {
+        var anim = {opacity: 0};
+        anim["margin" + toggleDirection] = '-100px';
+        
+        $(listItems.get().reverse()).each(function(idx, li) {
+          setTimeout(function(){
+            $(li).animate(anim, 300);
+          },50);
+        });
+      } else {
+        var anim = {opacity: 1};
+        anim["margin" + toggleDirection] = '0';
+        listItems.each(function(idx, li) {
+          setTimeout(function(){
+            $(li).animate(anim, 500);
+          },100 + ( idx * 50 ));
+        });
+      }
+    }
+
+  });
 })(jQuery);

@@ -97,4 +97,124 @@ function creaeurope_preprocess_node(&$variables) {
       $variables['body'] = $content['body'][0]['#markup'];
     }
   }
+
+  if ($node->type == 'video_gallery') {
+    $content = $variables['content'];
+
+    if (isset($content['field_embed_code'])) {
+      $variables['field_embed_code'] = $content['field_embed_code'][0]['#markup'];
+    }
+
+    $variables['date_video'] = format_interval(time() - $node->created, 2);
+
+    if (isset($content['field_duration'])) {
+      $variables['field_duration'] = $content['field_duration'][0]['#markup'];
+    }
+
+    if (isset($content['field_video_abstract'])) {
+      $variables['field_video_abstract'] = $content['field_video_abstract'][0]['#markup'];
+    }
+
+    if ($content['body']) {
+      $variables['body'] = $content['body'][0]['#markup'];
+    }
+  }
+
+  if ($node->type == 'news') {
+    $content = $variables['content'];
+
+    if (isset($content['type'])) {
+      $variables['type'] = $content['type'][0]['#markup'];
+    }
+
+    if (isset($content['title_field'])) {
+      $variables['news_title'] = $content['title_field'][0]['#markup'];
+    }
+
+    $variables['date_news'] = format_interval(time() - $node->created, 2);
+
+    if (isset($content['field_categories'])) {
+      $variables['all_news_cat'] = '';
+      foreach ($content['field_categories']['#items'] as $news_cat) {
+        $variables['all_news_cat'] = $variables['all_news_cat'] . ' <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>' . $news_cat['value'];
+      }
+    }
+
+    if (isset($content['field_images'])) {
+      $image_vars = array(
+        'path' => file_create_url($content['field_images']['#items'][0]['uri']),
+        'attributes' => array(
+          'class' => array(
+            'page-banner',
+          ),
+        ),
+      );
+      $variables['news_images'] = theme('image', $image_vars);
+    }
+
+    if (isset($content['field_abstract'])) {
+      $variables['news_abstract'] = $content['field_abstract'][0]['#markup'];
+    }
+
+    if ($content['body']) {
+      $variables['body'] = $content['body'][0]['#markup'];
+    }
+
+    if (isset($content['field_news_find_out_more'])) {
+      $variables['news_find_out_more'] = $content['field_news_find_out_more'][0]['#markup'];
+    }
+
+  }
+
+  if ($node->type == 'events') {
+    $content = $variables['content'];
+
+    if (isset($content['type'])) {
+      $variables['type'] = $content['type'][0]['#markup'];
+    }
+
+    if (isset($content['title_field'])) {
+      $variables['event_title'] = $content['title_field'][0]['#markup'];
+    }
+
+    if (isset($content['field_date_from'])) {
+      $variables['event_dates'] = $content['field_date_from'][0]['#markup'];
+    }
+
+    if (isset($content['field_event_location'])) {
+      $variables['event_location'] = $content['field_event_location'][0]['#markup'];
+    }
+
+    if (isset($content['field_categories'])) {
+      $variables['all_event_cat'] = '';
+      foreach ($content['field_categories']['#items'] as $event_cat) {
+        $variables['all_event_cat'] = $variables['all_event_cat'] . ' <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>' . $event_cat['value'];
+      }
+    }
+
+    if (isset($content['field_images'])) {
+      $image_vars = array(
+        'path' => file_create_url($content['field_images']['#items'][0]['uri']),
+        'attributes' => array(
+          'class' => array(
+            'page-banner',
+          ),
+        ),
+      );
+      $variables['event_images'] = theme('image', $image_vars);
+    }
+
+    if (isset($content['field_abstract'])) {
+      $variables['event_abstract'] = $content['field_abstract'][0]['#markup'];
+    }
+
+    if ($content['body']) {
+      $variables['body'] = $content['body'][0]['#markup'];
+    }
+
+    if (isset($content['field_events_find_out_more'])) {
+      $variables['event_find_out_more'] = $content['field_events_find_out_more'][0]['#markup'];
+    }
+
+  }
 }

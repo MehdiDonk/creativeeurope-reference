@@ -159,7 +159,7 @@ global $base_url;
 <?php if ($page['projectresults']): ?>
   <section class="actions-box--wrapper">
     <div class="container">
-      <div class="row">
+      <div class="row flex-container">
         <?php print render($page['projectresults']); ?>
       </div>
     </div>

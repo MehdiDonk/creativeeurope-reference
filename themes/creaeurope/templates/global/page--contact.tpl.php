@@ -235,4 +235,3 @@ global $base_url;
 	</div>
   </div>
 </footer>
-<!-- /#footer -->

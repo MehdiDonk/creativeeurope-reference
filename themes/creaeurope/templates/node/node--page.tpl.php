@@ -87,7 +87,7 @@
 <h1><?php print $article_title; ?></h1>
 
 <?php if (isset($page_banner)): ?>
-  <div class="row page-banner-wrapper">
+  <div class="page-banner-wrapper">
     <?php print $page_banner ?>
   </div>
 <?php endif; ?>

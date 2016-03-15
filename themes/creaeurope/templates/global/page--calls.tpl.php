@@ -160,7 +160,7 @@ global $base_url;
         <?php print $regions['sidebar_left']; ?>
       </div>
     <?php endif; ?>
-  <div class="row">
+  <div class="row flex-container">
 
       <a id="content"></a>
 

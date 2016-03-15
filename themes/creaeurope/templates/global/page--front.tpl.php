@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Ec_resp's theme implementation to display a single Drupal page.
@@ -105,7 +106,7 @@ global $base_url;
 
 <a id="top-page"></a>
 
-<div id="layout-header">
+<div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
     <div class="europa-tools">
       <?php print $regions['header_top']; ?>
@@ -124,16 +125,20 @@ global $base_url;
 <?php print render($page['breadcrumbs']); ?>
 
 <header role="banner" class="main-banner jumbotron">
+  <?php print render($page['mobile_nav']); ?>
+  
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
   <div class="container">
-    <div class="slider-highlights col-md-push-2 col-md-8">
-	  <hgroup>
-		<h1><?php print $headline; ?></h1>
-		<h2><?php print $tagline; ?></h2>
-	  </hgroup>
-	  <?php print render($page['highlights']); ?>
+    <div class="row">
+      <div class="slider-highlights col-md-push-2 col-md-8">
+      <hgroup>
+      <h1><?php print $headline; ?></h1>
+      <h2><?php print $tagline; ?></h2>
+      </hgroup>
+      <?php print render($page['highlights']); ?>
+      </div>
     </div>
   </div>
 </header>
@@ -144,7 +149,10 @@ global $base_url;
 
 <!-- #News -->
  <?php if ($page['whatsnew']): ?>
+ <section class="hp-whatsnew">
+
    <?php print render($page['whatsnew']); ?>
+   </section>
  <?php endif; ?>
 <!-- /#News -->
 
@@ -152,9 +160,11 @@ global $base_url;
 <section class="strands dark-section">
   <?php if ($page['strands']): ?>
     <div class="container">
+      <div class="row">
         <hgroup class="big-heading col-lg-8 col-lg-offset-2">
           <?php print render($page['strands']); ?>
         </hgroup>
+      </div>
     </div>
   <?php endif; ?>
   <?php if ($page['sections']): ?>

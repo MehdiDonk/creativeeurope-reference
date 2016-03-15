@@ -44,18 +44,22 @@
  */
 ?>
 
-<div id="main-menu" class="<?php print $classes; ?>">
+<nav id="main-menu" class="<?php print $classes; ?>">
   <div class="navbar navbar-default" data-spy="affix" data-offset-top="165">
-    <div class="container">
-	  <div class="row">
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <?php print $content ?>
-      	  <div class="sm">
-      		<?php print $facebook . $twitter . $newsletter; ?>
-      	  </div>
+    <!-- Mobile menu bar -->
+    <ul class="menu-mobile">
+      <li class="col-xs-2"><button class="menu-mobile--main-button" data-nav-toggle="mobile--main-nav"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button></li>
+      <li class="col-xs-8"><h1>logo + creative europe</h1></li>
+      <li class="col-xs-2"><button class="menu-mobile--updates-button"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></button></li>
+    </ul>
+    <div class="container navbar-container">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-collapse navbar-ex1-collapse" data-nav-toggle="mobile--main-nav">
+        <?php print $content ?>
+        <div class="sm hidden-xs hidden-sm">
+          <?php print $facebook . $twitter . $newsletter; ?>
         </div>
-	  </div>
+      </div>
     </div><!-- /.container -->
   </div><!-- /.navbar -->
-</div>
+</nav>

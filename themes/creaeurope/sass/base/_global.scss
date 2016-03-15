@@ -11,6 +11,23 @@
 
 
 
+/* MEDIA QUERIES */
+$breakpoints: (
+  sm-min: 48em, // Small devices - Min breakpoint - 768px
+  md-min: 62em,  // Medium devices - Min breakpoint -992px
+  lg-min: 75em,  // Large devices - Min breakpoint - 1200px
+);
+
+@mixin breakpoint($bp, $rule: min-width) {
+  @media screen and (#{$rule}: map-get($breakpoints, $bp)) {
+    @content;
+  }
+}
+
+
+
+
+
 /* THEME OVERWRITE */
 .node .field-name-body {
 	border: none;
@@ -96,15 +113,49 @@ a:visited {
 
 .big-heading {
 	padding-bottom: 30px;
+  display: inline-block;
+  width: 100%;
 		
 	h3 {
 		color: $primary-dark-color;
-		text-align: center;
-		font-size: 1.333em !important;
+		font-size: 1em !important;
 		text-transform: inherit;
 		font-family: $font-stack;
 		margin: 0 !important;
 	}
+}
+
+
+
+
+.view-all--wrapper {
+  border-bottom: 1px solid #eee;
+  padding: 60px 0 0;
+  
+  &:last-child {
+    margin-bottom: 60px !important;
+  }
+
+  .view-all--title-wrapper {
+    margin-top: 1em !important;
+    padding-bottom: 15px;
+
+    h2 {
+      display: inline-block;
+      margin: 0 !important;
+    }
+    
+    p {
+      display: inline-block;
+      float: right;
+    }
+
+  }
+  
+  &:last-child {
+    margin-bottom: 30px;
+  }
+  
 }
 
 
@@ -118,6 +169,16 @@ section.overview--main-content {
     margin-bottom: 0;
   }
   
+}
+
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 
@@ -231,30 +292,34 @@ section.overview--main-content {
 
 /* Image + text box */
 .image-text-box {
-	text-align: center;
 	padding-bottom: 0;
 	
-	.image-text-box--wrapper {
-		background: #fff;
-	}
-	
 	img {
-		width:100%;
-		height:200px;
+		width:33.333%;
+    float: left;
+		height: 5.4em;
     object-fit: cover;
 	}
 	
-	h3 {
+	h3.box-title {
 		padding: 0 15px;
+    float: left;
+    width: calc(100% - 33.333%);
+    margin-top: 0 !important;
+    font-family: $font-stack !important;
+    
+    &:after {
+      background: none;
+    }
 	}
 	
 	p {
-		padding: 0 15px;
-		font-size: .85em;
+    display: none;
 	}
 	
 	.button {
 		margin-bottom: 15px;
+    display: none;
 	}
 	
 	.image-text-box--wrapper > a:not(.button) {
@@ -359,7 +424,7 @@ section.overview--main-content {
 	}
 	
 	p {
-		padding: 0 15px;
+		padding: 0;
 		min-height: 80px;
 	}
 	
@@ -375,83 +440,33 @@ section.overview--main-content {
 
 /* Image Box with hover effect */
 .image-box {
-	padding: 0;
-	position:relative;
-	overflow: hidden;
-	height: 400px;
-	text-align: center;
-	
-	&:before {
-		content: "";
-		position: absolute;
-		background: rgba(0, 0, 0, .3);
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index:-1;
-	}
-	
-	&:after {
-		content: "";
-		position: absolute;
-		background: rgba(0, 0, 0, .2);
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		margin: auto;
-		width: 100px;
-		height: 100px;
-		opacity: 0;
-		z-index:-1;
-		z-index:-1;
-		
-		@include border-radius(50%);
-		@include transition(all 0.3s ease);
-	}
-	
-	&:hover:after {
-		width:2000px;
-		height: 2000px;
-		opacity: 1;
-		left: calc( 50% - 1000px);
-	}
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px dashed $primary-light-color;
 	
 	img {
 		width: 100%;
-		height: auto;
-		position: absolute;
-		left:0;
-		z-index:-2;
+		object-fit: cover;
+    height: 10em;
 	}
 	
 	.image-box--info {
-		height: 40px;
-		position: absolute;
-		width: 100%;
-		top: 0;
-		bottom: 0;
 		margin: auto !important;
-		@include transition(all 0.3s ease);
 		
 		h3 {
 			margin:0 !important;
-			color: #fff;
-	        @include transition(all 0.3s ease);
-		}
-		
-		p {
-			opacity: 0;
-			@include transition(all 0.4s ease);
-			color: #fff;
-			margin-top: 440px;
- 		}
-		
-		.button {
-			opacity: 0;
-			@include transition(all 0.6s ease);
-		}
+		}      
+
+    p {
+      padding-top: 0.75em;
+      margin: 0;
+    }
+    
+    .button {
+      width: 100%;
+      display: none;
+    }
+    
 	}
 	
 	&:hover .image-box--info {
@@ -466,6 +481,7 @@ section.overview--main-content {
 		}
 
 	}
+      
 }
 
 
@@ -486,8 +502,7 @@ section.overview--main-content {
 		
 		h3 {
 			color: $dark-background-text-color;
-			text-align: center;
-			font-size: 1.333em !important;
+			font-size: 1em !important;
 			text-transform: inherit;
 			font-family: $font-stack;
 			margin: 0 !important;
@@ -503,21 +518,35 @@ section.overview--main-content {
 	}
 	
 	.picto-text-box {
-		text-align: center;
+		text-align: left;
 		padding-bottom: 30px;
 		margin-top: 30px;
+    border-bottom: 1px dashed $primary-deep-dark-color;
 		
-		svg path {
-			fill: $dark-background-text-color !important;
-		}
+		svg {
+      border: 1px solid $dark-background-text-color;
+      padding: 4px;
+      
+      path {
+        fill: $dark-background-text-color !important;
+      }
+    }
 		
 		h3 {
 			color: $dark-background-text-color;
+      padding-left: 0;
+      padding-right: 0;
 		}
 		
 		p {
 			color: $dark-background-text-color;
 		}
+    
+    .button {
+      width: 100%;
+      text-align: center;
+    }
+    
 	}
 			
 }
@@ -528,17 +557,19 @@ section.overview--main-content {
 
 /* Project results stripe */
 .stripe-highlight {
-	padding: 60px 0;
-	height: 200px;
+  margin-bottom:30px;
+
+  .icon-wrapper,
+  .content-wrapper,
+  .button-more--wrapper{
+    padding-left: 0;
+    padding-right: 0;
+  }
 	
 	.icon-wrapper svg {
-			float:right;
-		}
-		
-	.content-wrapper {
-		border-left: 1px solid $text-color-light;
-	}
-	
+    margin-bottom: 15px;
+  }
+			
 	h3 {
 		margin-top: 0 !important;
 		color: $primary-dark-color;
@@ -547,17 +578,18 @@ section.overview--main-content {
 	p {
 		margin-bottom: 0 !important;
 	}
+  
 	.button-more--wrapper {
 		height: 100%;
 	
 		.button {
 			height: 36px;
-			bottom: 0;
-			top: 0;
-			margin: auto;
-			position: absolute;
-		}
+      width: 100%;
+      margin-top: 15px;
+    }
+    
 	}
+  
 }
 
 
@@ -600,4 +632,284 @@ section.overview--main-content {
     margin-top: 0 !important;
   }
   
+}
+
+
+
+
+/* Small resolution : Min breakpoint - 768px */
+@include breakpoint(sm-min){
+
+  h3.box-title {
+      padding: 0 15px 15px;
+      margin-top: 5px !important;
+    }
+  
+  .big-heading {
+      
+    h3 {
+      text-align: center;
+      font-size: 1.333em !important;
+    }
+    
+  }
+  
+  .picto-text-box {
+    width: auto;
+    
+    p {
+      padding: 0 15px;  
+    }
+    
+  }
+  
+  
+  
+
+
+  /* Image + text box */
+  .image-text-box {
+    text-align: center;
+        
+    img {
+      width:100%;
+      height:200px;
+    }
+    
+    h3.box-title {
+      padding: 0 15px 15px;
+      float: none;
+      width: auto;
+      margin: 1.777em 0 0.563em !important;
+      font-family: $font-stack-bold !important;
+      display: inline-block;
+      
+      &:after {
+        background: $primary-light-color;
+      }
+      
+    }
+    
+    p {
+      padding: 0 15px;
+      font-size: .85em;
+      display: block;
+    }
+    
+    .button {
+      display: inline-block;
+    }
+    
+    .image-text-box--wrapper {
+      background: #fff;
+    }
+    
+    .image-text-box--wrapper > a:not(.button) {
+      @include transition(all 0.3s ease);
+      
+      &:visited,
+      &:hover,
+      &:active,
+      &:focus {
+        color: $primary-light-color !important;
+      }
+
+    }
+
+  }
+  
+  
+  
+  
+  /* Image Box with hover effect */
+  .image-box {
+    border: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+    overflow: hidden;
+    height: 400px;
+    text-align: center;
+    
+    &:before {
+      content: "";
+      position: absolute;
+      background: rgba(0, 0, 0, .3);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index:-1;
+    }
+    
+    &:after {
+      content: "";
+      position: absolute;
+      background: rgba(0, 0, 0, .2);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      opacity: 0;
+      z-index:-1;
+      z-index:-1;
+      
+      @include border-radius(50%);
+      @include transition(all 0.3s ease);
+    }
+    
+    &:hover:after {
+      width:2000px;
+      height: 2000px;
+      opacity: 1;
+      left: calc( 50% - 1000px);
+    }
+    
+    img {
+      position: absolute;
+      left:0;
+      height: auto;
+      z-index:-2;
+    }
+    
+    .image-box--info {
+      height: 40px;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      margin: auto !important;
+      @include transition(all 0.3s ease);
+      
+      h3 {
+        margin:0 !important;
+        color: #fff;
+            @include transition(all 0.3s ease);
+      }
+      
+      p {
+        opacity: 0;
+        @include transition(all 0.4s ease);
+        color: #fff;
+        margin-top: 440px;
+        margin-bottom: 1.3em;
+      }
+      
+      .button {
+        opacity: 0;
+        width: auto;
+        display: inline-block;
+        @include transition(all 0.6s ease);
+      }
+         
+    }
+    
+    &:hover .image-box--info {
+    
+      p {
+        opacity: 1;
+        margin-top: 1.3em;
+      }
+      
+      .button {
+        opacity: 1;
+      }
+
+    }
+        
+  }
+
+  
+  
+  
+  
+  /* Project results stripe */
+  .stripe-highlight {
+    margin-bottom: 0;
+    padding: 60px 0;
+    height: 200px;
+    
+    .icon-wrapper,
+    .content-wrapper,
+    .button-more--wrapper{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    
+    .icon-wrapper svg {
+        float:right;
+        margin: 0;
+      }
+      
+    .content-wrapper {
+      border-left: 1px solid $text-color-light;
+    }
+    
+    h3 {
+      margin-top: 0 !important;
+      color: $primary-dark-color;
+    }
+    
+    p {
+      margin-bottom: 0 !important;
+    }
+    
+    .button-more--wrapper {
+      height: 100%;
+    
+      .button {
+        height: 36px;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        position: absolute;
+      }
+    }
+  }
+
+
+  
+  .dark-section {
+
+    .big-heading {
+      h3 {
+        text-align: center;
+        font-size: 1.333em !important;
+      }
+    }
+    
+    .picto-text-box {
+      text-align: center;
+      
+      svg {
+        border: none;
+      }
+      
+      h3 {
+        color: $dark-background-text-color;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+    .button {
+        width: auto;
+      }
+
+    }
+  }
+}
+
+
+
+
+/* Medium resolution : Medium devices - Min breakpoint -992px */
+@include breakpoint(md-min){
+  .dark-section {
+    .picto-text-box {
+      border-bottom: none;  
+    }
+  }
 }

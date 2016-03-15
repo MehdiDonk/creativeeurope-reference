@@ -22,10 +22,13 @@ stylesheets[print][] = "css/creaeurope_print.css"
 
 ; SCRIPTS
 scripts[] = scripts/custom.js
+scripts[] = scripts/jquery-ui.min.js
 
 ; REGIONS
 regions[header_top] = "Header Top"
 regions[header_right] = "Header Right"
+
+regions[mobile_nav] = "Mobile navigation"
 
 regions[featured] = "Featured"
 regions[breadcrumbss] = "Breadcrumbs"
