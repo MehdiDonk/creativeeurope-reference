@@ -1,5 +1,5 @@
 name = creaeurope
-description = Responsive template with Europa banner
+description = Creative-Europe Responsive Theme DG EAC
 package = creaeurope_theme
 base theme = ec_resp
 
@@ -21,7 +21,7 @@ stylesheets[all][] = "css/creaeurope.css"
 stylesheets[print][] = "css/creaeurope_print.css"
 
 ; SCRIPTS
-scripts[] = scripts/custom.js
+scripts[] = scripts/creaeurope.js
 scripts[] = scripts/jquery-ui.min.js
 
 ; REGIONS
@@ -65,4 +65,4 @@ regions[column_right] = "Column Right"
 project = "drupal"
 datestamp = "1294208756"
 
-multisite_version = "2.0"
+multisite_version = "2.1"

@@ -104,7 +104,7 @@ global $base_url;
   <?php print $regions['header_top']; ?>
 </div>
 
-<div id="layout-header">
+<div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
@@ -118,6 +118,7 @@ global $base_url;
 <?php print render($page['breadcrumbs']); ?>
 
 <header role="banner" class="main-banner about-header jumbotron">
+  <?php print render($page['mobile_nav']); ?>
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
@@ -210,7 +211,7 @@ global $base_url;
 <footer>
   <div class="container">
     <div class="row footer--row-one">
-      <div class="col-lg-8 feedback-form">
+      <div class="col-md-8 feedback-form">
         <?php print render($page['footer_topleft']); ?>
       </div>
       <div class="sm" >
@@ -218,13 +219,13 @@ global $base_url;
       </div>
 	</div>
     <div class="row">
-      <div class="col-lg-4 bottomleft">
+      <div class="col-md-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
       </div>
-      <div class="col-lg-4 bottomright" >
+      <div class="col-md-4 bottomright" >
         <?php print render($page['footer_bottommiddle']); ?>
       </div>
-      <div class="col-lg-4 bottomright" >
+      <div class="col-md-4 bottomright" >
         <?php print render($page['footer_bottomright']); ?>
       </div>
 	</div>

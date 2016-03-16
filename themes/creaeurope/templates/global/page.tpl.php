@@ -124,7 +124,7 @@ global $base_url;
     <?php print $regions['help']; ?>
   </div>
 </div>
-<div id="layout-header">
+<div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
     <div class="europa-tools">
       <?php print $regions['header_top']; ?>
@@ -190,7 +190,7 @@ global $base_url;
 <footer>
   <div class="container">
     <div class="row footer--row-one">
-      <div class="col-lg-8 feedback-form">
+      <div class="col-md-8 feedback-form">
         <?php print render($page['footer_topleft']); ?>
       </div>
       <div class="sm" >
@@ -198,13 +198,13 @@ global $base_url;
       </div>
 	</div>
     <div class="row">
-      <div class="col-lg-4 bottomleft">
+      <div class="col-md-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
       </div>
-      <div class="col-lg-4 bottomright" >
+      <div class="col-md-4 bottomright" >
         <?php print render($page['footer_bottommiddle']); ?>
       </div>
-      <div class="col-lg-4 bottomright" >
+      <div class="col-md-4 bottomright" >
         <?php print render($page['footer_bottomright']); ?>
       </div>
 	</div>

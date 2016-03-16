@@ -161,7 +161,7 @@ global $base_url;
   <?php if ($page['strands']): ?>
     <div class="container">
       <div class="row">
-        <hgroup class="big-heading col-lg-8 col-lg-offset-2">
+        <hgroup class="big-heading col-md-8 col-md-offset-2">
           <?php print render($page['strands']); ?>
         </hgroup>
       </div>
@@ -207,7 +207,7 @@ global $base_url;
 <footer>
   <div class="container">
     <div class="row footer--row-one">
-      <div class="col-lg-8 feedback-form">
+      <div class="col-md-8 feedback-form">
         <?php print render($page['footer_topleft']); ?>
       </div>
       <div class="sm" >
@@ -215,13 +215,13 @@ global $base_url;
       </div>
 	</div>
     <div class="row">
-      <div class="col-lg-4 bottomleft">
+      <div class="col-md-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
       </div>
-      <div class="col-lg-4 bottomright" >
+      <div class="col-md-4 bottomright" >
         <?php print render($page['footer_bottommiddle']); ?>
       </div>
-      <div class="col-lg-4 bottomright" >
+      <div class="col-md-4 bottomright" >
         <?php print render($page['footer_bottomright']); ?>
       </div>
 	</div>
