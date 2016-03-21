@@ -1,0 +1,93 @@
+// Configuration
+$btn-name:  'button' !default;
+$btn-size-ratio: 1.2 !default;
+$btn-hover:  darken 10%  !default;
+$btn-background: (
+  'primary': $primary-color,
+  'secondary': $secondary-color,
+) !default;
+
+// The color mixin
+@mixin button-color($color) {
+  background-color: $color;
+  text-align: center;
+
+  &:hover,
+  &:active,
+  &:focus  {
+    background: call(nth($btn-hover, 1), $color, nth($btn-hover, 2)) !important;
+	color: #fff !important;
+	text-decoration: none !important;
+  }
+  &:visited {
+	color: #fff !important;
+  }
+}
+
+// The module
+.#{$btn-name} {
+  // Default styles
+  padding: .6em 1.4em;
+  font-family: $font-stack;
+  color: #fff !important;
+  text-transform: uppercase;
+  transition: background .3s;
+  display: inline-block;
+  line-height: normal;
+  @include border-radius(0 !important);
+  border: none;
+
+  // Color schemes
+  @each $key, $value in $btn-background {
+    &--#{$key} {
+      @include button-color($value);
+    }
+  }
+}
+
+.button-more-section--wrapper {
+	margin: 0;
+	text-align: center;
+  margin: 0 auto;
+}
+
+
+
+
+
+/* Small resolution : Small devices - Min breakpoint -768px */
+@include breakpoint(sm-min){
+  .#{$btn-name} {
+    font-family: $font-stack-bold;
+  }
+}
+
+
+
+
+
+/* Medium resolution : Medium devices - Min breakpoint -992px */
+@include breakpoint(md-min){
+  .#{$btn-name} {
+    // Modifiers
+    &--large {
+      font-size: 1em / $btn-size-ratio;
+      padding: .8em 2em;
+    }
+
+    &--medium {
+      font-size: 1em / $btn-size-ratio;
+    }
+    
+    &--small {
+      font-size: .8em / $btn-size-ratio;
+    }
+
+    // Color schemes
+    @each $key, $value in $btn-background {
+      &--#{$key} {
+        @include button-color($value);
+      }
+    }
+  }
+}
