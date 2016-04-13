@@ -11,26 +11,30 @@ footer {
   
   .feedback-form {
 	
-	.feedback {
-		padding: 0;
-		width: 100%;
-		text-align: left;
-	}
+		.feedback {
+			padding: 0;
+			width: 100%;
+			text-align: left;
+		}
   
     label {
-	  text-transform: uppercase;
+			text-transform: uppercase;
       color: $dark-background-text-color;
-	  padding: 0;
+			padding: 0;
 	  
-	  &.option {
-		padding: .6em 1.4em;
-		margin: 0;
-	  }
+			&.option {
+				padding: .6em 1.4em;
+				margin: 0;
+			}
     }
+		
+		.form-actions {
+			display: none;
+		}
 	
-	.form-radio[type="radio"] {
-		display: none;
-	}
+		.form-radio[type="radio"] {
+			display: none;
+		}
 	
 	.radio {
 		font-family: "ECSquareSansProBold", Verdana, Geneva, sans-serif;
@@ -47,6 +51,11 @@ footer {
 			color: #fff !important;
 			text-decoration: none !important;
 		}
+	}
+	
+	input.email,
+	.form-textarea-wrapper {
+		width: 50%;
 	}
 	
 	input.form-submit.btn.btn-default {
@@ -72,9 +81,10 @@ footer {
   
   }
   .sm {
-	float: right;
-	margin-top: 1em;
-	margin-bottom: 1em;
+		float: right;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-right: 15px;
 	
 	  a.icon {
 		text-indent: -99999px !important;
@@ -83,13 +93,13 @@ footer {
   }
   
   h2 {
-	font-size: 1em;;
+		font-size: 1em;;
     color: #fff;
-	margin-bottom: 0 !important;
+		margin-bottom: 0 !important;
   }
   
   & > div h2:first-child {
-	margin-top: 0 !important;
+		margin-top: 0 !important;
   }  
   
   a,
@@ -112,6 +122,14 @@ footer {
 	.footer--last-update--wrapper {
 		margin: 0 auto;
 		display: inline-block;
+		
+		a[href="#top-page"] {
+			float: none;
+		}
+		
+		.menu {
+			float: none;
+		}
 	}
 	
 	ul {

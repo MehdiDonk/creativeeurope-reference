@@ -72,6 +72,18 @@
         });
       }
     }
+		
+		
+		
+		
+		
+		/* FEEDBACK FORM - SHOW SUBMIT ON CLICK ON RADIO BUTTON */
+		$('.feedback-form input').click(
+			function(){
+				$(this).toggleClass("selected");
+				$('.feedback-form .form-actions').fadeIn();
+			}
+		);
 
   });
 })(jQuery);
