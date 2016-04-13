@@ -232,4 +232,3 @@ global $base_url;
 	</div>
   </div>
 </footer>
-

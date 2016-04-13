@@ -26,7 +26,7 @@ function creaeurope_preprocess_html(&$variables) {
   $settings['creaeurope']['videohome_youtube_id'] = theme_get_setting('videohome_youtube_id');
   drupal_add_js($settings, 'setting');
   drupal_add_js(drupal_get_path('theme', 'creaeurope') . '/scripts/video.js', array(
-        'scope' => 'footer',
+    'scope' => 'footer',
   ));
 
 }
@@ -42,7 +42,6 @@ function creaeurope_preprocess_page(&$variables) {
   $variables['facebook'] = l($empty, theme_get_setting('facebook'), array('attributes' => array('class' => 'icon facebook')));
   $variables['twitter'] = l($empty, theme_get_setting('twitter'), array('attributes' => array('class' => 'icon twitter')));
   $variables['newsletter'] = l(t('Newsletter'), theme_get_setting('newsletter'), array('attributes' => array('class' => 'button button--medium button--primary')));
-	
 
 }
 
@@ -224,10 +223,9 @@ function creaeurope_preprocess_node(&$variables) {
 /**
  * Preprocesses the wrapping HTML.
  *
- * @param array &$variables
+ * @param array &$head_elements
  *   Template variables.
  */
-
 function creaeurope_html_head_alter(&$head_elements) {
   $head_elements['theme_color'] = array(
     '#type' => 'html_tag',
@@ -244,12 +242,13 @@ function creaeurope_html_head_alter(&$head_elements) {
 /**
  * Preprocesses the Views.
  *
- * @param array &$variables
+ * @param array &$vars
  *   Template variables.
  */
-
 function creaeurope_preprocess_views_view_fields(&$vars) {
-	global $base_url;  
-	global $theme_path;
-	$vars['calls_img'] = $base_url . '/' . $theme_path . '/images/calls/calls.jpg';
+  global $base_url;
+  global $theme_path;
+  $vars['calls_attributes'] = array('attributes' => array('class' => 'Prt'), 'html' => TRUE);
+  $vars['calls_img'] = '<img src="' . $base_url . '/' . $theme_path . '/images/calls/calls.jpg' . '"/>';
+  $vars['field_link_content'] = $fields['field_link']->content;
 }

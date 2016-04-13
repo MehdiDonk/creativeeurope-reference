@@ -35,10 +35,9 @@
 	<div class="image col-sm-4 col-md-3">
 		<?php print $fields['field_images']->content; ?>
     <?php if ($fields['type']->raw == 'external_calls'): ?>
-			<?php 
-      $attributes = array('attributes' => array('class' => 'Prt'),'html' => true);
-			print t(l( '<img src="'. $calls_img . '"/>', $fields['field_link']->content, $attributes)); 
-			?>
+			<?php
+            print l($calls_img, $field_link_content, $calls_attributes);
+            ?>
     <?php endif; ?>
 
 	</div>
@@ -46,25 +45,25 @@
 		<h4><?php print $fields['type']->label; ?></h4>
 		<p class="type-link">
     
-    <?php 		
-		switch ($fields['type']->raw) {
-			case 'external_calls': {  
-				print  l($fields['type']->content, 'calls', array('attributes' => array('class' => array('calls-link'))));;
-				break;
-			}
-			case 'news': {  
-				print  l($fields['type']->content, 'news', array('attributes' => array('class' => array('news-link'))));;
-				break;
-			}
-			case 'events': {  
-				print  l($fields['type']->content, 'events', array('attributes' => array('class' => array('events-link'))));;
-				break;
-			}			
-			default: {
-				print '';
-			}
-		}	
-		?>
+    <?php
+        switch ($fields['type']->raw) {
+            case 'external_calls':{
+                print l($fields['type']->content, 'calls', array('attributes' => array('class' => array('calls-link'))));;
+                break;
+            }
+            case 'news':{
+                print l($fields['type']->content, 'news', array('attributes' => array('class' => array('news-link'))));;
+                break;
+            }
+            case 'events':{
+                print l($fields['type']->content, 'events', array('attributes' => array('class' => array('events-link'))));;
+                break;
+            }
+            default:{
+                print '';
+            }
+        }
+        ?>
     </p>
     <?php if ($fields['type']->raw == 'external_calls'): ?>
 
