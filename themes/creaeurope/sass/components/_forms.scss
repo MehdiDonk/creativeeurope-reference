@@ -1,3 +1,28 @@
 .form-control {
   @include border-radius(0);
 }
+
+#search-form #edit-basic .form-item-keys {
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+    vertical-align: top;
+    width: 600px;
+    margin: -150px 180px;
+}
+
+#search-form #edit-basic #edit-submit {
+    vertical-align: top;
+    margin: -150px -179px;
+}
+
+.search-form .btn {
+	background-color: #7c69cc;
+  text-align: center;
+	font-size: 0.83333em;
+  border-color: transparent;
+	padding: 6px 45px;
+}
+
+#searchresults .row {
+  padding-bottom: 39px;
+}

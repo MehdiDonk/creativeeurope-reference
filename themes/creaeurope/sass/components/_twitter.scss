@@ -7,7 +7,6 @@
 		
 		p {
 			padding: 15px 15px 0 15px !important;
-			font-size: .88em;
 			line-height: 1.66em !important;
 		}
 		
@@ -26,6 +25,50 @@
 			text-decoration: underline;
 		}
 	}
+	.smk-twitter-actions {
+	    position: relative;
+			font-family: 'Glyphicons Halflings';
+			-webkit-font-smoothing: antialiased;
+		
+		.ago {
+			color: $dark-background-text-color;
+			font-family: $font-stack-ec;
+			opacity: .8;
+		}
+		
+		a {
+			background: none;
+			opacity: .7;
+			width: auto;
+			height: auto;
+			width: 20px;
+			text-align: center;
+			transition: all .4s;
+			
+			&:hover {
+				opacity: 1;
+				text-decoration: none;
+			}
+			
+			&::before {
+				font-size: 1.2em !important;
+				color: #fff;
+			}
+			
+			&.retweet::before {
+				content: "\e115";
+			}
+			
+			&.reply::before {
+				content: "\e111";
+			}
+			
+			&.favourite::before {
+				content: "\e006";
+			}
+		}
+		
+	}
 }
 
 .tweet_more {
@@ -35,6 +78,7 @@
 	float: right !important;
 	padding-top: 0 !important;
 	text-decoration: none !important;
+	font-size: .88em;
 	
 	a {
 		text-decoration: none !important;

@@ -5,6 +5,8 @@ $btn-hover:  darken 10%  !default;
 $btn-background: (
   'primary': $primary-color,
   'secondary': $secondary-color,
+	'twitter': $tw-color,
+	'facebook': $fb-color,
 ) !default;
 
 // The color mixin
@@ -24,11 +26,11 @@ $btn-background: (
   }
 }
 
-// The module
+// The module astablieft
 .#{$btn-name} {
   // Default styles
   padding: .6em 1.4em;
-  font-family: $font-stack;
+  font-family: $font-stack-ec;
   color: #fff !important;
   text-transform: uppercase;
   transition: background .3s;
@@ -50,6 +52,46 @@ $btn-background: (
 	text-align: center;
   margin: 0 auto;
 }
+
+
+
+
+/* Social Media */
+.sm {
+  float: right;
+}
+
+.icon {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  opacity: .8;
+  vertical-align: middle;
+  @include transition-property(all);
+  @include transition-duration(.4s);
+  
+  &:hover {
+	opacity: 1;
+  }
+
+  &.facebook {
+	background:url('../images/pictos/fb.svg') no-repeat;
+  }
+  
+  &.twitter {
+	background:url('../images/pictos/twitter.svg') no-repeat;
+  }
+}
+
+.navbar-collapse {
+  .sm {
+    height: 75px;
+    line-height: 75px;
+    float: right;
+  }
+}
+
 
 
 

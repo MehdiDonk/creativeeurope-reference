@@ -10,6 +10,8 @@
 }
 .front header.main-banner {
   height: 100vh;
+	min-height: 380px;
+	max-height: 520px;
   
   hgroup {
     margin-top: 4em;

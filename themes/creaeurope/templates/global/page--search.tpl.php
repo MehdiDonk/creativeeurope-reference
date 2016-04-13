@@ -98,15 +98,10 @@
 <?php
 global $base_url;
 ?>
-<div class="videowrap">
-  <label class="closebox">×</label>
-  <iframe id="video" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a id="top-page"></a>
 
 <div id="layout-header" class="hidden-xs hidden-sm">
-  <div class="container">
+  <div class="container">   
     <div class="europa-tools">
       <?php print $regions['header_top']; ?>
     </div>
@@ -123,132 +118,86 @@ global $base_url;
 
 <?php print render($page['breadcrumbs']); ?>
 
-<header role="banner" class="main-banner updates-header jumbotron">
+<header role="banner" class="main-banner search-header jumbotron">
   <?php print render($page['mobile_nav']); ?>
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+	    <hgroup>
+          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/audience.svg">
+	      <h1><?php print $title; ?></h1>
+	      <?php print render($page['content_top']); ?>
+	    </hgroup>
+	  </div>
+	</div>
+  </div>
 </header>
 
-<?php if ($action_links): ?>
-  <ul class="action-links">
-    <?php print render($action_links); ?>
-  </ul>
-<?php endif; ?>
-
-<section id="layout-body" class="updates-container container">
-  <a id="main-content"></a>
-  <div class="row">
-    <?php print render($title_prefix); ?>
-    <?php if ($title): ?>
-      <?php $title_image = (isset($node->field_thumbnail[LANGUAGE_NONE][0]['uri']) && $node->type == 'community' ? image_style_url('communities_thumbnail', $node->field_thumbnail[LANGUAGE_NONE][0]['uri']) : '');?>
-      <h1 class="col-lg-<?php print $cols['title']['lg']; ?> col-md-<?php print $cols['title']['md']; ?> col-sm-<?php print $cols['title']['sm']; ?> col-xs-<?php print $cols['title']['xs']; ?>" id="page-title">
-        <?php if ($title_image): ?>
-          <img src="<?php print $title_image; ?>" alt="<?php print $title; ?>" />
-        <?php endif; ?>
-        <?php print $title; ?>
-      </h1>
-    <?php endif; ?>
-
-    <?php print render($title_suffix); ?>
-
-    <div class="col-lg-<?php print $cols['tools']['lg']; ?> col-md-<?php print $cols['tools']['md']; ?> col-sm-<?php print $cols['tools']['sm']; ?> col-xs-<?php print $cols['tools']['xs']; ?>">
-      <?php print $regions['tools']; ?>
-    </div>
-  </div>
-
-  <?php if ($messages): ?>
-    <div id="messages">
-      <?php print $messages; ?>
-    </div><!-- /#messages -->
-  <?php endif; ?>
-
-    <?php if ($regions['sidebar_left']): ?>
-      <div id="sidebar-left" class="col-lg-<?php print ($cols['sidebar_left']['lg']); ?> col-md-<?php print ($cols['sidebar_left']['md']); ?> col-sm-<?php print ($cols['sidebar_left']['sm']); ?> col-xs-<?php print ($cols['sidebar_left']['xs']); ?> sidebar-left visible-lg visible-md">
-        <?php print $regions['sidebar_left']; ?>
+<!-- #News -->
+<?php if ($page['whatsnew']): ?>
+  <section class="strands contact ">
+    <div class="container ">
+      <div class="row">
+        <?php print render($page['whatsnew']); ?>
       </div>
-    <?php endif; ?> 
-    
-  <div class="row">
-      <a id="content"></a>
-
-      <?php if ($title): ?>
-        <h1 class="title" id="content-title">
-          <?php print $title; ?>
-        </h1>
-      <?php endif; ?>
-
-      <?php print $regions['content_top']; ?>
-  </div>
- </section>
- 
-<?php print $regions['help']; ?>
-
-<div class="updates-container container">
-  <!-- calls -->
-  <section class="view-all--wrapper">
-    <div class="view-all--title-wrapper">
-      <?php print $regions['content_right']; ?>
-    </div>
-    <div class="row update-highlight--wrapper">
-      <?php print $regions['content_bottom']; ?>
     </div>
   </section>
-  <!-- news -->
-  <section class="view-all--wrapper">
-    <div class="view-all--title-wrapper">
-      <?php print render($page['highlights']); ?>
-    </div>
-    <div class="row update-highlight--wrapper">
-      <?php print render($page['whatsnew']); ?>
-    </div>
-  </section>
-  <!-- events -->
-  <section class="view-all--wrapper">
-    <div class="view-all--title-wrapper">
-      <?php print render($page['sections']); ?>
-    </div>
-    <div class="row update-highlight--wrapper">
-      <?php print render($page['strands']); ?>
-    </div>
-  </section>
-</div>
-
-
-<?php print $feed_icons; ?>
-
-
-<div class="clearfix visible-sm visible-xs"></div>
-<?php if ($cols['sidebar_right']['md'] == 12): ?>
-  <div class="clearfix visible-md"></div>
 <?php endif; ?>
 
-<!-- /#layout-body -->
+<!-- /#News -->
 
-
-
-
-
-
-
-<!-- #Actions -->
-
-<?php if ($page['actions']): ?>
-  <section class="actions">
+<!-- #Content highlight -->
+<section class="content-highlight dark-section">
+  <?php if ($page['strands']): ?>
+  <!-- #Gris foncé -->
     <div class="container">
 	  <div class="row">
-        <?php print render($page['actions']); ?>
+        <div class="col-lg-8 col-lg-offset-2">
+          <?php print render($page['strands']); ?>
+        </div>
+      </div>
+    </div>
+  <?php endif; ?>
+    <!-- #Gris clair -->
+
+  <?php if ($page['sections']): ?>
+  <div class="dark-section">
+    <div class="dark-section--content">
+      <div class="container">
+        <div class="row">
+        <?php print render($page['sections']); ?>
+      </div>
+      </div>
+    </div>
+  </div>
+<?php endif; ?>
+</section>
+<!-- /#Content Highlight -->
+
+
+<!-- #3 columns -->
+<?php if ($page['content']): ?>
+  <section class="content-wrapper" id="searchresults">
+    <div class="container">
+	  <div class="row">
+        <?php print render($page['content']); ?>
 	  </div>
     </div>
   </section>
 <?php endif; ?>
-<!-- /#Actions -->
+<!-- /#3 columns -->
 
 <!-- #Project results -->
-<?php if ($page['projectresults']): ?>
-  <?php print render($page['projectresults']); ?>
-<?php endif; ?>
-
+<div class="container">
+  <div class="col-lg-12">
+		<?php if ($page['projectresults']): ?>
+      <?php print render($page['projectresults']); ?>
+    <?php endif; ?>
+  </div>
+</div>
 <!-- link to top -->
 <a href="#top-page" class="btn-back-top">
   <span class="glyphicon glyphicon-chevron-up"></span>
@@ -283,4 +232,4 @@ global $base_url;
 	</div>
   </div>
 </footer>
-<!-- /#footer -->      
+

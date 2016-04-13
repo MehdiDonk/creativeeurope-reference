@@ -191,7 +191,7 @@ global $base_url;
 <footer>
   <div class="container">
     <div class="row footer--row-one">
-      <div class="col-md-8 feedback-form">
+      <div class="col-sm-8 feedback-form">
         <?php print render($page['footer_topleft']); ?>
       </div>
       <div class="sm" >
@@ -199,13 +199,13 @@ global $base_url;
       </div>
 	</div>
     <div class="row">
-      <div class="col-md-4 bottomleft">
+      <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottommiddle']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
 	</div>

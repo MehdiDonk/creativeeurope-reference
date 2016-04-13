@@ -1,8 +1,9 @@
+// TBD / TBI :  http://ipestov.com/essential-plugins-for-grunt/
 module.exports = function (grunt) {
     grunt.initConfig({
         watch: {
             src: {
-                files: ['**/*.scss', '**/*.php'],
+                files: ['**/*.scss', '**/*.php', '**/*.js'],
                 tasks: ['compass:dev']
             },
            options: {

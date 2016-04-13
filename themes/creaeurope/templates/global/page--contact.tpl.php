@@ -100,11 +100,12 @@ global $base_url;
 ?>
 <a id="top-page"></a>
 
-<div class="container">
-  <?php print $regions['header_top']; ?>
-</div>
-
 <div id="layout-header" class="hidden-xs hidden-sm">
+  <div class="container">   
+    <div class="europa-tools">
+      <?php print $regions['header_top']; ?>
+    </div>
+  </div>
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
@@ -117,32 +118,27 @@ global $base_url;
 
 <?php print render($page['breadcrumbs']); ?>
 
-<header role="banner" class="main-banner about-header jumbotron">
+<header role="banner" class="main-banner contact-header jumbotron">
   <?php print render($page['mobile_nav']); ?>
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
 	    <hgroup>
-          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/media.svg">
+          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/audience.svg">
 	      <h1><?php print $title; ?></h1>
-	      <h2><?php print $regions['content']; ?></h2>
+	      <?php print render($page['content_top']); ?>
 	    </hgroup>
 	  </div>
-      <div class="col-md-offset-1 col-md-5">
-          <video controls>
-            <source src="<?php print $videoabout; ?>" type="video/mp4">
-          </video>    
-      </div>
 	</div>
   </div>
 </header>
 
 <!-- #News -->
 <?php if ($page['whatsnew']): ?>
-  <section class="strands">
+  <section class="strands contact ">
     <div class="container ">
       <div class="row">
         <?php print render($page['whatsnew']); ?>
@@ -211,7 +207,7 @@ global $base_url;
 <footer>
   <div class="container">
     <div class="row footer--row-one">
-      <div class="col-md-8 feedback-form">
+      <div class="col-sm-8 feedback-form">
         <?php print render($page['footer_topleft']); ?>
       </div>
       <div class="sm" >
@@ -219,13 +215,13 @@ global $base_url;
       </div>
 	</div>
     <div class="row">
-      <div class="col-md-4 bottomleft">
+      <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottommiddle']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
 	</div>

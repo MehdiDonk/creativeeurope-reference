@@ -227,7 +227,7 @@
 
 
 
-/* Medium resolution : Medium devices - Min breakpoint -992px */
+/* Medium resolution : Medium devices - Min breakpoint - 992px */
 @include breakpoint(md-min){
   .menu-mobile {
     display: none !important;
@@ -283,7 +283,7 @@
         
         &.nav > li {
           padding: 0;
-          margin-left: 0;
+          margin: 0;
           opacity: 1;
           width: auto;
           border: none;
@@ -363,36 +363,6 @@
       display: initial;
     }
 
-    /* Social Media */
-    .sm {
-      height: 75px;
-      line-height: 75px;
-      float: right;
-    }
-
-    .icon {
-      width: 30px;
-      height: 20px;
-      display: inline-block;
-      margin-right: 10px;
-      opacity: .8;
-      vertical-align: middle;
-      @include transition-property(all);
-      @include transition-duration(.4s);
-      
-      &:hover {
-        opacity: 1;
-      }
-
-      &.facebook {
-        background:url('../images/pictos/fb.svg') no-repeat;
-      }
-      
-      &.twitter {
-        background:url('../images/pictos/twitter.svg') no-repeat;
-      }
-    }
-    
     .mobile-highlights--wrapper {
       display: none !important;
       text-align: center;

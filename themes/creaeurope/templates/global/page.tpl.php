@@ -98,31 +98,6 @@
 <?php
 global $base_url;
 ?>
-<div class="container">
-  <div class="row">
-    <?php if ($messages): ?>
-      <div id="messages">
-        <?php print $messages; ?>
-      </div><!-- /#messages -->
-    <?php endif; ?>
-  </div>
-  
-  <div class="row">
-    <div class="col-lg-12">
-      <?php print $regions['tools']; ?>
-    </div>
-  </div>
-  
-  <div class="row">
-    <?php if ($tabs): ?>
-      <div class="tabs">
-        <?php print render($tabs); ?>
-      </div>
-    <?php endif; ?>
-  </div>
-  <div class="row">
-    <?php print $regions['help']; ?>
-  </div>
 </div>
 <div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
@@ -161,12 +136,33 @@ global $base_url;
 
 	<section class="main-content-wrapper col-md-8">	
       <a id="content"></a>
-
+      <?php if ($page['promote']): ?>
+      	<div class="promotedcontent">
+	      	<?php print render($page['promote']); ?>
+      	</div>
+      <?php endif; ?>
+		  <?php if ($messages): ?>
+        <div id="messages">
+	        <?php print $messages; ?>
+        </div>
+     	<?php endif; ?>
+      <?php if ($regions['help']): ?>
+        <div class="tabs">
+    			<?php print $regions['help']; ?>
+  			</div>
+    	<?php endif; ?>
+      <?php if ($tabs): ?>
+        <div class="tabs tab">
+          <?php print render($tabs); ?>
+        </div>
+      <?php endif; ?>
       <?php print $regions['content']; ?>
-
       <?php print $feed_icons; ?>
-
-      <?php print $regions['content_bottom']; ?>
+      <?php if ($regions['content_bottom']): ?>
+        <div class="content_bottom">
+					<?php print $regions['content_bottom']; ?>
+        </div>
+      <?php endif; ?>
     </section>
 
     <?php if ($regions['sidebar_right']): ?>
@@ -190,7 +186,7 @@ global $base_url;
 <footer>
   <div class="container">
     <div class="row footer--row-one">
-      <div class="col-md-8 feedback-form">
+      <div class="col-sm-8 feedback-form">
         <?php print render($page['footer_topleft']); ?>
       </div>
       <div class="sm" >
@@ -198,13 +194,13 @@ global $base_url;
       </div>
 	</div>
     <div class="row">
-      <div class="col-md-4 bottomleft">
+      <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottommiddle']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
 	</div>

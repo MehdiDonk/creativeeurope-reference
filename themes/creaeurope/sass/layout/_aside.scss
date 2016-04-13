@@ -14,7 +14,7 @@ aside {
     h2 {
       font-size: 1em;
       color: $text-color;
-      padding: 20px 0;
+      padding: 10px 0;
       margin-bottom: 20px;
       margin-top: 0 !important;
       border-bottom: 1px solid $text-color-light;
@@ -33,6 +33,31 @@ aside {
       text-align: center;
       margin-top: 15px;
     }
+		
+    /* SHARE */
+		#block-bean-share-on-facebook-and-twitter {
+			display: inline-block;
+			width: 100%;
+			border-bottom: 1px solid #d3d3d3;
+					
+			h2 {
+				display: inline-block;
+				float: left;
+				width: 20%;
+				border-bottom: none;
+			}
+			
+			.content {
+				display: inline-block;
+				float: left;
+				width: 80%;
+				
+				.wtWidgets {
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
        
     /* AT A GLANCE */
     #block-views-highlights-block-1 {

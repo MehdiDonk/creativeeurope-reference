@@ -87,6 +87,27 @@ header.culture-header {
   background-size: cover;
 }
 
+header.contact-header {
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.4)
+  ),
+  url('../images/headers/contact-1920.jpg');
+  background-size: cover;
+	
+}
+
+header.search-header {
+  background:
+  linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.4)
+  ),
+  url('../images/headers/search-1920.jpg');
+  background-size: cover;
+	
+}
 
 
 

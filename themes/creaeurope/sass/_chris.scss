@@ -68,3 +68,64 @@
 .wtShareList {
   background-color: transparent !important;
 }
+
+.tab {
+font-size: 0.9em;
+}
+
+#main-menu .navbar .menu {
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.info {
+    line-height: 0.9;
+}
+
+.updates-container h1#page-title {
+    margin-top: 0px !important;
+}
+
+hgroup p {
+    line-height: 1.3em;
+}
+
+.find-more--wrapper a,
+.find-more--wrapper a:hover,
+.find-more--wrapper a:visited {
+    color: #433580;
+}
+
+.search-form  {
+	input#edit-keys,
+	input#edit-submit {
+		height: 41px;
+		font-size: 1em;
+	}
+}
+
+/* Gallery */
+
+/* bug target h2 */
+.content_bottom {
+    margin-top: -35px;
+}
+
+
+.content_bottom a:hover, .content_bottom a:active, .content_bottom a:visited, .content_bottom a {
+	text-decoration:none;
+	color:white !important;
+}
+
+.content_bottom img {
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.28);
+}
+
+::selection {
+    background-color: #7c69cc;
+    color: white;
+}
+::-moz-selection {
+    background-color: #7c69cc;
+    color: white;
+}

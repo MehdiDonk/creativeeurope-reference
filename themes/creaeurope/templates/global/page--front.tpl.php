@@ -120,10 +120,9 @@ global $base_url;
     <div id="main-title"><?php print $site_name; ?></div>
     <div id="sub-title" class="hidden-xs"><?php print $site_slogan; ?></div>
   </div>
-</div><!-- /#layout-header -->
-
+</div>
+<!-- /#layout-header --> 
 <?php print render($page['breadcrumbs']); ?>
-
 <header role="banner" class="main-banner jumbotron">
   <?php print render($page['mobile_nav']); ?>
   
@@ -150,7 +149,6 @@ global $base_url;
 <!-- #News -->
  <?php if ($page['whatsnew']): ?>
  <section class="hp-whatsnew">
-
    <?php print render($page['whatsnew']); ?>
    </section>
  <?php endif; ?>
@@ -207,7 +205,7 @@ global $base_url;
 <footer>
   <div class="container">
     <div class="row footer--row-one">
-      <div class="col-md-8 feedback-form">
+      <div class="col-sm-8 feedback-form">
         <?php print render($page['footer_topleft']); ?>
       </div>
       <div class="sm" >
@@ -215,13 +213,13 @@ global $base_url;
       </div>
 	</div>
     <div class="row">
-      <div class="col-md-4 bottomleft">
+      <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottommiddle']); ?>
       </div>
-      <div class="col-md-4 bottomright" >
+      <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
 	</div>

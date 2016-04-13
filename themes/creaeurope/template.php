@@ -42,6 +42,8 @@ function creaeurope_preprocess_page(&$variables) {
   $variables['facebook'] = l($empty, theme_get_setting('facebook'), array('attributes' => array('class' => 'icon facebook')));
   $variables['twitter'] = l($empty, theme_get_setting('twitter'), array('attributes' => array('class' => 'icon twitter')));
   $variables['newsletter'] = l(t('Newsletter'), theme_get_setting('newsletter'), array('attributes' => array('class' => 'button button--medium button--primary')));
+	
+
 }
 
 /**
@@ -98,7 +100,7 @@ function creaeurope_preprocess_node(&$variables) {
     }
   }
 
-  if ($node->type == 'video_gallery') {
+  if ($node->type === 'video_gallery') {
     $content = $variables['content'];
 
     if (isset($content['field_embed_code'])) {
@@ -120,7 +122,7 @@ function creaeurope_preprocess_node(&$variables) {
     }
   }
 
-  if ($node->type == 'news') {
+  if ($node->type === 'news') {
     $content = $variables['content'];
 
     if (isset($content['type'])) {
@@ -166,7 +168,7 @@ function creaeurope_preprocess_node(&$variables) {
 
   }
 
-  if ($node->type == 'events') {
+  if ($node->type === 'events') {
     $content = $variables['content'];
 
     if (isset($content['type'])) {
@@ -217,4 +219,37 @@ function creaeurope_preprocess_node(&$variables) {
     }
 
   }
+}
+
+/**
+ * Preprocesses the wrapping HTML.
+ *
+ * @param array &$variables
+ *   Template variables.
+ */
+
+function creaeurope_html_head_alter(&$head_elements) {
+  $head_elements['theme_color'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'theme-color',
+      'content' => '#000000',
+    ),
+    '#weight' => -99999,
+  );
+  drupal_add_html_head($head_elements, 'theme_color');
+}
+
+/**
+ * Preprocesses the Views.
+ *
+ * @param array &$variables
+ *   Template variables.
+ */
+
+function creaeurope_preprocess_views_view_fields(&$vars) {
+	global $base_url;  
+	global $theme_path;
+	$vars['calls_img'] = $base_url . '/' . $theme_path . '/images/calls/calls.jpg';
 }
