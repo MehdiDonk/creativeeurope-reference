@@ -1,6 +1,16 @@
 <?php
 
 /**
+ * Block--sidebar-right.tpl.php
+ * PHP version 5
+ *
+ * @category Production
+ * @package  Creaeurope
+ * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://ec.europa.eu/programmes/creative-europe
+ * @see      us moving :)
+ * 
  * @file
  * Default theme implementation to display a block.
  *
@@ -36,18 +46,12 @@
  * - $logged_in: Flags true when the current user is a logged-in member.
  * - $is_admin: Flags true when the current user is an administrator.
  * - $block_html_id: A valid HTML ID and guaranteed unique.
- *
- * @see template_preprocess()
- * @see template_preprocess_block()
- * @see template_process()
- *
- * @ingroup themeable
  */
 ?>
 <div id="<?php print $block_html_id; ?>">
   
 <?php print render($title_prefix); ?>
-<?php if ($title && $block->subject): ?>
+<?php if ($title && $block->subject) : ?>
   <h2>
     <?php print $block->subject ?>
   </h2>
@@ -55,9 +59,9 @@
 <?php print render($title_suffix); ?>
 
   <div class="content"<?php print $content_attributes; ?>>
-  <?php
+    <?php
     print $content;
-   ?>
+    ?>
   </div>
 
 </div>

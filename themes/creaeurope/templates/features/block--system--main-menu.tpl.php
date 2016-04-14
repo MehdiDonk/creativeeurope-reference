@@ -1,5 +1,15 @@
 <?php
 /**
+ * Block--system--main-menu.tpl.php
+ * PHP version 5
+ *
+ * @category Production
+ * @package  Creaeurope
+ * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://ec.europa.eu/programmes/creative-europe
+ * @see      us moving :)
+ * 
  * @file
  * Default theme implementation to display a block.
  *
@@ -35,12 +45,6 @@
  * - $logged_in: Flags true when the current user is a logged-in member.
  * - $is_admin: Flags true when the current user is an administrator.
  * - $block_html_id: A valid HTML ID and guaranteed unique.
- *
- * @see template_preprocess()
- * @see template_preprocess_block()
- * @see template_process()
- *
- * @ingroup themeable
  */
 ?>
 
@@ -48,16 +52,27 @@
   <div class="navbar navbar-default" data-spy="affix" data-offset-top="165">
     <!-- Mobile menu bar -->
     <ul class="menu-mobile">
-      <li class="col-xs-2"><button class="menu-mobile--main-button" data-nav-toggle="mobile--main-nav"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button></li>
+      <li class="col-xs-2">
+        <button class="menu-mobile--main-button" 
+        data-nav-toggle="mobile--main-nav">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true">
+          </span>
+          </button>
+          </li>
       <li class="col-xs-8"><h1>logo + creative europe</h1></li>
-      <li class="col-xs-2"><button class="menu-mobile--updates-button"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></button></li>
+      <li class="col-xs-2">
+        <button class="menu-mobile--updates-button">
+          <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+          </button>
+          </li>
     </ul>
     <div class="container navbar-container">
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="navbar-collapse navbar-ex1-collapse" data-nav-toggle="mobile--main-nav">
+      <div class="navbar-collapse navbar-ex1-collapse" 
+      data-nav-toggle="mobile--main-nav">
         <?php print $content ?>
         <div class="sm hidden-xs hidden-sm">
-          <?php print $facebook . $twitter . $newsletter; ?>
+            <?php print $facebook . $twitter . $newsletter; ?>
         </div>
       </div>
     </div><!-- /.container -->

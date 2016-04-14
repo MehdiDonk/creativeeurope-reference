@@ -1,6 +1,16 @@
 <?php
 
 /**
+ * Region.tpl.php
+ * PHP version 5
+ *
+ * @category Production
+ * @package  Creaeurope
+ * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://ec.europa.eu/programmes/creative-europe
+ * @see      us moving :)
+ * 
  * @file
  * Default theme implementation to display a region.
  *
@@ -15,13 +25,8 @@
  * - $is_front: Flags true when presented in the front page.
  * - $logged_in: Flags true when the current user is a logged-in member.
  *
- * @see template_preprocess()
- * @see template_preprocess_region()
- * @see template_process()
- *
- * @ingroup themeable
  */
 ?>
-<?php if ($content): ?>
-  <?php print $content; ?>
+<?php if ($content) : ?>
+    <?php print $content; ?>
 <?php endif; ?>

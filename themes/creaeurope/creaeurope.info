@@ -18,7 +18,6 @@ settings[videoabout] = "http://www.sample-videos.com/video/mp4/720/big_buck_bunn
 
 ; CSS
 stylesheets[all][] = "css/creaeurope.css"
-stylesheets[print][] = "css/creaeurope_print.css"
 
 ; SCRIPTS
 scripts[] = scripts/creaeurope.js

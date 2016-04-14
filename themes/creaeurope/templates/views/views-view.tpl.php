@@ -1,6 +1,15 @@
 <?php
 
 /**
+ * Views-view.tpl.php
+ * PHP version 5
+ *
+ * @category Production
+ * @package  Creaeurope
+ * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://ec.europa.eu/programmes/creative-europe
+ * @see      us moving :)
  * @file
  * Main view template.
  *
@@ -23,62 +32,60 @@
  * - $exposed: Exposed widget form/info to display
  * - $feed_icon: Feed icon to display, if any
  * - $more: A link to view more, if any.
- *
- * @ingroup views_templates
  */
 ?>
 <?php print render($title_prefix); ?>
-<?php if ($title): ?>
-  <?php print $title; ?>
+<?php if ($title) : ?>
+    <?php print $title; ?>
 <?php endif; ?>
 <?php print render($title_suffix); ?>
-<?php if ($header): ?>
+<?php if ($header) : ?>
   <div class="view-header">
     <?php print $header; ?>
   </div>
 <?php endif; ?>
 
-<?php if ($exposed): ?>
+<?php if ($exposed) : ?>
   <div class="view-filters">
     <?php print $exposed; ?>
   </div>
 <?php endif; ?>
 
-<?php if ($attachment_before): ?>
+<?php if ($attachment_before) : ?>
   <div class="attachment attachment-before">
     <?php print $attachment_before; ?>
   </div>
 <?php endif; ?>
 
-<?php if ($rows): ?>
-  <?php print $rows; ?>
-<?php elseif ($empty): ?>
+<?php if ($rows) : ?>
+    <?php print $rows; ?>
+<?php elseif ($empty) : ?>
   <div class="view-empty">
     <?php print $empty; ?>
   </div>
 <?php endif; ?>
 
-<?php if ($pager): ?>
-  <?php print $pager; ?>
+<?php if ($pager) : ?>
+    <?php print $pager; ?>
 <?php endif; ?>
 
-<?php if ($attachment_after): ?>
+<?php if ($attachment_after) : ?>
   <div class="attachment attachment-after">
     <?php print $attachment_after; ?>
   </div>
 <?php endif; ?>
 
-<?php if ($more): ?>
-  <?php print $more; ?>
+<?php if ($more) : ?>
+    <?php print $more; ?>
 <?php endif; ?>
 
-<?php if ($footer): ?>
+<?php if ($footer) : ?>
   <div class="view-footer">
     <?php print $footer; ?>
   </div>
 <?php endif; ?>
 
-<?php if ($feed_icon): ?>
+<?php if ($feed_icon) : ?>
   <div class="feed-icon">
     <?php print $feed_icon; ?>
   </div>
