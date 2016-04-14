@@ -1,6 +1,6 @@
 (function ($) {
-    Drupal.behaviors.creativeurope = {
-        attach: function (context, settings) {
+    $(document).ready(
+        function() {
             jQuery('img.svg, .svg img').each(
                 function(){
                     var $img = jQuery(this);
@@ -101,5 +101,5 @@
             );
 
         }
-    };
+    );
 })(jQuery);
