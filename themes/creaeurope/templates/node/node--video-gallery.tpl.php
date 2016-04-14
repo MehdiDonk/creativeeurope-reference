@@ -1,15 +1,5 @@
 <?php
 /**
- * Node-video-gallery.tpl.php
- * PHP version 5
- *
- * @category Production
- * @package  Creaeurope
- * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
- * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
- * @link     http://ec.europa.eu/programmes/creative-europe
- * @see      us moving :)
- * 
  * @file
  * Ec_resp's theme implementation to display a node.
  *
@@ -82,9 +72,13 @@
  * variables. Otherwise they will have to explicitly specify the desired field
  * language, e.g. $node->body['en'], thus overriding any language negotiation
  * rule that was previously applied.
+ *
+ * @see template_preprocess()
+ * @see template_preprocess_node()
+ * @see template_process()
  */
 ?>
-<?php if (isset($field_embed_code)) : ?>
+<?php if (isset($field_embed_code)): ?>
   <div class="video-gallery--embed">
     <?php print $field_embed_code; ?>
   </div>
@@ -92,25 +86,19 @@
 <div class="video-gallery--summary">
   <h1><?php print $title; ?></h1>
   <ul class="video-gallery--info">
-    <?php if (isset($date_video)) : ?>
-      <li>
-        <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-        <?php print $date_video . ' ' . t('ago') ?> 
-        </li>
+    <?php if (isset($date_video)): ?>
+      <li><span class="glyphicon glyphicon-time" aria-hidden="true"></span> <?php print $date_video . ' ' . t('ago') ?> </li>
     <?php endif; ?>
-    <li>
-      <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-        <?php print $field_duration ?> 
-      </li>
+    <li><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <?php print $field_duration ?> </li>
   </ul>
   
-    <?php if (isset($field_video_abstract) && is_string($field_video_abstract)) : ?>
+  <?php if (isset($field_video_abstract) && is_string($field_video_abstract)): ?>
     <p class="content-abstract">
-        <?php print $field_video_abstract; ?>
+      <?php print $field_video_abstract; ?>
     </p>
-    <?php endif; ?>
+  <?php endif; ?>
 </div>
-<?php if (isset($body) && strlen(trim($body)) != 0) : ?>
+<?php if (isset($body) && strlen(trim($body)) != 0): ?>
   <div class="video-gallery--content">
     <?php print $body; ?>
   </div>

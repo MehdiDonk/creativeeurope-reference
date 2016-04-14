@@ -1,15 +1,6 @@
 <?php
 
 /**
- * Block--views--what-is-new-block.tpl.php
- * PHP version 5
- *
- * @category Production
- * @package  Creaeurope
- * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
- * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
- * @link     http://ec.europa.eu/programmes/creative-europe
- * @see      us moving :)
  * @file
  * Default simple view template to all the fields as a row.
  *
@@ -39,11 +30,11 @@
  *
  * @ingroup views_templates
  */
-if ($title && $block->subject) : ?>
-<?php endif;?>
+if ($title && $block->subject): ?>
+  <?php endif;?>
   <div class="container">
     <h2 class="section-title">
-        <?php print $block->subject ?>
+      <?php print $block->subject ?>
     </h2>
     <?php
       print $content;

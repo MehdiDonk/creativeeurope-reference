@@ -1,15 +1,5 @@
 <?php
 /**
- * Page-crosssector.tpl.php
- * PHP version 5
- *
- * @category Production
- * @package  Creaeurope
- * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
- * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
- * @link     http://ec.europa.eu/programmes/creative-europe
- * @see      us moving :)
- *
  * @file
  * Ec_resp's theme implementation to display a single Drupal page.
  *
@@ -97,6 +87,11 @@
  *    -> print button, share tools, ...
  * - $page['footer']: Displayed at bottom of the page, on full width
  *    -> latest update, copyright, ...
+ *
+ * @see template_preprocess()
+ * @see template_preprocess_page()
+ * @see template_process()
+ * @see ec_resp_process_page()
  */
 ?>
 
@@ -108,15 +103,14 @@ global $base_url;
 <div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
     <div class="europa-tools">
-        <?php print $regions['header_top']; ?>
+      <?php print $regions['header_top']; ?>
     </div>
   </div>
 
   <div class="container">
-    <img alt="European Commission logo" 
-    id="banner-flag" src="<?php print $logo; ?>" />
+    <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
-        <?php print $regions['header_right']; ?>
+      <?php print $regions['header_right']; ?>
     </span>
     <div id="main-title"><?php print $site_name; ?></div>
     <div id="sub-title" class="hidden-xs"><?php print $site_slogan; ?></div>
@@ -126,19 +120,17 @@ global $base_url;
 <?php print render($page['breadcrumbs']); ?>
 
 <header role="banner" class="main-banner cross-sector-header jumbotron">
-    <?php print render($page['mobile_nav']); ?>
-  <div class="region-featured-wrapper 
-    <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
+  <?php print render($page['mobile_nav']); ?>
+  <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-md-7">
 	    <hgroup>
-          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . 
-            path_to_theme() ?>/images/pictos/cross-sector.svg">
+          <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/cross-sector.svg">
 	      <h1><?php print $title; ?></h1>
-        <?php print $regions['content']; ?>
+	      <?php print $regions['content']; ?>
 	    </hgroup>
 	  </div>
 
@@ -150,26 +142,26 @@ global $base_url;
 
 <div class="container">
   <div class="row">
-    <?php if ($page['whatsnew']) : ?>
-      <section class="col-lg-8 main-content-wrapper">
-        <?php print render($page['whatsnew']); ?></section>
+    <?php if ($page['whatsnew']): ?>
+      <section class="col-lg-8 main-content-wrapper"><?php print render($page['whatsnew']); ?></section>
     <?php endif; ?>
      
-    <?php if ($regions['sidebar_right']) : ?>
+    <?php if ($regions['sidebar_right']): ?>
       <aside class="col-md-4">
         <div class="sidebar-wrapper">
-            <?php print $regions['sidebar_right']; ?>
+          <?php print $regions['sidebar_right']; ?>
         </div>
       </aside>
     <?php endif; ?>  </div>
 </div>
 <!-- /#News -->
 
+
 <!-- #Project results -->
 <div class="container">
   <div class="row">
-    <?php if ($page['projectresults']) : ?>
-        <?php print render($page['projectresults']); ?>
+		<?php if ($page['projectresults']): ?>
+      <?php print render($page['projectresults']); ?>
     <?php endif; ?>
   </div>
 </div>
@@ -203,7 +195,7 @@ global $base_url;
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
-        <?php print $regions['footer']; ?>
+      <?php print $regions['footer']; ?>
 	</div>
   </div>
 </footer>

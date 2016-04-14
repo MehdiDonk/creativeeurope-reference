@@ -1,15 +1,5 @@
 <?php
 /**
- * Node-page.tpl.php
- * PHP version 5
- *
- * @category Production
- * @package  Creaeurope
- * @author   EAC WEB TEAM <nina.ahonen@ec.europa.eu>
- * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
- * @link     http://ec.europa.eu/programmes/creative-europe
- * @see      us moving :)
- * 
  * @file
  * Ec_resp's theme implementation to display a node.
  *
@@ -82,9 +72,13 @@
  * variables. Otherwise they will have to explicitly specify the desired field
  * language, e.g. $node->body['en'], thus overriding any language negotiation
  * rule that was previously applied.
+ *
+ * @see template_preprocess()
+ * @see template_preprocess_node()
+ * @see template_process()
  */
 ?>
-<?php if (isset($picto_title)) : ?>
+<?php if (isset($picto_title)): ?>
   <div class="picto-title">
     <?php print $picto_title; ?>
   </div>
@@ -92,13 +86,13 @@
 
 <h1><?php print $article_title; ?></h1>
 
-<?php if (isset($page_banner)) : ?>
+<?php if (isset($page_banner)): ?>
   <div class="page-banner-wrapper">
     <?php print $page_banner ?>
   </div>
 <?php endif; ?>
 
-<?php if (isset($abstract)) : ?>
+<?php if (isset($abstract)): ?>
   <p class="content-abstract">
     <?php print $abstract; ?>
   </p>
