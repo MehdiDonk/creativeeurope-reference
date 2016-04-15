@@ -7,19 +7,20 @@
 /**
  * Implements hook_field_group_info().
  */
-function creaeurope_core_field_group_info() {
-  $export = array();
+function creaeurope_core_field_group_info() 
+{
+    $export = array();
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_event_content|node|event|form';
-  $field_group->group_name = 'group_event_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'event';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_event_content|node|event|form';
+    $field_group->group_name = 'group_event_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'event';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '0',
     'children' => array(
@@ -37,19 +38,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_event_content|node|event|form'] = $field_group;
+    );
+    $export['group_event_content|node|event|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_event_date|node|event|form';
-  $field_group->group_name = 'group_event_date';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'event';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_event_date|node|event|form';
+    $field_group->group_name = 'group_event_date';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'event';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Dates',
     'weight' => '3',
     'children' => array(
@@ -64,19 +65,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_event_date|node|event|form'] = $field_group;
+    );
+    $export['group_event_date|node|event|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_event_metadata|node|event|form';
-  $field_group->group_name = 'group_event_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'event';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_event_metadata|node|event|form';
+    $field_group->group_name = 'group_event_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'event';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '4',
     'children' => array(
@@ -93,19 +94,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_event_metadata|node|event|form'] = $field_group;
+    );
+    $export['group_event_metadata|node|event|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_events_content|node|events|form';
-  $field_group->group_name = 'group_events_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'events';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_events_content|node|events|form';
+    $field_group->group_name = 'group_events_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'events';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '1',
     'children' => array(
@@ -126,19 +127,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_events_content|node|events|form'] = $field_group;
+    );
+    $export['group_events_content|node|events|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_events_imagegallery|node|events|form';
-  $field_group->group_name = 'group_events_imagegallery';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'events';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_events_imagegallery|node|events|form';
+    $field_group->group_name = 'group_events_imagegallery';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'events';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Images gallery',
     'weight' => '3',
     'children' => array(
@@ -153,19 +154,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_events_imagegallery|node|events|form'] = $field_group;
+    );
+    $export['group_events_imagegallery|node|events|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_events_info|node|events|form';
-  $field_group->group_name = 'group_events_info';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'events';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_events_info|node|events|form';
+    $field_group->group_name = 'group_events_info';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'events';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Event informations',
     'weight' => '2',
     'children' => array(
@@ -181,19 +182,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_events_info|node|events|form'] = $field_group;
+    );
+    $export['group_events_info|node|events|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_events_metadata|node|events|form';
-  $field_group->group_name = 'group_events_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'events';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_events_metadata|node|events|form';
+    $field_group->group_name = 'group_events_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'events';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '4',
     'children' => array(
@@ -211,19 +212,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_events_metadata|node|events|form'] = $field_group;
+    );
+    $export['group_events_metadata|node|events|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_external_calls_content|node|external_calls|form';
-  $field_group->group_name = 'group_external_calls_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'external_calls';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_external_calls_content|node|external_calls|form';
+    $field_group->group_name = 'group_external_calls_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'external_calls';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '1',
     'children' => array(
@@ -244,19 +245,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_external_calls_content|node|external_calls|form'] = $field_group;
+    );
+    $export['group_external_calls_content|node|external_calls|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_external_metadata|node|external_calls|form';
-  $field_group->group_name = 'group_external_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'external_calls';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_external_metadata|node|external_calls|form';
+    $field_group->group_name = 'group_external_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'external_calls';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '3',
     'children' => array(
@@ -274,19 +275,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_external_metadata|node|external_calls|form'] = $field_group;
+    );
+    $export['group_external_metadata|node|external_calls|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_highlights_content|node|highlights|form';
-  $field_group->group_name = 'group_highlights_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'highlights';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_highlights_content|node|highlights|form';
+    $field_group->group_name = 'group_highlights_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'highlights';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '1',
     'children' => array(
@@ -304,19 +305,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_highlights_content|node|highlights|form'] = $field_group;
+    );
+    $export['group_highlights_content|node|highlights|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_highlights_imagesgallery|node|highlights|form';
-  $field_group->group_name = 'group_highlights_imagesgallery';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'highlights';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_highlights_imagesgallery|node|highlights|form';
+    $field_group->group_name = 'group_highlights_imagesgallery';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'highlights';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Images gallery',
     'weight' => '2',
     'children' => array(
@@ -331,19 +332,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_highlights_imagesgallery|node|highlights|form'] = $field_group;
+    );
+    $export['group_highlights_imagesgallery|node|highlights|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_highlights_metadata|node|highlights|form';
-  $field_group->group_name = 'group_highlights_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'highlights';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_highlights_metadata|node|highlights|form';
+    $field_group->group_name = 'group_highlights_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'highlights';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '3',
     'children' => array(
@@ -361,19 +362,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_highlights_metadata|node|highlights|form'] = $field_group;
+    );
+    $export['group_highlights_metadata|node|highlights|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_news_content|node|news|form';
-  $field_group->group_name = 'group_news_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'news';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_news_content|node|news|form';
+    $field_group->group_name = 'group_news_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'news';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '1',
     'children' => array(
@@ -394,19 +395,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_news_content|node|news|form'] = $field_group;
+    );
+    $export['group_news_content|node|news|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_news_imagegallery|node|news|form';
-  $field_group->group_name = 'group_news_imagegallery';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'news';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_news_imagegallery|node|news|form';
+    $field_group->group_name = 'group_news_imagegallery';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'news';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Images gallery',
     'weight' => '2',
     'children' => array(
@@ -421,19 +422,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_news_imagegallery|node|news|form'] = $field_group;
+    );
+    $export['group_news_imagegallery|node|news|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_news_metadata|node|news|form';
-  $field_group->group_name = 'group_news_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'news';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_news_metadata|node|news|form';
+    $field_group->group_name = 'group_news_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'news';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '3',
     'children' => array(
@@ -451,19 +452,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_news_metadata|node|news|form'] = $field_group;
+    );
+    $export['group_news_metadata|node|news|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_page_content|node|page|form';
-  $field_group->group_name = 'group_page_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'page';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_page_content|node|page|form';
+    $field_group->group_name = 'group_page_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'page';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '1',
     'children' => array(
@@ -482,19 +483,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_page_content|node|page|form'] = $field_group;
+    );
+    $export['group_page_content|node|page|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_page_metadata|node|page|form';
-  $field_group->group_name = 'group_page_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'page';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_page_metadata|node|page|form';
+    $field_group->group_name = 'group_page_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'page';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '3',
     'children' => array(
@@ -509,22 +510,22 @@ function creaeurope_core_field_group_info() {
       'formatter' => 'closed',
       'instance_settings' => array(
         'classes' => 'group-page-metadata field-group-tab',
-        'required_fields' => TRUE,
+        'required_fields' => true,
       ),
     ),
-  );
-  $export['group_page_metadata|node|page|form'] = $field_group;
+    );
+    $export['group_page_metadata|node|page|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_projectresults_content|node|project_results|form';
-  $field_group->group_name = 'group_projectresults_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'project_results';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_projectresults_content|node|project_results|form';
+    $field_group->group_name = 'group_projectresults_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'project_results';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '1',
     'children' => array(
@@ -543,19 +544,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_projectresults_content|node|project_results|form'] = $field_group;
+    );
+    $export['group_projectresults_content|node|project_results|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_projectresults_metadata|node|project_results|form';
-  $field_group->group_name = 'group_projectresults_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'project_results';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_projectresults_metadata|node|project_results|form';
+    $field_group->group_name = 'group_projectresults_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'project_results';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '3',
     'children' => array(
@@ -573,19 +574,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_projectresults_metadata|node|project_results|form'] = $field_group;
+    );
+    $export['group_projectresults_metadata|node|project_results|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_video_content|node|video_gallery|form';
-  $field_group->group_name = 'group_video_content';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'video_gallery';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_video_content|node|video_gallery|form';
+    $field_group->group_name = 'group_video_content';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'video_gallery';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Content',
     'weight' => '1',
     'children' => array(
@@ -605,19 +606,19 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_video_content|node|video_gallery|form'] = $field_group;
+    );
+    $export['group_video_content|node|video_gallery|form'] = $field_group;
 
-  $field_group = new stdClass();
-  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
-  $field_group->api_version = 1;
-  $field_group->identifier = 'group_video_metadata|node|video_gallery|form';
-  $field_group->group_name = 'group_video_metadata';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'video_gallery';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
+    $field_group = new stdClass();
+    $field_group->disabled = false; /* Edit this to true to make a default field_group disabled initially */
+    $field_group->api_version = 1;
+    $field_group->identifier = 'group_video_metadata|node|video_gallery|form';
+    $field_group->group_name = 'group_video_metadata';
+    $field_group->entity_type = 'node';
+    $field_group->bundle = 'video_gallery';
+    $field_group->mode = 'form';
+    $field_group->parent_name = '';
+    $field_group->data = array(
     'label' => 'Metadata',
     'weight' => '2',
     'children' => array(
@@ -635,8 +636,8 @@ function creaeurope_core_field_group_info() {
         'required_fields' => 1,
       ),
     ),
-  );
-  $export['group_video_metadata|node|video_gallery|form'] = $field_group;
+    );
+    $export['group_video_metadata|node|video_gallery|form'] = $field_group;
 
-  return $export;
+    return $export;
 }
