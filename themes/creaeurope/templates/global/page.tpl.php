@@ -134,7 +134,7 @@ global $base_url;
       </div>
     <?php endif; ?>
 
-	<section class="main-content-wrapper col-md-8">	
+	<section class="main-content-wrapper col-sm-8">	
       <a id="content"></a>
       <?php if ($page['promote']): ?>
       	<div class="promotedcontent">
@@ -166,7 +166,7 @@ global $base_url;
     </section>
 
     <?php if ($regions['sidebar_right']): ?>
-      <aside class="col-md-4">
+      <aside class="col-sm-4">
 	    <div class="sidebar-wrapper">
           <?php print $regions['sidebar_right']; ?>
         </div>

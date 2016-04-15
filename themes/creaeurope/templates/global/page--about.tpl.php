@@ -131,7 +131,7 @@ global $base_url;
 	    <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/about.svg">
 	      <h1><?php print $title; ?></h1>
-	      <?php print $regions['content']; ?>
+	      <?php print $regions['content_top']; ?>
 	    </hgroup>
 	  </div>
       <div class="col-md-offset-1 col-md-5">
