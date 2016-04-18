@@ -23,7 +23,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -44,7 +44,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -66,7 +66,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -88,7 +88,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -110,7 +110,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'value',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
@@ -153,7 +153,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'value',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
@@ -184,7 +184,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'value',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
@@ -223,7 +223,7 @@ function creaeurope_core_field_default_field_bases()
     'entity_types' => array(),
     'field_name' => 'field_date_from',
     'indexes' => array(),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'date',
     'settings' => array(
       'cache_count' => 4,
@@ -257,7 +257,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -279,7 +279,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -331,7 +331,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -352,7 +352,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -373,7 +373,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -395,7 +395,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -417,7 +417,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'file',
     'settings' => array(
       'display_default' => 1,
@@ -443,7 +443,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -468,7 +468,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -493,7 +493,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -545,7 +545,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -566,7 +566,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -591,7 +591,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -644,7 +644,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'value',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
@@ -670,7 +670,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -692,7 +692,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => false,
@@ -714,7 +714,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -739,7 +739,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'value',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'list',
     'no_ui' => true,
     'settings' => array(
@@ -767,7 +767,7 @@ function creaeurope_core_field_default_field_bases()
         0 => 'target_id',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'entityreference',
     'settings' => array(
       'entity_translation_sync' => false,

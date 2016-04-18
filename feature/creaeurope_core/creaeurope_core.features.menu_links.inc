@@ -18,12 +18,10 @@ function creaeurope_core_menu_default_menu_links()
     'router_path' => '',
     'link_title' => 'Actions',
     'options' => array(
+      'identifier' => 'main-menu_actions:<front>',
       'attributes' => array(
         'data-display-title' => 1,
         'data-hide-children' => 0,
-        'class' => array(
-          0 => 'hidden-xs',
-        ),
         'data-remove-class' => 0,
       ),
       'item_attributes' => array(
@@ -35,7 +33,6 @@ function creaeurope_core_menu_default_menu_links()
         'data-remove-class' => 0,
         'style' => '',
       ),
-      'identifier' => 'main-menu_actions:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -54,12 +51,10 @@ function creaeurope_core_menu_default_menu_links()
     'router_path' => '',
     'link_title' => 'Culture',
     'options' => array(
+      'identifier' => 'main-menu_culture:<front>',
       'attributes' => array(
         'data-display-title' => 1,
         'data-hide-children' => 0,
-        'class' => array(
-          0 => 'hidden-xs',
-        ),
         'data-remove-class' => 0,
       ),
       'item_attributes' => array(
@@ -71,7 +66,6 @@ function creaeurope_core_menu_default_menu_links()
         'data-remove-class' => 0,
         'style' => '',
       ),
-      'identifier' => 'main-menu_culture:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -79,42 +73,6 @@ function creaeurope_core_menu_default_menu_links()
     'has_children' => 1,
     'expanded' => 1,
     'weight' => -47,
-    'customized' => 1,
-    'language' => 'und',
-    'menu_links_customized' => 1,
-    );
-    // Exported menu link: main-menu_culture:culture.
-    $menu_links['main-menu_culture:culture'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'culture',
-    'router_path' => 'culture',
-    'link_title' => 'Culture',
-    'options' => array(
-      'attributes' => array(
-        'data-display-title' => 1,
-        'data-hide-children' => 0,
-        'class' => array(
-          0 => 'visible-xs',
-        ),
-        'data-remove-class' => 0,
-      ),
-      'item_attributes' => array(
-        'data-image' => '',
-        'data-display-title' => 1,
-        'data-hide-children' => 0,
-        'id' => '',
-        'class' => '',
-        'data-remove-class' => 0,
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_culture:culture',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 1,
-    'weight' => -42,
     'customized' => 1,
     'language' => 'und',
     'menu_links_customized' => 1,
@@ -467,12 +425,10 @@ function creaeurope_core_menu_default_menu_links()
     'router_path' => '',
     'link_title' => 'Media',
     'options' => array(
+      'identifier' => 'main-menu_media:<front>',
       'attributes' => array(
         'data-display-title' => 1,
         'data-hide-children' => 0,
-        'class' => array(
-          0 => 'hidden-xs',
-        ),
         'data-remove-class' => 0,
       ),
       'item_attributes' => array(
@@ -484,7 +440,6 @@ function creaeurope_core_menu_default_menu_links()
         'data-remove-class' => 0,
         'style' => '',
       ),
-      'identifier' => 'main-menu_media:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -571,12 +526,10 @@ function creaeurope_core_menu_default_menu_links()
     'router_path' => '',
     'link_title' => 'Updates',
     'options' => array(
+      'identifier' => 'main-menu_updates:<front>',
       'attributes' => array(
         'data-display-title' => 1,
         'data-hide-children' => 0,
-        'class' => array(
-          0 => 'hidden-xs',
-        ),
         'data-remove-class' => 0,
       ),
       'item_attributes' => array(
@@ -588,7 +541,6 @@ function creaeurope_core_menu_default_menu_links()
         'data-remove-class' => 0,
         'style' => '',
       ),
-      'identifier' => 'main-menu_updates:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,

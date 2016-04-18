@@ -103,13 +103,6 @@ function creaeurope_core_views_default_views()
     $handler->display->display_options['filters']['status']['value'] = 1;
     $handler->display->display_options['filters']['status']['group'] = 1;
     $handler->display->display_options['filters']['status']['expose']['operator'] = false;
-    /* Filter criterion: Content: Type */
-    $handler->display->display_options['filters']['type']['id'] = 'type';
-    $handler->display->display_options['filters']['type']['table'] = 'node';
-    $handler->display->display_options['filters']['type']['field'] = 'type';
-    $handler->display->display_options['filters']['type']['value'] = array(
-    'actions' => 'actions',
-    );
 
     /* Display: 3 Items big */
     $handler = $view->new_display('block', '3 Items big', 'block');
@@ -277,7 +270,7 @@ function creaeurope_core_views_default_views()
     $handler->display->display_options['fields']['field_abstract']['field'] = 'field_abstract';
     $handler->display->display_options['fields']['field_abstract']['label'] = '';
     $handler->display->display_options['fields']['field_abstract']['alter']['alter_text'] = true;
-    $handler->display->display_options['fields']['field_abstract']['alter']['text'] = '<article class="col-lg-4 image-text-box">
+    $handler->display->display_options['fields']['field_abstract']['alter']['text'] = '<article class="col-sm-4 image-text-box">
     <div class="image-text-box--wrapper">
       [field_page_banner]
 [title]
@@ -566,7 +559,7 @@ function creaeurope_core_views_default_views()
     $handler->display->display_options['fields']['field_status']['field'] = 'field_status';
     $handler->display->display_options['fields']['field_status']['label'] = '';
     $handler->display->display_options['fields']['field_status']['alter']['alter_text'] = true;
-    $handler->display->display_options['fields']['field_status']['alter']['text'] = '<article class="update-highlight--list col-sm-4">
+    $handler->display->display_options['fields']['field_status']['alter']['text'] = '<article class="update-highlight--list col-xs-12 col-sm-6 col-md-4">
 <div class="update-highlight--list--content">
 <h1><a href="[field_link]">[title]</a></h1>
  <p><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> [field_calls_type]</p>
@@ -736,7 +729,7 @@ function creaeurope_core_views_default_views()
     $handler->display->display_options['fields']['field_event_location']['field'] = 'field_event_location';
     $handler->display->display_options['fields']['field_event_location']['label'] = '';
     $handler->display->display_options['fields']['field_event_location']['alter']['alter_text'] = true;
-    $handler->display->display_options['fields']['field_event_location']['alter']['text'] = '<article class="update-highlight--list col-sm-6 col-md-4">
+    $handler->display->display_options['fields']['field_event_location']['alter']['text'] = '<article class="update-highlight--list col-xs-12 col-sm-6 col-md-4">
 <div class="update-highlight--list--img">
 [field_images] 
 </div>
@@ -1766,7 +1759,7 @@ function creaeurope_core_views_default_views()
     $handler->display->display_options['fields']['field_picto_title']['field'] = 'field_picto_title';
     $handler->display->display_options['fields']['field_picto_title']['label'] = '';
     $handler->display->display_options['fields']['field_picto_title']['alter']['alter_text'] = true;
-    $handler->display->display_options['fields']['field_picto_title']['alter']['text'] = '<div class="col-md-4 list--icon-title--wrapper">
+    $handler->display->display_options['fields']['field_picto_title']['alter']['text'] = '<div class="col-xs-12 col-sm-6 col-md-4 list--icon-title--wrapper">
 <div class="col-xs-3 wrapper-picto svg">[field_picto_title]</div>
 <div class="col-xs-9 wrapper-title">[title]</div>
 </div>';
@@ -1841,7 +1834,7 @@ function creaeurope_core_views_default_views()
     $handler->display->display_options['fields']['field_picto_title']['field'] = 'field_picto_title';
     $handler->display->display_options['fields']['field_picto_title']['label'] = '';
     $handler->display->display_options['fields']['field_picto_title']['alter']['alter_text'] = true;
-    $handler->display->display_options['fields']['field_picto_title']['alter']['text'] = '<div class="col-sm-4 list--icon-title--wrapper">
+    $handler->display->display_options['fields']['field_picto_title']['alter']['text'] = '<div class="col-xs-12 col-sm-6 col-md-4 list--icon-title--wrapper">
 <div class="col-xs-3 col-sm-4 col-md-3 wrapper-picto svg">[field_picto_title]</div>
 <div class="col-xs-9 col-sm-8 col-md-9 wrapper-title">[title]</div>
 </div>';
@@ -2242,7 +2235,7 @@ function creaeurope_core_views_default_views()
     $handler->display->display_options['fields']['created']['field'] = 'created';
     $handler->display->display_options['fields']['created']['label'] = '';
     $handler->display->display_options['fields']['created']['alter']['alter_text'] = true;
-    $handler->display->display_options['fields']['created']['alter']['text'] = '<article class="update-highlight--list col-md-4">
+    $handler->display->display_options['fields']['created']['alter']['text'] = '<article class="update-highlight--list col-xs-12 col-sm-6 col-md-4">
 <div class="update-highlight--list--img">
 [field_images] 
 </div>
