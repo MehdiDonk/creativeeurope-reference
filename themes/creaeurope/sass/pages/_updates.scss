@@ -266,7 +266,8 @@
 .update-find-out {
   
   ul {
-  list-style: square;
+		list-style: square;
+		padding-left: 15px;
   }
   
   li {
@@ -364,7 +365,7 @@
         }
               
         .update-highlight--content {
-          max-width: calc(50% - 30px );
+          max-width: calc(100% - 90px );
         }
       }
       
@@ -556,6 +557,23 @@
       }
     }
   }
+	
+	
+	
+	
+		.updates-container {
+			article {
+				&.update-highlight--big {
+					.update-highlight--content {
+						max-width: calc(55% - 30px );
+				}
+			}
+		}
+	}
+
+
+
+
   
   .page-news-events-calls {
     .update-highlight--wrapper {

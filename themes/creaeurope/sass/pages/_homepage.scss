@@ -1,7 +1,7 @@
 .front #main-menu .navbar {
 	
 	&.affix {
-		background-color: $primary-deep-dark-color !important;
+		background-color: #fff !important;
 		
 		.navbar-collapse {		
 			border-bottom: none !important;
@@ -219,6 +219,13 @@
 
 /* Medium resolution : Medium devices - Min breakpoint -992px */
 @include breakpoint(md-min){
+	.front #main-menu .navbar {
+		
+		&.affix {
+			background-color: $primary-deep-dark-color !important;
+		}
+	}
+	
   .front header.main-banner {
     height: 520px;
   
@@ -229,7 +236,8 @@
   }
   
   .hp-whatsnew {
-    
+    margin-top: 70px;
+		
     article {
       border-bottom: none;
       padding-bottom: 0;
@@ -292,4 +300,15 @@
     }
 
   }
+}
+
+
+
+
+
+/* Large resolution : Large devices - Min breakpoint -1200px */
+@include breakpoint(lg-min){
+	.hp-whatsnew {
+		margin-top: 140px;
+	}
 }

@@ -242,7 +242,7 @@ function creaeurope_core_field_default_field_bases()
       'tz_handling' => 'none',
     ),
     'translatable' => 1,
-    'type' => 'datetime',
+    'type' => 'datestamp',
     );
 
     // Exported field_base: 'field_duration'.

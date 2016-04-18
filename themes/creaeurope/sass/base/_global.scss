@@ -25,6 +25,7 @@
 
 /* MEDIA QUERIES */
 $breakpoints: (
+  xs-min: 425px, // Mobile L devices - Min breakpoint - 425px
   sm-min: 48em, // Small devices - Min breakpoint - 768px
   md-min: 62em,  // Medium devices - Min breakpoint - 992px
   lg-min: 75em,  // Large devices - Min breakpoint - 1200px
@@ -106,6 +107,10 @@ $breakpoints: (
 
 
 /* CUSTOM */
+body {
+  padding-top: 60px;
+}
+
 a {
 	@include transition(all 0.3s ease);
 	color: $link-color;
@@ -693,6 +698,10 @@ section.overview--main-content {
 
 /* Small resolution : Min breakpoint - 768px */
 @include breakpoint(sm-min){
+	#path {
+		display: none;
+	}
+	
   .main-content-wrapper {
     margin-top: 30px;
 		padding: 30px;
@@ -1050,6 +1059,7 @@ section.overview--main-content {
     
     .dark-section--content {
       padding-bottom: 60px;
+			padding-top: 60px;
     }  
 
     .content-highlight--picto {
@@ -1099,6 +1109,14 @@ section.overview--main-content {
 
 /* Medium resolution : Medium devices - Min breakpoint -992px */
 @include breakpoint(md-min){
+	body {
+		padding-top: 0;
+	}
+	
+	#path {
+		display: block;
+	}
+	
   .picto-text-box {
     border-bottom: none;  
 

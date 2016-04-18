@@ -41,7 +41,7 @@
  
     
             /* RESPONSIVE NAVIGATION */
-    
+    				/* OPEN / CLOSE PANEL */
             $('.menu-mobile--main-button').click(
                 function(){
                     var dataToToggle = $(this).attr('data-nav-toggle');
@@ -87,6 +87,24 @@
                     );
                 }
             }
+						
+						/* SLIDE SUB LEVEL */
+
+						$('.menu li.dropdown a').on('click', function () {
+							$('.navbar-container').animate({
+								left: "-500px",
+								position: 'relative'
+								}, 500, function() {
+									$(".dropdown.open").animate({
+										left: "500px",
+										position: 'absolute',
+										top: 0
+										}, 500, function() {
+									});
+							});
+							
+							
+						});
         
         
         

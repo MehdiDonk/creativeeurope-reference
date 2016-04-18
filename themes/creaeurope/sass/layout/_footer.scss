@@ -4,12 +4,12 @@ footer {
   padding-top:30px;
   
   .footer--row-one {
-    border-bottom: 1px solid rgba(255, 255, 255, .5);
-    padding-bottom:30px;
-    margin-bottom: 30px;
+		border-bottom: 1px dashed rgba(255,255,255,.4);
+    margin-bottom: 15px;
   }
   
   .feedback-form {
+		border-bottom: 1px dashed rgba(255,255,255,.4);
 	
 		.feedback {
 			padding: 0;
@@ -81,10 +81,11 @@ footer {
   
   }
   .sm {
-		float: right;
+		float: left;
 		margin-top: 1em;
 		margin-bottom: 1em;
 		margin-right: 15px;
+		padding: 0 15px;
 	
 	  a.icon {
 		text-indent: -99999px !important;
@@ -98,10 +99,6 @@ footer {
 		margin-bottom: 0 !important;
   }
   
-  & > div h2:first-child {
-		margin-top: 0 !important;
-  }  
-  
   a,
   a:active,
 	a:hover,
@@ -109,6 +106,9 @@ footer {
     color: $primary-light-color;
   }
   
+	#smk-twitter_user_timeline {
+		margin-top: 60px;
+	}
   
 }
 
@@ -164,5 +164,36 @@ footer {
 	
 	span {
 		font-size: .8em;
+	}
+}
+
+
+
+
+
+/* Small resolution : Min breakpoint - 768px */
+@include breakpoint(sm-min){
+	footer {
+	
+		.footer--row-one {
+			margin-bottom: 30px;
+		}
+	
+		.feedback-form {
+			border: none;
+		}
+			
+	  .sm {
+			float: right;
+			padding: 0;
+		}
+		
+		& > div h2:first-child {
+			margin-top: 0 !important;
+		} 
+		
+		#smk-twitter_user_timeline {
+			margin-top: 0;
+		}		 
 	}
 }

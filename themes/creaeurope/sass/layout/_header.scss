@@ -1,5 +1,4 @@
 header.main-banner {
-  padding-top: 60px !important;
   text-align:left;
   padding: 0;
   background:
@@ -14,6 +13,7 @@ header.main-banner {
   video {
     width: 100%;
     margin-top: 30px;
+		margin-bottom: 30px;
     
     @include box-shadow(0 0 30px $primary-deep-dark-color);
   }
@@ -204,17 +204,17 @@ header.actions-header {
 
 /* Small resolution : Small devices - Min breakpoint -768px */
 @include breakpoint(sm-min){
-  header.main-banner h2 {
-    font-size: 1.333em;
-  }
-  
   header.main-banner {
-    
+		 h2 {
+			font-size: 1.333em;
+		}
+  
     hgroup {
       p {
         font-size: 1.333em !important;
       }
     }
+	
   }
 }
 
@@ -225,16 +225,28 @@ header.actions-header {
 /* Medium resolution : Medium devices - Min breakpoint -992px */
 @include breakpoint(md-min){
   header.main-banner {
-    padding-top: 0 !important;
     height: auto;
     min-height: 520px;
     
     video {
-      margin-top: 140px;
+      margin-top: 200px;
     }
   }
     
   header hgroup {
     margin-top: 90px;
   }
+}
+
+
+
+
+/* Large resolution : Large devices - Min breakpoint -1200px */
+@include breakpoint(lg-min){
+  header.main-banner {   
+    video {
+      margin-top: 140px;
+    }
+  }
+
 }

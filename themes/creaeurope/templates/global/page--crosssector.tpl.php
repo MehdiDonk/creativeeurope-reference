@@ -126,7 +126,7 @@ global $base_url;
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-8">
 	    <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/cross-sector.svg">
 	      <h1><?php print $title; ?></h1>
@@ -143,7 +143,7 @@ global $base_url;
 <div class="container">
   <div class="row">
     <?php if ($page['whatsnew']): ?>
-      <section class="col-lg-8 main-content-wrapper"><?php print render($page['whatsnew']); ?></section>
+      <section class="col-md-8 main-content-wrapper"><?php print render($page['whatsnew']); ?></section>
     <?php endif; ?>
      
     <?php if ($regions['sidebar_right']): ?>

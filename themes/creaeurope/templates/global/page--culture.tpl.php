@@ -126,7 +126,7 @@ global $base_url;
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-6">
 	    <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/culture.svg">
 	      <h1><?php print $title; ?></h1>

@@ -48,9 +48,9 @@
   <div class="navbar navbar-default" data-spy="affix" data-offset-top="165">
     <!-- Mobile menu bar -->
     <ul class="menu-mobile">
-      <li class="col-xs-2"><button class="menu-mobile--main-button" data-nav-toggle="mobile--main-nav"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button></li>
-      <li class="col-xs-8"><h1>logo + creative europe</h1></li>
-      <li class="col-xs-2"><button class="menu-mobile--updates-button"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></button></li>
+      <li class="col-xs-2 col-sm-1"><button class="menu-mobile--main-button" data-nav-toggle="mobile--main-nav"><img class="svg" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/mobile-nav-ico.svg"/></button></li>
+      <li class="heading-nav-bar col-xs-7"><h1>Creative Europe</h1></li>
+      <li class="col-xs-3"><img class="ec-flat-logo" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/mobile-flat-ec-logo.svg"/></button></li>
     </ul>
     <div class="container navbar-container">
       <!-- Collect the nav links, forms, and other content for toggling -->
