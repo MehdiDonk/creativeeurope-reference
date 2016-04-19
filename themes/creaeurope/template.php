@@ -20,20 +20,6 @@
  */
 
 /**
- * Implements template_preprocess_html().
- */
-function creaeurope_preprocess_html(&$variables) 
-{
-    $settings['creaeurope']['videohome_youtube_id'] = theme_get_setting('videohome_youtube_id');
-    drupal_add_js($settings, 'setting');
-    drupal_add_js(
-        drupal_get_path('theme', 'creaeurope') . '/scripts/video.js', array(
-        'scope' => 'footer',
-        )
-    );
-
-}
-/**
  * Implements template_preprocess_page().
  */
 function creaeurope_preprocess_page(&$variables) 

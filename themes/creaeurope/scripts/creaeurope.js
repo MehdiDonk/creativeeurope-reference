@@ -63,6 +63,8 @@
                 var arrayItemClass = new Array();
     
                 if(!$('button[data-nav-toggle=' + dataToToggle + ']').hasClass('open')) {
+									$('body').css('overflow','visible');
+									
                     $(".navbar").animate(
                         {
                             height:'60px'
@@ -89,6 +91,8 @@
                         }, 200, function() {
                         }
                     );
+										
+									$('body').css('overflow','hidden');
                                         
                     var anim = {opacity: 1};
                     anim["margin" + toggleDirection] = '0';
@@ -118,6 +122,7 @@
                             );
                                             
                             $(".dropdown").css('right','auto');
+														$('#main-menu .navbar .menu.nav > li.open > a::after').css('content','\e257');
                                         
                             $(".dropdown").animate(
                                 {
@@ -142,7 +147,7 @@
                                 {
                                     left: -500
                                 }, 200, function() {
-                                    $('.dropdown.open').append('<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>');
+																	
                                 }
                             );
                         }

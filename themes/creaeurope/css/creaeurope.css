@@ -2185,9 +2185,32 @@ header.actions-header {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
+/* line 140, ../sass/layout/_nav.scss */
+#main-menu .navbar .menu.nav > li > a .caret {
+  display: none;
+}
+/* line 145, ../sass/layout/_nav.scss */
+#main-menu .navbar .menu.nav > li > a.dropdown-toggle::after {
+  content: "\e258";
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 30px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
 
 /* MOBILE HIGHLIGHT MENU */
-/* line 152, ../sass/layout/_nav.scss */
+/* line 178, ../sass/layout/_nav.scss */
 .mobile-highlights--wrapper {
   background: #7c69cc;
   display: flex !important;
@@ -2196,7 +2219,7 @@ header.actions-header {
   justify-content: center;
   text-align: center;
 }
-/* line 162, ../sass/layout/_nav.scss */
+/* line 188, ../sass/layout/_nav.scss */
 .mobile-highlights--wrapper .dropdown-menu img {
   margin-right: 4px;
   border: 1px solid #fff;
@@ -2204,28 +2227,28 @@ header.actions-header {
   width: 45px;
   vertical-align: middle;
 }
-/* line 172, ../sass/layout/_nav.scss */
+/* line 198, ../sass/layout/_nav.scss */
 .mobile-highlights--wrapper > li {
   float: left;
   flex-grow: 1;
 }
-/* line 176, ../sass/layout/_nav.scss */
+/* line 202, ../sass/layout/_nav.scss */
 .mobile-highlights--wrapper > li br {
   display: none;
 }
-/* line 180, ../sass/layout/_nav.scss */
+/* line 206, ../sass/layout/_nav.scss */
 .mobile-highlights--wrapper > li a {
   color: #fff;
   display: block;
   padding: 15px 0;
   text-transform: uppercase;
 }
-/* line 187, ../sass/layout/_nav.scss */
+/* line 213, ../sass/layout/_nav.scss */
 .mobile-highlights--wrapper > li a span {
   font-size: .6em;
   margin-left: 4px;
 }
-/* line 193, ../sass/layout/_nav.scss */
+/* line 219, ../sass/layout/_nav.scss */
 .mobile-highlights--wrapper > li .dropdown-menu {
   border-radius: 0;
   background: #7c69cc;
@@ -2234,7 +2257,7 @@ header.actions-header {
 }
 
 /* MINI SITE NAVIGATION */
-/* line 208, ../sass/layout/_nav.scss */
+/* line 234, ../sass/layout/_nav.scss */
 .mini-site--menu {
   background: #7c69cc;
   position: absolute;
@@ -2242,13 +2265,13 @@ header.actions-header {
   left: 0;
   width: 100%;
 }
-/* line 217, ../sass/layout/_nav.scss */
+/* line 243, ../sass/layout/_nav.scss */
 .mini-site--menu ul li {
   list-style: none;
   display: inline;
   float: left;
 }
-/* line 223, ../sass/layout/_nav.scss */
+/* line 249, ../sass/layout/_nav.scss */
 .mini-site--menu ul a {
   color: #fff;
   display: inline-block;
@@ -2258,7 +2281,7 @@ header.actions-header {
   font-size: .85em;
   transition: all .4s;
 }
-/* line 232, ../sass/layout/_nav.scss */
+/* line 258, ../sass/layout/_nav.scss */
 .mini-site--menu ul a:hover {
   background: #433580;
   text-decoration: none;
@@ -2266,83 +2289,91 @@ header.actions-header {
 
 /* Small resolution : Min breakpoint - 768px */
 @media screen and (min-width: 48em) {
-  /* line 248, ../sass/layout/_nav.scss */
+  /* line 274, ../sass/layout/_nav.scss */
   .region-featured-wrapper.sidebar-visible-sm {
     position: fixed;
   }
 
-  /* line 253, ../sass/layout/_nav.scss */
+  /* line 279, ../sass/layout/_nav.scss */
   #main-menu .region-featured-wrapper.sidebar-visible-sm {
     position: relative;
   }
-  /* line 259, ../sass/layout/_nav.scss */
+  /* line 285, ../sass/layout/_nav.scss */
   #main-menu .navbar .menu.nav > li {
     width: calc(100% / 3 - 8px);
   }
-  /* line 262, ../sass/layout/_nav.scss */
+  /* line 288, ../sass/layout/_nav.scss */
   #main-menu .navbar .menu.nav > li a {
     font-family: "ECSquareSansProRegular", Verdana, Geneva, sans-serif !important;
   }
-  /* line 268, ../sass/layout/_nav.scss */
+  /* line 291, ../sass/layout/_nav.scss */
+  #main-menu .navbar .menu.nav > li a .caret {
+    display: inline;
+  }
+  /* line 296, ../sass/layout/_nav.scss */
+  #main-menu .navbar .menu.nav > li a::after {
+    display: none;
+  }
+  /* line 303, ../sass/layout/_nav.scss */
   #main-menu .navbar .menu.nav li.dropdown li a {
     color: #7c69cc;
   }
 }
 /* Medium resolution : Medium devices - Min breakpoint - 992px */
 @media screen and (min-width: 62em) {
-  /* line 285, ../sass/layout/_nav.scss */
+  /* line 320, ../sass/layout/_nav.scss */
   .menu-mobile {
     display: none !important;
   }
 
-  /* line 289, ../sass/layout/_nav.scss */
+  /* line 324, ../sass/layout/_nav.scss */
   .mobile-highlights--wrapper {
     display: none !important;
   }
 
-  /* line 293, ../sass/layout/_nav.scss */
+  /* line 328, ../sass/layout/_nav.scss */
   .region-featured-wrapper.sidebar-visible-sm {
     position: relative;
   }
 
-  /* line 297, ../sass/layout/_nav.scss */
+  /* line 332, ../sass/layout/_nav.scss */
   #main-menu {
     background: transparent !important;
     /* Drop-down panel */
   }
-  /* line 300, ../sass/layout/_nav.scss */
+  /* line 335, ../sass/layout/_nav.scss */
   #main-menu .navbar {
     position: static;
     background-color: #2a2733 !important;
     height: 75px;
     overflow: visible;
   }
-  /* line 308, ../sass/layout/_nav.scss */
+  /* line 343, ../sass/layout/_nav.scss */
   #main-menu .navbar .menu .dropdown.open {
     background: none;
     height: auto;
   }
-  /* line 315, ../sass/layout/_nav.scss */
+  /* line 350, ../sass/layout/_nav.scss */
   #main-menu .navbar.affix {
     height: 60px;
   }
-  /* line 318, ../sass/layout/_nav.scss */
+  /* line 353, ../sass/layout/_nav.scss */
   #main-menu .navbar.affix .menu.nav > li > a {
     height: 60px;
     line-height: 60px;
   }
-  /* line 323, ../sass/layout/_nav.scss */
+  /* line 358, ../sass/layout/_nav.scss */
   #main-menu .navbar.affix .sm {
     height: 60px;
     line-height: 60px;
   }
-  /* line 330, ../sass/layout/_nav.scss */
+  /* line 365, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container {
     padding-left: 15px;
     padding-right: 15px;
     width: 970px;
   }
-  /* line 335, ../sass/layout/_nav.scss */
+  /* line 370, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .navbar-collapse {
     display: block !important;
     background: transparent !important;
@@ -2357,16 +2388,16 @@ header.actions-header {
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
   }
-  /* line 344, ../sass/layout/_nav.scss */
+  /* line 379, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .menu {
     width: auto;
   }
-  /* line 348, ../sass/layout/_nav.scss */
+  /* line 383, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .menu .dropdown.open {
     position: relative;
     height: auto;
   }
-  /* line 355, ../sass/layout/_nav.scss */
+  /* line 390, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .menu.nav > li {
     padding: 0;
     margin: 0;
@@ -2374,23 +2405,23 @@ header.actions-header {
     width: auto;
     border: none;
   }
-  /* line 362, ../sass/layout/_nav.scss */
+  /* line 397, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .menu.nav > li.dropdown {
     display: block;
   }
-  /* line 366, ../sass/layout/_nav.scss */
+  /* line 401, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .menu.nav > li.active-trail a {
     border-bottom: 6px solid rgba(255, 255, 255, 0.9) !important;
   }
-  /* line 370, ../sass/layout/_nav.scss */
+  /* line 405, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .menu.nav > li > a:hover {
     border-bottom: 4px solid rgba(255, 255, 255, 0.5) !important;
   }
-  /* line 374, ../sass/layout/_nav.scss */
+  /* line 409, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container .menu.nav > li.open a {
     border-bottom: 4px solid white !important;
   }
-  /* line 384, ../sass/layout/_nav.scss */
+  /* line 419, ../sass/layout/_nav.scss */
   #main-menu .menu.dropdown-menu {
     padding: 0;
     margin-top: 0 !important;
@@ -2401,7 +2432,7 @@ header.actions-header {
     -webkit-box-shadow: #bbb 0 1px 2px;
     box-shadow: #bbb 0 1px 2px;
   }
-  /* line 390, ../sass/layout/_nav.scss */
+  /* line 425, ../sass/layout/_nav.scss */
   #main-menu .menu.dropdown-menu a {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -2421,7 +2452,7 @@ header.actions-header {
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
   }
-  /* line 402, ../sass/layout/_nav.scss */
+  /* line 437, ../sass/layout/_nav.scss */
   #main-menu .menu.dropdown-menu a:before {
     content: '';
     width: 0;
@@ -2446,25 +2477,25 @@ header.actions-header {
     margin: auto;
     opacity: .1;
   }
-  /* line 419, ../sass/layout/_nav.scss */
+  /* line 454, ../sass/layout/_nav.scss */
   #main-menu .menu.dropdown-menu a:hover {
     background: none !important;
   }
-  /* line 423, ../sass/layout/_nav.scss */
+  /* line 458, ../sass/layout/_nav.scss */
   #main-menu .menu.dropdown-menu a:hover:before {
     width: 700px;
     height: 700px;
     opacity: .3;
   }
-  /* line 429, ../sass/layout/_nav.scss */
+  /* line 464, ../sass/layout/_nav.scss */
   #main-menu .menu.dropdown-menu a.active-trail {
     background: #d9d0ff;
   }
-  /* line 435, ../sass/layout/_nav.scss */
+  /* line 470, ../sass/layout/_nav.scss */
   #main-menu .button {
     display: initial;
   }
-  /* line 439, ../sass/layout/_nav.scss */
+  /* line 474, ../sass/layout/_nav.scss */
   #main-menu .mobile-highlights--wrapper {
     display: none !important;
     text-align: center;
@@ -2472,7 +2503,7 @@ header.actions-header {
 }
 /* Large resolution : Large devices - Min breakpoint -1200px */
 @media screen and (min-width: 75em) {
-  /* line 453, ../sass/layout/_nav.scss */
+  /* line 488, ../sass/layout/_nav.scss */
   #main-menu .navbar .navbar-container {
     width: 1170px;
   }
