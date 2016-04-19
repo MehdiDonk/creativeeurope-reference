@@ -7,16 +7,18 @@
 
   .navbar-collapse {
     background: #201d26 !important;
-    min-height: 50vh;
+    min-height: calc(100vh - 60px);
 		margin: 0;
   }
   .navbar {
-    background-color: transparent !important;
+    background-color: #201d26 !important;
     min-height: auto;
+		height: 60px;
     position: fixed;
     z-index: 99999;
     top: 0;
-    height: 60px;
+    height: auto;
+		overflow: auto;
     width: 100%;
     border-color: transparent !important;
     border: none;
@@ -83,7 +85,6 @@
     .navbar-collapse {
       border: none;
       display: none;
-      min-height: auto;
     }
     
     .menu {
@@ -91,6 +92,11 @@
 			margin: 0;
 			
 			.dropdown {
+				&.open {
+					background: $primary-color;
+					height: calc(100vh - 60px);
+				}
+				
 				li {
 					a {
 						background-color: transparent;
@@ -102,9 +108,8 @@
 					
 				}
 				
-				&.mobile-panel-sublvl {
+				&.open {
 					position: absolute;
-					left: 500px;
 					top: 0;
 				}
 			}
@@ -295,11 +300,21 @@
     .navbar {
       position: static;
       background-color: $primary-deep-dark-color !important;
-      height: auto;
+      height: 75px;
+			overflow: visible;
+			
+			.menu {
+				.dropdown {
+					&.open {
+						background: none;
+						height: auto;
+					}
+				}
+			}
       
       &.affix {
         height: 60px;
-        
+
         .menu.nav > li > a {
           height: 60px;
           line-height: 60px;
@@ -321,12 +336,21 @@
         display: block !important;
         background: transparent !important;
         padding: 0;
+				min-height: auto;
         @include transition-property(all);
         @include transition-duration(.2s);
       }
       
       .menu {
         width: auto;
+				
+				.dropdown {
+					&.open {
+						position: relative;
+						height: auto;
+					}
+				}
+				
         
         &.nav > li {
           padding: 0;
@@ -431,9 +455,4 @@
       }
     }
   }
-}
-
-/*test */
-.dropdown.open {
-background: red;
 }

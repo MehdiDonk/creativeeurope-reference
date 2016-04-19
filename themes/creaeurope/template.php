@@ -60,7 +60,50 @@ function creaeurope_preprocess_block(&$variables) {
  */
 function creaeurope_preprocess_node(&$variables) {
   $node = $variables['node'];
-  if ($node->type == 'page') {
+  if ($node->type == 'pages') {
+    $content = $variables['content'];
+    if (isset($content['field_picto_title'])) {
+      $image_vars = array(
+        'path' => file_create_url($content['field_picto_title']['#items'][0]['uri']),
+        'attributes' => array(
+          'class' => array(
+            'svg',
+          ),
+        ),
+      );
+      $variables['picto_title'] = theme('image', $image_vars);
+    }
+
+    // if ($content['title_field']) {
+      // $variables['article_title'] = $content['title_field'][0]['#markup'];
+    // }
+
+    if (isset($content['field_page_banner'])) {
+      $image_vars = array(
+        'path' => file_create_url($content['field_page_banner']['#items'][0]['uri']),
+        'attributes' => array(
+          'class' => array(
+            'page-banner',
+          ),
+        ),
+      );
+      $variables['page_banner'] = theme('image', $image_vars);
+    }
+
+    if (isset($content['field_abstract'])) {
+      $variables['abstract'] = $content['field_abstract'][0]['#markup'];
+    }
+
+    if ($content['body']) {
+      $variables['body'] = $content['body'][0]['#markup'];
+    }
+  }
+	
+	
+	
+	// To delete !
+	
+	if ($node->type == 'page') {
     $content = $variables['content'];
     if (isset($content['field_picto_title'])) {
       $image_vars = array(
@@ -98,6 +141,28 @@ function creaeurope_preprocess_node(&$variables) {
       $variables['body'] = $content['body'][0]['#markup'];
     }
   }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
   if ($node->type === 'video_gallery') {
     $content = $variables['content'];
@@ -167,7 +232,7 @@ function creaeurope_preprocess_node(&$variables) {
 
   }
 
-  if ($node->type === 'events') {
+  if ($node->type === 'eventseac') {
     $content = $variables['content'];
 
     if (isset($content['type'])) {
