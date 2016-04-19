@@ -7,13 +7,14 @@
 /**
  * Implements hook_field_default_field_instances().
  */
-function creaeurope_core_field_default_field_instances() {
-  $field_instances = array();
+function creaeurope_core_field_default_field_instances() 
+{
+    $field_instances = array();
 
-  // Exported field_instance: 'node-articles-body'.
-  $field_instances['node-articles-body'] = array(
+    // Exported field_instance: 'node-articles-body'.
+    $field_instances['node-articles-body'] = array(
     'bundle' => 'articles',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -37,12 +38,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -53,10 +54,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 31,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-event-field_images'.
-  $field_instances['node-event-field_images'] = array(
+    // Exported field_instance: 'node-event-field_images'.
+    $field_instances['node-event-field_images'] = array(
     'bundle' => 'event',
     'deleted' => 0,
     'description' => '',
@@ -85,14 +86,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -119,12 +120,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => -4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-event-title_field'.
-  $field_instances['node-event-title_field'] = array(
+    // Exported field_instance: 'node-event-title_field'.
+    $field_instances['node-event-title_field'] = array(
     'bundle' => 'event',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -172,13 +173,13 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
         'entity' => 0,
         'page' => 0,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -189,12 +190,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => -5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-body'.
-  $field_instances['node-eventseac-body'] = array(
+    // Exported field_instance: 'node-eventseac-body'.
+    $field_instances['node-eventseac-body'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -218,12 +219,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -234,12 +235,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_abstract'.
-  $field_instances['node-eventseac-field_abstract'] = array(
+    // Exported field_instance: 'node-eventseac-field_abstract'.
+    $field_instances['node-eventseac-field_abstract'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -292,9 +293,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -305,12 +306,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_categories'.
-  $field_instances['node-eventseac-field_categories'] = array(
+    // Exported field_instance: 'node-eventseac-field_categories'.
+    $field_instances['node-eventseac-field_categories'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -333,8 +334,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'categories',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -345,10 +346,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_date_from'.
-  $field_instances['node-eventseac-field_date_from'] = array(
+    // Exported field_instance: 'node-eventseac-field_date_from'.
+    $field_instances['node-eventseac-field_date_from'] = array(
     'bundle' => 'eventseac',
     'deleted' => 0,
     'description' => '',
@@ -376,8 +377,8 @@ function creaeurope_core_field_default_field_instances() {
       'default_value2' => 'same',
       'default_value_code' => '',
       'default_value_code2' => '',
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -394,12 +395,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'date_select',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_event_location'.
-  $field_instances['node-eventseac-field_event_location'] = array(
+    // Exported field_instance: 'node-eventseac-field_event_location'.
+    $field_instances['node-eventseac-field_event_location'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -452,9 +453,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -465,12 +466,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_events_find_out_more'.
-  $field_instances['node-eventseac-field_events_find_out_more'] = array(
+    // Exported field_instance: 'node-eventseac-field_events_find_out_more'.
+    $field_instances['node-eventseac-field_events_find_out_more'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -524,9 +525,9 @@ function creaeurope_core_field_default_field_instances() {
         ),
       ),
       'display_summary' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -538,10 +539,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 9,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_files'.
-  $field_instances['node-eventseac-field_files'] = array(
+    // Exported field_instance: 'node-eventseac-field_files'.
+    $field_instances['node-eventseac-field_files'] = array(
     'bundle' => 'eventseac',
     'deleted' => 0,
     'description' => '',
@@ -570,7 +571,7 @@ function creaeurope_core_field_default_field_instances() {
       'file_directory' => 'files',
       'file_extensions' => 'txt odt ods doc docx pdf',
       'max_filesize' => '',
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -603,10 +604,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'file_generic',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_images'.
-  $field_instances['node-eventseac-field_images'] = array(
+    // Exported field_instance: 'node-eventseac-field_images'.
+    $field_instances['node-eventseac-field_images'] = array(
     'bundle' => 'eventseac',
     'deleted' => 0,
     'description' => '',
@@ -635,14 +636,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -669,10 +670,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_images_gallery'.
-  $field_instances['node-eventseac-field_images_gallery'] = array(
+    // Exported field_instance: 'node-eventseac-field_images_gallery'.
+    $field_instances['node-eventseac-field_images_gallery'] = array(
     'bundle' => 'eventseac',
     'deleted' => 0,
     'description' => '',
@@ -708,7 +709,7 @@ function creaeurope_core_field_default_field_instances() {
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -735,12 +736,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 16,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_meta_description'.
-  $field_instances['node-eventseac-field_meta_description'] = array(
+    // Exported field_instance: 'node-eventseac-field_meta_description'.
+    $field_instances['node-eventseac-field_meta_description'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -793,9 +794,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -806,12 +807,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 20,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-field_tags'.
-  $field_instances['node-eventseac-field_tags'] = array(
+    // Exported field_instance: 'node-eventseac-field_tags'.
+    $field_instances['node-eventseac-field_tags'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -834,8 +835,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Tags',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -847,12 +848,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'taxonomy_autocomplete',
       'weight' => 21,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-group_content_access'.
-  $field_instances['node-eventseac-group_content_access'] = array(
+    // Exported field_instance: 'node-eventseac-group_content_access'.
+    $field_instances['node-eventseac-group_content_access'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -875,8 +876,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Group content visibility',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -887,12 +888,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 23,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-og_group_ref'.
-  $field_instances['node-eventseac-og_group_ref'] = array(
+    // Exported field_instance: 'node-eventseac-og_group_ref'.
+    $field_instances['node-eventseac-og_group_ref'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -900,7 +901,7 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'link' => FALSE,
+          'link' => false,
         ),
         'type' => 'entityreference_label',
         'weight' => 11,
@@ -926,11 +927,11 @@ function creaeurope_core_field_default_field_instances() {
           'default' => array(
             'widget_type' => 'options_select',
           ),
-          'status' => TRUE,
+          'status' => true,
         ),
       ),
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -939,12 +940,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'og_complex',
       'weight' => 22,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-eventseac-title_field'.
-  $field_instances['node-eventseac-title_field'] = array(
+    // Exported field_instance: 'node-eventseac-title_field'.
+    $field_instances['node-eventseac-title_field'] = array(
     'bundle' => 'eventseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -964,15 +965,15 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => TRUE,
+    'required' => true,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
-        'entity' => FALSE,
-        'page' => FALSE,
+        'entity' => false,
+        'page' => false,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -982,12 +983,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 0,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-body'.
-  $field_instances['node-external_calls-body'] = array(
+    // Exported field_instance: 'node-external_calls-body'.
+    $field_instances['node-external_calls-body'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1018,12 +1019,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -1034,12 +1035,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-field_calls_deadline'.
-  $field_instances['node-external_calls-field_calls_deadline'] = array(
+    // Exported field_instance: 'node-external_calls-field_calls_deadline'.
+    $field_instances['node-external_calls-field_calls_deadline'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1099,9 +1100,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1112,12 +1113,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-field_calls_reference'.
-  $field_instances['node-external_calls-field_calls_reference'] = array(
+    // Exported field_instance: 'node-external_calls-field_calls_reference'.
+    $field_instances['node-external_calls-field_calls_reference'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1177,9 +1178,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1190,12 +1191,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-field_calls_type'.
-  $field_instances['node-external_calls-field_calls_type'] = array(
+    // Exported field_instance: 'node-external_calls-field_calls_type'.
+    $field_instances['node-external_calls-field_calls_type'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1225,8 +1226,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'calls type',
     'required' => 1,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1235,12 +1236,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_buttons',
       'weight' => 3,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-field_link'.
-  $field_instances['node-external_calls-field_link'] = array(
+    // Exported field_instance: 'node-external_calls-field_link'.
+    $field_instances['node-external_calls-field_link'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1300,9 +1301,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1313,12 +1314,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-field_meta_description'.
-  $field_instances['node-external_calls-field_meta_description'] = array(
+    // Exported field_instance: 'node-external_calls-field_meta_description'.
+    $field_instances['node-external_calls-field_meta_description'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1377,9 +1378,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1390,10 +1391,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-field_status'.
-  $field_instances['node-external_calls-field_status'] = array(
+    // Exported field_instance: 'node-external_calls-field_status'.
+    $field_instances['node-external_calls-field_status'] = array(
     'bundle' => 'external_calls',
     'default_value' => array(
       0 => array(
@@ -1429,8 +1430,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Status',
     'required' => 1,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1439,12 +1440,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_buttons',
       'weight' => 4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-field_tags'.
-  $field_instances['node-external_calls-field_tags'] = array(
+    // Exported field_instance: 'node-external_calls-field_tags'.
+    $field_instances['node-external_calls-field_tags'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1473,8 +1474,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Tags',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -1486,12 +1487,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'taxonomy_autocomplete',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-group_content_access'.
-  $field_instances['node-external_calls-group_content_access'] = array(
+    // Exported field_instance: 'node-external_calls-group_content_access'.
+    $field_instances['node-external_calls-group_content_access'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1520,8 +1521,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Group content visibility',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1532,12 +1533,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-og_group_ref'.
-  $field_instances['node-external_calls-og_group_ref'] = array(
+    // Exported field_instance: 'node-external_calls-og_group_ref'.
+    $field_instances['node-external_calls-og_group_ref'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1545,7 +1546,7 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'link' => FALSE,
+          'link' => false,
         ),
         'type' => 'entityreference_label',
         'weight' => 9,
@@ -1577,11 +1578,11 @@ function creaeurope_core_field_default_field_instances() {
           'default' => array(
             'widget_type' => 'options_select',
           ),
-          'status' => TRUE,
+          'status' => true,
         ),
       ),
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -1590,12 +1591,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'og_complex',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-external_calls-title_field'.
-  $field_instances['node-external_calls-title_field'] = array(
+    // Exported field_instance: 'node-external_calls-title_field'.
+    $field_instances['node-external_calls-title_field'] = array(
     'bundle' => 'external_calls',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1621,15 +1622,15 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => TRUE,
+    'required' => true,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
-        'entity' => FALSE,
-        'page' => FALSE,
+        'entity' => false,
+        'page' => false,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -1639,12 +1640,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 0,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-body'.
-  $field_instances['node-highlights-body'] = array(
+    // Exported field_instance: 'node-highlights-body'.
+    $field_instances['node-highlights-body'] = array(
     'bundle' => 'highlights',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1668,12 +1669,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -1684,12 +1685,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-field_abstract'.
-  $field_instances['node-highlights-field_abstract'] = array(
+    // Exported field_instance: 'node-highlights-field_abstract'.
+    $field_instances['node-highlights-field_abstract'] = array(
     'bundle' => 'highlights',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1738,9 +1739,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1751,10 +1752,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 3,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-field_images'.
-  $field_instances['node-highlights-field_images'] = array(
+    // Exported field_instance: 'node-highlights-field_images'.
+    $field_instances['node-highlights-field_images'] = array(
     'bundle' => 'highlights',
     'deleted' => 0,
     'description' => '',
@@ -1783,14 +1784,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '1000x1000',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1831,10 +1832,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-field_images_gallery'.
-  $field_instances['node-highlights-field_images_gallery'] = array(
+    // Exported field_instance: 'node-highlights-field_images_gallery'.
+    $field_instances['node-highlights-field_images_gallery'] = array(
     'bundle' => 'highlights',
     'deleted' => 0,
     'description' => '',
@@ -1870,7 +1871,7 @@ function creaeurope_core_field_default_field_instances() {
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1897,12 +1898,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 14,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-field_meta_description'.
-  $field_instances['node-highlights-field_meta_description'] = array(
+    // Exported field_instance: 'node-highlights-field_meta_description'.
+    $field_instances['node-highlights-field_meta_description'] = array(
     'bundle' => 'highlights',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1955,9 +1956,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -1968,12 +1969,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 9,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-field_tags'.
-  $field_instances['node-highlights-field_tags'] = array(
+    // Exported field_instance: 'node-highlights-field_tags'.
+    $field_instances['node-highlights-field_tags'] = array(
     'bundle' => 'highlights',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1996,8 +1997,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Tags',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -2009,12 +2010,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'taxonomy_autocomplete',
       'weight' => 10,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-group_content_access'.
-  $field_instances['node-highlights-group_content_access'] = array(
+    // Exported field_instance: 'node-highlights-group_content_access'.
+    $field_instances['node-highlights-group_content_access'] = array(
     'bundle' => 'highlights',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2037,8 +2038,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Group content visibility',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2049,12 +2050,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 12,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-og_group_ref'.
-  $field_instances['node-highlights-og_group_ref'] = array(
+    // Exported field_instance: 'node-highlights-og_group_ref'.
+    $field_instances['node-highlights-og_group_ref'] = array(
     'bundle' => 'highlights',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2062,7 +2063,7 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'link' => FALSE,
+          'link' => false,
         ),
         'type' => 'entityreference_label',
         'weight' => 4,
@@ -2088,11 +2089,11 @@ function creaeurope_core_field_default_field_instances() {
           'default' => array(
             'widget_type' => 'options_select',
           ),
-          'status' => TRUE,
+          'status' => true,
         ),
       ),
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -2101,12 +2102,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'og_complex',
       'weight' => 11,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-highlights-title_field'.
-  $field_instances['node-highlights-title_field'] = array(
+    // Exported field_instance: 'node-highlights-title_field'.
+    $field_instances['node-highlights-title_field'] = array(
     'bundle' => 'highlights',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2126,15 +2127,15 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => TRUE,
+    'required' => true,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
-        'entity' => FALSE,
-        'page' => FALSE,
+        'entity' => false,
+        'page' => false,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -2144,12 +2145,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 0,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-body'.
-  $field_instances['node-newseac-body'] = array(
+    // Exported field_instance: 'node-newseac-body'.
+    $field_instances['node-newseac-body'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2171,11 +2172,11 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'smart_trim',
         'settings' => array(
-          'more_link' => FALSE,
+          'more_link' => false,
           'more_text' => 'Read more',
           'summary_handler' => 'full',
           'trim_length' => 300,
-          'trim_link' => FALSE,
+          'trim_link' => false,
           'trim_options' => array(),
           'trim_preserve_tags' => '',
           'trim_suffix' => '...',
@@ -2188,12 +2189,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -2204,12 +2205,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_abstract'.
-  $field_instances['node-newseac-field_abstract'] = array(
+    // Exported field_instance: 'node-newseac-field_abstract'.
+    $field_instances['node-newseac-field_abstract'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2231,11 +2232,11 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'smart_trim',
         'settings' => array(
-          'more_link' => FALSE,
+          'more_link' => false,
           'more_text' => 'Read more',
           'summary_handler' => 'full',
           'trim_length' => 300,
-          'trim_link' => FALSE,
+          'trim_link' => false,
           'trim_options' => array(),
           'trim_preserve_tags' => '',
           'trim_suffix' => '...',
@@ -2280,9 +2281,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2293,10 +2294,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_categories'.
-  $field_instances['node-newseac-field_categories'] = array(
+    // Exported field_instance: 'node-newseac-field_categories'.
+    $field_instances['node-newseac-field_categories'] = array(
     'bundle' => 'newseac',
     'default_value' => array(
       0 => array(
@@ -2333,8 +2334,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'categories',
     'required' => 1,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2345,10 +2346,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 3,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_files'.
-  $field_instances['node-newseac-field_files'] = array(
+    // Exported field_instance: 'node-newseac-field_files'.
+    $field_instances['node-newseac-field_files'] = array(
     'bundle' => 'newseac',
     'deleted' => 0,
     'description' => '',
@@ -2381,11 +2382,11 @@ function creaeurope_core_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'description_field' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => 'documents/news',
       'file_extensions' => 'txt odt ods doc docx pdf',
       'max_filesize' => '',
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2418,10 +2419,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'file_generic',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_images'.
-  $field_instances['node-newseac-field_images'] = array(
+    // Exported field_instance: 'node-newseac-field_images'.
+    $field_instances['node-newseac-field_images'] = array(
     'bundle' => 'newseac',
     'deleted' => 0,
     'description' => '',
@@ -2455,7 +2456,7 @@ function creaeurope_core_field_default_field_instances() {
           'colorbox_gallery' => 'post',
           'colorbox_gallery_custom' => '',
           'colorbox_image_style' => '',
-          'colorbox_multivalue_index' => NULL,
+          'colorbox_multivalue_index' => null,
           'colorbox_node_style' => '',
           'colorbox_node_style_first' => '',
         ),
@@ -2470,14 +2471,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2504,10 +2505,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_images_gallery'.
-  $field_instances['node-newseac-field_images_gallery'] = array(
+    // Exported field_instance: 'node-newseac-field_images_gallery'.
+    $field_instances['node-newseac-field_images_gallery'] = array(
     'bundle' => 'newseac',
     'deleted' => 0,
     'description' => '',
@@ -2543,7 +2544,7 @@ function creaeurope_core_field_default_field_instances() {
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2570,12 +2571,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_meta_description'.
-  $field_instances['node-newseac-field_meta_description'] = array(
+    // Exported field_instance: 'node-newseac-field_meta_description'.
+    $field_instances['node-newseac-field_meta_description'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2628,9 +2629,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2641,12 +2642,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_news_find_out_more'.
-  $field_instances['node-newseac-field_news_find_out_more'] = array(
+    // Exported field_instance: 'node-newseac-field_news_find_out_more'.
+    $field_instances['node-newseac-field_news_find_out_more'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2700,9 +2701,9 @@ function creaeurope_core_field_default_field_instances() {
         ),
       ),
       'display_summary' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2714,12 +2715,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-field_tags'.
-  $field_instances['node-newseac-field_tags'] = array(
+    // Exported field_instance: 'node-newseac-field_tags'.
+    $field_instances['node-newseac-field_tags'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2742,8 +2743,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Tags',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -2755,12 +2756,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'taxonomy_autocomplete',
       'weight' => 9,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-group_content_access'.
-  $field_instances['node-newseac-group_content_access'] = array(
+    // Exported field_instance: 'node-newseac-group_content_access'.
+    $field_instances['node-newseac-group_content_access'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2783,8 +2784,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Group content visibility',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2795,12 +2796,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 11,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-og_group_ref'.
-  $field_instances['node-newseac-og_group_ref'] = array(
+    // Exported field_instance: 'node-newseac-og_group_ref'.
+    $field_instances['node-newseac-og_group_ref'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2808,7 +2809,7 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'link' => FALSE,
+          'link' => false,
         ),
         'type' => 'entityreference_label',
         'weight' => 8,
@@ -2834,11 +2835,11 @@ function creaeurope_core_field_default_field_instances() {
           'default' => array(
             'widget_type' => 'options_select',
           ),
-          'status' => TRUE,
+          'status' => true,
         ),
       ),
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -2847,12 +2848,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'og_complex',
       'weight' => 10,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-newseac-title_field'.
-  $field_instances['node-newseac-title_field'] = array(
+    // Exported field_instance: 'node-newseac-title_field'.
+    $field_instances['node-newseac-title_field'] = array(
     'bundle' => 'newseac',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2910,13 +2911,13 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
         'entity' => 0,
         'page' => 0,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -2927,12 +2928,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 0,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-page-body'.
-  $field_instances['node-page-body'] = array(
+    // Exported field_instance: 'node-page-body'.
+    $field_instances['node-page-body'] = array(
     'bundle' => 'page',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2956,12 +2957,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
       'display_summary' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -2972,12 +2973,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 36,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-page-title_field'.
-  $field_instances['node-page-title_field'] = array(
+    // Exported field_instance: 'node-page-title_field'.
+    $field_instances['node-page-title_field'] = array(
     'bundle' => 'page',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2997,15 +2998,15 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => TRUE,
+    'required' => true,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
-        'entity' => FALSE,
-        'page' => FALSE,
+        'entity' => false,
+        'page' => false,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -3015,12 +3016,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => -5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-body'.
-  $field_instances['node-pages-body'] = array(
+    // Exported field_instance: 'node-pages-body'.
+    $field_instances['node-pages-body'] = array(
     'bundle' => 'pages',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3044,12 +3045,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -3060,12 +3061,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 10,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-field_abstract'.
-  $field_instances['node-pages-field_abstract'] = array(
+    // Exported field_instance: 'node-pages-field_abstract'.
+    $field_instances['node-pages-field_abstract'] = array(
     'bundle' => 'pages',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3118,9 +3119,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3131,10 +3132,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 9,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-field_category'.
-  $field_instances['node-pages-field_category'] = array(
+    // Exported field_instance: 'node-pages-field_category'.
+    $field_instances['node-pages-field_category'] = array(
     'bundle' => 'pages',
     'default_value' => array(
       0 => array(
@@ -3163,8 +3164,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Category',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3175,10 +3176,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-field_images_gallery'.
-  $field_instances['node-pages-field_images_gallery'] = array(
+    // Exported field_instance: 'node-pages-field_images_gallery'.
+    $field_instances['node-pages-field_images_gallery'] = array(
     'bundle' => 'pages',
     'deleted' => 0,
     'description' => '',
@@ -3214,7 +3215,7 @@ function creaeurope_core_field_default_field_instances() {
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3241,10 +3242,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-field_page_banner'.
-  $field_instances['node-pages-field_page_banner'] = array(
+    // Exported field_instance: 'node-pages-field_page_banner'.
+    $field_instances['node-pages-field_page_banner'] = array(
     'bundle' => 'pages',
     'deleted' => 0,
     'description' => '',
@@ -3273,14 +3274,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg svg',
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3307,10 +3308,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-field_picto_title'.
-  $field_instances['node-pages-field_picto_title'] = array(
+    // Exported field_instance: 'node-pages-field_picto_title'.
+    $field_instances['node-pages-field_picto_title'] = array(
     'bundle' => 'pages',
     'deleted' => 0,
     'description' => '',
@@ -3339,14 +3340,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg svg',
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3373,12 +3374,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-field_tags'.
-  $field_instances['node-pages-field_tags'] = array(
+    // Exported field_instance: 'node-pages-field_tags'.
+    $field_instances['node-pages-field_tags'] = array(
     'bundle' => 'pages',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3401,8 +3402,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Tags',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -3414,12 +3415,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'taxonomy_autocomplete',
       'weight' => 9,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-group_content_access'.
-  $field_instances['node-pages-group_content_access'] = array(
+    // Exported field_instance: 'node-pages-group_content_access'.
+    $field_instances['node-pages-group_content_access'] = array(
     'bundle' => 'pages',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3442,8 +3443,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Group content visibility',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3454,12 +3455,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-og_group_ref'.
-  $field_instances['node-pages-og_group_ref'] = array(
+    // Exported field_instance: 'node-pages-og_group_ref'.
+    $field_instances['node-pages-og_group_ref'] = array(
     'bundle' => 'pages',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3467,7 +3468,7 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'link' => FALSE,
+          'link' => false,
         ),
         'type' => 'entityreference_label',
         'weight' => 5,
@@ -3493,11 +3494,11 @@ function creaeurope_core_field_default_field_instances() {
           'default' => array(
             'widget_type' => 'options_select',
           ),
-          'status' => TRUE,
+          'status' => true,
         ),
       ),
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -3506,12 +3507,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'og_complex',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-pages-title_field'.
-  $field_instances['node-pages-title_field'] = array(
+    // Exported field_instance: 'node-pages-title_field'.
+    $field_instances['node-pages-title_field'] = array(
     'bundle' => 'pages',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3531,15 +3532,15 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => TRUE,
+    'required' => true,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
-        'entity' => FALSE,
-        'page' => FALSE,
+        'entity' => false,
+        'page' => false,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -3549,12 +3550,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => -5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-body'.
-  $field_instances['node-project_results-body'] = array(
+    // Exported field_instance: 'node-project_results-body'.
+    $field_instances['node-project_results-body'] = array(
     'bundle' => 'project_results',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3578,12 +3579,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -3594,10 +3595,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-field_button_project'.
-  $field_instances['node-project_results-field_button_project'] = array(
+    // Exported field_instance: 'node-project_results-field_button_project'.
+    $field_instances['node-project_results-field_button_project'] = array(
     'bundle' => 'project_results',
     'default_value' => array(
       0 => array(
@@ -3656,9 +3657,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3669,10 +3670,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-field_images'.
-  $field_instances['node-project_results-field_images'] = array(
+    // Exported field_instance: 'node-project_results-field_images'.
+    $field_instances['node-project_results-field_images'] = array(
     'bundle' => 'project_results',
     'deleted' => 0,
     'description' => '',
@@ -3701,14 +3702,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3735,12 +3736,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 9,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-field_meta_description'.
-  $field_instances['node-project_results-field_meta_description'] = array(
+    // Exported field_instance: 'node-project_results-field_meta_description'.
+    $field_instances['node-project_results-field_meta_description'] = array(
     'bundle' => 'project_results',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3793,9 +3794,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3806,12 +3807,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 13,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-field_tags'.
-  $field_instances['node-project_results-field_tags'] = array(
+    // Exported field_instance: 'node-project_results-field_tags'.
+    $field_instances['node-project_results-field_tags'] = array(
     'bundle' => 'project_results',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3834,8 +3835,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Tags',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -3847,12 +3848,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'taxonomy_autocomplete',
       'weight' => 16,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-field_url_project'.
-  $field_instances['node-project_results-field_url_project'] = array(
+    // Exported field_instance: 'node-project_results-field_url_project'.
+    $field_instances['node-project_results-field_url_project'] = array(
     'bundle' => 'project_results',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3905,9 +3906,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3918,12 +3919,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 8,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-group_content_access'.
-  $field_instances['node-project_results-group_content_access'] = array(
+    // Exported field_instance: 'node-project_results-group_content_access'.
+    $field_instances['node-project_results-group_content_access'] = array(
     'bundle' => 'project_results',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3946,8 +3947,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Group content visibility',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -3958,12 +3959,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 14,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-og_group_ref'.
-  $field_instances['node-project_results-og_group_ref'] = array(
+    // Exported field_instance: 'node-project_results-og_group_ref'.
+    $field_instances['node-project_results-og_group_ref'] = array(
     'bundle' => 'project_results',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3971,7 +3972,7 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'link' => FALSE,
+          'link' => false,
         ),
         'type' => 'entityreference_label',
         'weight' => 6,
@@ -3997,11 +3998,11 @@ function creaeurope_core_field_default_field_instances() {
           'default' => array(
             'widget_type' => 'options_select',
           ),
-          'status' => TRUE,
+          'status' => true,
         ),
       ),
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -4010,12 +4011,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'og_complex',
       'weight' => 15,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-project_results-title_field'.
-  $field_instances['node-project_results-title_field'] = array(
+    // Exported field_instance: 'node-project_results-title_field'.
+    $field_instances['node-project_results-title_field'] = array(
     'bundle' => 'project_results',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4035,15 +4036,15 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => TRUE,
+    'required' => true,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
-        'entity' => FALSE,
-        'page' => FALSE,
+        'entity' => false,
+        'page' => false,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -4053,12 +4054,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 0,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-body'.
-  $field_instances['node-video_gallery-body'] = array(
+    // Exported field_instance: 'node-video_gallery-body'.
+    $field_instances['node-video_gallery-body'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4089,12 +4090,12 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'display_summary' => TRUE,
-      'entity_translation_sync' => FALSE,
+      'display_summary' => true,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -4105,12 +4106,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 2,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-field_duration'.
-  $field_instances['node-video_gallery-field_duration'] = array(
+    // Exported field_instance: 'node-video_gallery-field_duration'.
+    $field_instances['node-video_gallery-field_duration'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4164,9 +4165,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -4177,12 +4178,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-field_embed_code'.
-  $field_instances['node-video_gallery-field_embed_code'] = array(
+    // Exported field_instance: 'node-video_gallery-field_embed_code'.
+    $field_instances['node-video_gallery-field_embed_code'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4237,9 +4238,9 @@ function creaeurope_core_field_default_field_instances() {
         ),
       ),
       'display_summary' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 1,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -4251,12 +4252,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 3,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-field_meta_description'.
-  $field_instances['node-video_gallery-field_meta_description'] = array(
+    // Exported field_instance: 'node-video_gallery-field_meta_description'.
+    $field_instances['node-video_gallery-field_meta_description'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4309,9 +4310,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -4322,12 +4323,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textarea',
       'weight' => 4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-field_tags'.
-  $field_instances['node-video_gallery-field_tags'] = array(
+    // Exported field_instance: 'node-video_gallery-field_tags'.
+    $field_instances['node-video_gallery-field_tags'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4350,8 +4351,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Tags',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -4363,12 +4364,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'taxonomy_autocomplete',
       'weight' => 5,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-field_video_abstract'.
-  $field_instances['node-video_gallery-field_video_abstract'] = array(
+    // Exported field_instance: 'node-video_gallery-field_video_abstract'.
+    $field_instances['node-video_gallery-field_video_abstract'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4422,9 +4423,9 @@ function creaeurope_core_field_default_field_instances() {
           ),
         ),
       ),
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -4435,10 +4436,10 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 4,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-field_video_thumb'.
-  $field_instances['node-video_gallery-field_video_thumb'] = array(
+    // Exported field_instance: 'node-video_gallery-field_video_thumb'.
+    $field_instances['node-video_gallery-field_video_thumb'] = array(
     'bundle' => 'video_gallery',
     'deleted' => 0,
     'description' => '',
@@ -4463,14 +4464,14 @@ function creaeurope_core_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -4497,12 +4498,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'media_generic',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-group_content_access'.
-  $field_instances['node-video_gallery-group_content_access'] = array(
+    // Exported field_instance: 'node-video_gallery-group_content_access'.
+    $field_instances['node-video_gallery-group_content_access'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4525,8 +4526,8 @@ function creaeurope_core_field_default_field_instances() {
     'label' => 'Group content visibility',
     'required' => 0,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 1,
@@ -4537,12 +4538,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 7,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-og_group_ref'.
-  $field_instances['node-video_gallery-og_group_ref'] = array(
+    // Exported field_instance: 'node-video_gallery-og_group_ref'.
+    $field_instances['node-video_gallery-og_group_ref'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4550,7 +4551,7 @@ function creaeurope_core_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'link' => FALSE,
+          'link' => false,
         ),
         'type' => 'entityreference_label',
         'weight' => 8,
@@ -4576,11 +4577,11 @@ function creaeurope_core_field_default_field_instances() {
           'default' => array(
             'widget_type' => 'options_select',
           ),
-          'status' => TRUE,
+          'status' => true,
         ),
       ),
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
+      'entity_translation_sync' => false,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'active' => 0,
@@ -4589,12 +4590,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'og_complex',
       'weight' => 6,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-video_gallery-title_field'.
-  $field_instances['node-video_gallery-title_field'] = array(
+    // Exported field_instance: 'node-video_gallery-title_field'.
+    $field_instances['node-video_gallery-title_field'] = array(
     'bundle' => 'video_gallery',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4620,11 +4621,11 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => FALSE,
+    'required' => false,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -4634,12 +4635,12 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => 0,
     ),
-  );
+    );
 
-  // Exported field_instance: 'node-webform-title_field'.
-  $field_instances['node-webform-title_field'] = array(
+    // Exported field_instance: 'node-webform-title_field'.
+    $field_instances['node-webform-title_field'] = array(
     'bundle' => 'webform',
-    'default_value' => NULL,
+    'default_value' => null,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4659,15 +4660,15 @@ function creaeurope_core_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'title_field',
     'label' => 'Title',
-    'required' => TRUE,
+    'required' => true,
     'settings' => array(
-      'entity_translation_sync' => FALSE,
+      'entity_translation_sync' => false,
       'hide_label' => array(
-        'entity' => FALSE,
-        'page' => FALSE,
+        'entity' => false,
+        'page' => false,
       ),
       'text_processing' => 0,
-      'user_register_form' => FALSE,
+      'user_register_form' => false,
     ),
     'widget' => array(
       'module' => 'text',
@@ -4677,38 +4678,38 @@ function creaeurope_core_field_default_field_instances() {
       'type' => 'text_textfield',
       'weight' => -5,
     ),
-  );
+    );
 
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('Abstract');
-  t('Body');
-  t('Category');
-  t('Deadline');
-  t('Description metatag');
-  t('Embed code');
-  t('Event Date');
-  t('Event location');
-  t('Files');
-  t('Find out more');
-  t('Group content visibility');
-  t('Groups audience');
-  t('Images for the gallery');
-  t('Label button go to project');
-  t('Link');
-  t('Page banner');
-  t('Picto title');
-  t('Reference');
-  t('Status');
-  t('Tags');
-  t('Title');
-  t('Url project');
-  t('Video abstract');
-  t('Video thumb');
-  t('calls type');
-  t('categories');
-  t('duration');
-  t('images');
+    // Translatables
+    // Included for use with string extractors like potx.
+    t('Abstract');
+    t('Body');
+    t('Category');
+    t('Deadline');
+    t('Description metatag');
+    t('Embed code');
+    t('Event Date');
+    t('Event location');
+    t('Files');
+    t('Find out more');
+    t('Group content visibility');
+    t('Groups audience');
+    t('Images for the gallery');
+    t('Label button go to project');
+    t('Link');
+    t('Page banner');
+    t('Picto title');
+    t('Reference');
+    t('Status');
+    t('Tags');
+    t('Title');
+    t('Url project');
+    t('Video abstract');
+    t('Video thumb');
+    t('calls type');
+    t('categories');
+    t('duration');
+    t('images');
 
-  return $field_instances;
+    return $field_instances;
 }

@@ -4,6 +4,8 @@ core = 7.x
 package = creaeurope
 version = 7.x-1.0
 project = creaeurope_core
+php = 5.2.4
+
 dependencies[] = bean
 dependencies[] = block
 dependencies[] = bootstrap_gallery
@@ -21,7 +23,6 @@ dependencies[] = link
 dependencies[] = list
 dependencies[] = locale
 dependencies[] = media
-dependencies[] = menu
 dependencies[] = migrate
 dependencies[] = migrate_ui
 dependencies[] = multisite_metatags

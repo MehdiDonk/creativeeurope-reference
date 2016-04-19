@@ -7,11 +7,12 @@
 /**
  * Implements hook_menu_default_menu_links().
  */
-function creaeurope_core_menu_default_menu_links() {
-  $menu_links = array();
+function creaeurope_core_menu_default_menu_links() 
+{
+    $menu_links = array();
 
-  // Exported menu link: main-menu_actions:<front>.
-  $menu_links['main-menu_actions:<front>'] = array(
+    // Exported menu link: main-menu_actions:<front>.
+    $menu_links['main-menu_actions:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -42,9 +43,9 @@ function creaeurope_core_menu_default_menu_links() {
     'customized' => 1,
     'language' => 'und',
     'menu_links_customized' => 1,
-  );
-  // Exported menu link: main-menu_culture:<front>.
-  $menu_links['main-menu_culture:<front>'] = array(
+    );
+    // Exported menu link: main-menu_culture:<front>.
+    $menu_links['main-menu_culture:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -75,9 +76,9 @@ function creaeurope_core_menu_default_menu_links() {
     'customized' => 1,
     'language' => 'und',
     'menu_links_customized' => 1,
-  );
-  // Exported menu link: main-menu_eu-architecture-prize:<front>.
-  $menu_links['main-menu_eu-architecture-prize:<front>'] = array(
+    );
+    // Exported menu link: main-menu_eu-architecture-prize:<front>.
+    $menu_links['main-menu_eu-architecture-prize:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -109,9 +110,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_eu-heritage-prize:<front>.
-  $menu_links['main-menu_eu-heritage-prize:<front>'] = array(
+    );
+    // Exported menu link: main-menu_eu-heritage-prize:<front>.
+    $menu_links['main-menu_eu-heritage-prize:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -143,9 +144,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_eu-literature-prize:<front>.
-  $menu_links['main-menu_eu-literature-prize:<front>'] = array(
+    );
+    // Exported menu link: main-menu_eu-literature-prize:<front>.
+    $menu_links['main-menu_eu-literature-prize:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -177,9 +178,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_european-border-breakers-awards:<front>.
-  $menu_links['main-menu_european-border-breakers-awards:<front>'] = array(
+    );
+    // Exported menu link: main-menu_european-border-breakers-awards:<front>.
+    $menu_links['main-menu_european-border-breakers-awards:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -211,9 +212,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_european-capitals-of-culture:<front>.
-  $menu_links['main-menu_european-capitals-of-culture:<front>'] = array(
+    );
+    // Exported menu link: main-menu_european-capitals-of-culture:<front>.
+    $menu_links['main-menu_european-capitals-of-culture:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -245,9 +246,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_european-heritage-days:<front>.
-  $menu_links['main-menu_european-heritage-days:<front>'] = array(
+    );
+    // Exported menu link: main-menu_european-heritage-days:<front>.
+    $menu_links['main-menu_european-heritage-days:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -279,9 +280,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_european-heritage-label:<front>.
-  $menu_links['main-menu_european-heritage-label:<front>'] = array(
+    );
+    // Exported menu link: main-menu_european-heritage-label:<front>.
+    $menu_links['main-menu_european-heritage-label:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -313,9 +314,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_european-networks:node/54.
-  $menu_links['main-menu_european-networks:node/54'] = array(
+    );
+    // Exported menu link: main-menu_european-networks:node/54.
+    $menu_links['main-menu_european-networks:node/54'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'node/54',
     'router_path' => 'node/%',
@@ -348,9 +349,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_culture:<front>',
-  );
-  // Exported menu link: main-menu_european-platform-networks:node/54.
-  $menu_links['main-menu_european-platform-networks:node/54'] = array(
+    );
+    // Exported menu link: main-menu_european-platform-networks:node/54.
+    $menu_links['main-menu_european-platform-networks:node/54'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'node/54',
     'router_path' => 'node/%',
@@ -382,9 +383,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_culture:<front>',
-  );
-  // Exported menu link: main-menu_home:<front>.
-  $menu_links['main-menu_home:<front>'] = array(
+    );
+    // Exported menu link: main-menu_home:<front>.
+    $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -416,9 +417,9 @@ function creaeurope_core_menu_default_menu_links() {
     'customized' => 1,
     'language' => 'und',
     'menu_links_customized' => 1,
-  );
-  // Exported menu link: main-menu_media:<front>.
-  $menu_links['main-menu_media:<front>'] = array(
+    );
+    // Exported menu link: main-menu_media:<front>.
+    $menu_links['main-menu_media:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -449,9 +450,9 @@ function creaeurope_core_menu_default_menu_links() {
     'customized' => 1,
     'language' => 'und',
     'menu_links_customized' => 1,
-  );
-  // Exported menu link: main-menu_overview:culture.
-  $menu_links['main-menu_overview:culture'] = array(
+    );
+    // Exported menu link: main-menu_overview:culture.
+    $menu_links['main-menu_overview:culture'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'culture',
     'router_path' => 'culture',
@@ -483,9 +484,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_culture:<front>',
-  );
-  // Exported menu link: main-menu_prix-media:<front>.
-  $menu_links['main-menu_prix-media:<front>'] = array(
+    );
+    // Exported menu link: main-menu_prix-media:<front>.
+    $menu_links['main-menu_prix-media:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -517,9 +518,9 @@ function creaeurope_core_menu_default_menu_links() {
     'language' => 'und',
     'menu_links_customized' => 1,
     'parent_identifier' => 'main-menu_actions:<front>',
-  );
-  // Exported menu link: main-menu_updates:<front>.
-  $menu_links['main-menu_updates:<front>'] = array(
+    );
+    // Exported menu link: main-menu_updates:<front>.
+    $menu_links['main-menu_updates:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
@@ -550,26 +551,26 @@ function creaeurope_core_menu_default_menu_links() {
     'customized' => 1,
     'language' => 'und',
     'menu_links_customized' => 1,
-  );
+    );
 
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('Actions');
-  t('Culture');
-  t('EU Architecture Prize');
-  t('EU Heritage Prize');
-  t('EU Literature Prize');
-  t('European Border Breakers Awards');
-  t('European Capitals of Culture');
-  t('European Heritage Days');
-  t('European Heritage Label');
-  t('European networks');
-  t('European platform networks');
-  t('Home');
-  t('Media');
-  t('Overview');
-  t('Prix MEDIA');
-  t('Updates');
+    // Translatables
+    // Included for use with string extractors like potx.
+    t('Actions');
+    t('Culture');
+    t('EU Architecture Prize');
+    t('EU Heritage Prize');
+    t('EU Literature Prize');
+    t('European Border Breakers Awards');
+    t('European Capitals of Culture');
+    t('European Heritage Days');
+    t('European Heritage Label');
+    t('European networks');
+    t('European platform networks');
+    t('Home');
+    t('Media');
+    t('Overview');
+    t('Prix MEDIA');
+    t('Updates');
 
-  return $menu_links;
+    return $menu_links;
 }
