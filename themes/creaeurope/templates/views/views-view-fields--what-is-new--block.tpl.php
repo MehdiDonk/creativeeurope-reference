@@ -51,11 +51,11 @@
         print l($fields['type']->content, 'calls', array('attributes' => array('class' => array('calls-link'))));;
                 break;
 }
-    case 'news':{
+    case 'newseac':{
         print l($fields['type']->content, 'news', array('attributes' => array('class' => array('news-link'))));;
                 break;
 }
-    case 'events':{
+    case 'eventseac':{
         print l($fields['type']->content, 'events', array('attributes' => array('class' => array('events-link'))));;
                 break;
 }
@@ -76,7 +76,7 @@
     
     
     
-    <?php if ($fields['type']->raw == 'events') : ?>
+    <?php if ($fields['type']->raw == 'eventseac') : ?>
 			<!-- Event date fromat "from -> to". -->
     <?php if (isset($fields['field_date_from'])) : ?>
 				<!-- Content in Configure field: Content: Event Date : rewrite results -->
