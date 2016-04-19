@@ -78,7 +78,7 @@
  * @see template_process()
  */
 ?>
-<?php if (isset($type)): ?>
+<?php if (isset($type)) : ?>
   <div class="update-category">
     <?php print $type; ?>
   </div>
@@ -89,13 +89,13 @@
   <li><span class="glyphicon glyphicon-time" aria-hidden="true"></span> <?php print $date_news . ' ' . t('ago') ?> </li>
   <li><?php print $all_news_cat; ?></li>
 </ul>
-<?php if (isset($news_abstract)): ?>
+<?php if (isset($news_abstract)) : ?>
   <p class="update-abstract">
     <?php print $news_abstract; ?>
   </p>
 <?php endif; ?>
 
-<?php if (isset($news_images)): ?>
+<?php if (isset($news_images)) : ?>
   <div class="update-banner-wrapper">
     <?php print $news_images ?>
   </div>
@@ -103,7 +103,7 @@
 
 <?php print $body; ?>
 
-<?php if (isset($news_find_out_more)): ?>
+<?php if (isset($news_find_out_more)) : ?>
   <div class="update-find-out">
     <?php print $news_find_out_more ?>
   </div>

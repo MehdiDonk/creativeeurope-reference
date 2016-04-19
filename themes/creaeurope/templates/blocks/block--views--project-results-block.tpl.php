@@ -49,13 +49,13 @@
 ?>
  
 <section class="hp-projectresults">
-  <?php if ($title && $block->subject): ?>
+    <?php if ($title && $block->subject) : ?>
     <div class="container">
       <h2 class="section-title">
         <?php print $block->subject; ?>
       </h2>
     </div>
-  <?php endif; ?>
+    <?php endif; ?>
 
   <div class="container-fluid">
     <?php print $content; ?>

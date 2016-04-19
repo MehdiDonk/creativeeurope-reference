@@ -22,6 +22,6 @@
  * @ingroup themeable
  */
 ?>
-<?php if ($content): ?>
-  <?php print $content; ?>
+<?php if ($content) : ?>
+    <?php print $content; ?>
 <?php endif; ?>

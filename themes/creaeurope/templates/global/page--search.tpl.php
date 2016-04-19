@@ -103,13 +103,13 @@ global $base_url;
 <div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">   
     <div class="europa-tools">
-      <?php print $regions['header_top']; ?>
+        <?php print $regions['header_top']; ?>
     </div>
   </div>
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
-      <?php print $regions['header_right']; ?>
+        <?php print $regions['header_right']; ?>
     </span>
     <div id="main-title"><?php print $site_name; ?></div>
     <div id="sub-title" class="hidden-xs"><?php print $site_slogan; ?></div>
@@ -119,7 +119,7 @@ global $base_url;
 <?php print render($page['breadcrumbs']); ?>
 
 <header role="banner" class="main-banner search-header jumbotron">
-  <?php print render($page['mobile_nav']); ?>
+    <?php print render($page['mobile_nav']); ?>
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
@@ -129,7 +129,7 @@ global $base_url;
 	    <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/audience.svg">
 	      <h1><?php print $title; ?></h1>
-	      <?php print render($page['content_top']); ?>
+        <?php print render($page['content_top']); ?>
 	    </hgroup>
 	  </div>
 	</div>
@@ -137,7 +137,7 @@ global $base_url;
 </header>
 
 <!-- #News -->
-<?php if ($page['whatsnew']): ?>
+<?php if ($page['whatsnew']) : ?>
   <section class="strands contact ">
     <div class="container ">
       <div class="row">
@@ -151,19 +151,19 @@ global $base_url;
 
 <!-- #Content highlight -->
 <section class="content-highlight dark-section">
-  <?php if ($page['strands']): ?>
+    <?php if ($page['strands']) : ?>
   <!-- #Gris foncé -->
     <div class="container">
 	  <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <?php print render($page['strands']); ?>
+            <?php print render($page['strands']); ?>
         </div>
       </div>
     </div>
-  <?php endif; ?>
+    <?php endif; ?>
     <!-- #Gris clair -->
 
-  <?php if ($page['sections']): ?>
+    <?php if ($page['sections']) : ?>
   <div class="dark-section">
     <div class="dark-section--content">
       <div class="container">
@@ -173,13 +173,13 @@ global $base_url;
       </div>
     </div>
   </div>
-<?php endif; ?>
+    <?php endif; ?>
 </section>
 <!-- /#Content Highlight -->
 
 
 <!-- #3 columns -->
-<?php if ($page['content']): ?>
+<?php if ($page['content']) : ?>
   <section class="content-wrapper" id="searchresults">
     <div class="container">
 	  <div class="row">
@@ -193,8 +193,8 @@ global $base_url;
 <!-- #Project results -->
 <div class="container">
   <div class="col-lg-12">
-		<?php if ($page['projectresults']): ?>
-      <?php print render($page['projectresults']); ?>
+    <?php if ($page['projectresults']) : ?>
+        <?php print render($page['projectresults']); ?>
     <?php endif; ?>
   </div>
 </div>
@@ -228,7 +228,7 @@ global $base_url;
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
-      <?php print $regions['footer']; ?>
+        <?php print $regions['footer']; ?>
 	</div>
   </div>
 </footer>

@@ -30,11 +30,11 @@
  *
  * @ingroup views_templates
  */
-if ($title && $block->subject): ?>
-  <?php endif;?>
+if ($title && $block->subject) : ?>
+<?php endif;?>
   <div class="container">
     <h2 class="section-title">
-      <?php print $block->subject ?>
+        <?php print $block->subject ?>
     </h2>
     <?php
       print $content;

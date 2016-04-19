@@ -102,14 +102,14 @@ global $base_url;
 <div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
     <div class="europa-tools">
-      <?php print $regions['header_top']; ?>
+        <?php print $regions['header_top']; ?>
     </div>
   </div>
 
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
-      <?php print $regions['header_right']; ?>
+        <?php print $regions['header_right']; ?>
     </span>
     <div id="main-title"><?php print $site_name; ?></div>
     <div id="sub-title" class="hidden-xs"><?php print $site_slogan; ?></div>
@@ -122,13 +122,13 @@ global $base_url;
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
-  <?php print render($page['content_top']); ?>
+    <?php print render($page['content_top']); ?>
 </header>
 
 <div id="layout-body" class="container">
 
   <div class="row">
-    <?php if ($regions['sidebar_left']): ?>
+    <?php if ($regions['sidebar_left']) : ?>
       <div id="sidebar-left" class="col-lg-<?php print ($cols['sidebar_left']['lg']); ?> col-md-<?php print ($cols['sidebar_left']['md']); ?> col-sm-<?php print ($cols['sidebar_left']['sm']); ?> col-xs-<?php print ($cols['sidebar_left']['xs']); ?> sidebar-left visible-lg visible-md">
         <?php print $regions['sidebar_left']; ?>
       </div>
@@ -136,39 +136,39 @@ global $base_url;
 
 	<section class="main-content-wrapper col-sm-8">	
       <a id="content"></a>
-      <?php if ($page['promote']): ?>
+        <?php if ($page['promote']) : ?>
       	<div class="promotedcontent">
 	      	<?php print render($page['promote']); ?>
       	</div>
-      <?php endif; ?>
-		  <?php if ($messages): ?>
+        <?php endif; ?>
+		  <?php if ($messages) : ?>
         <div id="messages">
-	        <?php print $messages; ?>
+            <?php print $messages; ?>
         </div>
-     	<?php endif; ?>
-      <?php if ($regions['help']): ?>
+    <?php endif; ?>
+        <?php if ($regions['help']) : ?>
         <div class="tabs">
-    			<?php print $regions['help']; ?>
+        <?php print $regions['help']; ?>
   			</div>
-    	<?php endif; ?>
-      <?php if ($tabs): ?>
+        <?php endif; ?>
+        <?php if ($tabs) : ?>
         <div class="tabs tab">
-          <?php print render($tabs); ?>
+            <?php print render($tabs); ?>
         </div>
-      <?php endif; ?>
-      <?php print $regions['content']; ?>
-      <?php print $feed_icons; ?>
-      <?php if ($regions['content_bottom']): ?>
+        <?php endif; ?>
+        <?php print $regions['content']; ?>
+        <?php print $feed_icons; ?>
+        <?php if ($regions['content_bottom']) : ?>
         <div class="content_bottom">
-					<?php print $regions['content_bottom']; ?>
+        <?php print $regions['content_bottom']; ?>
         </div>
-      <?php endif; ?>
+        <?php endif; ?>
     </section>
 
-    <?php if ($regions['sidebar_right']): ?>
+    <?php if ($regions['sidebar_right']) : ?>
       <aside class="col-sm-4">
 	    <div class="sidebar-wrapper">
-          <?php print $regions['sidebar_right']; ?>
+            <?php print $regions['sidebar_right']; ?>
         </div>
 	  </aside>
     <?php endif; ?>
@@ -207,7 +207,7 @@ global $base_url;
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
-      <?php print $regions['footer']; ?>
+        <?php print $regions['footer']; ?>
 	</div>
   </div>
 </footer>

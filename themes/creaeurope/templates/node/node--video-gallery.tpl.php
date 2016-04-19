@@ -78,7 +78,7 @@
  * @see template_process()
  */
 ?>
-<?php if (isset($field_embed_code)): ?>
+<?php if (isset($field_embed_code)) : ?>
   <div class="video-gallery--embed">
     <?php print $field_embed_code; ?>
   </div>
@@ -86,19 +86,19 @@
 <div class="video-gallery--summary">
   <h1><?php print $title; ?></h1>
   <ul class="video-gallery--info">
-    <?php if (isset($date_video)): ?>
+    <?php if (isset($date_video)) : ?>
       <li><span class="glyphicon glyphicon-time" aria-hidden="true"></span> <?php print $date_video . ' ' . t('ago') ?> </li>
     <?php endif; ?>
     <li><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <?php print $field_duration ?> </li>
   </ul>
   
-  <?php if (isset($field_video_abstract) && is_string($field_video_abstract)): ?>
+    <?php if (isset($field_video_abstract) && is_string($field_video_abstract)) : ?>
     <p class="content-abstract">
-      <?php print $field_video_abstract; ?>
+        <?php print $field_video_abstract; ?>
     </p>
-  <?php endif; ?>
+    <?php endif; ?>
 </div>
-<?php if (isset($body) && strlen(trim($body)) != 0): ?>
+<?php if (isset($body) && strlen(trim($body)) != 0) : ?>
   <div class="video-gallery--content">
     <?php print $body; ?>
   </div>

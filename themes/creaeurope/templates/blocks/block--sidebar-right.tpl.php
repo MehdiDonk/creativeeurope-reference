@@ -47,7 +47,7 @@
 <div id="<?php print $block_html_id; ?>">
   
 <?php print render($title_prefix); ?>
-<?php if ($title && $block->subject): ?>
+<?php if ($title && $block->subject) : ?>
   <h2>
     <?php print $block->subject ?>
   </h2>
@@ -55,9 +55,9 @@
 <?php print render($title_suffix); ?>
 
   <div class="content"<?php print $content_attributes; ?>>
-  <?php
+    <?php
     print $content;
-   ?>
+    ?>
   </div>
 
 </div>

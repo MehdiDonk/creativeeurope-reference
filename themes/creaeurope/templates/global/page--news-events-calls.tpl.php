@@ -108,13 +108,13 @@ global $base_url;
 <div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
     <div class="europa-tools">
-      <?php print $regions['header_top']; ?>
+        <?php print $regions['header_top']; ?>
     </div>
   </div>
   <div class="container">
     <img alt="European Commission logo" id="banner-flag" src="<?php print $logo; ?>" />
     <span id="banner-image-right" class="hidden-sm hidden-xs">
-      <?php print $regions['header_right']; ?>
+        <?php print $regions['header_right']; ?>
     </span>
     <div id="main-title"><?php print $site_name; ?></div>
     <div id="sub-title" class="hidden-xs"><?php print $site_slogan; ?></div>
@@ -124,13 +124,13 @@ global $base_url;
 <?php print render($page['breadcrumbs']); ?>
 
 <header role="banner" class="main-banner updates-header jumbotron">
-  <?php print render($page['mobile_nav']); ?>
+    <?php print render($page['mobile_nav']); ?>
   <div class="region-featured-wrapper <?php print ($has_responsive_sidebar ? 'sidebar-visible-sm' : ''); ?>">
     <?php print $regions['featured']; ?>
   </div>
 </header>
 
-<?php if ($action_links): ?>
+<?php if ($action_links) : ?>
   <ul class="action-links">
     <?php print render($action_links); ?>
   </ul>
@@ -140,10 +140,10 @@ global $base_url;
   <a id="main-content"></a>
   <div class="row">
     <?php print render($title_prefix); ?>
-    <?php if ($title): ?>
-      <?php $title_image = (isset($node->field_thumbnail[LANGUAGE_NONE][0]['uri']) && $node->type == 'community' ? image_style_url('communities_thumbnail', $node->field_thumbnail[LANGUAGE_NONE][0]['uri']) : '');?>
+    <?php if ($title) : ?>
+        <?php $title_image = (isset($node->field_thumbnail[LANGUAGE_NONE][0]['uri']) && $node->type == 'community' ? image_style_url('communities_thumbnail', $node->field_thumbnail[LANGUAGE_NONE][0]['uri']) : '');?>
       <h1 class="col-lg-<?php print $cols['title']['lg']; ?> col-md-<?php print $cols['title']['md']; ?> col-sm-<?php print $cols['title']['sm']; ?> col-xs-<?php print $cols['title']['xs']; ?>" id="page-title">
-        <?php if ($title_image): ?>
+        <?php if ($title_image) : ?>
           <img src="<?php print $title_image; ?>" alt="<?php print $title; ?>" />
         <?php endif; ?>
         <?php print $title; ?>
@@ -153,17 +153,17 @@ global $base_url;
     <?php print render($title_suffix); ?>
 
     <div class="col-lg-<?php print $cols['tools']['lg']; ?> col-md-<?php print $cols['tools']['md']; ?> col-sm-<?php print $cols['tools']['sm']; ?> col-xs-<?php print $cols['tools']['xs']; ?>">
-      <?php print $regions['tools']; ?>
+        <?php print $regions['tools']; ?>
     </div>
   </div>
 
-  <?php if ($messages): ?>
+    <?php if ($messages) : ?>
     <div id="messages">
-      <?php print $messages; ?>
+        <?php print $messages; ?>
     </div><!-- /#messages -->
-  <?php endif; ?>
+    <?php endif; ?>
 
-    <?php if ($regions['sidebar_left']): ?>
+    <?php if ($regions['sidebar_left']) : ?>
       <div id="sidebar-left" class="col-lg-<?php print ($cols['sidebar_left']['lg']); ?> col-md-<?php print ($cols['sidebar_left']['md']); ?> col-sm-<?php print ($cols['sidebar_left']['sm']); ?> col-xs-<?php print ($cols['sidebar_left']['xs']); ?> sidebar-left visible-lg visible-md">
         <?php print $regions['sidebar_left']; ?>
       </div>
@@ -172,13 +172,13 @@ global $base_url;
   <div class="row">
       <a id="content"></a>
 
-      <?php if ($title): ?>
+        <?php if ($title) : ?>
         <h1 class="title" id="content-title">
-          <?php print $title; ?>
+            <?php print $title; ?>
         </h1>
-      <?php endif; ?>
+        <?php endif; ?>
 
-      <?php print $regions['content_top']; ?>
+        <?php print $regions['content_top']; ?>
   </div>
  </section>
  
@@ -188,28 +188,28 @@ global $base_url;
   <!-- calls -->
   <section class="view-all--wrapper">
     <div class="view-all--title-wrapper">
-      <?php print $regions['content_right']; ?>
+        <?php print $regions['content_right']; ?>
     </div>
     <div class="row update-highlight--wrapper">
-      <?php print $regions['content_bottom']; ?>
+        <?php print $regions['content_bottom']; ?>
     </div>
   </section>
   <!-- news -->
   <section class="view-all--wrapper">
     <div class="view-all--title-wrapper">
-      <?php print render($page['highlights']); ?>
+        <?php print render($page['highlights']); ?>
     </div>
     <div class="row update-highlight--wrapper">
-      <?php print render($page['whatsnew']); ?>
+        <?php print render($page['whatsnew']); ?>
     </div>
   </section>
   <!-- events -->
   <section class="view-all--wrapper">
     <div class="view-all--title-wrapper">
-      <?php print render($page['sections']); ?>
+        <?php print render($page['sections']); ?>
     </div>
     <div class="row update-highlight--wrapper">
-      <?php print render($page['strands']); ?>
+        <?php print render($page['strands']); ?>
     </div>
   </section>
 </div>
@@ -219,7 +219,7 @@ global $base_url;
 
 
 <div class="clearfix visible-sm visible-xs"></div>
-<?php if ($cols['sidebar_right']['md'] == 12): ?>
+<?php if ($cols['sidebar_right']['md'] == 12) : ?>
   <div class="clearfix visible-md"></div>
 <?php endif; ?>
 
@@ -233,7 +233,7 @@ global $base_url;
 
 <!-- #Actions -->
 
-<?php if ($page['actions']): ?>
+<?php if ($page['actions']) : ?>
   <section class="actions">
     <div class="container">
 	  <div class="row">
@@ -245,8 +245,8 @@ global $base_url;
 <!-- /#Actions -->
 
 <!-- #Project results -->
-<?php if ($page['projectresults']): ?>
-  <?php print render($page['projectresults']); ?>
+<?php if ($page['projectresults']) : ?>
+    <?php print render($page['projectresults']); ?>
 <?php endif; ?>
 
 <!-- link to top -->
@@ -279,7 +279,7 @@ global $base_url;
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
-      <?php print $regions['footer']; ?>
+        <?php print $regions['footer']; ?>
 	</div>
   </div>
 </footer>

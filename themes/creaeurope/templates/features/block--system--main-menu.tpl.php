@@ -57,7 +57,7 @@
       <div class="navbar-collapse navbar-ex1-collapse" data-nav-toggle="mobile--main-nav">
         <?php print $content ?>
         <div class="sm hidden-xs hidden-sm">
-          <?php print $facebook . $twitter . $newsletter; ?>
+            <?php print $facebook . $twitter . $newsletter; ?>
         </div>
       </div>
     </div><!-- /.container -->

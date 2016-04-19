@@ -46,7 +46,7 @@
 ?>
   
 <?php print render($title_prefix); ?>
-<?php if ($title && $block->subject): ?>
+<?php if ($title && $block->subject) : ?>
   <h2>
     <?php print $block->subject; ?>
   </h2>

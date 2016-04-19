@@ -78,7 +78,7 @@
  * @see template_process()
  */
 ?>
-<?php if (isset($picto_title)): ?>
+<?php if (isset($picto_title)) : ?>
   <div class="picto-title">
     <?php print $picto_title; ?>
   </div>
@@ -86,13 +86,13 @@
 
 <h1><?php print $title; ?></h1>
 
-<?php if (isset($page_banner)): ?>
+<?php if (isset($page_banner)) : ?>
   <div class="page-banner-wrapper">
     <?php print $page_banner ?>
   </div>
 <?php endif; ?>
 
-<?php if (isset($abstract)): ?>
+<?php if (isset($abstract)) : ?>
   <p class="content-abstract">
     <?php print $abstract; ?>
   </p>

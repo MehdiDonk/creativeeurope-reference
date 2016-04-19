@@ -78,7 +78,7 @@
  * @see template_process()
  */
 ?>
-<?php if (isset($type)): ?>
+<?php if (isset($type)) : ?>
   <div class="update-category">
     <?php print $type; ?>
   </div>
@@ -86,23 +86,23 @@
 
 <h1><?php print $title; ?></h1>
 <ul class="update--info">
-  <?php if (isset($event_dates)): ?>
+    <?php if (isset($event_dates)) : ?>
     <li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> <?php print $event_dates; ?> </li>
-  <?php endif; ?>
-  <?php if (isset($event_location)): ?>
+    <?php endif; ?>
+    <?php if (isset($event_location)) : ?>
     <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> <?php print $event_location; ?></li>
-  <?php endif; ?>
-  <?php if (isset($all_event_cat)): ?>
+    <?php endif; ?>
+    <?php if (isset($all_event_cat)) : ?>
     <li class="update--inline-cat"><?php print $all_event_cat; ?></li>
-  <?php endif; ?>
+    <?php endif; ?>
 </ul>
-<?php if (isset($event_abstract)): ?>
+<?php if (isset($event_abstract)) : ?>
   <p class="update-abstract">
     <?php print $event_abstract; ?>
   </p>
 <?php endif; ?>
 
-<?php if (isset($event_images)): ?>
+<?php if (isset($event_images)) : ?>
   <div class="update-banner-wrapper">
     <?php print $event_images ?>
   </div>
@@ -110,7 +110,7 @@
 
 <?php print $body; ?>
 
-<?php if (isset($event_find_out_more)): ?>
+<?php if (isset($event_find_out_more)) : ?>
   <div class="update-find-out">
     <?php print $event_find_out_more ?>
   </div>
