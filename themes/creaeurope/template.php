@@ -178,7 +178,7 @@ function creaeurope_preprocess_node(&$variables)
         }
     }
 
-    if ($node->type === 'news') {
+    if ($node->type === 'newseac') {
         $content = $variables['content'];
 
         if (isset($content['type'])) {

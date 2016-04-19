@@ -51,7 +51,8 @@
 				}
 				
 				.ec-flat-logo {
-					width: 100%;
+					width: 80%;
+					float: right;
 					padding-right: 15px;
 					display: block;
 				}					
@@ -94,7 +95,7 @@
 			.dropdown {
 				&.open {
 					background: $primary-color;
-					height: calc(100vh - 60px);
+					min-height: calc(100vh - 60px);
 				}
 				
 				li {
@@ -159,6 +160,16 @@
 						font-weight: 400;
 						line-height: 1;
 						-webkit-font-smoothing: antialiased;
+					}
+					
+					&.dropdown-active {
+						padding-left: 45px;
+						border-bottom: 1px dashed rgba(255, 255, 255, .3);
+						
+						&::after {
+							content: "\e257";
+							left: 15px;
+						}
 					}
 
           
@@ -289,12 +300,12 @@
 						font-family: $font-stack !important;
 						
 						.caret {
-							display: inline;
+							display: inline-block;
 						}
 						
 						
 						&::after {
-							display: none;
+							display: none !important;
 						}
 					}
 					

@@ -101,7 +101,7 @@
                             setTimeout(
                                 function(){
                                     $(li).animate(anim, 500);
-                                },100 + ( idx * 50 )
+                                },0 + ( idx * 50 )
                             );
                         }
                     );
@@ -122,7 +122,7 @@
                             );
                                             
                             $(".dropdown").css('right','auto');
-														$('#main-menu .navbar .menu.nav > li.open > a::after').css('content','\e257');
+														$(this).addClass('toggleBack');
                                         
                             $(".dropdown").animate(
                                 {
@@ -133,6 +133,8 @@
                                         
                         } else {
                             $(".dropdown.open").css('right','-1000px');
+														
+														$('.navbar').scrollTop(0);
                                         
                             $(".dropdown.open").animate(
                                 {
@@ -145,7 +147,7 @@
                                         
                             $('.navbar-container').animate(
                                 {
-                                    left: -500
+                                    left: -500,
                                 }, 200, function() {
 																	
                                 }
