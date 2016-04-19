@@ -7,36 +7,33 @@
 /**
  * Implements hook_ctools_plugin_api().
  */
-function creaeurope_core_ctools_plugin_api($module = null, $api = null) 
-{
-    if ($module == "context" && $api == "context") {
-        return array("version" => "3");
-    }
-    if ($module == "field_group" && $api == "field_group") {
-        return array("version" => "1");
-    }
-    if ($module == "strongarm" && $api == "strongarm") {
-        return array("version" => "1");
-    }
+function creaeurope_core_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "context" && $api == "context") {
+    return array("version" => "3");
+  }
+  if ($module == "field_group" && $api == "field_group") {
+    return array("version" => "1");
+  }
+  if ($module == "strongarm" && $api == "strongarm") {
+    return array("version" => "1");
+  }
 }
 
 /**
  * Implements hook_views_api().
  */
-function creaeurope_core_views_api($module = null, $api = null) 
-{
-    return array("api" => "3.0");
+function creaeurope_core_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
 }
 
 /**
  * Implements hook_image_default_styles().
  */
-function creaeurope_core_image_default_styles() 
-{
-    $styles = array();
+function creaeurope_core_image_default_styles() {
+  $styles = array();
 
-    // Exported image style: actions_360_204.
-    $styles['actions_360_204'] = array(
+  // Exported image style: actions_360_204.
+  $styles['actions_360_204'] = array(
     'label' => 'Actions 360*204',
     'effects' => array(
       14 => array(
@@ -48,10 +45,10 @@ function creaeurope_core_image_default_styles()
         'weight' => 1,
       ),
     ),
-    );
+  );
 
-    // Exported image style: highlights_big.
-    $styles['highlights_big'] = array(
+  // Exported image style: highlights_big.
+  $styles['highlights_big'] = array(
     'label' => 'Highlights big (588x278)',
     'effects' => array(
       3 => array(
@@ -63,10 +60,10 @@ function creaeurope_core_image_default_styles()
         'weight' => 2,
       ),
     ),
-    );
+  );
 
-    // Exported image style: highlights_little.
-    $styles['highlights_little'] = array(
+  // Exported image style: highlights_little.
+  $styles['highlights_little'] = array(
     'label' => 'Highlights little (233x110)',
     'effects' => array(
       4 => array(
@@ -87,10 +84,10 @@ function creaeurope_core_image_default_styles()
         'weight' => 2,
       ),
     ),
-    );
+  );
 
-    // Exported image style: news-events-calls-big.
-    $styles['news-events-calls-big'] = array(
+  // Exported image style: news-events-calls-big.
+  $styles['news-events-calls-big'] = array(
     'label' => 'News events calls big (1140x500)',
     'effects' => array(
       10 => array(
@@ -102,10 +99,10 @@ function creaeurope_core_image_default_styles()
         'weight' => 2,
       ),
     ),
-    );
+  );
 
-    // Exported image style: news_events_calls_little__370x180_.
-    $styles['news_events_calls_little__370x180_'] = array(
+  // Exported image style: news_events_calls_little__370x180_.
+  $styles['news_events_calls_little__370x180_'] = array(
     'label' => 'News events calls little (370x140)',
     'effects' => array(
       12 => array(
@@ -117,10 +114,10 @@ function creaeurope_core_image_default_styles()
         'weight' => 2,
       ),
     ),
-    );
+  );
 
-    // Exported image style: news_events_calls_medium__760x280_.
-    $styles['news_events_calls_medium__760x280_'] = array(
+  // Exported image style: news_events_calls_medium__760x280_.
+  $styles['news_events_calls_medium__760x280_'] = array(
     'label' => 'News events calls medium (760x280)',
     'effects' => array(
       11 => array(
@@ -132,10 +129,10 @@ function creaeurope_core_image_default_styles()
         'weight' => 2,
       ),
     ),
-    );
+  );
 
-    // Exported image style: project_results_big.
-    $styles['project_results_big'] = array(
+  // Exported image style: project_results_big.
+  $styles['project_results_big'] = array(
     'label' => 'Project results big',
     'effects' => array(
       5 => array(
@@ -147,10 +144,10 @@ function creaeurope_core_image_default_styles()
         'weight' => 1,
       ),
     ),
-    );
+  );
 
-    // Exported image style: project_results_little.
-    $styles['project_results_little'] = array(
+  // Exported image style: project_results_little.
+  $styles['project_results_little'] = array(
     'label' => 'Project results little',
     'effects' => array(
       6 => array(
@@ -162,18 +159,25 @@ function creaeurope_core_image_default_styles()
         'weight' => 1,
       ),
     ),
-    );
+  );
 
-    return $styles;
+  return $styles;
 }
 
 /**
  * Implements hook_node_info().
  */
-function creaeurope_core_node_info() 
-{
-    $items = array(
-    'events' => array(
+function creaeurope_core_node_info() {
+  $items = array(
+    'articles' => array(
+      'name' => t('Articles EAC'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'eventseac' => array(
       'name' => t('Events'),
       'base' => 'node_content',
       'description' => '',
@@ -197,8 +201,16 @@ function creaeurope_core_node_info()
       'title_label' => t('Title'),
       'help' => '',
     ),
-    'news' => array(
+    'newseac' => array(
       'name' => t('News'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'pages' => array(
+      'name' => t('Basic pages EAC'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
@@ -221,15 +233,7 @@ function creaeurope_core_node_info()
       'title_label' => t('Title'),
       'help' => '',
     ),
-    'webform' => array(
-      'name' => t('Webform'),
-      'base' => 'node_content',
-      'description' => t('Create a new form or questionnaire accessible to users. Submission results and statistics are recorded and accessible to privileged users.'),
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'help' => '',
-    ),
-    );
-    drupal_alter('node_info', $items);
-    return $items;
+  );
+  drupal_alter('node_info', $items);
+  return $items;
 }

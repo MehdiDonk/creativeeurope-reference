@@ -7,9 +7,8 @@
 /**
  * Implements hook_contact_categories_defaults().
  */
-function creaeurope_core_contact_categories_defaults() 
-{
-    return array(
+function creaeurope_core_contact_categories_defaults() {
+  return array(
     'Website feedback' => array(
       'category' => 'Website feedback',
       'recipients' => '',
@@ -17,5 +16,5 @@ function creaeurope_core_contact_categories_defaults()
       'weight' => 0,
       'selected' => 1,
     ),
-    );
+  );
 }

@@ -7,9 +7,8 @@
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function creaeurope_core_taxonomy_default_vocabularies() 
-{
-    return array(
+function creaeurope_core_taxonomy_default_vocabularies() {
+  return array(
     'resources' => (object) array(
       'name' => 'Resources',
       'machine_name' => 'resources',
@@ -35,5 +34,5 @@ function creaeurope_core_taxonomy_default_vocabularies()
         ),
       ),
     ),
-    );
+  );
 }
