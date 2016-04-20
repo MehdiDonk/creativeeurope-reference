@@ -22,6 +22,8 @@
     width: 100%;
     border-color: transparent !important;
     border: none;
+		
+		@include box-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
     @include transition-property(all);
     @include transition-duration(.2s);
 
@@ -348,12 +350,14 @@
       background-color: $primary-deep-dark-color !important;
       height: 75px;
 			overflow: visible;
+			@include box-shadow(none);
 			
 			.menu {
 				.dropdown {
 					&.open {
 						background: none;
 						height: auto;
+						min-height: auto;
 					}
 				}
 			}
