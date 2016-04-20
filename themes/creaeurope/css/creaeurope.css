@@ -2853,19 +2853,15 @@ footer #smk-twitter_user_timeline {
   display: inline-block;
 }
 /* line 126, ../sass/layout/_footer.scss */
-.footer--last-update .footer--last-update--wrapper a[href="#top-page"] {
-  float: none;
-}
-/* line 130, ../sass/layout/_footer.scss */
 .footer--last-update .footer--last-update--wrapper .menu {
-  float: none;
+  float: right;
 }
-/* line 135, ../sass/layout/_footer.scss */
+/* line 131, ../sass/layout/_footer.scss */
 .footer--last-update ul {
   margin: 0;
   float: left;
 }
-/* line 140, ../sass/layout/_footer.scss */
+/* line 136, ../sass/layout/_footer.scss */
 .footer--last-update ul li,
 .footer--last-update span,
 .footer--last-update .footer--last-update--wrapper > a {
@@ -2877,44 +2873,44 @@ footer #smk-twitter_user_timeline {
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 152, ../sass/layout/_footer.scss */
+/* line 148, ../sass/layout/_footer.scss */
 .footer--last-update ul li a {
   border-left: 1px solid #fff;
   vertical-align: top;
 }
-/* line 156, ../sass/layout/_footer.scss */
+/* line 152, ../sass/layout/_footer.scss */
 .footer--last-update ul li a:first-child {
   border: none;
 }
-/* line 161, ../sass/layout/_footer.scss */
+/* line 157, ../sass/layout/_footer.scss */
 .footer--last-update a:visited {
   color: #d9d0ff;
 }
-/* line 165, ../sass/layout/_footer.scss */
+/* line 161, ../sass/layout/_footer.scss */
 .footer--last-update span {
   font-size: .8em;
 }
 
 /* Small resolution : Min breakpoint - 768px */
 @media screen and (min-width: 48em) {
-  /* line 178, ../sass/layout/_footer.scss */
+  /* line 174, ../sass/layout/_footer.scss */
   footer .footer--row-one {
     margin-bottom: 30px;
   }
-  /* line 182, ../sass/layout/_footer.scss */
+  /* line 178, ../sass/layout/_footer.scss */
   footer .feedback-form {
     border: none;
   }
-  /* line 186, ../sass/layout/_footer.scss */
+  /* line 182, ../sass/layout/_footer.scss */
   footer .sm {
     float: right;
     padding: 0;
   }
-  /* line 191, ../sass/layout/_footer.scss */
+  /* line 187, ../sass/layout/_footer.scss */
   footer > div h2:first-child {
     margin-top: 0 !important;
   }
-  /* line 195, ../sass/layout/_footer.scss */
+  /* line 191, ../sass/layout/_footer.scss */
   footer #smk-twitter_user_timeline {
     margin-top: 0;
   }
