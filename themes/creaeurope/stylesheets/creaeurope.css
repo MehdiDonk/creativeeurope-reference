@@ -38,4 +38,5 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - /home/maerchr/Stash/creativeeurope-dev/themes/creaeurope/.sass-cache/7eb38482e7e6e82ecd73266705a902893f4d21be/creaeurope.scssc20160329-22319-1ei2tyu.lock"; }
+  content: "Errno::ENOENT: No such file or directory - /home/maerchr/Stash/creativeeurope-dev/themes/creaeurope/.sass-cache/7eb38482e7e6e82ecd73266705a902893f4d21be/creaeurope.scssc20160329-22319-1ei2tyu.lock";
+}

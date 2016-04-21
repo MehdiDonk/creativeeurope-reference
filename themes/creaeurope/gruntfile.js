@@ -1,6 +1,10 @@
-// TBD / TBI :  http://ipestov.com/essential-plugins-for-grunt/
+/**
+ * @file
+ * TBD / TBI :  http://ipestov.com/essential-plugins-for-grunt/.
+ */
+
 module.exports = function (grunt) {
-    grunt.initConfig(
+  grunt.initConfig(
         {
             watch: {
                 src: {
@@ -24,9 +28,7 @@ module.exports = function (grunt) {
             }
         }
     );
-    grunt.loadNpmTasks('grunt-contrib-compass');
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 };
-
-

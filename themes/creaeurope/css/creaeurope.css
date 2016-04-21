@@ -6,19 +6,87 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -33,7 +101,8 @@ html {
 }
 
 /* line 24, ../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -44,18 +113,24 @@ table {
 }
 
 /* line 28, ../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
+caption,
+th,
+td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
 /* line 30, ../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
+q,
+blockquote {
   quotes: none;
 }
 /* line 103, ../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
   content: "";
   content: none;
 }
@@ -66,7 +141,19 @@ a img {
 }
 
 /* line 116, ../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
@@ -189,7 +276,10 @@ hgroup p {
 }
 
 /* line 115, ../sass/_chris.scss */
-.content_bottom a:hover, .content_bottom a:active, .content_bottom a:visited, .content_bottom a {
+.content_bottom a:hover,
+.content_bottom a:active,
+.content_bottom a:visited,
+.content_bottom a {
   text-decoration: none;
   color: white !important;
 }
@@ -291,7 +381,7 @@ hgroup p {
 }
 /* line 82, ../sass/base/_global.scss */
 .europa-tools .list-group li a {
-  color: #0065A2;
+  color: #0065a2;
   font-size: .8em;
 }
 
@@ -533,7 +623,10 @@ section.overview--main-content p:last-child {
   transition: all 0.3s ease;
 }
 /* line 347, ../sass/base/_global.scss */
-.image-text-box .image-text-box--wrapper > a:not(.button):visited, .image-text-box .image-text-box--wrapper > a:not(.button):hover, .image-text-box .image-text-box--wrapper > a:not(.button):active, .image-text-box .image-text-box--wrapper > a:not(.button):focus {
+.image-text-box .image-text-box--wrapper > a:not(.button):visited,
+.image-text-box .image-text-box--wrapper > a:not(.button):hover,
+.image-text-box .image-text-box--wrapper > a:not(.button):active,
+.image-text-box .image-text-box--wrapper > a:not(.button):focus {
   color: #d9d0ff !important;
 }
 
@@ -939,7 +1032,10 @@ section.overview--main-content p:last-child {
     transition: all 0.3s ease;
   }
   /* line 808, ../sass/base/_global.scss */
-  .image-text-box .image-text-box--wrapper > a:not(.button):visited, .image-text-box .image-text-box--wrapper > a:not(.button):hover, .image-text-box .image-text-box--wrapper > a:not(.button):active, .image-text-box .image-text-box--wrapper > a:not(.button):focus {
+  .image-text-box .image-text-box--wrapper > a:not(.button):visited,
+  .image-text-box .image-text-box--wrapper > a:not(.button):hover,
+  .image-text-box .image-text-box--wrapper > a:not(.button):active,
+  .image-text-box .image-text-box--wrapper > a:not(.button):focus {
     color: #d9d0ff !important;
   }
 
@@ -1323,7 +1419,10 @@ p {
 }
 
 /* line 17, ../sass/base/_typography.scss */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 1.777em 0 0.563em !important;
   font-weight: inherit;
   line-height: 1.2;
@@ -1395,7 +1494,8 @@ h4 {
 }
 
 /* line 84, ../sass/base/_typography.scss */
-small, .font_small {
+small,
+.font_small {
   font-size: 0.75em;
 }
 
@@ -1440,7 +1540,9 @@ small, .font_small {
   text-align: center;
 }
 /* line 17, ../sass/components/_buttons.scss */
-.button--primary:hover, .button--primary:active, .button--primary:focus {
+.button--primary:hover,
+.button--primary:active,
+.button--primary:focus {
   background: #5b43bf !important;
   color: #fff !important;
   text-decoration: none !important;
@@ -1455,7 +1557,9 @@ small, .font_small {
   text-align: center;
 }
 /* line 17, ../sass/components/_buttons.scss */
-.button--secondary:hover, .button--secondary:active, .button--secondary:focus {
+.button--secondary:hover,
+.button--secondary:active,
+.button--secondary:focus {
   background: #d93d28 !important;
   color: #fff !important;
   text-decoration: none !important;
@@ -1466,11 +1570,13 @@ small, .font_small {
 }
 /* line 44, ../sass/components/_buttons.scss */
 .button--twitter {
-  background-color: #4099FF;
+  background-color: #4099ff;
   text-align: center;
 }
 /* line 17, ../sass/components/_buttons.scss */
-.button--twitter:hover, .button--twitter:active, .button--twitter:focus {
+.button--twitter:hover,
+.button--twitter:active,
+.button--twitter:focus {
   background: #0d7eff !important;
   color: #fff !important;
   text-decoration: none !important;
@@ -1481,11 +1587,13 @@ small, .font_small {
 }
 /* line 44, ../sass/components/_buttons.scss */
 .button--facebook {
-  background-color: #3B5998;
+  background-color: #3b5998;
   text-align: center;
 }
 /* line 17, ../sass/components/_buttons.scss */
-.button--facebook:hover, .button--facebook:active, .button--facebook:focus {
+.button--facebook:hover,
+.button--facebook:active,
+.button--facebook:focus {
   background: #2d4373 !important;
   color: #fff !important;
   text-decoration: none !important;
@@ -1573,7 +1681,9 @@ small, .font_small {
     text-align: center;
   }
   /* line 17, ../sass/components/_buttons.scss */
-  .button--primary:hover, .button--primary:active, .button--primary:focus {
+  .button--primary:hover,
+  .button--primary:active,
+  .button--primary:focus {
     background: #5b43bf !important;
     color: #fff !important;
     text-decoration: none !important;
@@ -1588,7 +1698,9 @@ small, .font_small {
     text-align: center;
   }
   /* line 17, ../sass/components/_buttons.scss */
-  .button--secondary:hover, .button--secondary:active, .button--secondary:focus {
+  .button--secondary:hover,
+  .button--secondary:active,
+  .button--secondary:focus {
     background: #d93d28 !important;
     color: #fff !important;
     text-decoration: none !important;
@@ -1599,11 +1711,13 @@ small, .font_small {
   }
   /* line 130, ../sass/components/_buttons.scss */
   .button--twitter {
-    background-color: #4099FF;
+    background-color: #4099ff;
     text-align: center;
   }
   /* line 17, ../sass/components/_buttons.scss */
-  .button--twitter:hover, .button--twitter:active, .button--twitter:focus {
+  .button--twitter:hover,
+  .button--twitter:active,
+  .button--twitter:focus {
     background: #0d7eff !important;
     color: #fff !important;
     text-decoration: none !important;
@@ -1614,11 +1728,13 @@ small, .font_small {
   }
   /* line 130, ../sass/components/_buttons.scss */
   .button--facebook {
-    background-color: #3B5998;
+    background-color: #3b5998;
     text-align: center;
   }
   /* line 17, ../sass/components/_buttons.scss */
-  .button--facebook:hover, .button--facebook:active, .button--facebook:focus {
+  .button--facebook:hover,
+  .button--facebook:active,
+  .button--facebook:focus {
     background: #2d4373 !important;
     color: #fff !important;
     text-decoration: none !important;
@@ -2098,7 +2214,7 @@ header.actions-header {
   float: left;
   font-size: 1.2em !important;
   margin: 0 !important;
-  color: #074A8B;
+  color: #074a8b;
 }
 /* line 55, ../sass/layout/_nav.scss */
 #main-menu .navbar .menu-mobile li .ec-flat-logo {
@@ -2121,7 +2237,7 @@ header.actions-header {
 }
 /* line 72, ../sass/layout/_nav.scss */
 #main-menu .navbar .menu-mobile li button svg line {
-  stroke: #074A8B;
+  stroke: #074a8b;
 }
 /* line 82, ../sass/layout/_nav.scss */
 #main-menu .navbar .navbar-container {
@@ -2685,7 +2801,7 @@ aside .sidebar-wrapper #block-views-highlights-block-1 .content h1 a {
 /* FIND OUT MORE */
 /* line 172, ../sass/layout/_aside.scss */
 aside.find-more--wrapper {
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding: 60px 0 30px;
 }
 /* line 176, ../sass/layout/_aside.scss */
@@ -3217,7 +3333,7 @@ footer #smk-twitter_user_timeline {
 }
 /* line 1, ../sass/pages/_actions.scss */
 .actions-box--wrapper {
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -3327,30 +3443,35 @@ footer #smk-twitter_user_timeline {
   top: 0;
 }
 /* line 63, ../sass/pages/_updates.scss */
-.updates-container article.update-highlight--medium, .updates-container article.update-highlight--small {
+.updates-container article.update-highlight--medium,
+.updates-container article.update-highlight--small {
   margin-bottom: 15px;
   padding-top: 15px;
   border-top: 1px dashed #ddd;
 }
 /* line 69, ../sass/pages/_updates.scss */
-.updates-container article.update-highlight--medium h1, .updates-container article.update-highlight--small h1 {
+.updates-container article.update-highlight--medium h1,
+.updates-container article.update-highlight--small h1 {
   font-size: 1em !important;
 }
 /* line 73, ../sass/pages/_updates.scss */
-.updates-container article.update-highlight--medium .update-highlight--content, .updates-container article.update-highlight--small .update-highlight--content {
+.updates-container article.update-highlight--medium .update-highlight--content,
+.updates-container article.update-highlight--small .update-highlight--content {
   max-width: calc(100% - 33.333%);
   float: left;
   padding-left: 10px;
 }
 /* line 79, ../sass/pages/_updates.scss */
-.updates-container article.update-highlight--medium img, .updates-container article.update-highlight--small img {
+.updates-container article.update-highlight--medium img,
+.updates-container article.update-highlight--small img {
   height: 80px;
   width: 33.333%;
   object-fit: cover;
   float: left;
 }
 /* line 86, ../sass/pages/_updates.scss */
-.updates-container article.update-highlight--medium .update-category, .updates-container article.update-highlight--small .update-category {
+.updates-container article.update-highlight--medium .update-category,
+.updates-container article.update-highlight--small .update-category {
   position: absolute;
   left: 15px;
   top: 15px;

@@ -8,9 +8,9 @@ Error: File to import not found or unreadable: compass/reset.
 4:  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> *\/
 5: @import "compass/reset";
 6: @import "compass/utilities";
-7: 
+7:
 8: /* MMenu Updates *\/
-9: 
+9:
 10: .mm-menu.mm-hasheader li.mm-subtitle {
 
 Backtrace:
@@ -57,4 +57,5 @@ creaeurope.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 5 of creaeurope.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: @import \"compass/reset\";\A 6: @import \"compass/utilities\";\A 7: \A 8: /* MMenu Updates */\A 9: \A 10: .mm-menu.mm-hasheader li.mm-subtitle {"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 5 of creaeurope.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: @import \"compass/reset\";\A 6: @import \"compass/utilities\";\A 7: \A 8: /* MMenu Updates */\A 9: \A 10: .mm-menu.mm-hasheader li.mm-subtitle {";
+}
