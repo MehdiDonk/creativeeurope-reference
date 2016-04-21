@@ -156,6 +156,18 @@
                     }
                 );
             }
+						
+						$('.dropdown-menu li a').on(
+                    'click', function () {
+											$('.navbar-container').css('display','none');
+											
+											$(".navbar").animate(
+                        {
+                            height:'60px'
+                        }, 20, function() {
+                        }
+											);
+										});
                         
         
         
