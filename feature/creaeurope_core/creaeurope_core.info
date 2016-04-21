@@ -24,7 +24,6 @@ dependencies[] = list
 dependencies[] = locale
 dependencies[] = media
 dependencies[] = migrate
-dependencies[] = migrate_ui
 dependencies[] = multisite_metatags
 dependencies[] = multisite_twitterblock
 dependencies[] = nexteuropa_multilingual
