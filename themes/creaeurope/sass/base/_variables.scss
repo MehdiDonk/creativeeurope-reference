@@ -1,0 +1,35 @@
+/* Typography */
+/* Removed : 'ECSquareSansProRegular' ECSquareSansProBold & from font-stack' */
+$font-stack: 'ECSquareSansProRegular',Verdana,Geneva,sans-serif; 
+$font-stack-bold: 'ECSquareSansProBold', Verdana,Geneva,sans-serif;
+$font-stack-ec : 'ECSquareSansProRegular', Verdana,Geneva,sans-serif;
+$font-stack-ec-bold : 'ECSquareSansProBold', Verdana,Geneva,sans-serif;
+
+
+
+/* Colors */
+$primary-color: #7c69cc;
+$primary-light-color: #d9d0ff; 
+$primary-dark-color: #433580;
+$primary-deep-dark-color: #2a2733; 
+
+$text-color: #878787;
+$text-color-light: #d3d3d3;
+$text-color-dark: #1a1a1e;
+$link-color: #e16453;
+
+$secondary-color: #e16453;
+$fb-color: #3B5998;
+$tw-color: #4099FF;
+
+$dark-background-color: #3d3d44;
+$dark-background-secondary-color: #50505b;
+$dark-background-text-color: #e2e1f4;
+
+$light-background-color: #ededf4;
+
+
+
+
+
+/* Transition effects */

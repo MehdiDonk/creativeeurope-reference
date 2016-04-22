@@ -1,0 +1,92 @@
+.smk-tweets {
+	li {
+		border: 1px solid rgba(255, 255, 255, .5) !important;
+		font-size: .8em;
+		margin-bottom: 15px !important;
+        color: $dark-background-text-color;
+		
+		p {
+			padding: 15px 15px 0 15px !important;
+			line-height: 1.66em !important;
+		}
+		
+		p.smk-twitter-actions {
+			padding: 0 15px 5px 15px !important;
+		}
+		
+		a,
+		a:hover,
+		a:active {
+			color: $primary-light-color;
+			text-decoration: none;
+			font-size: 1em;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+	.smk-twitter-actions {
+	    position: relative;
+			font-family: 'Glyphicons Halflings';
+			-webkit-font-smoothing: antialiased;
+		
+		.ago {
+			color: $dark-background-text-color;
+			font-family: $font-stack-ec;
+			opacity: .8;
+		}
+		
+		a {
+			background: none;
+			opacity: .7;
+			width: auto;
+			height: auto;
+			width: 20px;
+			text-align: center;
+			transition: all .4s;
+			
+			&:hover {
+				opacity: 1;
+				text-decoration: none;
+			}
+			
+			&::before {
+				font-size: 1.2em !important;
+				color: #fff;
+			}
+			
+			&.retweet::before {
+				content: "\e115";
+			}
+			
+			&.reply::before {
+				content: "\e111";
+			}
+			
+			&.favourite::before {
+				content: "\e006";
+			}
+		}
+		
+	}
+}
+
+.tweet_more {
+	background: url("../images/pictos/twitter.svg") no-repeat left center;
+	background-size: 24px;
+	padding-left: 30px;
+	float: right !important;
+	padding-top: 0 !important;
+	text-decoration: none !important;
+	font-size: .88em;
+	
+	a {
+		text-decoration: none !important;
+		text-transform: uppercase;
+		color: $primary-light-color !important;
+		
+		&:hover {
+			text-decoration: underline !important;
+		}
+	}
+}

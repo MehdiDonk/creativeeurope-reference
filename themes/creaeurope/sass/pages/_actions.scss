@@ -1,0 +1,56 @@
+.actions-box--wrapper {
+  background: #F6F6F6;
+  padding-bottom: 60px;
+	padding-top: 60px;
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+		margin: 0;
+		
+    article {
+      display: flex;
+      margin-bottom: 15px;
+			padding-bottom: 15px;
+			border-bottom: 1px dashed #ccc;
+    }
+    
+    .button-more-section--wrapper {
+      width: 100%;
+      display: inline-block;
+      
+      .button {
+        width: calc(100% - 30px);
+      }
+    
+    }
+
+  }
+
+}
+
+/* Large resolution */
+@include breakpoint(sm-min){
+  .actions-box--wrapper {
+    padding-bottom: 30px;
+    
+    .row {
+		
+			article {
+				margin-bottom: 30px;
+				padding-bottom: 0;
+				border: none;
+			}
+    
+      .button-more-section--wrapper {
+        width: auto;
+        
+        .button {
+          width: auto;
+        }
+      
+      }
+      
+    }
+  }
+}
