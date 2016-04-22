@@ -3,8 +3,8 @@
  */
 
 (function ($) {
-    $(document).ready(
-        function () {
+  Drupal.behaviors.creativeurope = {
+    attach: function (context, settings) {
             jQuery('img.svg, .svg img').each(
                 function () {
                     var $img = jQuery(this);
@@ -184,6 +184,6 @@
                 }
             );
 
-        }
-    );
+    }
+  };
 })(jQuery);
