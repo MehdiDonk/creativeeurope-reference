@@ -1,0 +1,49 @@
+.page-contact {
+	header {
+		.button {
+			width: 100%;
+			margin-bottom: 15px;
+			font-size: 16px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+	
+	.contact {
+		a.button {
+			margin-top: 15px;
+		}
+	}
+}
+
+
+
+
+/* Large Mobile resolution - Min breakpoint - 425px */
+@include breakpoint(xs-min){
+	.page-contact {
+		header {
+			.button {
+				width: auto;
+				padding: .6em 1.4em;
+				display: table;
+			}
+		}
+		
+	}
+}
+
+
+
+
+
+/* Medium resolution : Small devices - Min breakpoint - 768px */
+@include breakpoint(sm-min){
+	.page-contact {
+		header {
+			.button {
+				display: inline-block;
+			}
+		}
+	}
+}

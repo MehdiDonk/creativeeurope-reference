@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*!
+========== CHRISTOPHE STYLE
+*/
+// Main parts (footer, header, ...)
+@import '_chris';
+
+/*!
+========== VENDORS
+*/
+// styles reset (normalize) and third party scss entry point
+@import 'vendors/__vendors';
+
+
+/*!
+========== BASE
+*/
+// variables, fonts, mixins, helpers... common styles used across the entire site
+@import 'base/__base';
+
+
+/*!
+========== COMPONENTS
+*/
+// reusable components such as forms, sliders, etc.
+@import 'components/__components';
+
+
+/*!
+========== LAYOUT
+*/
+// Main parts (footer, header, ...)
+@import 'layout/__layout';
+
+
+/*!
+========== PAGES
+*/
+// Specific pages styles  (homepage, level1, ...)
+@import 'pages/__pages';
