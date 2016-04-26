@@ -3,8 +3,9 @@
  */
 
 (function ($) {
-  Drupal.behaviors.creativeurope = {
-    attach: function (context, settings) {
+   $(document).ready(
+        function () {
+
             jQuery('img.svg, .svg img').each(
                 function () {
                     var $img = jQuery(this);
@@ -154,7 +155,7 @@
 
                           $('.navbar-container').animate(
                               {
-                                  left: -500,
+                                  left: -500
                                 }, 200, function () {
 
                                 }
@@ -162,8 +163,6 @@
                       }
                     }
                 );
-            }
-
             $('.dropdown-menu li a').on(
                     'click', function () {
                       $('.navbar-container').css('display','none');
@@ -175,6 +174,8 @@
                         }
                       );
                     });
+            }
+
 
             /* FEEDBACK FORM - SHOW SUBMIT ON CLICK ON RADIO BUTTON */
             $('.feedback-form input').click(
@@ -183,7 +184,5 @@
                     $('.feedback-form .form-actions').fadeIn();
                 }
             );
-
-    }
-  };
+	});
 })(jQuery);

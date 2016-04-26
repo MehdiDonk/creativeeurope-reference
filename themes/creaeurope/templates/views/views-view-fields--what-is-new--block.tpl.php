@@ -36,7 +36,7 @@
     <?php print $fields['field_images']->content; ?>
     <?php if ($fields['type']->raw == 'external_calls') : ?>
     <?php
-            print l($calls_img, $fields['field_link']->content, $calls_attributes);
+            print l($calls_img, $fields['field_eac_link']->content, $calls_attributes);
             ?>
     <?php endif; ?>
 
