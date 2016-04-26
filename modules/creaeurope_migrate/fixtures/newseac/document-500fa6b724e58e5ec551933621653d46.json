@@ -1,0 +1,87 @@
+{
+  "_id": "500fa6b724e58e5ec551933621653d46",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/news/2015/0831-ehl-gdansk-solidarity_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "European Heritage Label ceremony on the 35th anniversary of 'Solidarity' movement in Gdańsk"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>On 29 August 2015, the 35th anniversary of the birth of the Polish 'Solidarity' trade union, the historic Gdańsk Shipyard celebrated its recent designation as European Heritage Label.</p>"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "On the 35th anniversary of the birth of the Polish 'Solidarity' trade union, the historic Gdańsk Shipyard celebrated on 29 August 2015 their recent designation as European Heritage Label. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "creative europe",
+        "culture",
+        "eac",
+        "poland",
+        "heritage",
+        "ehl",
+        "european heritage label",
+        "solidarity",
+        "history",
+        "gdansk"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"gdansk\" style=\"align: center;\">                <p>                   <script type=\"text/javascript\">//  //  //  //  //  //  //  $( document ).ready(function() { var iframe = document.createElement('iframe');     iframe.setAttribute(\"src\", \"/programmes/creative-europe/gallery/videos/ehl/ehl-gdansk_en.htm\"); iframe.setAttribute(\"width\", \"467\"); iframe.setAttribute(\"height\", \"342\"); iframe.setAttribute(\"frameborder\", \"0\"); iframe.setAttribute(\"scrolling\", \"no\"); document.getElementById(\"gdansk\").appendChild(iframe); }); // </script>                </p>             </div>             <p style=\"text-align: left;\">On this day 35 years ago, the August Agreements were signed and 'Solidarity' (Solidarność) was founded. It was to be the first independent trade union within the Soviet sphere of influence.</p>             <p>In the first year of its creation, 10 million people united under its banner to create a world-changing social movement.</p>             <p>The <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/discover_en.htm#gdansk\"                   title=\"Discover the site\">European Heritage Label plaque</a> was unveiled by Małgorzata Omilanowska, the Polish Minister of Culture and National Heritage and Basil Kerski, director of the European Solidarity Centre at the site of the historic Gdańsk Shipyard.</p>             <p>Other sites within the historic shipyard that received the Label are the BHP Hall where the August Agreements were signed and the European Solidarity Centre which conducts extensive educational activities and promotes the history and heritage of 'Solidarity'.</p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://www.facebook.com/CreativeEuropeEU\" target=\"_blank\"                      title=\"Link to Facebook\">Creative Europe on Facebook</a>                </li>                <li>                   <a href=\"https://twitter.com/europe_creative\" target=\"_blank\"                      title=\"Link to Twitter\">Creative Europe on Twitter</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

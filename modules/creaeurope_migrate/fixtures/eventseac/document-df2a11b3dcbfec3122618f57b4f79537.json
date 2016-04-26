@@ -1,0 +1,75 @@
+{
+  "_id": "df2a11b3dcbfec3122618f57b4f79537",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/events/2014/1008-literature-prize_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "2014 European Union Prize for Literature"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "47-Event (announcement, program or report of an event such as a seminar, conference, exhibition, etc.)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Event page ofthe 2014 European Union Prize for Literature, to be held on 08/10/2014 in Frankfurt."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "literature",
+        "author",
+        "circulation",
+        "works",
+        "book",
+        "creativity",
+        "culture",
+        "publishing",
+        "writing",
+        "prize",
+        "award",
+        "European Union prize for literature"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/events/2014/\" id=\"date-venue\"/>Date and Venue:</h5>             <p>08/10/2014, Frankfurt Book Fair, Reading Tent, Agora, Ludwig-Erhard-Anlage 1, 60327 Frankfurt am Main</p>             <h5>                <a href=\"http://ec.europa.eu/events/2014/\" id=\"summary\"/>Summary:</h5>             <p>The <a href=\"http://ec.europa.eu/culture/tools/actions/literature-prize_en.htm\"                   lang=\"en\"                   title=\"Information on the European Union Prize for Literature\">European Union Prize for Literature</a> is an annual initiative tro recognis the best emerging authors in Europe.</p>             <p>The 2014 event will introduce a variety of authors, include Janne Teller, Marica Bodrožić (winner of the 2013 prize), Mely Kiak, Katri Lipson (winner of the 2013 prize), and Michail Schischkin.</p>             <p>Together, they will address a variety of questions on Europe and the European Union, while the keynote address will be given by Androulla Vassiliou, the European Comissioner for Education, Culture, Multilingualism, and Youth.</p>             <h5>                <a href=\"http://ec.europa.eu/events/2014/\" id=\"registration\"/>Registration:</h5>             <p>Individuals wishing to attend can register on<a href=\"http://www.grafundfrey.de/anmeldung-eupl\" target=\"_blank\"                   title=\"Registration for the 2014 European Union Prize for Literature\"> the registration page of the event</a>.</p>             <p> </p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<p>                <a href=\"http://ec.europa.eu/culture/news/2014/0810-eupl_en.htm\" lang=\"en\"                   target=\"_blank\"                   title=\"News on the 2014 EUPL winners\">Winners of 2014 European Union Prize for Literature announced at Frankfurt Book Fair</a>             </p>"
+      ]
+    }
+  }
+}
