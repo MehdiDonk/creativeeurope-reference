@@ -1,0 +1,73 @@
+{
+  "_id": "12955939ccc8126eb5c13723fc10f52d",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/events/2015/0820-film-forum_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "The European Film Forum goes to Sarajevo"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>The 2015 European Film Forum will be from 20-21 August at the Hotel Europe, in Sarajevo.</p>"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/EN"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "47-Event (announcement, program or report of an event such as a seminar, conference, exhibition, etc.)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The 2015 European Film Forum will be from 20-21 August at the Hotel Europe, in Sarajevo. The forum will discuss access to regional theatres for European films, as well as coproduction in the digital age."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "european film forum",
+        "sarajevo",
+        "hotel europe",
+        "eff",
+        "distribution",
+        "access",
+        "cinema",
+        "coproduction",
+        "joint production",
+        "digital",
+        "festival",
+        "theatre",
+        "creative europe",
+        "media"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/events/thumbnails/film-forum-logo.jpg\"                     alt=\"Logo of the European Film forum\"                     style=\"float: right; margin-right: -20px; border-left: white 5px solid;\"                     width=\"175\"/>This year's European film forum will discuss access to regional theatres for European films, as well as coproduction in a borderless digital world.</p>             <p>The Sarajevo film festival is the most important festival in the region, and the discussions will be held within the framework of the Regional Forum.</p>             <p>The Film Forum will take place at the famous <a href=\"http://www.hoteleurope.ba/\" target=\"_blank\"                   title=\"Information on the Hotel Europe\">Hotel Europe</a>, located in the heart of Sarajevo, on 20-21 August.</p>             <p>More information on the event will be published on the <a href=\"http://www.sff.ba/en/page/regional-forum2\" target=\"_blank\"                   title=\"Website of the Sarajevo Film Festival\">Sarajevo Film Festival website</a>.</p>"
+      ]
+    }
+  }
+}

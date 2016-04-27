@@ -129,3 +129,56 @@ hgroup p {
     background-color: #7c69cc;
     color: white;
 }
+
+/* Doc Library */
+
+.library h4 {
+    margin: 0px !important;
+}
+
+.library strong {
+    font-weight: bold;
+}
+
+.library a, .library a:hover, .library a:visited {
+color:#433580;
+}
+
+.library .holder {
+	margin-left:-15px;
+  margin-bottom:25px;
+}
+
+#views-exposed-form-eac-document-library-views-page .views-exposed-form {
+    margin-bottom: 45px;
+}
+
+input#edit-submit-eac-document-library-views {
+    padding: .6em 1.4em;
+    font-family: "ECSquareSansProRegular",Verdana,Geneva,sans-serif;
+    color: #fff !important;
+    text-transform: uppercase;
+    transition: background .3s;
+    display: inline-block;
+    line-height: normal;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0;
+    border-radius: 0 !important;
+    border: none;
+    background-color: #7c69cc;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .library img {
+        display:none;
+    }
+		.library .col-xs-9 {
+			width:100%;
+		}
+		.library {
+			padding-left: 0px;
+			padding-right: 0px;
+  		margin-bottom:21px;
+		}	
+}

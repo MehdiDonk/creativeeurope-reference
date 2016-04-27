@@ -134,22 +134,28 @@ global $base_url;
       </div>
     <?php endif; ?>
 
-	<section class="main-content-wrapper col-sm-8">	
+    <section class="main-content-wrapper col-sm-8">    
+  <?php
+        $views_page = views_get_page_view();
+        if (is_object($views_page)) {
+            print '<h1>' . $title . '</h1>';
+        }
+  ?>
       <a id="content"></a>
         <?php if ($page['promote']) : ?>
-      	<div class="promotedcontent">
-	      	<?php print render($page['promote']); ?>
-      	</div>
+          <div class="promotedcontent">
+              <?php print render($page['promote']); ?>
+          </div>
         <?php endif; ?>
-		  <?php if ($messages) : ?>
+          <?php if ($messages) : ?>
         <div id="messages">
             <?php print $messages; ?>
         </div>
-    <?php endif; ?>
+          <?php endif; ?>
         <?php if ($regions['help']) : ?>
         <div class="tabs">
         <?php print $regions['help']; ?>
-  			</div>
+              </div>
         <?php endif; ?>
         <?php if ($tabs) : ?>
         <div class="tabs tab">
@@ -167,10 +173,10 @@ global $base_url;
 
     <?php if ($regions['sidebar_right']) : ?>
       <aside class="col-sm-4">
-	    <div class="sidebar-wrapper">
+        <div class="sidebar-wrapper">
             <?php print $regions['sidebar_right']; ?>
         </div>
-	  </aside>
+      </aside>
     <?php endif; ?>
   </div>
 </div>
@@ -192,7 +198,7 @@ global $base_url;
       <div class="sm" >
         <?php print $facebook . $twitter . $newsletter; ?>
       </div>
-	</div>
+    </div>
     <div class="row">
       <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
@@ -203,12 +209,12 @@ global $base_url;
       <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
-	</div>
+    </div>
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
         <?php print $regions['footer']; ?>
-	</div>
+    </div>
   </div>
 </footer>
 <!-- /#footer -->      

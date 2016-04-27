@@ -32,44 +32,44 @@
  */
 ?>
 <article class="hp-whatsnew-box">
-	<div class="image col-sm-4 col-md-3">
+    <div class="image col-sm-4 col-md-3">
     <?php print $fields['field_images']->content; ?>
     <?php if ($fields['type']->raw == 'external_calls') : ?>
     <?php
-            print l($calls_img, $fields['field_link']->content, $calls_attributes);
+            print l($calls_img, $fields['field_eac_link']->content, $calls_attributes);
             ?>
     <?php endif; ?>
 
-	</div>
-	<div class="info col-sm-offset-4 col-md-offset-0 col-md-2">
-		<h4><?php print $fields['type']->label; ?></h4>
-		<p class="type-link">
+    </div>
+    <div class="info col-sm-offset-4 col-md-offset-0 col-md-2">
+        <h4><?php print $fields['type']->label; ?></h4>
+        <p class="type-link">
     
     <?php
         switch ($fields['type']->raw) {
     case 'external_calls':{
         print l($fields['type']->content, 'calls', array('attributes' => array('class' => array('calls-link'))));;
                 break;
-}
+      }
     case 'newseac':{
         print l($fields['type']->content, 'news', array('attributes' => array('class' => array('news-link'))));;
                 break;
-}
+      }
     case 'eventseac':{
         print l($fields['type']->content, 'events', array('attributes' => array('class' => array('events-link'))));;
                 break;
-}
+      }
     default:{
         print '';
-}
+      }
         }
         ?>
     </p>
     <?php if ($fields['type']->raw == 'external_calls') : ?>
 
- 		<h4><?php print t('Status') ?></h4>
+         <h4><?php print t('Status') ?></h4>
     <p><?php print $fields['field_status']->content; ?></p>
- 		<h4><?php print t('Reference') ?></h4>
+         <h4><?php print t('Reference') ?></h4>
     <p><?php print $fields['field_calls_reference']->content; ?></p>
         
     <?php endif; ?>
@@ -77,30 +77,30 @@
     
     
     <?php if ($fields['type']->raw == 'eventseac') : ?>
-			<!-- Event date fromat "from -> to". -->
+            <!-- Event date fromat "from -> to". -->
     <?php if (isset($fields['field_date_from'])) : ?>
-				<!-- Content in Configure field: Content: Event Date : rewrite results -->
-				<?php print $fields['field_date_from']->content; ?>
+                <!-- Content in Configure field: Content: Event Date : rewrite results -->
+                <?php print $fields['field_date_from']->content; ?>
     <?php endif; ?>
-			<!-- Event Location. -->
+            <!-- Event Location. -->
     <?php if (isset($fields['field_event_location'])) : ?>
-				<h4><?php print $fields['field_event_location']->label; ?></h4>
-				<!-- Content in Configure field: Content: Event Location : rewrite results -->
-				<p><?php print $fields['field_event_location']->content; ?></p>
+                <h4><?php print $fields['field_event_location']->label; ?></h4>
+                <!-- Content in Configure field: Content: Event Location : rewrite results -->
+                <p><?php print $fields['field_event_location']->content; ?></p>
     <?php endif; ?>
     <?php endif; ?>
     <?php if ($fields['type']->raw == 'external_calls') : ?>
-			<h4>Deadline</h4>
-			<p class="date-published"><?php print $fields['field_calls_deadline']->content; ?></p>
+            <h4>Deadline</h4>
+            <p class="date-published"><?php print $fields['field_calls_deadline']->content; ?></p>
     <?php endif ?>
-	</div>
-	<div class="article-content col-sm-8 col-md-7">
-		<h3><?php print $fields['title']->content; ?></h3>
-		<p>
+    </div>
+    <div class="article-content col-sm-8 col-md-7">
+        <h3><?php print $fields['title']->content; ?></h3>
+        <p>
         <?php if ($fields['type']->raw == 'external_calls') : ?>
         <?php print $fields['body']->content; ?>
         <?php endif; ?>
-  		<?php print $fields['field_abstract']->content; ?>
-		</p>
-	</div>
+          <?php print $fields['field_abstract']->content; ?>
+        </p>
+    </div>
 </article>

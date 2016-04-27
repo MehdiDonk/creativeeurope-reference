@@ -1,0 +1,71 @@
+{
+  "_id": "7c96c66e373eb49e4bfee70baf8a8b4a",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/events/2014/1010-leuven_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Exhibition of the EU Prize for Contemporary Architecture - Mies van der Rohe Award 2013"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>The forty projects selected in last year’s edition of ‘European Union Prize for Contemporary Architecture – Mies van der Rohe Award’ are presented in a travelling exhibition which can be found in M – Museum Leuven, Belgium 10 October - 30 November 2014.</p>"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EAC"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Exhibition of the EU Prize for Contemporary Architecture - Mies van der Rohe Award 2013"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "EU prize for contemporary architecture",
+        "mies van der rohe award",
+        "m - museum leuven"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-470-Museums"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>The exhibition is a showcase of striking contemporary architecture from all over Europe, summed up in images, models and succinct texts.</p>             <p>                <br/>Production: Fundació Mies van der Rohe Barcelona</p>             <p>Organisation: Stad en Architectuur vzw in collaboration with M - Museum Leuven</p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/culture/tools/actions/architecture-prize_en.htm\"                      lang=\"en\"                      target=\"_blank\">EU Prize for Contemporary Architecture</a>                </li>                <li>                   <a href=\"http://www.mleuven.be/en/calendar/mies-van-der-rohe.jsp\" target=\"_blank\"                      title=\"M - Museum van Leuven\">M - Museum van Leuven</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

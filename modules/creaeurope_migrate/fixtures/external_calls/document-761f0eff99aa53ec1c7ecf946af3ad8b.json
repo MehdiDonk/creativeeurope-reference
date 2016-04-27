@@ -1,0 +1,70 @@
+{
+  "_id": "761f0eff99aa53ec1c7ecf946af3ad8b",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/calls/general/2014-eac-a03_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Call for applications for the 2021 European Capital of Culture"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "35-Call for expressions of interest/call for candidates"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Call for submission of applications for the Union action “European Capital of Culture” for the year 2021 for cities in candidate countries and potential candidates for EU membership, reference EAC/A03/2014, with a deadline of 23/10/2015"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "services",
+        "european union",
+        "eu",
+        "capitals of culture",
+        "capital of culture",
+        "european capital of culture",
+        "ecoc",
+        "application",
+        "call",
+        "submission",
+        "candidate",
+        "potential candidate"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>Title:</h5>             <p>Call for submission of applications for the Union action \"European Capitals of Culture\" for the year 2021 for cities in candidate countries and potential candidates for EU membership</p>             <h5>Reference:</h5>             <p>EAC/A03/2014</p>             <h5>Deadline for submission of applications:</h5>             <p>23/10/2015</p>             <h5>Documents:</h5>             <p>Call, including the selection questionnaire<br/>                <b>Corrigendum: Iceland's government has requested that Iceland should not be regarded as a candidate country for EU membership, as a consequence Iceland is not an eligible country for this call.</b>             </p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/calls/general/2014-eac-a03/call-for-proposals_en.doc\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Doc version of the call document\">doc</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/calls/general/2014-eac-a03/call-for-proposals_en.odt\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Open Document version of the call\">odt</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/calls/general/2014-eac-a03/call-for-proposals_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"PDF version of the call\">pdf</a>                </li>             </ul>             <p>                <a href=\"http://ec.europa.eu/calls/general/2014-eac-a03/procedure-rules_en.pdf\"                   lang=\"en\"                   target=\"_blank\">Rules of Procedure</a>             </p>             <p>                <a href=\"http://ec.europa.eu/calls/general/2014-eac-a03/qa_en.pdf\" lang=\"en\"                   target=\"_blank\">Questions and answers (version 3 of 19/10/2015)</a>             </p>"
+      ]
+    }
+  }
+}

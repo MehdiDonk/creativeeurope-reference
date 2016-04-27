@@ -1,0 +1,83 @@
+{
+  "_id": "3825d4a4a9dc81bf19011828451ae5a",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/news/2015/1026-ars-electronica-artist-call_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Ars Electronica publishes new call for artists"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>                <span style=\"font-size: 11pt; font-family: 'Calibri','sans-serif'; line-height: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Artists, especially those with digital skills, can now apply for a two-week residency with the <a href=\"http://www.eso.org/public/\" target=\"_blank\">European Southern Observatory</a>, the world's leading ground-based astronomical observatory. </span>             </p>"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "http://ec.europa.eu/news/images/ars-electronic-vlt-unit.jpg"
+      ]
+    },
+    "media_alt": {
+      "en": [
+        "Ars Electronica publishes new call for artists"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/EN"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Artists, especially those with digital skills, can now apply for a two-week residency with the European Southern Observatory. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "creative europe",
+        "digital",
+        "artists",
+        "residency",
+        "ars electronic",
+        "cern",
+        "eso",
+        "call",
+        "project",
+        "work",
+        "portfolio",
+        "apply",
+        "european digital art and science network"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>The aim of the call is to link up the scientific exploits and ideas of <a href=\"http://home.cern/\" target=\"_blank\">CERN</a>, the European Organization for Nuclear Research, and the <abbr title=\"European Southern Observatory\">ESO</abbr> with digital art.</p>             <p>Individuals interested in taking part will need to submit:</p>             <ul>                <li>a testimonial presenting themselves and how their residency would inspire new work</li>                <li>an outline of a possible concept or idea for the <abbr title=\"European Southern Observatory\">ESO</abbr>                </li>                <li>a draft production plan with costings and a timeline</li>                <li>a portfolio of work showcasing the talent of the artist</li>             </ul>             <p>The call is open until 10/01/2016, and submissions should be made via the <a href=\"http://artandscience.aec.at/\" target=\"_blank\">online application form on the Ars Electronica website</a>.</p>             <p>Winners will receive a residency at <abbr title=\"European Southern Observatory\">ESO</abbr> in Chile, as well as accommodation, an artist fee of €3,000, and some travel costs, and their work will be presented at the Ars Electronica Festival in 2016.</p>             <p>The call has been published by Ars Electronica as part of its \"European Digital Art and Science Network\"; more information is available on <a href=\"http://www.aec.at/artandscience/open-call/entrydetails/\" target=\"_blank\">the Ars Electronica website</a>.</p>"
+      ]
+    }
+  }
+}
