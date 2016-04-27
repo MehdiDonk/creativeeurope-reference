@@ -15,7 +15,7 @@
  *
  * @license http://ec.europa.eu Europa
  * @link NA
- *field
+ * field
  * Ec_resp's theme implementation to display a single Drupal page.
  */
 

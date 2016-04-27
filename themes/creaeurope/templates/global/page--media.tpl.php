@@ -127,13 +127,13 @@ global $base_url;
   <div class="container">
     <div class="row">
       <div class="col-md-7">
-	    <hgroup>
+        <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/media.svg">
-	      <h1><?php print $title; ?></h1>
+          <h1><?php print $title; ?></h1>
         <?php print render($page['content_top']); ?>
-	    </hgroup>
-	  </div>
-	</div>
+        </hgroup>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -197,7 +197,7 @@ global $base_url;
       <div class="sm" >
         <?php print $facebook . $twitter . $newsletter; ?>
       </div>
-	</div>
+    </div>
     <div class="row">
       <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
@@ -208,12 +208,12 @@ global $base_url;
       <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
-	</div>
+    </div>
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
         <?php print $regions['footer']; ?>
-	</div>
+    </div>
   </div>
 </footer>
 <!-- /#footer -->      
