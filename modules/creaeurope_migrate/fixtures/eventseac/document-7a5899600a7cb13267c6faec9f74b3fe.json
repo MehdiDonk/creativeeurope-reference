@@ -1,0 +1,87 @@
+{
+  "_id": "7a5899600a7cb13267c6faec9f74b3fe",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/events/2015/0509-liveurope_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "LIVEUROPE holds Europe Day event in Brussels - 9 May"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>The European-Union-backed platform LIVEUROPE is lauching the first edition of Europe Day at the Ancienne Belgique venue in Brussels. Partners of this project are the European Commission, Euroradio and the European Youth Forum.</p>"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "http://ec.europa.eu/events/2015/images/le_logo.jpg"
+      ]
+    },
+    "media_alt": {
+      "en": [
+        "LIVEUROPE holds Europe Day event in Brussels - 9 May"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European-Union-backed platform LIVEUROPE is lauching the first edition of Europe Day at the Ancienne Belgique venue in Brussels. Partners of this project are the European Commission, Euroradio and the European Youth Forum. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>The event is dedicated to everyone with an interest in Europe and music.</p>             <p>In the afternoon, a <a href=\"http://liveurope.eu/europe-day-ancienne-belgique\" target=\"_blank\"                   title=\"More information on the debate and its participants\">debate</a> between European Union policymakers, media representatives, civil society organisations and music professionals from various European countries will be held tackling the following issues:</p>             <ul>                <li>What can be done for music to cross borders in Europe?</li>                <li>How does music contribute to the European identity, and could music be the key to bring European citizens closer?</li>             </ul>             <p>After the debate, a <a href=\"http://www.abconcerts.be/en/agenda/events/brns-be-bokka-pl-forever-pavot-fr/19250/\"                   target=\"_blank\"                   title=\"More information on the concert\">concert</a> showcasing fresh European talent will be held, featuring: BRNS from Belgium, BOKKA from Poland and Forever Pavot from France.</p>             <p>                <img src=\"http://ec.europa.eu/events/2015/images/leposter.jpg\" alt=\"\" height=\"566\"                     style=\"display: block; margin-left: auto; margin-right: auto;\"                     width=\"400\"/>             </p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/eu-platform_en.htm\"                      lang=\"en\">About European platforms</a>                </li>                <li>                   <a href=\"https://www.facebook.com/CreativeEuropeEU\" target=\"_blank\"                      title=\"Link to Facebook\">Creative Europe on Facebook</a>                </li>                <li>                   <a href=\"https://twitter.com/europe_creative\" target=\"_blank\"                      title=\"Link to Twitter\">Creative Europe on Twitter</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

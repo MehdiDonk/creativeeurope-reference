@@ -1,0 +1,80 @@
+{
+  "_id": "c6db4be0ef1b2722bd41ab71c068bfd1",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/news/2015/1016-eu-literature-prize-frankfurt_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "The EU Prize for Literature at the Frankfurt Book Fair 2015"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>Winners of the 2015 edition will be celebrated in a photo exhibiton running from 14-18 October 2015 at Frankfurt Book Fair.</p>"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "http://ec.europa.eu/news/images/eupl.jpg"
+      ]
+    },
+    "media_alt": {
+      "en": [
+        "EU Prize for Literature"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Winners of the 2015 European Union Prize for Literature will be celebrated in a photo exhibiton running from 14-18 October 2015 at Frankfurt Book Fair. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "literature",
+        "frankfurt",
+        "book",
+        "prize",
+        "eu",
+        "creative europe"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>The <a href=\"http://www.euprizeliterature.eu/\" target=\"_blank\"                   title=\"Link to the Prize's website\">European Union Prize for Literature</a>, awarded annually, is a unique prize that honours new and emerging literary voices in Europe, regardless of nationality, age or language.</p>             <p>In total, 84 books from 37 different European countries have received the Prize since it was launched in 2009. The winning books constitute a wide range of high quality fiction produced across Europe – a literary gold mine.</p>             <p>The <a href=\"http://www.buchmesse.de/en/fbf/\" target=\"_blank\"                   title=\"Link to Frankfurt Book Fair website\">Frankfurt Book Fair</a> is the world's largest trade fair for books; there are 7000 publishers, 300.000 visitors and 9.000 journalists – and over 100 countries are represented. The Frankfurt Book Fair promotes the books and authors of the EU Prize for Literature and devotes a photo exhibition, set up in prime location, to the 12 prize winners in 2015:</p>             <ul>                <li>Carolina Schutti (Austria)</li>                <li>Undinė Radzevičiūtė (Lithuania)</li>                <li>Luka Bekavac (Croatia)</li>                <li>Ida Hegazi Høyer (Norway)</li>                <li>Gaëlle Josse (France)</li>                <li>Magdalena Parys (Poland)</li>                <li>Edina Szvoren (Hungary)</li>                <li>David Machado (Portugal)</li>                <li>Donal Ryan (Ireland)</li>                <li>Svetlana Žuchová (Slovakia)</li>                <li>Lorenzo Amurri (Italy)</li>                <li>Sara Stridsberg (Sweden)</li>             </ul>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://www.facebook.com/CreativeEuropeEU\" target=\"_blank\"                      title=\"Link to Facebook\">Creative Europe on Facebook</a>                </li>                <li>                   <a href=\"https://twitter.com/europe_creative\" target=\"_blank\"                      title=\"Link to Twitter\">Creative Europe on Twitter</a>                </li>             </ul>"
+      ]
+    }
+  }
+}
