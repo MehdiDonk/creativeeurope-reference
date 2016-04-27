@@ -8,7 +8,6 @@
  * Implements hook_views_default_views().
  */
 function creaeurope_core_views_default_views() {
-
   $export = array();
 
   $view = new view();
@@ -338,7 +337,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['style_options']['row_class_special'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['row_options']['default_field_elements'] = FALSE;
-  /* Field: Content: Link */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
   $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
   $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
@@ -431,14 +430,12 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Link */
-  $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
-  $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['label'] = '';
-  $handler->display->display_options['fields']['field_link']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_link']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_link']['element_default_classes'] = FALSE;
-  $handler->display->display_options['fields']['field_link']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_eac_link']['id'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['table'] = 'field_data_field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['field'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_link']['element_label_colon'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -487,7 +484,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['field_status']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['field_status']['alter']['text'] = '<article class="update-highlight--list">
 <div class="update-highlight--list--content">
-<h1><a href="[field_link]">[title]</a></h1>
+<h1><a href="[field_eac_link]">[title]</a></h1>
 <ul>
  <li><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> [field_calls_type]</li>
 <li class="call-status"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> [field_status] </li>
@@ -507,13 +504,13 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Link */
-  $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
-  $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['label'] = '';
-  $handler->display->display_options['fields']['field_link']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_link']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_link']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_eac_link']['id'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['table'] = 'field_data_field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['field'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_link']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_eac_link']['element_default_classes'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -521,7 +518,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['title']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['text'] = '<a href="[field_link]">[title]</a>';
+  $handler->display->display_options['fields']['title']['alter']['text'] = '<a href="[field_eac_link]">[title]</a>';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
@@ -561,7 +558,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['field_status']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['field_status']['alter']['text'] = '<article class="update-highlight--list col-xs-12 col-sm-6 col-md-4">
 <div class="update-highlight--list--content">
-<h1><a href="[field_link]">[title]</a></h1>
+<h1><a href="[xx]">[title]</a></h1>
  <p><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> [field_calls_type]</p>
  <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> <time>[field_calls_deadline]</time> </p>
  <p><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> [field_calls_reference]</p>
@@ -597,6 +594,175 @@ function creaeurope_core_views_default_views() {
   );
   $handler->display->display_options['path'] = 'calls';
   $export['calls'] = $view;
+
+  $view = new view();
+  $view->name = 'eac_document_library_views';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Document Library';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Document Library';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Title's link */
+  $handler->display->display_options['fields']['field_eac_library_title_link']['id'] = 'field_eac_library_title_link';
+  $handler->display->display_options['fields']['field_eac_library_title_link']['table'] = 'field_data_field_eac_library_title_link';
+  $handler->display->display_options['fields']['field_eac_library_title_link']['field'] = 'field_eac_library_title_link';
+  $handler->display->display_options['fields']['field_eac_library_title_link']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_library_title_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_library_title_link']['element_label_colon'] = FALSE;
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['title']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['title']['alter']['text'] = '<a href="[field_eac_library_title_link]">[title]</a>';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
+  /* Field: Content: Files */
+  $handler->display->display_options['fields']['field_eac_library_files']['id'] = 'field_eac_library_files';
+  $handler->display->display_options['fields']['field_eac_library_files']['table'] = 'field_data_field_eac_library_files';
+  $handler->display->display_options['fields']['field_eac_library_files']['field'] = 'field_eac_library_files';
+  $handler->display->display_options['fields']['field_eac_library_files']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_library_files']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_library_files']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_eac_library_files']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_eac_library_files']['type'] = 'file_table';
+  $handler->display->display_options['fields']['field_eac_library_files']['settings'] = array(
+    'file_view_mode' => 'default',
+  );
+  $handler->display->display_options['fields']['field_eac_library_files']['delta_offset'] = '0';
+  /* Field: Content: Thumbail */
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['id'] = 'field_eac_library_thumbnail';
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['table'] = 'field_data_field_eac_library_thumbnail';
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['field'] = 'field_eac_library_thumbnail';
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['element_class'] = 'imageholder';
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_eac_library_thumbnail']['settings'] = array(
+    'image_style' => 'eac_library_90x122',
+    'image_link' => '',
+  );
+  /* Field: Content: Type of document */
+  $handler->display->display_options['fields']['field_eac_library_type_doc']['id'] = 'field_eac_library_type_doc';
+  $handler->display->display_options['fields']['field_eac_library_type_doc']['table'] = 'field_data_field_eac_library_type_doc';
+  $handler->display->display_options['fields']['field_eac_library_type_doc']['field'] = 'field_eac_library_type_doc';
+  $handler->display->display_options['fields']['field_eac_library_type_doc']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_library_type_doc']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_library_type_doc']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_eac_library_type_doc']['delta_offset'] = '0';
+  /* Field: Entity translation: Body: translated */
+  $handler->display->display_options['fields']['body_et']['id'] = 'body_et';
+  $handler->display->display_options['fields']['body_et']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body_et']['field'] = 'body_et';
+  $handler->display->display_options['fields']['body_et']['label'] = '';
+  $handler->display->display_options['fields']['body_et']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['body_et']['alter']['text'] = '<div class="container library">
+    <div class="col-md-8 holder">
+        <div class="col-xs-2">[field_eac_library_thumbnail]</div>
+        <div class="col-xs-9">
+            <h4><a href="[field_eac_library_title_link]">[title]</a></h4>
+           <strong>[field_eac_library_type_doc]</strong><br/><br/> [body_et] [field_eac_library_files]
+      </div>
+    </div>
+</div>';
+  $handler->display->display_options['fields']['body_et']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['body_et']['type'] = 'text_trimmed';
+  $handler->display->display_options['fields']['body_et']['settings'] = array(
+    'trim_length' => '325',
+  );
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'eac_document_library' => 'eac_document_library',
+  );
+  /* Filter criterion: Content: Language */
+  $handler->display->display_options['filters']['language']['id'] = 'language';
+  $handler->display->display_options['filters']['language']['table'] = 'node';
+  $handler->display->display_options['filters']['language']['field'] = 'language';
+  $handler->display->display_options['filters']['language']['value'] = array(
+    '***CURRENT_LANGUAGE***' => '***CURRENT_LANGUAGE***',
+  );
+  /* Filter criterion: Content: Type of document (field_eac_library_type_doc) (translated) */
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['id'] = 'field_eac_library_type_doc_value_i18n';
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['table'] = 'field_data_field_eac_library_type_doc';
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['field'] = 'field_eac_library_type_doc_value_i18n';
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['expose']['operator_id'] = 'field_eac_library_type_doc_value_i18n_op';
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['expose']['label'] = 'Type of document';
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['expose']['operator'] = 'field_eac_library_type_doc_value_i18n_op';
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['expose']['identifier'] = 'field_eac_library_type_doc_value_i18n';
+  $handler->display->display_options['filters']['field_eac_library_type_doc_value_i18n']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    4 => 0,
+    3 => 0,
+    5 => 0,
+    6 => 0,
+  );
+  /* Filter criterion: Content: Year (field_eac_library_year) (translated) */
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['id'] = 'field_eac_library_year_value_i18n';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['table'] = 'field_data_field_eac_library_year';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['field'] = 'field_eac_library_year_value_i18n';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['expose']['operator_id'] = 'field_eac_library_year_value_i18n_op';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['expose']['label'] = 'Year ';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['expose']['operator'] = 'field_eac_library_year_value_i18n_op';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['expose']['identifier'] = 'field_eac_library_year_value_i18n';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    4 => 0,
+    3 => 0,
+    5 => 0,
+    6 => 0,
+  );
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['group_info']['label'] = 'Year (field_eac_library_year) (translated)';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['group_info']['identifier'] = 'field_eac_library_year_value_i18n';
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['group_info']['remember'] = FALSE;
+  $handler->display->display_options['filters']['field_eac_library_year_value_i18n']['group_info']['group_items'] = array(
+    1 => array(),
+    2 => array(),
+    3 => array(),
+  );
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['path'] = 'document-library';
+  $export['eac_document_library_views'] = $view;
 
   $view = new view();
   $view->name = 'eventseac';
@@ -1035,6 +1201,13 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['style_options']['default_row_class'] = FALSE;
   $handler->display->display_options['style_options']['row_class_special'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Link */
+  $handler->display->display_options['fields']['field_eac_link']['id'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['table'] = 'field_data_field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['field'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_link']['element_label_colon'] = FALSE;
   /* Field: Content: images */
   $handler->display->display_options['fields']['field_images']['id'] = 'field_images';
   $handler->display->display_options['fields']['field_images']['table'] = 'field_data_field_images';
@@ -1061,12 +1234,13 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['title']['field'] = 'title';
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['text'] = '<h3>[title]</h3>';
+  $handler->display->display_options['fields']['title']['alter']['text'] = '<h3><a href="[field_eac_link]">[title]<a></h3>';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_class'] = 'title';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['title']['element_default_classes'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
   /* Field: Content: Post date */
   $handler->display->display_options['fields']['created']['id'] = 'created';
   $handler->display->display_options['fields']['created']['table'] = 'node';
@@ -1103,8 +1277,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'eventseac' => 'eventseac',
-    'external_calls' => 'external_calls',
-    'news' => 'news',
+    'newseac' => 'newseac',
   );
   /* Filter criterion: Content: Language */
   $handler->display->display_options['filters']['language']['id'] = 'language';
@@ -1121,8 +1294,8 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['defaults']['css_class'] = FALSE;
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'full';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
-  $handler->display->display_options['pager']['options']['offset'] = '4';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '4';
+  $handler->display->display_options['pager']['options']['offset'] = '3';
   $handler->display->display_options['pager']['options']['id'] = '0';
   $handler->display->display_options['pager']['options']['quantity'] = '9';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
@@ -1201,6 +1374,30 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['field_abstract']['alter']['max_length'] = '250';
   $handler->display->display_options['fields']['field_abstract']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_abstract']['element_default_classes'] = FALSE;
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'eventseac' => 'eventseac',
+    'newseac' => 'newseac',
+  );
+  /* Filter criterion: Content: Language */
+  $handler->display->display_options['filters']['language']['id'] = 'language';
+  $handler->display->display_options['filters']['language']['table'] = 'node';
+  $handler->display->display_options['filters']['language']['field'] = 'language';
+  $handler->display->display_options['filters']['language']['value'] = array(
+    '***CURRENT_LANGUAGE***' => '***CURRENT_LANGUAGE***',
+  );
   $handler->display->display_options['path'] = 'news-events-calls';
 
   /* Display: Right col calls */
@@ -1221,6 +1418,7 @@ function creaeurope_core_views_default_views() {
   /* Display: Big - latest events or news */
   $handler = $view->new_display('block', 'Big - latest events or news', 'block_1');
   $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['enabled'] = FALSE;
   $handler->display->display_options['defaults']['css_class'] = FALSE;
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
@@ -1465,13 +1663,12 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Link */
-  $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
-  $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['label'] = '';
-  $handler->display->display_options['fields']['field_link']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_link']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_link']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_eac_link']['id'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['table'] = 'field_data_field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['field'] = 'field_eac_link';
+  $handler->display->display_options['fields']['field_eac_link']['label'] = '';
+  $handler->display->display_options['fields']['field_eac_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_eac_link']['element_label_colon'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -1514,7 +1711,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['field_status']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['field_status']['alter']['text'] = '<article class="update-highlight--list col-xs-12 col-sm-3">
 <div class="update-highlight--list--content">
-<a href="[field_link]"><h1>[title]</h1></a>
+<a href="[field_eac_link]"><h1>[title]</h1></a>
  <p><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> [field_calls_type]</p>
  <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> <time>[field_calls_deadline]</time> </p>
  <p><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> [field_calls_reference]</p>
@@ -2401,7 +2598,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['field_image']['alter']['text'] = '[field_image]';
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image']['element_default_classes'] = FALSE;
-  /* Field: Content: Link */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
   $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
   $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
@@ -2535,7 +2732,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '1';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Link */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
   $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
   $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
@@ -3163,7 +3360,7 @@ function creaeurope_core_views_default_views() {
   $handler->display->display_options['fields']['field_status']['field'] = 'field_status';
   $handler->display->display_options['fields']['field_status']['label'] = 'ddddd';
   $handler->display->display_options['fields']['field_status']['element_label_colon'] = FALSE;
-  /* Field: Content: Link */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
   $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
   $handler->display->display_options['fields']['field_link']['field'] = 'field_link';

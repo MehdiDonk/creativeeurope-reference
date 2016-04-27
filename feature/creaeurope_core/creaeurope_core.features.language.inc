@@ -7,12 +7,12 @@
 /**
  * Implements hook_locale_default_languages().
  */
-function creaeurope_core_locale_default_languages() 
-{
-    $languages = array();
+function creaeurope_core_locale_default_languages() {
 
-    // Exported language: en.
-    $languages['en'] = array(
+  $languages = array();
+
+  // Exported language: en.
+  $languages['en'] = array(
     'language' => 'en',
     'name' => 'English',
     'native' => 'English',
@@ -23,6 +23,6 @@ function creaeurope_core_locale_default_languages()
     'domain' => '',
     'prefix' => '',
     'weight' => 0,
-    );
-    return $languages;
+  );
+  return $languages;
 }
