@@ -135,6 +135,12 @@ global $base_url;
     <?php endif; ?>
 
 	<section class="main-content-wrapper col-sm-8">	
+  <?php
+		$views_page = views_get_page_view();
+		if (is_object($views_page)) {
+			print '<h1>' . $title . '</h1>';
+		}
+  ?>
       <a id="content"></a>
         <?php if ($page['promote']) : ?>
       	<div class="promotedcontent">
