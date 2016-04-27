@@ -1,0 +1,74 @@
+{
+  "_id": "ab317a5448c42caaf671d5f0f7dadd4e",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/news/2015/1601-creative-participants_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Creative Europe: participating countries"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CREATIVE-EUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Besides the EU Member States, from 2015 onwards, the following countries participate in the Creative Europe Programme: Norway, Iceland, Albania, Bosnia and Herzegovina and Montenegro (full participation in the Culture and the MEDIA Sub-programmes) as well as the Former Yugoslav Republic of Macedonia, the Republic of Serbia (full participation in the Culture sub-programme) and Turkey (full participation in the Culture Sub-programme and partial participation in the MEDIA Sub-programme, i.e. participation in training, festivals, audience development and market access activities). "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "creative europe",
+        "participating countries"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>Besides the EU Member States, from 2015 onwards, the <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                   target=\"_blank\"                   title=\"List of eligible countries on the EACEA site\">following countries participate in the Creative Europe Programme</a>: Norway, Iceland, Albania, Bosnia and Herzegovina and Montenegro (full participation in the Culture and the MEDIA Sub-programmes) as well as the Former Yugoslav Republic of Macedonia, the Republic of Serbia (full participation in the Culture sub-programme) and Turkey (full participation in the Culture Sub-programme and partial participation in the MEDIA Sub-programme, i.e. participation in training, festivals, audience development and market access activities).</p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<p>                <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                   target=\"_blank\"                   title=\"List of eligible countries on the EACEA site\">Eligibility of organisations from non-EU countries</a>             </p>"
+      ]
+    }
+  }
+}

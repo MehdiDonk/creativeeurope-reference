@@ -1,0 +1,91 @@
+{
+  "_id": "3bd8427bbe2666c1f283ad76ba55bba1",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/news/2015/0724-literary-translation-selection_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Results of the 2015 selection round for Literary Translation out now"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>In 2015, the Creative Europe programme will grant support to in total 58 Literary Translation projects by publishers from 14 European countries.</p>"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "http://ec.europa.eu/news/images/book.jpg"
+      ]
+    },
+    "media_alt": {
+      "en": [
+        "Results of the 2015 selection round for Literary Translation out now"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "In 2015, the Creative Europe programme will grant support to in total 58 Literary Translation projects by publishers from 14 European countries. Countries involved in this round of projects are Albania, Bulgaria, Spain, Finland, France, Croatia, Hungary, Italia, FYROM, The Netherlands, Norway, Poland, Slovenia and Serbia."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "culture",
+        "creative europe",
+        "international cooperation",
+        "translation"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>Countries involved in this round of projects are Albania, Bulgaria, Spain, Finland, France, Croatia, Hungary, Italy, FYROM, The Netherlands, Norway, Poland, Slovenia and Serbia.</p>             <p>The competition was as strong as ever; European publishers submitted in all 246 project applications covering about 1400 book translations.</p>             <p>The 58 selected publishers will translate, into the official languages of their own countries, about 500 books from altogether 35 European languages; novels, short stories, plays, poetry, comic books and children’s fiction.</p>             <p>EU grants for literary translation support the cultural and linguistic diversity in Europe, promote the transnational circulation of literature and help European authors and literature reach new audiences.</p>             <p>The budget available for EU grants for Literary Translation projects in 2015 is close to 3.8 million EUR.</p>             <p>See the full list of the <a href=\"https://eacea.ec.europa.eu/creative-europe/selection-results/literary-translation-2015_en\"                   target=\"_blank\"                   title=\"Link to selected projects\">58 selected Literary Translation projects</a>.</p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://www.facebook.com/CreativeEuropeEU\" target=\"_blank\"                      title=\"Link to Facebook\">Creative Europe on Facebook</a>                </li>                <li>                   <a href=\"https://twitter.com/europe_creative\" target=\"_blank\"                      title=\"Link to Twitter\">Creative Europe on Twitter</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

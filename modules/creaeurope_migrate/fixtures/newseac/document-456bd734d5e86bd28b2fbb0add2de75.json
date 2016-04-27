@@ -1,0 +1,64 @@
+{
+  "_id": "456bd734d5e86bd28b2fbb0add2de75",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/news/2015/0731-cooperation-projects-delayed_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Call for 2016 Cooperation Projects delayed"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/EN"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The call for proposals for Cooperation Projects for 2016 has been delayed; the anticipated date of publicate has been pushed back to the end of the first week of August."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "creative europe",
+        "call for proposals",
+        "delay",
+        "cooperation project",
+        "EACEA/29/2015"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>Call for proposals EACEA/29/2015 for Cooperation Projects in 2016 has been delayed for one week; the anticipated publication date is now at the end of the first week of August.</p>             <p>The deadline for the submission of proposals will be 07/10/2015 at 12:00 (midday) Brussels time (UTC+1).</p>             <p>Please continue to check the website of <a href=\"https://eacea.ec.europa.eu/creative-europe/funding_en\" target=\"_blank\"                   title=\"Information on Creative Europe funding opportunities\">the EAC Executive Agency for updates.</a>             </p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<p>Updates:</p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/news/2015/0806-cooperation-projects-published_en.htm\"                      lang=\"en\">News announcing publication of call</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/funding/support-european-cooperation-projects-2016_en\"                      target=\"_blank\">Details of call available on the website of the EAC Executive Agency</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

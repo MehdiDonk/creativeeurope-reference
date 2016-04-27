@@ -1,0 +1,77 @@
+{
+  "_id": "4255d26aae8fe648c0471a1ec42f841d",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/events/2014/20140430-europa-nostra-awards-vienna_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "EU Prize for Cultural Heritage / Europa Nostra Awards: 5 May"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>The winners of the 2014 European Union Prize for Cultural Heritage / Europa Nostra Awards will be honoured on 5 May 2014 during a ceremony in Vienna.</p>"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/CULTURE"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "EU/EAC/COMM"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The winners of the 2014 European Union Prize for Cultural Heritage / Europa Nostra Awards will be honoured on 5 May 2014 during a ceremony in Vienna."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-550-Cultural Heritage"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>Androulla Vassiliou, European Commissioner for Education, Culture, Multilingualism and Youth, and Plácido Domingo, the opera tenor and President of Europa Nostra, will present the awards to the <a href=\"http://www.europanostra.org/awards/\" target=\"_blank\"                   title=\"Europa Nostra award 2014\">27 winners</a> assembled at the Austrian capital's Burgtheater.</p>             <p>They will for the first time reveal the names of the six 'Grand Prix' laureates and winner of the public choice award, chosen in an online poll from among this year’s winning projects.</p>             <p>An audience of 1 000 will attend the ceremony, which is held under the patronage of the Federal President of Austria, Heinz Fischer.</p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<p>                <a href=\"http://europa.eu/rapid/press-release_IP-14-283_en.htm\" lang=\"en\"                   target=\"_blank\"                   title=\"press release IP/14/283\">Press release </a> IP/14/283 - Winners of 2014 EU Prize for Cultural Heritage / Europa Nostra Awards announced</p>             <ul>                <li>                   <a href=\"http://www.europanostra.org/\" target=\"_blank\" title=\"Europa Nostra\">Europa Nostra website</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/avservices/photo/photoByReportage.cfm?ref=025558&amp;sitelang=en\"                      target=\"_blank\"                      title=\"Photos EU Prize for Cultural Heritage 05/05/2014\">Photos Ceremony for the Eu Prize for Cultural Heritage</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/avservices/video/player.cfm?sitelang=en&amp;ref=I089066\"                      target=\"_blank\"                      title=\"watch speech 05/05/2014\">Video: speech by Androulla Vassiliou at the Ceremony</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/avservices/video/player.cfm?sitelang=en&amp;ref=I088981\"                      target=\"_blank\"                      title=\"extracts press conference 05/05/2014\">Video: extracts from the press conference Androulla Vassiliou and Plácido Domingo</a>                </li>             </ul>             <p> </p>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "72507f4b69cdb34ad41ce1ecc5b520d2",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/news/2015/0801-jesuischarlie_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Je Suis Charlie"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>The Creative Europe Programme stands for freedom of expression, creativity, solidarity and intercultural dialogue - core European values which came under brutal attack in Paris yesterday. In extending our sympathies to the bereaved families and the people of France, we pledge to honour the victims by continuing to promote these values.</p>"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "http://ec.europa.eu/news/images/news-jesuischarlie.jpg"
+      ]
+    },
+    "media_alt": {
+      "en": [
+        "Je Suis Charlie"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CREATIVE-EUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Creative Europe Programme stands for freedom of expression, creativity, solidarity and intercultural dialogue - core European values which came under brutal attack in Paris yesterday. In extending our sympathies to the bereaved families and the people of France, we pledge to honour the victims by continuing to promote these values."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "creative europe",
+        "jesuischarlie"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    }
+  }
+}

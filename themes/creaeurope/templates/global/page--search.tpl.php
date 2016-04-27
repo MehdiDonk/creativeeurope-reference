@@ -126,13 +126,13 @@ global $base_url;
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-	    <hgroup>
+        <hgroup>
           <img alt="" src="<?php print $GLOBALS['base_url'] . "/" . path_to_theme() ?>/images/pictos/audience.svg">
-	      <h1><?php print $title; ?></h1>
+          <h1><?php print $title; ?></h1>
         <?php print render($page['content_top']); ?>
-	    </hgroup>
-	  </div>
-	</div>
+        </hgroup>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -154,7 +154,7 @@ global $base_url;
     <?php if ($page['strands']) : ?>
   <!-- #Gris foncé -->
     <div class="container">
-	  <div class="row">
+      <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <?php print render($page['strands']); ?>
         </div>
@@ -182,9 +182,9 @@ global $base_url;
 <?php if ($page['content']) : ?>
   <section class="content-wrapper" id="searchresults">
     <div class="container">
-	  <div class="row">
+      <div class="row">
         <?php print render($page['content']); ?>
-	  </div>
+      </div>
     </div>
   </section>
 <?php endif; ?>
@@ -213,7 +213,7 @@ global $base_url;
       <div class="sm" >
         <?php print $facebook . $twitter . $newsletter; ?>
       </div>
-	</div>
+    </div>
     <div class="row">
       <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
@@ -224,11 +224,11 @@ global $base_url;
       <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
-	</div>
+    </div>
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
         <?php print $regions['footer']; ?>
-	</div>
+    </div>
   </div>
 </footer>

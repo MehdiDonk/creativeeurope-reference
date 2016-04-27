@@ -1,0 +1,89 @@
+{
+  "_id": "9e94ae288f3ccc7b2075f3a6d3e1f766",
+  "type": "page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/events/2014/1112-mies_en.htm"
+      ]
+    },
+    "long_title": {
+      "en": [
+        "Exhibition EU Prize for Contemporary Architecture - Mies van der Rohe Award 2013"
+      ]
+    },
+    "abstract": {
+      "en": [
+        "<p>Constructing Europe: 25 Years of Architecture European Union Prize for Contemporary Architecture - Mies van der Rohe Award. Opening on 11 December.</p>"
+      ]
+    },
+    "start_date": {
+      "en": [
+        "2014-12-11 0:00:00"
+      ]
+    },
+    "end_date": {
+      "en": [
+        "2015-02-21 23:59:59"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CREATIVE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Constructing Europe: 25 Years of Architecture European Union Prize for Contemporary Architecture - Mies van der Rohe Award exhibition in Luxembourg 12 December 2014 - 21 February 2015."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "architecture",
+        "mies van der rohe award"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-510-Architecture"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>Date &amp; venue</h5>             <p>Opening: 11 December, 2014</p>             <p>Showroom Foundation Architecture, 1 block from the Steel Mill, L-1112 Luxembourg-Hollerich<br/>Exhibition: 12-21 December, 2014 and 05 January-21 February, 2015</p>             <p>Free admission</p>             <h5>Context</h5>             <p>The <a href=\"http://miesbcn.com/calendar/foundation-de-larchitecture-et-de-lingenerie-luxembourg-presents-the-prize-2013-exhibition\"                   target=\"_blank\">Exhibition</a> presents models, panels with drawings and photos and audiovisuals of the <a href=\"http://europa.eu/rapid/press-release_IP-13-376_en.htm\" lang=\"en\"                   target=\"_blank\">2013 edition of the Prize</a> and of the 1988-2011 Winners and Emerging Architect Special Mentions.</p>             <p>The Award is granted every two years. The Harpa – Reykjavik Concert Hall and Conference Centre in Iceland, won the 2013 Prize. Designed by Henning Larsen Architects, Studio Olafur Eliasson and Batteríið Architects, the building has helped to transform and revitalise Reykjavik harbour and bring the city and port district closer together. The Emerging Architect Special Mention went to María Langarita and Víctor Navarro for the Red Bull Music Academy / Nave de Música Matadero in Madrid, Spain.</p>             <h5>The Prize</h5>             <p>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/architecture-prize_en.htm\"                   lang=\"en\"                   target=\"_blank\">The European Union Prize for Contemporary Architecture</a> – Mies van der Rohe Award highlights the contribution of European architects to the development of new ideas and technologies in contemporary urban development. Launched in 1987 and co-funded by the EU Culture Programme and the Fundació Mies van der Rohe, the prize is the most prestigious in European architecture. It is awarded every other year to works completed within the previous two years.</p>"
+      ]
+    },
+    "url": {
+      "en": [
+        "<p>                <a href=\"http://miesbcn.com/calendar/foundation-de-larchitecture-et-de-lingenerie-luxembourg-presents-the-prize-2013-exhibition\"                   target=\"_blank\">Exhibition website</a>             </p>"
+      ]
+    }
+  }
+}

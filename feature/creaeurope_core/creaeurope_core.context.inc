@@ -7,25 +7,24 @@
 /**
  * Implements hook_context_default_contexts().
  */
-function creaeurope_core_context_default_contexts() 
-{
-    $export = array();
+function creaeurope_core_context_default_contexts() {
+  $export = array();
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'about';
-    $context->description = '';
-    $context->tag = 'pages';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'about';
+  $context->description = '';
+  $context->tag = 'pages';
+  $context->conditions = array(
     'path' => array(
       'values' => array(
         'about' => 'about',
         'about_en' => 'about_en',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'block-36' => array(
@@ -66,28 +65,28 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('pages');
-    $export['about'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('pages');
+  $export['about'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'contact';
-    $context->description = '';
-    $context->tag = 'pages';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'contact';
+  $context->description = '';
+  $context->tag = 'pages';
+  $context->conditions = array(
     'menu' => array(
       'values' => array(
         'contact' => 'contact',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'block-35' => array(
@@ -104,28 +103,28 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('pages');
-    $export['contact'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('pages');
+  $export['contact'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'crosssector';
-    $context->description = '';
-    $context->tag = 'pages';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'crosssector';
+  $context->description = '';
+  $context->tag = 'pages';
+  $context->conditions = array(
     'menu' => array(
       'values' => array(
         'crosssector' => 'crosssector',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'block-21' => array(
@@ -136,21 +135,21 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('pages');
-    $export['crosssector'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('pages');
+  $export['crosssector'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'ehl';
-    $context->description = '';
-    $context->tag = 'Mini Site';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'ehl';
+  $context->description = '';
+  $context->tag = 'Mini Site';
+  $context->conditions = array(
     'node_taxonomy' => array(
       'values' => array(
         36 => 36,
@@ -159,8 +158,8 @@ function creaeurope_core_context_default_contexts()
         'node_form' => '1',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'block-30' => array(
@@ -174,28 +173,28 @@ function creaeurope_core_context_default_contexts()
     'theme_html' => array(
       'class' => 'ehl mini-site',
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('Mini Site');
-    $export['ehl'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Mini Site');
+  $export['ehl'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'news-events-calls';
-    $context->description = '';
-    $context->tag = 'page';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'news-events-calls';
+  $context->description = '';
+  $context->tag = 'page';
+  $context->conditions = array(
     'views' => array(
       'values' => array(
         'latest_news_events_and_calls' => 'latest_news_events_and_calls',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'views-cbc87de194ca186a4c999a3df98e2736' => array(
@@ -254,29 +253,29 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('page');
-    $export['news-events-calls'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('page');
+  $export['news-events-calls'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'overview';
-    $context->description = '';
-    $context->tag = 'media';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'overview';
+  $context->description = '';
+  $context->tag = 'media';
+  $context->conditions = array(
     'path' => array(
       'values' => array(
         'media' => 'media',
         'media_en' => 'media_en',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'block-24' => array(
@@ -323,29 +322,29 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('media');
-    $export['overview'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('media');
+  $export['overview'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'overview-culture';
-    $context->description = '';
-    $context->tag = 'culture';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'overview-culture';
+  $context->description = '';
+  $context->tag = 'culture';
+  $context->conditions = array(
     'path' => array(
       'values' => array(
         'culture' => 'culture',
         'culture_en' => 'culture_en',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'block-25' => array(
@@ -392,28 +391,28 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('culture');
-    $export['overview-culture'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('culture');
+  $export['overview-culture'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'overview_action';
-    $context->description = '';
-    $context->tag = 'actions';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'overview_action';
+  $context->description = '';
+  $context->tag = 'actions';
+  $context->conditions = array(
     'menu' => array(
       'values' => array(
         'actions' => 'actions',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'block-29' => array(
@@ -436,28 +435,28 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('actions');
-    $export['overview_action'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('actions');
+  $export['overview_action'] = $context;
 
-    $context = new stdClass();
-    $context->disabled = false; /* Edit this to true to make a default context disabled initially */
-    $context->api_version = 3;
-    $context->name = 'video-game-development';
-    $context->description = '';
-    $context->tag = 'media';
-    $context->conditions = array(
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'video-game-development';
+  $context->description = '';
+  $context->tag = 'media';
+  $context->conditions = array(
     'menu' => array(
       'values' => array(
         '<front>' => '<front>',
       ),
     ),
-    );
-    $context->reactions = array(
+  );
+  $context->reactions = array(
     'block' => array(
       'blocks' => array(
         'bean-share-on-facebook-and-twitter' => array(
@@ -492,13 +491,13 @@ function creaeurope_core_context_default_contexts()
         ),
       ),
     ),
-    );
-    $context->condition_mode = 0;
+  );
+  $context->condition_mode = 0;
 
-    // Translatables
-    // Included for use with string extractors like potx.
-    t('media');
-    $export['video-game-development'] = $context;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('media');
+  $export['video-game-development'] = $context;
 
-    return $export;
+  return $export;
 }

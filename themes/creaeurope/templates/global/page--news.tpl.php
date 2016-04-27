@@ -208,9 +208,9 @@ global $base_url;
 <?php if ($page['actions']) : ?>
   <section class="actions">
     <div class="container">
-	  <div class="row">
+      <div class="row">
         <?php print render($page['actions']); ?>
-	  </div>
+      </div>
     </div>
   </section>
 <?php endif; ?>
@@ -236,7 +236,7 @@ global $base_url;
       <div class="sm" >
         <?php print $facebook . $twitter . $newsletter; ?>
       </div>
-	</div>
+    </div>
     <div class="row">
       <div class="col-sm-4 bottomleft">
         <?php print render($page['footer_bottomleft']); ?>
@@ -247,12 +247,12 @@ global $base_url;
       <div class="col-sm-4 bottomright">
         <?php print render($page['footer_bottomright']); ?>
       </div>
-	</div>
+    </div>
   </div>
   <div class="footer--last-update">
     <div class="footer--last-update--wrapper">
         <?php print $regions['footer']; ?>
-	</div>
+    </div>
   </div>
 </footer>
 <!-- /#footer -->      
