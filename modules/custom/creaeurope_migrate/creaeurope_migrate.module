@@ -7,7 +7,7 @@
 /**
  * Implements hook_migrate_api().
  */
- creaeurope_migrate_migrate_api() {
+function creaeurope_migrate_migrate_api() {
 return array(
   'api' => 2,
   'groups' => array(
@@ -45,7 +45,7 @@ return array(
  * @return string|array
  * Checked file or files.
  */
-_creaeurope_migrate_file_check($files) {
+function creaeurope_migrate_file_check($files) {
 $domain_name = variable_get('creaeurope_migrate_domain_name');
 $domain_name = rtrim($domain_name, '/');
 // Can be a string or an array.
@@ -88,7 +88,7 @@ return $files;
  * @return array
  * Term ids of the parameter(s).
  */
-_creaeurope_migrate_get_classification($value) {
+function_creaeurope_migrate_get_classification($value) {
 $vocabulary_name = 'classification';
 $values = !is_array($value) ? (array) $value : $value;
 $tids = array();
@@ -181,7 +181,7 @@ return $text;
  * @return string
  * Text filtered.
  */
-_creaeurope_migrate_import_files($file, $dir) {
+function creaeurope_migrate_import_files($file, $dir) {
 // Build the folder tree if needed.
 $dest = 'public://' . $dir;
 $wrapper = file_stream_wrapper_get_instance_by_uri($dest);
@@ -214,7 +214,7 @@ return $file_link;
  * @return string
  * Path.
  */
-_creaeurope_migrate_path($url, $site = FALSE) {
+function creaeurope_migrate_path($url, $site = FALSE) {
 $lang = locale_language_list('name');
 $lang_keys = array_keys($lang);
 $domain_name = variable_get('creaeurope_migrate_domain_name');
