@@ -1,4 +1,4 @@
-name = Creative Europe Migrate
+name = creaeurope_migrate
 description = Migrate classes for the Creative Europe migration
 core = 7.x
 package = creaeurope
