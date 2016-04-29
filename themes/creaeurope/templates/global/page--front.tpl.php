@@ -230,4 +230,7 @@ global $base_url;
     </div>
   </div>
 </footer>
+<div class="frontpage">
+	<?php print $regions['content']; ?>
+</div>
 <!-- /#footer -->
