@@ -1,0 +1,67 @@
+{
+  "_id": "35e1a1c3174ca9046de86bd78dda971d",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/404_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Oooops... We didn't find the page you are looking for..."
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Page not found"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>We'll dig that up for you as soon as we can.<br/>  \t\tIn the meantime, you can try looking for more information in <a href=\"http://ec.europa.eu/culture/policy/index_en.htm\" lang=\"en\">our policy section</a>, and we also have a handy <a href=\"http://ec.europa.eu/programmes/creative-europe-old/index_en.htm\"                   lang=\"en\"                   target=\"_blank\">overview of Creative Europe</a>!</p>             <p>If not, you can always <a href=\"http://ec.europa.eu/culture/contact/index_en.htm\" lang=\"en\">contact us</a> to let us know what you think…</p>"
+      ]
+    }
+  }
+}

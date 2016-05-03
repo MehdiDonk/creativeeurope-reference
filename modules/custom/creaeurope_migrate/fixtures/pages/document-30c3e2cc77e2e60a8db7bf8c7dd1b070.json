@@ -1,0 +1,68 @@
+{
+  "_id": "30c3e2cc77e2e60a8db7bf8c7dd1b070",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/munster-osnabruck_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Münster and Osnabrück – Sites of the Peace of Westphalia, Germany"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"westp\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-munster-osnabruck_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The Peace of Westphalia describes the totality of the peace treaties that were negotiated and agreed upon in the cities of <a href=\"http://www.muenster.de/stadt/tourismus/en/old-town-area_town-hall.html\"                   title=\"More information on Münster\">Münster</a> and <a href=\"http://www.osnabrueck.de/kulturerbe-siegel/\" target=\"_blank\"                   title=\"More information on Osnabrück\">Osnabrück</a> in 1648.</p>             <p>They brought an end to the Thirty Years' War (AD 1618-1648), in which all major European powers were involved and which was not only a conflict between states, but also between religions.</p>             <p>Moreover, the conflict also concluded the Dutch War of Independence (AD 1568-1648) from Spain. The Peace of Westphalia was a seminal event in the development of the state and of international law. The principles there developed remain in effect and decisively shaped the order of today's Europe.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=9\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

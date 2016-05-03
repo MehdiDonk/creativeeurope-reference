@@ -1,0 +1,68 @@
+{
+  "_id": "63907bd2a01d577c46074a7a5b9115f3",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/hambach-castle_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Hambach Castle, Germany"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"castle\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-neustadt_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>Built in the Middle Ages, Hambach Castle gained outstanding importance in the nineteenth century. Following a period of political repression, around 30,000 people from Germany, France and Poland came together at the castle on 27 May 1832 to celebrate the Hambach Festival (Hambacher Fest).</p>             <p>The attendants spoke out for fundamental rights and political freedoms and for equality, tolerance and democracy in Germany and Europe, making the castle a symbol of the struggle for civil liberties in Europe.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=12\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

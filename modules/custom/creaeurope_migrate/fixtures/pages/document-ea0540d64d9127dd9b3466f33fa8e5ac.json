@@ -1,0 +1,77 @@
+{
+  "_id": "ea0540d64d9127dd9b3466f33fa8e5ac",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/tools/digital-circulation_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Preparatory action on \"Circulation of European Films in the Digital Era\""
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Preparatory Action on \"Circulation of European films in the digital era\" is an initiative funded by the European Parliament, designed to test the impact of releasing films simultaneously or near-simultaneously on video-on-demand (VOD) and cinemas, festivals, or television in several countries. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "european union",
+        "eu",
+        "preparatory action",
+        "video-on-demand",
+        "vod",
+        "circulation of european films in the digital era",
+        "digital",
+        "film",
+        "circulation",
+        "IFFR Live",
+        "SPIDE",
+        "TIDE",
+        "Speed Bunch",
+        "EDAD",
+        "Streams Day & Date"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"what\"/>What is it?</h5>             <p>The Preparatory Action on \"Circulation of European films in the digital era\" is an initiative funded by the European Parliament and implemented by the European Commission.</p>             <p>The initiative was designed to test the impact of releasing films simultaneously or near-simultaneously on video-on-demand (VOD) and cinemas, festivals, or television in several countries.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"why\"/>Why is it needed?</h5>             <p>By increasing complementarity between the different distribution platforms and releasing films on the same day in different countries, the action sought to define conditions that could increase the global audience for European films.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"aim\"/>What does it aim to achieve?</h5>             <p>In addition to the main objective, testing the potentially beneficial impact of simultaneous multi-platform release on the distribution of a film, the initiative also sought to disseminate the findings to its stakeholders.</p>             <p>This is done by informing market players and policy makers of the results of the experimentation by a reporting exercise and a public presentation. In this context, the results of the first generation have been published and a <a href=\"http://ec.europa.eu/culture/events/2014/20140516-cannes-audiovisual_en.htm\"                   lang=\"en\"                   title=\"Proceeds of the Canes conference on EU audiovisual policy\">public presentation took place in Cannes on 16/05/2014</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"so-far\"/>What has been achieved so far?</h5>             <p>The first generation of projects has been implemented, with the results published in a <a href=\"http://ec.europa.eu/culture/library/studies/cinema-diversity-report_en.pdf\"                   lang=\"en\"                   target=\"_blank\"                   title=\"Study on new approaches for greater diversity of cinema\">report analysing the experiments</a> (accompanied by an <a href=\"http://ec.europa.eu/culture/library/studies/cinema-diversity-summary_en.pdf\"                   lang=\"en\"                   target=\"_blank\"                   title=\"Executive summary of the study on new approaches for greater diversity of cinema\">executive summary</a>). The first generation consisted of: </p>             <ul>                <li>                   <a href=\"http://thetideexperiment.wordpress.com/\" target=\"_blank\"                      title=\"Website of the Trans International Distribution Experiment\">Trans International Distribution in Europe</a> (TIDE), coordinated by Société civile des Auteurs Réalisateur Producteurs (ARP),</li>                <li>                   <strong>SPEED BUNCH</strong>, coordinated by Wild Bunch, and</li>                <li>                   <strong>European Day and Date</strong> (EDAD), coordinated by Curzon Artificial Eye.</li>             </ul>             <p>The report highlighted that most European films released gained from the approach, in terms of visibility, revenue and cost savings. The report also highlighted that no major risks to the approach existed notably in terms of potential cannibalisation between the several platforms of exploitation (e.g. cinemas and VOD).</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"next\"/>What are the next steps?</h5>             <p>Following on from the report on the first generation of projects, the second generation of projects are releasing new films and the results of the experimentation will be published and shared with market players and policy makers.</p>             <p>The second generation of projects consist of:</p>             <ul>                <li>                   <strong>Simultaneous Picture European Exploitation in a Digital Bunch</strong> (SPIDE), a merger of TIDE and Speed Bunch coordinated by ARP,</li>                <li>                   <a href=\"https://www.filmfestivalrotterdam.com/en/\" target=\"_blank\"                      title=\"Website of the International Film Festival Rotterdam\">International Film Festival Rotterdam</a> (IFFR) Live, coordinated by The Rotterdam Film Festival, and</li>                <li>                   <a href=\"http://www.streamsdayanddate.com/\" target=\"_blank\"                      title=\"Website of the Streams Day and Date project\">Streams Day &amp; Date</a>, coordinated by Eurovod.</li>             </ul>             <p>The reporting should include, where possible, considerations on the relationship between theatrical release and digital distribution, synergies between traditional and new marketing, and the effect of increasing the multi-territorial dimension of the distribution.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52014DC0272\"                      target=\"_blank\"                      title=\"Communication on European Film in the Digital Era\">Communication on European Film in the Digital Era</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/culture/calls/general/2013-eac-s08_en.htm\" lang=\"en\"                      title=\"Call EAC/S08/2013\">Call for proposals EAC/S08/2013</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/culture/calls/general/2012-eac-s05_en.htm\" lang=\"en\"                      title=\"Call EAC/S05/2012\">Call for proposals EAC/S05/2012</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

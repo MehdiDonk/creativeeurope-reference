@@ -1,0 +1,73 @@
+{
+  "_id": "74000d05b0ed737e4f8d633ec0c57e72",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-days_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European Heritage Days"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "47-Event (announcement, program or report of an event such as a seminar, conference, exhibition, etc.)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European Heritage Days is a locally-led initiative which provides access to thousands of rarely opened sites and unique events to over 20 million people every year."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "european union",
+        "eu",
+        "culture",
+        "heritage",
+        "access",
+        "museums",
+        "history",
+        "historical",
+        "buildings",
+        "architecture",
+        "art",
+        "event",
+        "sculpture",
+        "convention",
+        "european heritage day",
+        "european heirtage days"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"what\"/>What is it?</h5>             <p>The European Heritage Days is a locally-led initiative which provides access to thousands of rarely opened sites and unique events to over 20 million people every year.</p>             <p>The initiative, which provides opportunities ranging from guided tours to open-air performances, takes place across Europe every year in September, and is organised around a special theme, varying from country to country.</p>             <p>It is a joint initiative managed by the European Commission and the Council of Europe, in close coordination with national coordinators.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"why\"/>What is the point?</h5>             <p>The European Heritage Days aim to:</p>             <ul>                <li>Raise awareness of Europe's cultural richness and diversity</li>                <li>Increase appreciation of Europe's cultural heritage</li>                <li>Encourage greater tolerance for other cultures across Europe</li>                <li>Improve awareness of the need to protect cultural heritage</li>                <li>Invite Europe to respond to the social, political, and economic challenges of the culture sector</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"where\"/>Where does it happen?</h5>             <p>The European Heritage Days, launched in 1985, take place in the 50 signatory states to the <a href=\"http://conventions.coe.int/Treaty/Commun/QueVoulezVous.asp?NT=018&amp;CM=7&amp;CL=ENG\"                   target=\"_blank\">European Cultural Convention</a>, putting new cultural treasures on display and opening up historic buildings normally closed to the public.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"more\"/>Where can I find out more?</h5>             <p>More information on the European Heritage Days can be found on <a href=\"http://www.europeanheritagedays.com\" target=\"_blank\">the European Heritage Days website</a>.</p>"
+      ]
+    }
+  }
+}

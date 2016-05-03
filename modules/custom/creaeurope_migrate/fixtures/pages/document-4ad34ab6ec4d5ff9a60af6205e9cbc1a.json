@@ -1,0 +1,67 @@
+{
+  "_id": "4ad34ab6ec4d5ff9a60af6205e9cbc1a",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/krapina_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Krapina Neanderthal Site (Krapina, Croatia)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Site where largest number of Neanderthal fossils found in Europe"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/neandertal-main.jpg\"                     alt=\"Krapina Neanderthal Site (Krapina, Croatia)\"                     height=\"400\"                     title=\"Krapina Neanderthal Site (Krapina, Croatia)\"                     width=\"600\"/>             </p>             <p>In 1899 at this site were found the largest number of Neanderthal fossil bones in Europe, some nine hundred human remains from about eighty individuals, as well as bones of various animals dating back 125 000 BC. Experts from all over the world have conducted research on the collection and their interpretation of the Krapina findings influenced different scientific theories about human development, the genesis of our civilisation and about how human communities in Europe lived during the Pleistocene period.</p>             <p>Next to the archaeological site, the Krapina Neanderthal Museum presents today and in an interactive way the origin of life on Earth and the evolution of humankind.</p>"
+      ]
+    }
+  }
+}

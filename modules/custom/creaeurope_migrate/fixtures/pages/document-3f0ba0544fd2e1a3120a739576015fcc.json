@@ -1,0 +1,82 @@
+{
+  "_id": "3f0ba0544fd2e1a3120a739576015fcc",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/tools/pilot-project-festivals_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Pilot Project for a European Platform for Festivals in the field of Culture"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Pilot Project was an initiative launched in 2013 with a view to co-finance a European Platform for festivals in the field of culture."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "pilot",
+        "project",
+        "Pilot Project for a European Platform for Festiv",
+        "culture",
+        "plaform",
+        "cultural",
+        "cooperation",
+        "festivals",
+        "label",
+        "award"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"what\"/>What is it?</h5>             <p>Europe for Festivals, Festivals for Europe (EFFE) is a European Commission pilot project for a European Platform for Festivals in the field of culture.</p>             <p>EFFE was initiated by the <a href=\"http://www.efa-aef.eu/en/festivals/\" target=\"_blank\">European Festivals Association (EFA)</a>, the umbrella organisation for festivals across Europe and beyond, and is supported by the European Parliament.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"why\"/>Why do we need it?</h5>             <p>Cultural festivals have grown immensely in Europe over the last decade and are an important facet of the cultural life of Europeans. In addition to their direct benefits on culture and the arts, they also have a significant impact on social, economic, and educational development.</p>             <p>Festivals bring together people from all strands of society by providing a festive and creative environment which makes them valuable platforms for audience participation. They also contribute to tourism, jobs, and growth.</p>             <p>Many festivals are also increasingly international, cooperating with other festivals from all over Europe, embracing transversal values fundamental to the European integration process.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"objective\"/>What is EFFE going to do?</h5>             <p>EFFE’s overall aims are to increase access to Europe’s diverse festivals by providing key information on Europe’s arts and cultural festivals, and to enrich the festival landscape and European society by promoting trends in artistic excellence and innovation in festival production.</p>             <p>“Arts and culture are at the core of EFFE’s mission, globally promoting Europe as a vibrant space for cultural diversity, citizenship, democracy, freedom and peace,” stressed Darko Brlek, President European Festivals Association.</p>             <p>Activities foreseen in EFFE’s work programme include, amongst others:</p>             <ul>                <li>an inclusive <strong>EFFE Festival Label</strong> granted to as many festivals as possible based on criteria determined by EFFE;</li>                <li>                   <strong>EFFE Festival Awards</strong> given to a selected number of festivals for excellence;</li>                <li>an <strong>EFFE Festival Guide</strong> promoting Award and Label winners via various digital and print formats;</li>                <li>an <strong>EFFE Festival Gala</strong> that presents the festivals receiving the Awards and Labels;</li>                <li>an <strong>Outreach Programme</strong> promoting and reflecting on festival trends and challenges;</li>                <li>the establishment  of an <strong>International Festivals Jury</strong> to steer the selection process of festivals</li>                <li>the establishment of <strong>Festival Hubs</strong> to act as contact points across the EU Member States.</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/\" id=\"results\"/>What were the results?</h5>             <p>Following the official launch of EFFE at the annual round table of EFA and the <a href=\"http://ec.europa.eu/culture/news/2014/0612-effe-applications_en.htm\"                   lang=\"en\">publication of the call for festivals applications</a>, the evaluation and selection process is being implemented and will culminate with the Award Gala in January 2015.</p>             <p>The pilot phase of the project will end with the publication of the EFFE guide in September 2015.</p>             <p> </p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>Call for the <a href=\"http://ec.europa.eu/culture/calls/general/call-eac-s07-2013-pilot-project_en.htm\"                      lang=\"en\">launch</a> of the EFFE</li>                <li>The <a href=\"http://www.efa-aef.eu/en/festivals/\" target=\"_blank\">website of the EFFE platform</a> </li>                <li>                   <a href=\"http://ec.europa.eu/culture/news/2014/0612-effe-applications_en.htm\"                      lang=\"en\">Call for proposals for interested festivals</a>, open until 15/11/2014</li>             </ul>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "34798e061ee122e2017e5d3cfd81d7b2",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/news-page_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Discover the Sites"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/images/ehl/ehlbig.jpg"
+      ]
+    },
+    "media_alt": {
+      "en": [
+        "Discover the Sites"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h4>Category: Conservation</h4>             <ul>                <li>                   <a href=\"http://www.europanostra.org/awards/152\">Picturesque Garden of the Museum van Buuren in Brussels, Belgium</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/153\">Armenian Church and Monastery in Nicosia, Cyprus</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/156\">Boulingrin Central Market Hall in Reims, France</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/157\">Antouaniko Mansion in Chios, Greece</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/158\">Liszt Academy of Music in Budapest, Hungary</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/160\">Nuragic Sculptures of Monte Prama in Sardinia, Italy</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/159\">Paleochristian Mosaics of the Basilica Complex in Aquileia, Italy</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/161\">The Halls Amsterdam: Centre for Media, Fashion, Culture and Crafts, The Netherlands</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/162\">Manor House in Eidsvoll, Norway</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/155\">Cathedral in Tarazona, Spain</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/154\">Salt Valley of Añana, Basque Country, Spain</a>                </li>             </ul>             <h4>Category: Research and Digitization</h4>             <p>                <span style=\"text-decoration: underline;\">Research Projects:</span>             </p>             <ul>                <li>                   <a href=\"http://www.europanostra.org/awards/167\">Restoration of Lasithi Plateau’s Windmills with Perforated Sails, Crete, Greece</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/166\">Learning from las Cuencas: the Cultural Landscape of the Asturian Coalfields, Spain</a>                </li>             </ul>             <p>                <span style=\"text-decoration: underline;\">Digitization Projects:</span>             </p>             <ul>                <li>                   <a href=\"http://www.europanostra.org/awards/168\">HERMES: Hermoupolis Digital Heritage Management, Syros, Greece</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/169\">Wonders of Venice: Virtual Online Treasures in St. Mark’s Area, Italy</a>                </li>             </ul>             <h4>Category: Dedicated Service</h4>             <ul>                <li>                   <a href=\"http://www.europanostra.org/awards/170\">The Rundling Association, Jameln, Germany</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/171\">Huis Doorn Association of Friends, Doorn, The Netherlands</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/172\">Churches Conservation Trust, London, United Kingdom</a>                </li>             </ul>             <h4>Category: Education, Training and Awareness-Raising</h4>             <p>                <span style=\"text-decoration: underline;\">Education Projects:</span>             </p>             <ul>                <li>                   <a href=\"http://www.europanostra.org/awards/178\">Heritage Skills Initiative, Newcastle upon Tyne, United Kingdom</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/177\">Young Archaeologists’ Club, York, United Kingdom</a>                </li>             </ul>             <p>                <span style=\"text-decoration: underline;\">Training Projects:</span>             </p>             <ul>                <li>                   <a href=\"http://www.europanostra.org/awards/173\">Programme for Owners of Rural Buildings in Estonia, Tallinn, Estonia</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/176\">The Outbuilding Project, Roros, Norway</a>                </li>             </ul>             <p>                <span style=\"text-decoration: underline;\">Awareness-Raising Projects:</span>             </p>             <ul>                <li>                   <a href=\"http://www.europanostra.org/awards/174\">The Garden City of Stains, France</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/181\">Saving Past Testimonies for Building a Future, Chisinau, Moldova</a>                </li>                <li>                   <a href=\"http://www.europanostra.org/awards/175\">The Fota Walled Garden, Cork, Ireland</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

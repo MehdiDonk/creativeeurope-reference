@@ -13,3 +13,4 @@ files[] = includes/creaeurope_migrate.abstract.inc
 files[] = includes/creaeurope_migrate.events.inc
 files[] = includes/creaeurope_migrate.calls.inc
 files[] = includes/creaeurope_migrate.news.inc
+files[] = includes/creaeurope_migrate.pages.inc

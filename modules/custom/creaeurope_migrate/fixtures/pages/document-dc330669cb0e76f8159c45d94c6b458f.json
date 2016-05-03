@@ -1,0 +1,68 @@
+{
+  "_id": "dc330669cb0e76f8159c45d94c6b458f",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/may-constitution_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "The May 3, 1791 Constitution, Warsaw, Poland"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"vidwarsaw\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-warsaw_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://www.agad.archiwa.gov.pl/prezentacje/index.html\" target=\"_blank\"                   title=\"More information on the May 3 Constitution\">Constitution of May 3, 1791</a> was adopted by the Polish–Lithuanian Commonwealth, to ensure more freedom and political equality on its territory and introduce the constitutional monarchy system.</p>             <p>It reflects enlightenment influences, which gave primacy to reason, law and freedom, as well as religious tolerance, and is considered as one of the first constitutions of its type in Europe.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=11\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "777dd3f3a7a2ac89abc055935df84a83",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/cooperation_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European cooperation projects"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe supports transnational cooperation projects involving cultural and creative organisations from different countries taking part in the programme."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "culture",
+        "sub-programme",
+        "Creative Europe",
+        "transnational cooperation",
+        "europe",
+        "cross-border",
+        "cultural",
+        "creative",
+        "organisations",
+        "project",
+        "projects",
+        "funding",
+        "financing",
+        "grant",
+        "grants"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"what\"/>What is it for?</h5>             <p>Creative Europe supports transnational cooperation projects involving cultural and creative organisations from different countries taking part in the programme.</p>             <p>It aims to improve access to European culture and creative works and to promote innovation and creativity.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"for\"/>What does it support?</h5>             <p>Cross-border cooperation projects between cultural and creative organisations within the EU and beyond. Projects can cover one or more cultural and creative sectors and can be interdisciplinary.</p>             <p>Funding is available for two types of projects:</p>             <ul>                <li>Small scale cooperation projects (project leader and at least two other partners)</li>                <li>Large scale cooperation projects (project leader and at least five other partners)</li>             </ul>             <p>The maximum duration for all projects is 48 months.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>Organisations active in the cultural and creative sectors can apply. Individuals cannot apply.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a>, as well as <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/culture/cooperation-projects_en\"                   target=\"_blank\">from the website of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available in on the <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/culture/cooperation-projects_en\"                   target=\"_blank\">website of EACEA</a>, as well as in the <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">calls for proposal section</a> and from the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"http://eacea.ec.europa.eu/creative-europe_en\" id=\"tooltip\"                      target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=culture-cooperation-projects\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=culture-cooperation-projects\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

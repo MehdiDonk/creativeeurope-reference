@@ -1,0 +1,62 @@
+{
+  "_id": "b19a3b8d806f0963302a78a9bee1f298",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/gallery/video_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Video gallery"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "COMM/EAC/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe video gallery"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "08-000-Education, Teaching, Vocational Training, Youth"
+      ]
+    }
+  }
+}

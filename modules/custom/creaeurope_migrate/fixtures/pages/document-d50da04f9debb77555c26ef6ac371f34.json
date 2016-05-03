@@ -1,0 +1,62 @@
+{
+  "_id": "d50da04f9debb77555c26ef6ac371f34",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/gallery/image_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Image gallery"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "COMM/EAC/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Images concerning the activities of the Directorate General for Education and Culture in the field of eduation and training"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "08-000-Education, Teaching, Vocational Training, Youth"
+      ]
+    }
+  }
+}

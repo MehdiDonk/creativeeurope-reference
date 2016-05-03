@@ -1,0 +1,82 @@
+{
+  "_id": "ddd93b6f8184359430e7a8ad73a56628",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/training_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Training"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Creative Europe programme provides opportunities for training measures promoting the acquisition of skills and competences by audiovisual professionals, and promotion of knowledge sharing, networks and the use of digital technologies."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "media",
+        "sub-programme",
+        "creative europe",
+        "training",
+        "audiovisual",
+        "professional",
+        "knowledge-sharing",
+        "network",
+        "digital",
+        "technology",
+        "funding",
+        "financing",
+        "grant"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"what\"/>What is it for?</h5>             <p>The Creative Europe programme provides opportunities for training measures promoting the acquisition of skills and competences by audiovisual professionals, and promotion of knowledge sharing, networks and the use of digital technologies.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"for\"/>What does it support?</h5>             <p>Training activities in different fields such as audience development and opportunities and challenges of the digital shift.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>European entities (private companies, non-profit organisations, associations, charities, foundations, municipalities/Town Councils, etc.), established in one of the countries participating in the MEDIA Sub-programme and owned directly or by majority participation, by nationals from such countries.</p>             <p>Individuals may not apply for a grant.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/culture/calls/index_en.htm\" lang=\"en\">specific calls for proposals</a>, as well as from <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/training_en\"                   target=\"_blank\">the website of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>, and the <a href=\"http://ec.europa.eu/culture/tools/creative-desks_en.htm\" lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available on the <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/training_en\"                   target=\"_blank\">EACEA website</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/culture/tools/creative-desks_en.htm\" lang=\"en\">Creative Europe Desks</a>                </li>                <li>The <a href=\"http://ec.europa.eu/culture/library/publications/2014-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2014</a>, <a href=\"http://ec.europa.eu/culture/library/publications/2013-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2013</a>, and <a href=\"http://ec.europa.eu/culture/library/publications/2012-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2012</a> Training &amp; Networks Guides</li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=media-training\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=media-training\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

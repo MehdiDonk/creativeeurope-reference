@@ -1,0 +1,78 @@
+{
+  "_id": "ce74b5ddceba636b2b5de314a0cfa7dd",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/distribution_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Distribution support"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "a"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"what\"/>What is it for?</h5>             <p>Creative Europe offers opportunities for European organisations to increase the distribution of European films, as well as encouraging the development of links between the production and distribution sectors.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"for\"/>What does it support?</h5>             <p>Opportunities exist in three main areas;</p>             <ul>                <li>Selective support, for groups of distributors to promote works of fiction;</li>                <li>Automatic support, involving the generation of a potential fund and its reinvestment in co-production, acquisition of distribution rights, and the promotion of non-national European films;</li>                <li>Support to sales agents, involving the generation of a potential fund and its reinvestment in sales agents, based on their performance, for further reinvestment in new non-national European films.</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>Selective and automatic support opportunities are open to European cinema/theatrical distributors.</p>             <p>Support to sales agents opportunities are open to companies specialising in the marketing or licensing of films.</p>             <p>In both instances organisations must be owned, directly or through majority shares, by nationals of Member States of the EU or another country participating in the MEDIA sub-programme, and must be registered in one of the countries.</p>             <p>Individuals cannot apply for funding.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a>, as well as from the <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/distribution_en\"                   target=\"_blank\">website of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available on the <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/distribution_en\"                   target=\"_blank\">EACEA website</a>, which contains detailed information on apply for:</p>             <ul>                <li>                   <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/distribution/distribution-selective-support_en\"                      target=\"_blank\">Selective support opportunities</a>;</li>                <li>                   <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/distribution/distribution-automatic-support_en\"                      target=\"_blank\">Automatic support opportunities</a>;</li>                <li>                   <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/distribution/distribution-support-sales-agents_en\"                      target=\"_blank\">Support to sales agents</a>.</li>             </ul>             <p/>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=media-distribution\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=media-distribution\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

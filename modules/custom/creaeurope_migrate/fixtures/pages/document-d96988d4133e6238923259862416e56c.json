@@ -1,0 +1,59 @@
+{
+  "_id": "d96988d4133e6238923259862416e56c",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/mundaneum-mons_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Mundaneum (Mons, Belgium)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Mundaneum's aim was to gather and classify all information available in the world."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "Mundaneum",
+        "mons",
+        "information",
+        "science",
+        "history"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/mons-main.jpg\"                     alt=\"Mundaneum (Mons, Belgium)\"                     title=\"Mundaneum (Mons, Belgium)\"/>             </p>             <p>The Mundaneum is a landmark in the intellectual and social fabric of Europe. Its founders, Henri La Fontaine and Paul Otlet, were advocates of peace through dialogue and sharing knowledge at European and international level with the means of bibliographic enquiry. The Mundaneum's aim was to gather all information available in the world, regardless of its medium (books, newspapers, postcards…), and to classify it according to a system they developed, the Universal Decimal Classification.</p>             <p>The Mundaneum provides the foundations of present-day information science and is considered today as a precursor of internet search engines.</p>"
+      ]
+    }
+  }
+}

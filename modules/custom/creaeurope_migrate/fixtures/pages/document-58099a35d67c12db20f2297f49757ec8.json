@@ -1,0 +1,68 @@
+{
+  "_id": "58099a35d67c12db20f2297f49757ec8",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/ancient-athens_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "The Heart of Ancient Athens, Greece"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"athens\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"350\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-athens_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384\" target=\"_blank\"                   title=\"More information on the site\">Acropolis</a> and the surrounding archaeological sites constitute an architectural ensemble of outstanding significance. The complex of up to a hundred monuments represents the core of ancient Athens, spanning a period of more than 3,000 years.</p>             <p>As an outstanding example of ancient architectural development, the site comprises the Acropolis hill, its north, south and east slopes, the Ancient Agora, the Roman Agora, the Library of Hadrian the Hills, the Pnyx, Areopagus, Philopappos (Muses) and Nymphs (Observatory) as well as the Kerameikos workshops and cemetery.</p>             <p>Philosophy, democracy and political theory, theatre and music were practiced and developed in these sites, making them the cradle of essential aspects and values of European culture and civilization.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=5\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

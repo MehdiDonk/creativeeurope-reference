@@ -1,0 +1,66 @@
+{
+  "_id": "38086d82b3c3c4293f1b469e3651b99e",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/index_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European Heritage Label - Europe starts here!"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European Heritage Label is an initiative designed to highlight heritage sites that celebrate and symbolise European history, ideals, and integration. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "heritage",
+        "label",
+        "candidate",
+        "sites",
+        "landscape",
+        "location",
+        "award",
+        "apply"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/\"                   id=\"what\"/>What is it?</h5>             <p>European Heritage sites are milestones in the creation of today’s Europe. Spanning from the dawn of civilization to the Europe we see today, these sites celebrate and symbolise European ideals, values, history and integration.</p>             <p>Since 2013, these sites have been carefully selected for their symbolic value, the role they have played in the European history and activities they offer that bring the European Union and its citizens closer together.</p>             <p>What makes the European Heritage label unique and how is it different from the UNESCO World Heritage List? There are three key differences:</p>             <div>                <ul>                   <li>European Heritage sites bring to life the <b>European narrative and the history behind it</b>. They are about much more than just aesthetics</li>                   <li>The focus is on the <b>promotion of the European dimension of the sites and providing access to them</b>. This includes organising a wide range of educational activities, especially for young people</li>                   <li>European Heritage sites can be enjoyed singly or as part of a network. Visitors can get a real feel for the breadth and scale of what Europe has to offer and what it has achieved</li>                </ul>             </div>             <h5>Which sites have been awarded the Label?</h5>             <p>So far, 29 sites have been designated.</p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/krapina_en.htm\"                      lang=\"en\"                      title=\"Krapina Neanderthal Site (Krapina, Croatia)\">Krapina Neanderthal Site, Croatia</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/ancient-athens_en.htm\"                      lang=\"en\"                      title=\"The Heart of Ancient Athens, Greece\">The Heart of Ancient Athens, Greece</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/carnuntum-park_en.htm\"                      lang=\"en\"                      title=\"Archaeological Park Carnuntum, Austria\">Archaeological Park Carnuntum, Austria</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/cluny-abbey_en.htm\"                      lang=\"en\"                      title=\"Abbey of Cluny, France\">Abbey of Cluny, France</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/olomouc_en.htm\"                      lang=\"en\"                      title=\"Olomouc Premyslid Castle and Archdiocesan Museum (Olomouc, Czech Republic)\">Olomouc Premyslid Castle and Archdiocesan Museum, Czech Republic</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/aragon-crown_en.htm\"                      lang=\"en\"                      title=\"Archive of the Crown of Aragon, Barcelona, Spain\">Archive of the Crown of Aragon, Barcelona, Spain</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/great-guild-hall_en.htm\"                      lang=\"en\"                      title=\"Great Guild Hall, Tallinn, Estonia\">Great Guild Hall, Tallinn, Estonia</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/sagres_en.htm\"                      lang=\"en\"                      title=\"Sagres Promontory (Portugal)\">Sagres Promontory, Portugal</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/coimbra-general-library_en.htm\"                      lang=\"en\"                      title=\"General Library of the University of Coimbra, Portugal\">General Library of the University of Coimbra, Portugal</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/imperial-palace-vienna_en.htm\"                      lang=\"en\"                      title=\"The Imperial Palace (Vienna, Austria)\">The Imperial Palace, Vienna, Austria</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/lublin-union_en.htm\"                      lang=\"en\"                      title=\"Union of Lublin, Poland\">Union of Lublin, Poland</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/munster-osnabruck_en.htm\"                      lang=\"en\"                      title=\"Münster and Osnabrück – Sites of the Peace of Westphalia, Germany\">Münster and Osnabrück – Sites of the Peace of Westphalia, Germany</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/may-constitution_en.htm\"                      lang=\"en\"                      title=\"The May 3, 1791 Constitution, Warsaw, Poland\">The May 3, 1791 Constitution, Warsaw, Poland</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/tartu_en.htm\"                      lang=\"en\"                      title=\"Historic Ensemble of the University of Tartu (Tartu, Estonia)\">Historic Ensemble of the University of Tartu, Estonia</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/hambach-castle_en.htm\"                      lang=\"en\"                      title=\"Hambach Castle, Germany\">Hambach Castle, Germany</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/portugal-death-penalty_en.htm\"                      lang=\"en\"                      title=\"Charter of Law of Abolition of the Death Penalty, Lisbon, Portugal\">Charter of Law of Abolition of the Death Penalty, Lisbon, Portugal</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/liszt-ferenc-academy_en.htm\"                      lang=\"en\"                      title=\"Liszt Ferenc Academy of Music (Budapest, Hungary)\">Liszt Ferenc Academy of Music, Budapest, Hungary</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/mundaneum-mons_en.htm\"                      lang=\"en\"                      title=\"Mundaneum (Mons, Belgium)\">Mundaneum, Mons, Belgium</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/hague-peace-palace_en.htm\"                      lang=\"en\"                      title=\"Peace Palace, The Hague, the Netherlands\">Peace Palace, The Hague, the Netherlands</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/residencia-estudiantes_en.htm\"                      lang=\"en\"                      title=\"Residencia de Estudiantes, Madrid, Spain\">Residencia de Estudiantes, Madrid, Spain</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/luzna-cemetery_en.htm\"                      lang=\"en\"                      title=\"World War I Eastern Front Cemetery No. 123 (Łużna – Pustki, Poland)\">World War I Eastern Front Cemetery No. 123, Łużna – Pustki, Poland</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/kaunas-1919-1940_en.htm\"                      lang=\"en\"                      title=\"Kaunas of 1919-1940, Lithuania\">Kaunas of 1919-1940, Lithuania</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/camp-westerbork_en.htm\"                      lang=\"en\"                      title=\"Camp Westerbork, the Netherlands\">Camp Westerbork, the Netherlands</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/franja-partisan_en.htm\"                      lang=\"en\"                      title=\"Franja Partisan Hospital, Slovenia\">Franja Partisan Hospital, Slovenia</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/strasbourg_en.htm\"                      lang=\"en\"                      title=\"European District of Strasbourg (Strasbourg, France)\">European District of Strasbourg, France</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/casa-alcide-gasperi_en.htm\"                      lang=\"en\"                      title=\"Museo Casa Alcide De Gasperi, Pieve Tesino, Italy\">Museo Casa Alcide De Gasperi, Pieve Tesino, Italy</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/schumans-house_en.htm\"                      lang=\"en\"                      title=\"Robert Schuman's House, Scy-Chazelles, France\">Robert Schuman's House, Scy-Chazelles, France</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/gdansk-shipyard_en.htm\"                      lang=\"en\"                      title=\"The historic Gdańsk Shipyard, Poland\">The historic Gdańsk Shipyard, Poland</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/european-picnic_en.htm\"                      lang=\"en\"                      title=\"Pan-European Picnic Memorial Park, Sopron, Hungary\">Pan-European Picnic Memorial Park, Sopron, Hungary</a>                </li>             </ul>             <h5>How can sites apply?</h5>             <p>More information on the application process is available in the <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/apply_en.htm\"                   lang=\"en\">How to apply</a> section.</p>"
+      ]
+    }
+  }
+}

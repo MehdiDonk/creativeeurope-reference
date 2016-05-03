@@ -1,0 +1,95 @@
+{
+  "_id": "e42a9e124d62094c1172902a0dace403",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/index_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Creative Europe"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe is the new European Union programme for the cultural and creative sectors, set to last until 2020. With a budget of €1.46 billion, the programme offers funding opportunities to a variety of artists and organisations."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "events",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "creative europe",
+        "creative",
+        "culture",
+        "cultural",
+        "industries",
+        "organisations",
+        "MEDIA",
+        "mesures europeen de developpement des industries",
+        "cooperation",
+        "literature",
+        "literary",
+        "translation",
+        "network",
+        "platform",
+        "access to market",
+        "audience development",
+        "cinema networks",
+        "development",
+        "distribution",
+        "online",
+        "film festival",
+        "international coproduction",
+        "training",
+        "tv programming",
+        "video game development",
+        "loan",
+        "guarantee facility",
+        "architecture prize",
+        "heritage days",
+        "border breakers award",
+        "MEDIA prize",
+        "prix MEDIA",
+        "heritage prize",
+        "heritage label",
+        "capitals of culture",
+        "literature prize",
+        "creative europe desk"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    }
+  }
+}

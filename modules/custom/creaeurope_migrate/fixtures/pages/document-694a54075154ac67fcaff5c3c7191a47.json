@@ -1,0 +1,68 @@
+{
+  "_id": "694a54075154ac67fcaff5c3c7191a47",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/casa-alcide-gasperi_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Museo Casa Alcide De Gasperi, Pieve Tesino, Italy"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"trento\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-trento_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>Alcide de Gasperi (1881-1954), one of the \"Fathers of Europe\", was born in this house which today is a <a href=\"http://www.degasperitn.it/it/museo-de-gasperi/\" target=\"_blank\"                   title=\"Link to museum website\">museum</a> highlighting his contribution to the construction of Europe after World War II.</p>             <p>He served as Foreign Affairs Minister and Italian Prime Minister from 1945 to 1953, supported Schuman's plans and then led the European Coal and Steel Community (ECSC).</p>             <p>Furthermore, he was an inspiring force in the creation of the European Economic Community.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=18\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

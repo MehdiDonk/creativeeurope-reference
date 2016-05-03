@@ -1,0 +1,68 @@
+{
+  "_id": "1d28a8f683eaac58a1649b359a80ec4b",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/carnuntum-park_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Archaeological Park Carnuntum, Austria"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p/>             <p/>             <h2>Selected in 2013</h2>             <div id=\"ruin\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-vienna_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://www.carnuntum.co.at\" target=\"_blank\"                   title=\"Link to Archaeological Park Carnuntum website\">Archaeological Park Carnuntum</a> in the east of Austria brings Roman history to life. Carnuntum was an important Roman settlement founded in the middle of the first century AD at a crossing point of trade routes on the Danube.</p>             <p>It became one of the most important cities in the Roman Empire. The 400 years of Roman life in Carnuntum reflect a period of history that deeply influenced and shaped Europe’s development.</p>             <p>Today visitors to the park can view reconstructed Roman houses and visit a museum with educational programmes.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2013-panel-report_en.pdf#page=7\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

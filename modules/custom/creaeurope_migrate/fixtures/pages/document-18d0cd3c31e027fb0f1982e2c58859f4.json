@@ -1,0 +1,68 @@
+{
+  "_id": "18d0cd3c31e027fb0f1982e2c58859f4",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/camp-westerbork_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Camp Westerbork, the Netherlands"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"camp\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-westerbork_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>                <a href=\"http://www.kampwesterbork.nl\" target=\"_blank\"                   title=\"Link to Camp Westerbork website\">Camp Westerbork</a> in the north-east of the Netherlands has a turbulent past.</p>             <p>It served as a refugee camp for Jews persecuted by the Nazis until 1942, and then became a transit camp from which Jews, Roma and Sinti were deported to Nazi extermination and concentration camps in Germany and occupied territories of Central and Eastern Europe.</p>             <p>After World War II, Dutch nationals suspected of collaborating with the Nazis were imprisoned in the camp. Later, it hosted people returning to the Netherlands from the former Dutch colony of the East Indies, among them a large group of Moluccans.</p>             <p>Thanks to its history, Camp Westerbork has links to crucial topics in European history such as occupation, persecution, migration, decolonisation and multiculturalism.</p>             <p>A museum (providing, among other activities, educational programmes) and monuments of remembrance (such as the National Westerbork Memorial) can today be found on the site of the former camp.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2013-panel-report_en.pdf#page=8\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}
