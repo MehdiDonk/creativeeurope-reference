@@ -1,0 +1,59 @@
+{
+  "_id": "b3ceeef75cc3f4ac9af1bb4822b407fe",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/tartu_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Historic Ensemble of the University of Tartu (Tartu, Estonia)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The historic ensemble of the University of Tartu embodies the ideas of a university in the Age of Enlightenment."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "university",
+        "tartu",
+        "enlightenment",
+        "heritage",
+        "history"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/tartu-main.jpg\"                     alt=\"Historic Ensemble of the University of Tartu (Tartu, Estonia)\"                     height=\"300\"                     title=\"Historic Ensemble of the University of Tartu (Tartu, Estonia)\"                     width=\"600\"/>             </p>             <p>The historic ensemble of the University of Tartu is a campus designed at the beginning of the nineteenth century under the motto \"A university in the city, a university in the park\". It embodies the ideas of a university in the Age of Enlightenment. Linking science and learning and reflects the European tradition in education.</p>             <p>Established in 1632 by the Swedish King Gustav II Adolf, and though it changed hands between the various political powers in the region including Sweden, Poland, Germany, Russia, the Soviet Union and Estonia, Tartu University has always remained a beacon of progressive ideas.</p>"
+      ]
+    }
+  }
+}

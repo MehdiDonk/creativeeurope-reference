@@ -1,0 +1,79 @@
+{
+  "_id": "34994c397f18d2bfa98df2fc67783f9",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/audience-dev_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Audience development"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe's support to audience development projects includes support to promote film literacy and audience development events."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "creative europe",
+        "supporting",
+        "funding",
+        "grant",
+        "project",
+        "audience",
+        "development",
+        "event",
+        "film",
+        "literacy"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-600-Cinema and Audiovisual Media"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"why\"/>What is it for?</h5>             <p>To stimulate interest in, and improve access to, European audio-visual works, in particular through promotion, events, film literacy and festivals.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"what\"/>What does it support?</h5>             <p>Creative Europe's support to audience development projects includes support to promote film literacy and audience development events.</p>             <p>In the case of film literacy, this involves projects that promote better cooperation between film literacy initiatives to improve their efficiency and their European dimension.</p>             <p>In the case of audience development, support is provided to initiatives that focus on the programming of important and successful non-national, European films on distribution platforms, as well as promotional activities.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>All European entities (e.g. private companies, non-profit organisations, associations, charities, foundations, municipalities, town councils, etc.) established in a country participating in the Media sub programme and owned directly or by majority participation, by nationals from such countries.</p>             <p>Individuals cannot apply for a grant.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a>, as well as from <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/audience-development_en\"                   target=\"_blank\">the website of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available on the <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/audience-development_en\"                   target=\"_blank\">EACEA website</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>                <li>                   <a href=\"http://engageaudiences.eu/call-to-action/\" target=\"_blank\">Open invitation to join a study</a> investigating audience development practices around Europe from \"<a href=\"http://engageaudiences.eu\" target=\"_blank\">Engage Audiences</a>\"</li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=media-audience-development\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=media-audience-development\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

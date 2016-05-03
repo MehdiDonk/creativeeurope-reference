@@ -1,0 +1,59 @@
+{
+  "_id": "5696a594ecdb34d77296db717900ff92",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/imperial-palace-vienna_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "The Imperial Palace (Vienna, Austria)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Imperial Palace of the Habsburgs in Vienna"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "imperial palace",
+        "vienna",
+        "habsburgs",
+        "austro-hungary",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/vienna-main.jpg\"                     alt=\"The Imperial Palace (Vienna, Austria)\"                     height=\"404\"                     title=\"The Imperial Palace (Vienna, Austria)\"                     width=\"600\"/>             </p>             <p>Initiated in 1240, the Imperial Palace is a complex of buildings and gardens which used to serve as the residence of the Habsburgs, a ruling family of large parts of Europe during some 700 years. The Habsburg Empire was a multi-ethnical and a multi-religious empire that had a strong political, administrative, social and economic impact on territories that include or are part of today's Austria, Hungary, Czech Republic, Poland and Slovenia.</p>             <p>Today, the Imperial Palace is home to the seat of the Austrian Federal President, five world-class museum organisations as well as other cultural institutions.</p>"
+      ]
+    }
+  }
+}

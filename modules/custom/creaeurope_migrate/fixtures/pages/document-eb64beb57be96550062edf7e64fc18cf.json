@@ -1,0 +1,83 @@
+{
+  "_id": "eb64beb57be96550062edf7e64fc18cf",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/cinema-networks_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Reaching the audience – Cinema networks"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe supports initiatives that encourage the networking of European first-run cinemas and the screening of non-national European films by these cinemas."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "media",
+        "sub-programme",
+        "creative europe",
+        "audiovisual",
+        "cinema",
+        "network",
+        "educational",
+        "awareness-raising",
+        "business",
+        "innovation",
+        "visibility",
+        "funding",
+        "financing",
+        "grant"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"what\"/>What is it for?</h5>             <p>Creative Europe supports initiatives that encourage the networking of European first-run cinemas and the screening of non-national European films by these cinemas.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"for\"/>What does it support?</h5>             <p>Cinema network initiatives are designed to support:</p>             <ul>                <li>Screening of non-national European films in cinemas by cinema owners and operators.</li>                <li>Development of educational and awareness-raising activities for young cinema-goers.</li>                <li>Development of new business models including the use of innovative modes of distribution to increase the visibility and audience for European films</li>                <li>Creation and consolidation of a European cinema owners’ network developing common actions of this type.</li>                <li>Introduction of digital cinema among exhibitors.</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>Group of cinemas – networks - developing joint activities in the area of screening and promoting European films.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a>, as well as from <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/networking-cinemas_en\"                   target=\"_blank\">the website of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available on the <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/networking-cinemas_en\"                   target=\"_blank\">EACEA website</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=media-networking-of-cinemas\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=media-networking-of-cinemas\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

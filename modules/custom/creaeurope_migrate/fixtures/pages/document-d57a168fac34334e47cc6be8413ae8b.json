@@ -1,0 +1,68 @@
+{
+  "_id": "d57a168fac34334e47cc6be8413ae8b",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/portugal-death-penalty_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Charter of Law of Abolition of the Death Penalty, Lisbon, Portugal"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"lisboa\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-lisboa_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://digitarq.arquivos.pt/details?id=4223286\" target=\"_blank\"                   title=\"Link to document\">Charter of Law of Abolition of the Death Penalty</a> was approved in 1867 and is preserved in the National Archives of Torre do Tombo in Lisbon, Portugal.</p>             <p>It is one of the first examples of the permanent suspension of the death penalty being codified in a national legal system.</p>             <p>Portugal is considered a pioneer in this regard. This document promotes values which are part of the Charter of Fundamental Rights of the European Union.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=13\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

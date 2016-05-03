@@ -1,0 +1,59 @@
+{
+  "_id": "4cf3be52ae1b8f8ddd56097c83c037ce",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/managing-your-labelled-site_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Managing your labelled site"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVE-EUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "How to manage a European Heritage Label site"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "european hertiage label",
+        "ehl",
+        "culture",
+        "history",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>To support your communication about being an European Heritage labelled sites:</p>             <ul>                <li>flyers, posters and postcards can be printed and provided by the European Commission upon request</li>                <li>a communication toolbox supports your online communication</li>                <li>the monitoring process about your designation are available in this page.</li>             </ul>             <h4>Communication Toolbox</h4>             <h5>Toolbox</h5>             <p>The <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/toolbox_en.pdf\"                   lang=\"en\"                   target=\"_blank\"                   title=\"Graphic Design Toolbox\">European Heritage Label graphic design toolbox</a> is provided to the labelled sites for their communication activities, and may also be of interest to organisations intending to promote the label.<br/>The toolbox is designed to serve as a series of examples of promotional materials, serving both as best practice and an inspiration for the development of further promotional material.<br/>The toolbox consists of four sections, presented below.</p>             <h5>Branding</h5>             <p>The European Heritage Label has several different branding elements, including:</p>             <ul>                <li>The <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/graphic-charter_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Graphic Design Charter\">graphic design charter</a>                </li>                <li>Leaflets in 20 different languages: <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/promotional/leaflet-hr_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">print version</a> - <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/promotional/leaflet-lr_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">web version</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/logo_en.zip\"                      lang=\"en\"                      target=\"_blank\"                      title=\"EHL logos\">Logos in 22 different languages</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/poster_en.zip\"                      lang=\"en\"                      target=\"_blank\"                      title=\"EHL posters\">Posters in 20 different languages</a>                </li>                <li>Postcard 2015: <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/postcard1-2015_en.pdf\"                      lang=\"en\"                      target=\"_blank\">Postcard 1</a> - <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/postcard2-2015_en.pdf\"                      lang=\"en\"                      target=\"_blank\">Postcard 2</a> - <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/postcard3-2015_en.pdf\"                      lang=\"en\"                      target=\"_blank\">Postcard 3</a>                </li>                <li>InDesign templates for European Heritage Label postcards: <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/postcard1-2015.zip\"                      target=\"_blank\">Postcard 1</a> - <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/toolbox/postcard2-2015.zip\"                      target=\"_blank\">Postcard 2</a>                </li>             </ul>             <p>Different language versions, where available, can be accessed from the speech bubble.</p>             <h4>Monitoring of designated sites</h4>             <p>The monitoring folder is designed to be used by European Heritage Label sites on a regular basis to ensure that they continue to meet the necessary criteria, and to ensure that they respect their project and work plans.</p>             <p>2016 is the first monitoring year for designated sites.</p>             <p>The monitoring folder has been developed in Excel format. <strong>Users should use the .xlsm</strong> version, although if this is not possible a .xls version is also available.</p>             <p>The folder is currently available in 13 languages; the different language versions are available from the speech bubbles below:</p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/ehl-monitoring-form_en.xlsm\"                      lang=\"en\">.xlsm</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/ehl-monitoring-form_en.xls\"                      lang=\"en\">.xls</a>                </li>             </ul>             <p>Please note that, in order to use the monitoring folder, <strong>you will need to enable both the content and the macros</strong> (if prompted).</p>             <p>Question can be sent to the <a href=\"mailto:EAC-UNITE-D2@ec.europa.eu\">European Heritage Label</a> via email.</p>"
+      ]
+    }
+  }
+}

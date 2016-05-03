@@ -1,0 +1,88 @@
+{
+  "_id": "a317f0196dfc0c30d425f4e2429999dd",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/tools/media-programme_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "MEDIA Programme (2007-2013)"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "http://ec.europa.eu/culture/tools/documents/media-logo-ng.png"
+      ]
+    },
+    "media_alt": {
+      "en": [
+        "MEDIA Programme (2007-2013)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "MEDIA Programme"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>What was it?</h5>             <p>The MEDIA programme was an initiative that ran from 2007-2013 with a budget of €755 million to support projects and activities designed to support the development and distribution of thousands of films, as well as training activities, festivals, and promotion projects throughout the continent..</p>             <h5>Why was it needed?</h5>             <p>The MEDIA sector, as noted in the policy section, faces a variety of issues and challenges, some of which are best dealt with at an international level. To tackle some of the issues, the programme provided support to:</p>             <ul>                <li>Strengthen the audiovisual sector;</li>                <li>Increase the circulation of European audiovisual works inside and outside the European Union;</li>                <li>Strengthen competitiveness by easing access to financing and promoting the use of digital technologies.</li>             </ul>             <h5>What did it achieve?</h5>             <p>The MEDIA programme supported a variety of activities, projects, and initiatives in the European audiovisual industry, including:</p>             <ul>                <li>Training professionals;</li>                <li>Developing production projects;</li>                <li>Distributing films and audiovisual programmes;</li>                <li>Promoting films and audiovisual programmes;</li>                <li>Supporting film festivals;</li>                <li>Promoting the use of new technologies.</li>             </ul>             <p>The programme additionally launched the MEDIA Mundus initiative, which explored ways of reinforcing global cooperation between EU and non-EU professionals from the audiovisual industry.</p>             <p>The programme also saw the creation of the <a href=\"http://www.mfdb.eu/en/\">MEDIA Films Database</a>; an archive of films supported by the programme.</p>             <h5>What are the next steps?</h5>             <p>Although the MEDIA programme ended in 2013, many activities are set to continue under the Creative Europe programme, which provides opportunities in both the culture and audiovisual sectors.</p>             <p> </p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/culture/library/publications/university-film-school-networks_en.pdf\"                      lang=\"en\"                      target=\"_blank\">Guide to the European University and Film School Networks</a>                </li>                <li>The <a href=\"http://ec.europa.eu/culture/library/publications/2014-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2014</a>, <a href=\"http://ec.europa.eu/culture/library/publications/2013-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2013</a>, and <a href=\"http://ec.europa.eu/culture/library/publications/2012-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2012</a> Training &amp; Networks Guides</li>             </ul>",
+        "<table align=\"center\" border=\"1\"                    style=\"width: 550px; float: left; border: #b8860b 1px dotted;\">                <tbody>                   <tr>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/dgs/education_culture/more_info/awp/docs/c_2011_6258.pdf\"                            target=\"_blank\">2012 AWP</a>                      </td>                      <td style=\"border: #b8860b 1px dotted;\"> </td>                      <td style=\"border: #b8860b 1px dotted;\"> </td>                   </tr>                   <tr>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/dgs/education_culture/more_info/awp/docs/c_2010_5756.pdf\"                            target=\"_blank\">2011 AWP</a>                      </td>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/sum_workprogramme_2011_en.pdf\"                            lang=\"en\"                            target=\"_blank\">Summary</a> </td>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/c_2011_2514.pdf\"                            target=\"_blank\">Amendment </a>                      </td>                   </tr>                   <tr>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/sum_workprogramme_2010_en.pdf\"                            lang=\"en\"                            target=\"_blank\">2010 AWP</a>                      </td>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/sum_workprogramme_2010_en.pdf\"                            lang=\"en\"                            target=\"_blank\">Summary</a>                      </td>                      <td style=\"border: #b8860b 1px dotted;\"> </td>                   </tr>                   <tr>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/work_programme_2009.pdf\"                            target=\"_blank\">2009 AWP</a>                      </td>                      <td style=\"border: #b8860b 1px dotted;\"> </td>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/annex_3759_2009.pdf\"                            target=\"_blank\">Amendment</a>                      </td>                   </tr>                   <tr>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/programme_2008.pdf\"                            target=\"_blank\">2008 AWP</a>                      </td>                      <td style=\"border: #b8860b 1px dotted;\">                         <a href=\"http://ec.europa.eu/culture/tools/documents/media/summary_en.pdf\"                            lang=\"en\"                            target=\"_blank\">Summary</a>                      </td>                      <td style=\"border: #b8860b 1px dotted;\"> </td>                   </tr>                </tbody>             </table>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Annual Work Programmes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "1433a313e117a34975dfc2a580d48b23",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/eu-platform_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European platforms"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creatve-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Creative Europe programme supports platforms for cultural operators promoting emerging artists and stimulating a truly European programming of cultural and artistic work."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "culture",
+        "sub-programme",
+        "Creative Europe",
+        "programme",
+        "platform",
+        "platforms",
+        "cultural",
+        "operators",
+        "mobility",
+        "visibility",
+        "creator",
+        "artist",
+        "activities",
+        "audience development",
+        "visibility",
+        "calls",
+        "proposals",
+        "grants",
+        "funding",
+        "financing"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"what\"/>What is it for?</h5>             <p>Platforms for cultural operators promoting emerging artists and stimulating a truly European programming of cultural and artistic work.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"for\"/>What does it support?</h5>             <p>Financial support to European platforms that carry out activities such as:</p>             <ul>                <li>Fostering the <strong>mobility and visibility of creators and artists</strong> - in particular those lacking international exposure</li>                <li>Stimulating a <strong>genuine Europe-wide programming of cultural and artistic activities</strong>, with the view of facilitating access to non-national European cultural works via international touring, events, exhibitions and festivals, etc.</li>                <li>Contributing to <strong>audience development</strong> and providing <strong>visibility</strong> to Europe's values and different cultures</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>Organisations active in the cultural and creative sectors can take part. Individuals cannot apply.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a>, as well as from the <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/culture/european-platforms_en\"                   target=\"_blank\">website of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available on the <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/culture/european-platforms_en\"                   target=\"_blank\">website of EACEA</a>, as well as in the <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">calls for proposals section</a>, and from the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=culture-european-platforms\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=culture-european-platforms\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

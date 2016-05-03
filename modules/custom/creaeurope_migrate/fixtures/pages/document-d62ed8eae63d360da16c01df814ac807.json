@@ -1,0 +1,68 @@
+{
+  "_id": "d62ed8eae63d360da16c01df814ac807",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/european-picnic_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Pan-European Picnic Memorial Park, Sopron, Hungary"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"sopron\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-sopron_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The Memorial Park commemorates the civil initiative of the <a href=\"http://www.paneuropaipiknik.hu/\" target=\"_blank\"                   title=\"More information on the Pan-European Picnic\">Pan-European Picnic</a> peace demonstration, which was held here on 19 August 1989.</p>             <p>The temporary opening of the Hungarian-Austrian border during the demonstration gave nearly 600 citizens of the German Democratic Republic the opportunity to flee across the Hungarian border to the West, making the event the beginning of the destruction of the Iron Curtain.</p>             <p>Having divided Europe ideologically and economically into two separate areas, the Curtain's fall led to the reunification of Germany and the EU's Eastern enlargement in 2004.</p>             <p>The Memorial Park therefore stands for the post-1989 borderless and unified Europe.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=20\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_id": "1d7617a37ed84288177e047982977f17",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/access-market_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Access to markets - Framework"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe offers opportunities for European organisations to increase access to markets through a variety of means, including exchanges, increasing the visibility of works, or improving the circulation of works."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "media",
+        "sub-programme",
+        "access",
+        "market",
+        "single-action",
+        "framework",
+        "database",
+        "tools",
+        "promotional",
+        "promotion",
+        "audiovisual",
+        "works"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-500-Cultural Fields of Activity"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"what\"/>What is it for?</h5>             <p>Creative Europe offers opportunities for European organisations to increase access to markets through a variety of means, including exchanges, increasing the visibility of works, or improving the circulation of works.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"for\"/>What does it support?</h5>             <p>Opportunities exist for initiatives that provide:</p>             <ul>                <li>Access to physical markets;</li>                <li>Online tools for professionals (such as a database of programmes or the development of tools);</li>                <li>Common European promotional activities.</li>             </ul>             <p>These may take the form of individual activities (single-action) or multiple activities (frameworks).</p>             <p>Initiatives in the areas of video-on-demand, the digitisation of audiovisual works, and digital distribution platforms are not eligible for participation.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>Opportunities are available for a broad array of European organisations, although individuals cannot take part.</p>             <p>The Education, Audiovisual, and Culture Executive Agency has detailed information on the opportunities for <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/media/access-markets-single-actions_en\"                   target=\"_blank\">single actions</a> and <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/media/access-markets_en\"                   target=\"_blank\">frameworks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available on <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">the EACEA website</a>, as well as in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a> and from the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>             </p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\"                      id=\"tooltip\">Creative Europe Desks</a>                </li>             </ul>",
+        "<p>                <strong>Access to markets</strong>             </p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=media-access-to-markets\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=media-access-to-markets\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>             <p>                <strong>Access to markets (single actions)</strong>             </p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=media-access-to-markets-single-actions\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=media-access-to-markets-single-actions\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "43563be9a947cd0575d2d2beb63de9bd",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/kaunas-1919-1940_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Kaunas of 1919-1940, Lithuania"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"kaunas\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-kaunas_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>During the interwar period, the city of <a href=\"http://kaunastic.lt/index.php/en/tourism/main-objects/category/128-interwar-architecture.html\"                   target=\"_blank\"                   title=\"More information on interwar Kaunsas\">Kaunas</a> was the \"temporary capital\" of Lithuania and developed into a modern, vibrant and dynamic cultural centre of the country.</p>             <p>Many Lithuanians, who studied in other European countries, brought back knowledge and ideas to Kaunas, where a fruitful mix of modern tendencies and old traditions prompted the country's prosperous development in the city's architecture of the period.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=15\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

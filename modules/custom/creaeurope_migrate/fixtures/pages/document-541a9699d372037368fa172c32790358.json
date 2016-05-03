@@ -1,0 +1,68 @@
+{
+  "_id": "541a9699d372037368fa172c32790358",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/great-guild-hall_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Great Guild Hall, Tallinn, Estonia"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"tallinn\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-tallinn_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://www.ajaloomuuseum.ee%20\" target=\"_blank\"                   title=\"Link to Great Guild Hall website\">Great Guild Hall</a> was built in 1410. It was commissioned by the Great Guild.</p>             <p>This association of German Hanseatic merchants was one of most important trading organisations of the medieval era times and played an important role in the history of trade and cultural exchanges in medieval northern Europe.</p>             <p>The Great Guild Hall, a typical example of Hanseatic architecture, is a public building in which countless trade and social exchanges have taken place since the Middle Ages.</p>             <p>Today the hall hosts the Estonian History Museum which presents Estonian history in its European context.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2013-panel-report_en.pdf#page=6\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}
