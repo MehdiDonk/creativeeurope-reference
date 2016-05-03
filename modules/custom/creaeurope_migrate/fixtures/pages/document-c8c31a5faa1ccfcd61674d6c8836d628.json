@@ -1,0 +1,64 @@
+{
+  "_id": "c8c31a5faa1ccfcd61674d6c8836d628",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/guarantee-facility_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Cultural and Creative Sector Guarantee Facility"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The guarantee facility is a insurance mechanism for financial intermediaries offering funds to cultural and creative sector initiatives"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "Cultural and Creative Sector Guarantee Facility",
+        "finance",
+        "investment",
+        "creative",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>What is it?</h5>             <p>In the context of limited <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/Access%20to%20markets%20and%20finance%20for%20the%20cultural%20and%20creative%20industries\">access to finance</a> for the cultural and creative sectors, the Creative Europe programme (2014-2020) of the European Commission earmarked €121 million to a financial mechanism acting as insurance to financial intermediaries (e.g. banks) offering financing to cultural and creative sector initiatives. The programme is expected to create €600 million in loans and other financial products through a catalyst effect. In addition, financial intermediaries will be provided training to better understand the needs of cultural and creative sector projects, with a view to increasing their engagement with the sectors.</p>             <p>The guarantee scheme is managed by the <a href=\"http://www.eif.org/\"                   title=\"Specialist provider of risk finance to benefit small and medium-sized enterprises (SME) across Europe\">European Investment Fund</a> (part of the European Investment Bank Group), on behalf of the European Commission, and aims at strengthening cultural and creative sectors companies' financial capacity and competitiveness.</p>             <h5>Which type of companies can benefit from Cultural and Creative Sector Guarantee Facility?</h5>             <p>The Guarantee Facility will benefit companies active in the cultural and creative sectors in the <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                   title=\"Eligibility of organisations from non-EU countries\">countries participating in the Creative Europe programme</a> and responding to the definition of <a href=\"http://ec.europa.eu/growth/smes/business-friendly-environment/sme-definition/index_en.htm\"                   lang=\"en\"                   title=\"What is an SME?\">small and medium-sized enterprises</a>. Such sectors' activities are based on cultural values and/or artistic and creative expressions, whether these activities are market or non-market oriented and whatever the type of legal structure that carries them out. Such activities include the creation, production, dissemination and preservation of goods and services which embody cultural, artistic or creative expressions. Sectors include architecture, archives and libraries, artistic crafts, audiovisual (including film, television, video games and multimedia), cultural heritage, design, festivals, music, performing arts, publishing, radio and visual arts.</p>             <h5>How to apply for the Cultural and Creative Sectors Guarantee Facility?</h5>             <p>To apply, cultural and creative sector companies must contact the financial intermediaries selected for each country.</p>             <p>                <a href=\"http://ec.europa.eu/programmes/creative-europe/documents/ccs-guarantee-facility_en.pdf\"                   lang=\"en\"                   target=\"_blank\"                   title=\"Link to PDF\">Creative Europe’s Cultural &amp; Creative Sectors' Guarantee Facility: improving access to finance for cultural &amp; creative initiatives</a>             </p>             <p>                <strong>The facility will start rolling out in 2016 and financial intermediaries will start operating under it gradually. Further information will be posted on this webpage as soon as it is available.</strong>             </p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>On <a href=\"http://europa.eu/youreurope/business/funding-grants/access-to-finance/\"                      title=\"Apply for loans and venture capital supported by the EU\">general access to finance tools</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/contact/index_en.htm\"                      lang=\"en\"                      title=\"Contact the European Commission\">Contact us</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "321670df0690462a510a7683f5fbd0d",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/hague-peace-palace_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Peace Palace, The Hague, the Netherlands"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"haag\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-denhaag_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://www.vredespaleis.nl/\" target=\"_blank\"                   title=\"Link to Peace Palace website\">Peace Palace</a> in The Hague traces the history of peace in Europe. Before the palace opened in 1913, The Hague was host to the First World Peace Conference in 1899 – the culmination of the nineteenth century peace movement nurtured by many European intellectuals.</p>             <p>The Peace Palace hosted international peace conferences in the early twentieth century from 1913 onwards, which aimed at regulating the arms race and settling international disputes by arbitration.</p>             <p>This work continues today as the Peace Palace is the seat of many judicial institutions (the International Court of Justice, the Permanent Court of Arbitration, the Hague Academy of International Law) and embodies the values of peace and justice. It is often called the seat of international law.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2013-panel-report_en.pdf#page=5\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "22e1d46302c50d40761c380dab2db127",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/franja-partisan_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Franja Partisan Hospital, Slovenia"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"cerkno\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-cerkno_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://www.muzej-idrija-cerkno.si/index.php/en/locationsexhibitions/permanent-exhibitions/franja-partisan-hospital.html\"                   target=\"_blank\"                   title=\"More information on Franja Partisan Hospital\">Franja Hospital</a> was a secret World War II hospital run by the Slovenian partisans as part of a broadly organized resistance movement against the occupying Nazi forces.</p>             <p>The refuge treated wounded soldiers from both the Allied and the Axis powers and the physicians came from various European countries.</p>             <p>The hospital was run and kept secret thanks to the support of local people. Today, it has been turned into a museum promoting solidarity, democratic values and human rights.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=16\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

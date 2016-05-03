@@ -1,0 +1,20 @@
+{
+  "_id": "5b6204f4e77ea6059de1800dd64829fc",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/footer/footer_en.htm"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "f5ef26900460ddac613a97994f8d9a28",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/liszt-ferenc-academy_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Liszt Ferenc Academy of Music (Budapest, Hungary)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Liszt Ferenc Academy of Music was established in 1875 by the outstanding composer and musician. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "Liszt Ferenc",
+        "Music",
+        "budapest",
+        "hungary",
+        "heritage",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/budapest-main.jpg\"                     alt=\"Liszt Ferenc Academy of Music (Budapest, Hungary)\"                     title=\"Liszt Ferenc Academy of Music (Budapest, Hungary)\"/>             </p>             <p>The Liszt Ferenc Academy of Music was established in 1875 by the outstanding composer and musician himself. It is a multi-faceted institution: an educational institution, an international university of musical arts and a concert centre. It brings our music heritage to the fore whilst holding true to its spirit of openness, creativity and innovation and its European and international character.</p>             <p>The Academy is housed in a 1907 building by Flóris Korb and Kálman Giergl, which is considered to be a masterpiece of Hungarian Secession. It integrates inter alia the Liszt Ferenc Memorial Museum and Research Centre, the Kodály Institute and the Kodály Museum.</p>"
+      ]
+    }
+  }
+}

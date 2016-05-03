@@ -1,0 +1,76 @@
+{
+  "_id": "55a7aa642f64c7724dd121d852ba6176",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/tools/culture-programme_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Culture Programme (2007-2013)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Culture programme was an initiative that ran from 2007-2013 with a budget of €400 million to support projects and activities designed to protect and promote cultural diversity and heritage."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "culture",
+        "programme",
+        "funding",
+        "support",
+        "cooperation",
+        "grants",
+        "cooperation",
+        "networks",
+        "platforms",
+        "translation",
+        "literary",
+        "heritage",
+        "creative europe"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>What was it?</h5>             <p>The Culture programme was an initiative that ran from 2007-2013 with a budget of €400 million to support projects and activities designed to protect and promote cultural diversity and heritage.</p>             <p>The programme supported multi-annual cooperation projects and measures, as well as a variety of actions and initiatives, as well as cultural organisations, and contributed to policy analysis and dissemination activities.</p>             <h5>Why was it needed?</h5>             <p>The culture sector, as noted in the policy section, faces a variety of issues and challenges, some of which are best dealt with at an international level. To tackle some of the issues, the programme provided support to:</p>             <ul>                <li>Promoting cross-border mobility;</li>                <li>Encouraging transnational circulation;</li>                <li>Fostering intercultural dialogue.</li>             </ul>             <h5>What did it achieve?</h5>             <p>The programme supported a significant number of activities and initiatives, many of which are presented in more detail in a dedicated platform; the <a href=\"http://ec.europa.eu/programmes/creative-europe/projects/\" target=\"_blank\">Creative Europe Dissemination Platform</a>.</p>             <p>In addition to the individual projects supported, the programme also established several <a href=\"http://ec.europa.eu/culture/tools/actions/index_en.htm\" lang=\"en\">actions and initiatives</a> to promote, reward, or highlight aspects of European culture and heritage.</p>             <h5>What are the next steps?</h5>             <p>Although the Culture programme ended in 2013, many activities are set to continue under the <a href=\"http://ec.europa.eu/programmes/creative-europe-old/index_en.htm\"                   lang=\"en\"                   target=\"_blank\">Creative Europe programme</a>, which provides opportunities in both the <a href=\"http://ec.europa.eu/culture/opportunities/culture-support/index_en.htm\"                   lang=\"en\">culture</a> and <a href=\"http://ec.europa.eu/culture/opportunities/audiovisual-support/index_en.htm\"                   lang=\"en\">audiovisual</a> sectors.</p>             <p> </p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>In order to better tailor the Culture programme to future needs, a <a href=\"http://ec.europa.eu/dgs/education_culture/more_info/consultations/culture-2010_en.htm\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Public consultation on the future of the Culture programme\">public consultation</a> was held in 2010.</li>             </ul>"
+      ]
+    }
+  }
+}

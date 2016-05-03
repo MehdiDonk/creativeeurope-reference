@@ -1,0 +1,59 @@
+{
+  "_id": "93b4f009b2b541f9a0a1690a3dc7aa2e",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/olomouc_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Olomouc Premyslid Castle and Archdiocesan Museum (Olomouc, Czech Republic)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Olomouc Premyslid Castle and Archdiocesan Museum are a focal point of Moravian presence in European history."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "Olomouc Premyslid Castle",
+        "Archdiocesan Museum",
+        "czech republic",
+        "christianity",
+        "history"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/olomouc-main.jpg\"                     alt=\"Olomouc Premyslid Castle and Archdiocesan Museum (Olomouc, Czech Republic)\"                     height=\"416\"                     title=\"Olomouc Premyslid Castle and Archdiocesan Museum (Olomouc, Czech Republic)\"                     width=\"600\"/>             </p>             <p>The Archdiocesan Museum is devoted to the conservation of works of art of the Olomouc Archdiocese. Its collections are shown in the Chapter Deanery at the Premyslid Castle, a location representing thousand years of history, from the remnants of the Bishop's and Prince's Palaces to Baroque and Rococo.</p>             <p>The Olomouc Premyslid Castle and Archdiocesan Museum are a focal point of Moravian presence in European history. It is an early centre of Christianity, a place that preserves and highlights the high level of artistic patronage of the archbishops of Moravia, and a fine example of heritage conservation in the region.</p>"
+      ]
+    }
+  }
+}

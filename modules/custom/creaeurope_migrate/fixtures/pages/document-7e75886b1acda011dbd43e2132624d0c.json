@@ -1,0 +1,68 @@
+{
+  "_id": "7e75886b1acda011dbd43e2132624d0c",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/lublin-union_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Union of Lublin, Poland"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"lublin\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-lublin_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The <a href=\"http://www.britannica.com/EBchecked/topic/350412/Union-of-Lublin\"                   target=\"_blank\"                   title=\"More information on the Union of Lublin\">Union of Lublin</a>, established in 1569, tied together the Kingdom of Poland and the Grand Duchy of Lithuania, creating the so-called Commonwealth of Both Nations, characterized by a single monarch, a common parliament and one currency.</p>             <p>It is commemorated by the three historic monuments located in Lublin which are parts of the site.</p>             <p>The Union was an exceptional case of the democratic integration of two countries with peaceful and inclusive coexistence of people from various ethnic and religious backgrounds.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=8\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

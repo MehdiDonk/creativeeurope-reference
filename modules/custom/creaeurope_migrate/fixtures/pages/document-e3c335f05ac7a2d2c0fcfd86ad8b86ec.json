@@ -1,0 +1,71 @@
+{
+  "_id": "e3c335f05ac7a2d2c0fcfd86ad8b86ec",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/border-breakers_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European Border Breakers Awards"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "47-Event (announcement, program or report of an event such as a seminar, conference, exhibition, etc.)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European Union Award for Contemporary Music, or European Border Breakers Awards (EBBA), is an initiative designed to highlight the success of European artists in foreign markets."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "border",
+        "breakers",
+        "international",
+        "cross-border",
+        "music",
+        "group",
+        "artist",
+        "band",
+        "singer",
+        "songwriter",
+        "awards",
+        "choice",
+        "public"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-500-Cultural Fields of Activity"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"what\"/>What is it?</h5>             <p>The European Union Award for Contemporary Music, or European Border Breakers Awards (EBBA), is an initiative designed to highlight the success of European artists in foreign markets.</p>             <p>The awards are given to emerging artists or groups who are able to successfully tour and circulate their works outside their country of origin.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"how\"/>How does it work?</h5>             <p>The EBBA, which take place on an annual basis, involve the award of prizes to 10 European acts during a televised show, which include a Public Choice Award, where the public have the opportunity to vote for their favourite artists, as well as win a trip to the award ceremony.</p>             <p>The winners are selected on the basis of data from Nielsen Music Control research, the European Broadcasting Union, radio stations, and from festivals participating in the <a href=\"http://www.etep.nl/en/\" target=\"_blank\">European Talent Exchange Programme</a>.</p>             <p>The Eurosonic/Noorderslag Festival is in charge of organising the selection and award ceremony.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"more\"/>Where can I find out more?</h5>             <p>Further information on the EBBAs is available from <a href=\"http://www.europeanborderbreakersawards.eu/\" target=\"_blank\">the EBBA website</a>.</p>"
+      ]
+    }
+  }
+}

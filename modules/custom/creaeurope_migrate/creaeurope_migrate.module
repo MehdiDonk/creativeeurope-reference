@@ -21,10 +21,10 @@ function creaeurope_migrate_migrate_api() {
 				'class_name' => 'CreaEuropeEventsMigration',
 				'group_name' => 'CreaEuropeMigrate',
 			),
-			'CreaEuropeMigrateBean' => array(
-				'class_name' => 'CreaEuropeBeanMigration',
+			'CreaEuropeMigratePages' => array(
+				'class_name' => 'CreaEuropePagesMigration',
 				'group_name' => 'CreaEuropeMigrate',
-			),
+			),		
 			'CreaEuropeMigrateCalls' => array(
 				'class_name' => 'CreaEuropeCallsMigration',
 				'group_name' => 'CreaEuropeMigrate',

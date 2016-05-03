@@ -1,0 +1,68 @@
+{
+  "_id": "3ca2504e8ccc40a40e7a08f2d1598985",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/schumans-house_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Robert Schuman's House, Scy-Chazelles, France"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"chazelles\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-chazelles_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>Robert Schuman (1886-1963) is considered as one of the founding figures of the European Union, a \"Father of Europe\". With his declaration of 9 May 1950, commemorated annually as Europe Day, he laid the foundations for the European Coal and Steel Community and for all the European institutions to come.</p>             <p>He bought the <a href=\"http://www.maison-robert-schuman.eu/\" target=\"_blank\"                   title=\"Link to Maison Robert Schuman website\">house</a> in 1926 and, from 1960 onwards, spent the years of his retirement there. Today it hosts a museum and contains many objects that belonged to Robert Schuman and which prove his attachment to the European ideal.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=17\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

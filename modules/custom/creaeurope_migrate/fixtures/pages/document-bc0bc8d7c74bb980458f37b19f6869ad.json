@@ -1,0 +1,75 @@
+{
+  "_id": "bc0bc8d7c74bb980458f37b19f6869ad",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/index_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European Actions"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European Commission supports a variety of actions, initiatives, and prizes designed to reward achievement, highlight excellence, and raise awareness of Europe's culture and heritage. "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "initiatives",
+        "opportunities",
+        "awards",
+        "actions",
+        "prizes",
+        "culture",
+        "media",
+        "audiovisual",
+        "heritage",
+        "creative europe",
+        "European Capitals of Culture",
+        "European Heritage Days",
+        "European Union Prize for Cultural Heritage",
+        "European Union Prize for Contemporary Architectu",
+        "European Heritage Label",
+        "European Border Breakers Awards",
+        "European Union Prize for Literature"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"what\"/>What is it about?</h5>             <p>In order to increase the visibility of Europe's culture and audiovisual sectors, the European Commission supports a variety of actions, initiatives, and prizes. These are designed to reward achievement, highlight excellence, and raise awareness of Europe's culture and heritage.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"why\"/>Why is it needed?</h5>             <p>In line with the <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007G1129%2801%29\"                   target=\"_blank\">European Agenda for Culture</a>, the European Commission, alongisde national authorities, culture sector organisations, and other EU institutions, aims to promote:</p>             <ul>                <li>cultural diversity and dialogue;</li>                <li>culture as a catalyst for creativity and innovation;</li>                <li>culture as part of the EU's international relations.</li>             </ul>             <p>As a part of these efforts, a variety of actions and prizes exist to promote, recognise, and reward sites, works, artists, organisations, and cities that contribute to these aims.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"actions\"/>What are the actions?</h5>             <p>The actions include:</p>             <ul>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/capitals-culture_en.htm\"                         lang=\"en\">European Capitals of Culture</a>;</span>                </li>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-days_en.htm\"                         lang=\"en\">European Heritage Days</a>;</span>                </li>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-prize_en.htm\"                         lang=\"en\">European Union Prize for Cultural Heritage</a>;</span>                </li>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/architecture-prize_en.htm\"                         lang=\"en\">European Union Prize for Contemporary Architecture</a>;</span>                </li>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/index_en.htm\"                         lang=\"en\">European Heritage Label</a>;</span>                </li>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/border-breakers_en.htm\"                         lang=\"en\">European Border Breakers Awards</a>;</span>                </li>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/literature-prize_en.htm\"                         lang=\"en\">European Union Prize for Literature</a>;</span>                </li>                <li>                   <span>                      <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/prix-media_en.htm\"                         lang=\"en\"                         title=\"Prix MEDIA\">European Union Prix MEDIA</a>.</span>                </li>             </ul>"
+      ]
+    }
+  }
+}

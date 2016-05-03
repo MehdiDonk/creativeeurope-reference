@@ -1,0 +1,59 @@
+{
+  "_id": "af2f3826cfdcd2e127adc105cb11e555",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/strasbourg_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European District of Strasbourg (Strasbourg, France)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European District of Strasbourg is the home to the Council of Europe, its European Court of Human Rights and the European Parliament of the European Union."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "strasbourg",
+        "european union",
+        "parliament",
+        "integration",
+        "france"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/strasbourg-main.jpg\"                     alt=\"European District of Strasbourg (Strasbourg, France)\"                     title=\"European District of Strasbourg (Strasbourg, France)\"/>             </p>             <p>Since its creation after the Second World War, the European District of Strasbourg is the home to the Council of Europe, its European Court of Human Rights and the European Parliament of the European Union. It bears witness to European integration, the defence of human rights, democracy and the rule of law.</p>"
+      ]
+    }
+  }
+}

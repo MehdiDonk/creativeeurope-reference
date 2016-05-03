@@ -1,0 +1,67 @@
+{
+  "_id": "d946165771a4d4935169c530b067afa2",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/contact/index_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Contact form"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/ERASMUS-PLUS/YOUTH"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "contact form for all your questions"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div>                <iframe frameborder=\"0\" height=\"1450\" name=\"contactform\"                        src=\"https://forms.communi-k.eu/livewebtools/WebForms/Standard/Standard.php?en\"                        style=\"margin-left:-19px;\"                        width=\"685\"> Form will appear here!</iframe>             </div>"
+      ]
+    }
+  }
+}

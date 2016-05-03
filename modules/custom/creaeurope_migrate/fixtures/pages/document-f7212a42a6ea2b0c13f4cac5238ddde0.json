@@ -1,0 +1,69 @@
+{
+  "_id": "f7212a42a6ea2b0c13f4cac5238ddde0",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/index_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Cross-sector strand"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Cross-sectoral strand of the Creative Europe programme is designed to serve three primary functions, establishing a Guarantee Facility, promoting transnational policy cooperation, and supporting a network of Creative Europe Desks "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "creative europe",
+        "programme",
+        "guarantee facility",
+        "policy cooperation",
+        "transnational",
+        "Creative Europe Desks"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/\"                   id=\"what\"/>What is it?</h5>             <p>The Cross-sectoral strand of the Creative Europe programme is designed to serve three primary functions:</p>             <ol>                <li>The establishment of a Guarantee Facility targeting the cultural and creative sectors</li>                <li>The promotion of transnational policy cooperation</li>                <li>Supporting a network of <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ol>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/\"                   id=\"why\"/>Why is it needed?</h5>             <p>The three main activities of the Cross-sectoral strand target three separate, horizontal needs of the programme.</p>             <p>The Guarantee Facility, to be launched in 2016, is designed to facilitate access to finance for micro, small, and medium sized organisations in the sector, as well as to improve the risk-assessment capacities of participating financial intermediaries.</p>             <p>The Transnational policy cooeration activities are designed to support the exchange of experiences and know-how relating to new business and management models, as well as:</p>             <ul>                <li>Collecting market data, studies, analyses of labour, skills, market needs, and policies, and support statistical surveying;</li>                <li>Paying the contribution fee for European Union membership of the European Audiovisual Observatory;</li>                <li>Testing new and cross-sector business approaches to funding, distributing, and monetising creation;</li>                <li>Organising conferences, seminars, and policy dialogue, including in the field of cultural and media literacy and the promotion of digital networking.</li>             </ul>             <p>The Creative Europe Desks are designed to:</p>             <ul>                <li>Provide information about and promote the Creative Europe programme in their country;</li>                <li>Assist the cultural and creative sectors in relation to the programme and provide basic information on other support opportunities;</li>                <li>Stimulate cross-border cooperation within the cultural and creative sectors;</li>                <li>Provide assistance regarding the cultural and creative sectors in participating countries;</li>                <li>Support the Commission in ensuring proper communication and dissemination of the results and impacts of the programme;</li>                <li>Ensuring the communication and dissemination of information concerning funding awarded to and results in a participating country.</li>             </ul>             <p/>             <p/>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R1295\"                      target=\"_blank\">Regulation establishing the Creative Europe programme</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

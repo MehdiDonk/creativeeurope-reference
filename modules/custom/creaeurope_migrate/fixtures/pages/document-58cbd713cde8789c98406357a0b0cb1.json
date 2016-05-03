@@ -1,0 +1,78 @@
+{
+  "_id": "58cbd713cde8789c98406357a0b0cb1",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/development_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Development of single projects and slate funding"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "a"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"what\"/>What is it for?</h5>             <p>The Creative Europe programme provides opportunities for film producers to develop European Audiovisual works with a potential to circulate in the European Union beyond, and to facilitate European and international cooperation.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"for\"/>What does it support?</h5>             <p>Development opportunities, whether for single projects or a slate of 3-5 projects, aim to support animation, creative documentary, and fiction projects for cinema release, television broadcasting, or digital distribution.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>Opportunities exist for independent audiovisual production companies which have been legally established for at least 12 months (for single projects) or 36 months (for slate funding), and can demonstrate experience in the field.</p>             <p>Individuals cannot apply for a grant.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a>, as well as from <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/development-single-projects--plus-slate-funding_en\">the website of the EACEA</a>, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available on <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media/development-single-projects--plus-slate-funding_en\"                   target=\"_blank\">the EACEA website</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=media-development-single-projects-slate-funding\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=media-development-single-projects-slate-funding\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

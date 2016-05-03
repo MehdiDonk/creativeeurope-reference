@@ -1,0 +1,68 @@
+{
+  "_id": "3485d346954b93120d2bdec64b7cab04",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/residencia-estudiantes_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Residencia de Estudiantes, Madrid, Spain"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"madrid\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-madrid_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>Serving as a residence, a conference venue and a place for the exchange of ideas, some of the leading personalities of European inter-war arts, philosophy and science gathered here for debate and dialogue.</p>             <p>Upholding the values of free-thinking, cooperation and exchange, the <a href=\"http://www.residencia.csic.es/\" target=\"_blank\"                   title=\"Link to the Residencia de Estudiantes website\">Residencia de Estudiantes</a> remains a centre renowned throughout Europe for encouraging communication and understanding among generations, cultures, and disciplines.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=14\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

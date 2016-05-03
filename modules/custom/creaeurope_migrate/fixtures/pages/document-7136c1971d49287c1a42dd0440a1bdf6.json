@@ -1,0 +1,59 @@
+{
+  "_id": "7136c1971d49287c1a42dd0440a1bdf6",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/sagres_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Sagres Promontory (Portugal)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The Sagres Promontory is a rich cultural and historical landscape in Portugal"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "sagres",
+        "archaeology",
+        "history",
+        "heritage",
+        "portugal"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/sagres-main.jpg\"                     alt=\"Sagres Promontory (Portugal)\"                     height=\"346\"                     title=\"Sagres Promontory (Portugal)\"                     width=\"600\"/>             </p>             <p>The Sagres Promontory is a rich cultural and historical landscape located at the south-west corner of the Iberian Peninsula. It comprises a series of significant archaeological remains, urban structures, and monuments testifying its strategic location and importance over the centuries.</p>             <p>The Promontory became the headquarters of Prince Henry the Navigator for his projects of maritime expansion during the fifteen century, a key location of the Age of Discoveries that marked the expansion of European culture, science, exploration and commerce both towards the Atlantic and the Mediterranean, setting European civilisation on its path to the global projection that came to define the modern world.</p>"
+      ]
+    }
+  }
+}

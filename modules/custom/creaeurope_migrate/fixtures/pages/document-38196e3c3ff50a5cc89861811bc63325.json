@@ -1,0 +1,59 @@
+{
+  "_id": "38196e3c3ff50a5cc89861811bc63325",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/luzna-cemetery_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "World War I Eastern Front Cemetery No. 123 (Łużna – Pustki, Poland)"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/DGEAC/CREATIVEEUROPE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Wartime cemetery No 123 is the scene of one of the largest battles of World War I on the Eastern front between the Austro-Hungarian and German armies and the Russian Army."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "luzna",
+        "poland",
+        "cemetery",
+        "world war i",
+        "history"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p>                <img src=\"http://ec.europa.eu/programmes/creative-europe/images/ehl/luzna-main.jpg\"                     alt=\"World War I Eastern Front Cemetery No. 123 (Łużna – Pustki, Poland)\"                     title=\"World War I Eastern Front Cemetery No. 123 (Łużna – Pustki, Poland)\"/>             </p>             <p>Wartime cemetery No 123, established in 1918 on the Pustki hill is the scene of one of the largest battles of World War I on the Eastern front between the Austro-Hungarian and German armies and the Russian Army: the battle of Gorlice, also called the Verdun of the East. The cemetery is the final resting place for soldiers from these three armed forces, coming from territories that are part of today’s Austria, Hungary, Germany, Poland, Ukraine, Russia, Slovenia,.. and from different religious and linguistic backgrounds.</p>             <p>The World War I Eastern Front Cemetery No 123 is a place of remembrance embodying the idea of ecumenism, with its identical treatment of the fallen, regardless of their military, ethnic or religious affiliation.</p>"
+      ]
+    }
+  }
+}

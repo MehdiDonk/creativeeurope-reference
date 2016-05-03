@@ -1,0 +1,68 @@
+{
+  "_id": "b99f8f7715c1744162ea8c1b55fe2584",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/sites/gdansk-shipyard_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "The historic Gdańsk Shipyard, Poland"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/CULTURE"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Details of labelled sites"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "heritage"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-200-Cultural Cooperation"
+      ]
+    },
+    "body": {
+      "en": [
+        "<div id=\"gdansk\"/>             <p>                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"325\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/ehl/ehl-gdansk_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"600\"/>             </p>             <p>The historic <a href=\"http://www.ecs.gda.pl/\" target=\"_blank\"                   title=\"More information on the Gdańsk Shpiyard\">Gdańsk Shipyard</a> was the birthplace of the Solidarity movement. The movement's origins date back to the workers' strike of 1970, which was bloodily suppressed by the socialist authorities.</p>             <p>Ten years later, a new wave of strikes prompted the government to give in and sign the historic August Agreements in 1980 with Lech Wałęsa.</p>             <p>The accords were signed in the premises of the shipyard and allowed the first independent trade union in the Eastern Bloc: NSZZ \"Solidarność.</p>             <p>From this moment on, Solidarity continuously promoted democracy and civil liberties in Poland and triggered similar social movements across Eastern European countries in the 1980s.</p>             <p>Find out more about the selection of the site from <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/heritage-label/documents/2014-panel-report.pdf#page=19\">the panel's report</a>.</p>"
+      ]
+    }
+  }
+}

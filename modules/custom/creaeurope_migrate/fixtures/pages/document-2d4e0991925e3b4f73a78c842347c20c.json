@@ -1,0 +1,1059 @@
+{
+  "_id": "2d4e0991925e3b4f73a78c842347c20c",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en",
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "ga",
+    "hr",
+    "hu",
+    "it",
+    "lt",
+    "lv",
+    "mt",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "sk",
+    "sl",
+    "sv"
+  ],
+  "fields": {
+    "original_url": {
+      "bg": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_bg.htm"
+      ],
+      "cs": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_cs.htm"
+      ],
+      "da": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_da.htm"
+      ],
+      "de": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_de.htm"
+      ],
+      "el": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_el.htm"
+      ],
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_en.htm"
+      ],
+      "es": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_es.htm"
+      ],
+      "et": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_et.htm"
+      ],
+      "fi": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_fi.htm"
+      ],
+      "fr": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_fr.htm"
+      ],
+      "ga": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_ga.htm"
+      ],
+      "hr": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_hr.htm"
+      ],
+      "hu": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_hu.htm"
+      ],
+      "it": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_it.htm"
+      ],
+      "lt": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_lt.htm"
+      ],
+      "lv": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_lv.htm"
+      ],
+      "mt": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_mt.htm"
+      ],
+      "nl": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_nl.htm"
+      ],
+      "pl": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_pl.htm"
+      ],
+      "pt": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_pt.htm"
+      ],
+      "ro": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_ro.htm"
+      ],
+      "sk": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_sk.htm"
+      ],
+      "sl": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_sl.htm"
+      ],
+      "sv": [
+        "http://ec.europa.eu/programmes/creative-europe/platform-maintenance_sv.htm"
+      ]
+    },
+    "title_field": {
+      "bg": [
+        "Платформата за резултати от проекти е недостъпна"
+      ],
+      "cs": [
+        "Platforma s výsledky projektů není momentálně k dispozici"
+      ],
+      "da": [
+        "The Project Results Platform is unavailable"
+      ],
+      "de": [
+        "Wartungsarbeiten"
+      ],
+      "el": [
+        "Η πλατφόρμα των αποτελεσμάτων των έργων δεν είναι διαθέσιμη"
+      ],
+      "en": [
+        "The Project Results Platform is unavailable"
+      ],
+      "es": [
+        "La plataforma de resultados de proyectos no está disponible"
+      ],
+      "et": [
+        "Projekti tulemuste platvorm ei ole kättesaadav."
+      ],
+      "fi": [
+        "Hankkeiden tuloksia esittelevää VALOR-sivustoa päivitetään"
+      ],
+      "fr": [
+        "La plate-forme des résultats de projets n’est pas accessible"
+      ],
+      "ga": [
+        "Níl teacht ar Ardán Torthaí an Tionscadail"
+      ],
+      "hr": [
+        "Platforma  s rezultatima projekata nije dostupna"
+      ],
+      "hu": [
+        "A platform jelenleg nem áll rendelkezésre"
+      ],
+      "it": [
+        "La piattaforma con i risultati dei progetti non è disponibile"
+      ],
+      "lt": [
+        "Projektų rezultatų platforma neprieinama"
+      ],
+      "lv": [
+        "Projektu rezultātu platforma ir slēgta"
+      ],
+      "mt": [
+        "Il-Pjattaforma tar-Riżultati tal-Proġett mhix disponibbli"
+      ],
+      "nl": [
+        "Website niet beschikbaar"
+      ],
+      "pl": [
+        "The Project Results Platform is unavailable"
+      ],
+      "pt": [
+        "A plataforma de resultados de projetos não está disponível"
+      ],
+      "ro": [
+        "The Project Results Platform is unavailable"
+      ],
+      "sk": [
+        "Platforma s výsledkami projektov je nedostupná"
+      ],
+      "sl": [
+        "Platforma o rezultatih projektov trenutno ni dosegljiva"
+      ],
+      "sv": [
+        "Projektplattformen stängd för underhåll"
+      ]
+    },
+    "meta_reference": {
+      "bg": [
+        "EUROPA/EN"
+      ],
+      "cs": [
+        "EUROPA/EN"
+      ],
+      "da": [
+        "EUROPA/EN"
+      ],
+      "de": [
+        "EUROPA/EN"
+      ],
+      "el": [
+        "EUROPA/EN"
+      ],
+      "en": [
+        "EUROPA/EN"
+      ],
+      "es": [
+        "EUROPA/EN"
+      ],
+      "et": [
+        "EUROPA/EN"
+      ],
+      "fi": [
+        "EUROPA/EN"
+      ],
+      "fr": [
+        "EUROPA/EN"
+      ],
+      "ga": [
+        "EUROPA/EN"
+      ],
+      "hr": [
+        "EUROPA/EN"
+      ],
+      "hu": [
+        "EUROPA/EN"
+      ],
+      "it": [
+        "EUROPA/EN"
+      ],
+      "lt": [
+        "EUROPA/EN"
+      ],
+      "lv": [
+        "EUROPA/EN"
+      ],
+      "mt": [
+        "EUROPA/EN"
+      ],
+      "nl": [
+        "EUROPA/EN"
+      ],
+      "pl": [
+        "EUROPA/EN"
+      ],
+      "pt": [
+        "EUROPA/EN"
+      ],
+      "ro": [
+        "EUROPA/EN"
+      ],
+      "sk": [
+        "EUROPA/EN"
+      ],
+      "sl": [
+        "EUROPA/EN"
+      ],
+      "sv": [
+        "EUROPA/EN"
+      ]
+    },
+    "meta_creator": {
+      "bg": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "cs": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "da": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "de": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "el": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "en": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "es": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "et": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "fi": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "fr": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "ga": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "hr": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "hu": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "it": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "lt": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "lv": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "mt": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "nl": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "pl": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "pt": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "ro": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "sk": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "sl": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ],
+      "sv": [
+        "COMM/EAC/Erasmus-plus-project-results"
+      ]
+    },
+    "meta_document_type": {
+      "bg": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "cs": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "da": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "de": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "el": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "es": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "et": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "fi": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "fr": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "ga": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "hr": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "hu": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "it": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "lt": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "lv": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "mt": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "nl": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "pl": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "pt": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "ro": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "sk": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "sl": [
+        "57-Web home page (text, logo, image of a department)"
+      ],
+      "sv": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "bg": [
+        "Достъпът до платформата VALOR за резултати от проекти ще бъде невъзможен от 27.11.2015 до 02.12.2015 г. поради надстройване на системата."
+      ],
+      "cs": [
+        "Přístup do platformy VALOR je od 27.11.2015 do 02.12.2015 kvůli právě prováděné aktualizaci uzavřen"
+      ],
+      "da": [
+        "Platformen for projektresultater er ikke tilgængelig – Der lukkes for adgang til platformen for projektresultater (VALOR) mellem 27/11/2015 og 2/12/2015, mens den opgraderes "
+      ],
+      "de": [
+        "Die Plattform VALOR zur Veröffentlichung von Projektergebnissen ist vom 27/11/2015 bis zum 02/12/2015 nicht zugänglich. Wir bitten um Verständnis. "
+      ],
+      "el": [
+        "Η πρόσβαση στην πλατφόρμα αποτελεσμάτων των έργων (VALOR) θα διακοπεί από 27/11/2015 έως 02/12/2015 για εργασίες αναβάθμισης"
+      ],
+      "en": [
+        "Access to the Project Results Platform (VALOR) will be closed between 27/11/2015 – 02/12/2015 for an upgrade operation"
+      ],
+      "es": [
+        "El acceso a la plataforma de resultados de proyectos (VALOR) permanecerá cerrado del 27/11/2015 al 02/12/2015 por una actualización"
+      ],
+      "et": [
+        "Projekti tulemuste platvorm ei ole kättesaadav. – Juurdepääs projekti tulemuste platvormile (VALOR) on selle ajakohastamiseks ajavahemikul 27.11.2015–2.12.2015 suletud."
+      ],
+      "fi": [
+        "Hankkeiden tuloksia esittelevää VALOR-sivustoa päivitetään, minkä vuoksi se on suljettuna 27.11.–2.12.2015."
+      ],
+      "fr": [
+        "L’accès à la plate-forme consacrée aux résultats de projets (VALOR) sera interrompu du 27/11/2015 au 02/12/2015 pour une mise à jour"
+      ],
+      "ga": [
+        "Ní bheidh teacht ar Ardán Torthaí an Tionscadail (VALOR) idir 27/11/2015 agus 02/12/2015 toisc go mbeidh uasghrádú á dhéanamh"
+      ],
+      "hr": [
+        "Pristup platformi s rezultatima projekata (VALOR) bit će onemogućen u razdoblju od 27.11.2015 do 02.12.2015 zbog nadogradnje."
+      ],
+      "hu": [
+        "Az Erasmus+ program keretében finanszírozott projekteket és azok eredményét bemutató platform (VALOR) 27/11/2015. és 02/12/2015. között rendszerfejlesztés miatt nem üzemel."
+      ],
+      "it": [
+        "L'accesso alla piattaforma con i risultati dei progetti (VALOR) sarà interrotto tra il 27/11/2015 e il 02/12/2015 per aggiornamento"
+      ],
+      "lt": [
+        "Prieiga prie projektų rezultatų platformos VALOR nebus galima nuo 2015-11-27 iki 2015-12-02, nes sistema bus atnaujinama."
+      ],
+      "lv": [
+        "Projektu rezultātu platforma VALOR no 27/11/2015. līdz 02/12/2015 ir slēgta, jo tiek ieviesti jauninājumi."
+      ],
+      "mt": [
+        "L-aċċess għall-Pjattaforma tar-Riżultati tal-Proġett (VALOR) se jkun magħluq bejn 27/11/2015 – 02/12/2015 għal operazzjoni ta' aġġornament"
+      ],
+      "nl": [
+        "Het VALOR-platform is tussen 27.11.2015 en 02.12.2015 gesloten vanwege een upgrade."
+      ],
+      "pl": [
+        "The Project Results Platform is currently unavailable for maintenance reasons. It should be available again on 01/12/2015."
+      ],
+      "pt": [
+        "O acesso à plataforma de resultados de projetos (VALOR) será interrompido entre 27/11/2015 e 2/12/2015 devido a uma operação de atualização"
+      ],
+      "ro": [
+        "Platforma rezultatelor proiectelor (VALOR) este indisponibilă – Aceasta este în curs de actualizare și nu va fi accesibilă în perioada 27.11.2015-2.12.2015."
+      ],
+      "sk": [
+        "Prístup k platforme bude z dôvodu aktualizácie prerušený od 27. 11. 2015 do 2. 12. 2015."
+      ],
+      "sl": [
+        "Zaradi posodabljanja bo platforma o rezultatih projektov (VALOR) nedosegljiva od 27. 11. 2015 do 2. 12. 2015. "
+      ],
+      "sv": [
+        "Projektplattformen Valor är stängd för underhåll den 27/11/2015–02/12/2015"
+      ]
+    },
+    "meta_keywords": {
+      "bg": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "cs": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "da": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "de": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "el": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "es": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "et": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "fi": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "fr": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "ga": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "hr": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "hu": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "it": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "lt": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "lv": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "mt": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "nl": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "pl": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "pt": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "ro": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "sk": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "sl": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ],
+      "sv": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "valor",
+        "project results platform",
+        "maintenance"
+      ]
+    },
+    "meta_classification": {
+      "bg": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "cs": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "da": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "de": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "el": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "en": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "es": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "et": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "fi": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "fr": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "ga": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "hr": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "hu": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "it": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "lt": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "lv": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "mt": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "nl": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "pl": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "pt": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "ro": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "sk": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "sl": [
+        "16-000-EU Institutions and EU Legislation"
+      ],
+      "sv": [
+        "16-000-EU Institutions and EU Legislation"
+      ]
+    },
+    "body": {
+      "bg": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Достъпът до платформата VALOR за резултати от проекти ще бъде невъзможен от 27.11.2015 до 02.12.2015 г. поради надстройване на системата.</strong>             </p>             <p> </p>"
+      ],
+      "cs": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Přístup do platformy VALOR je od 27.11.2015 do 02.12.2015 kvůli právě prováděné aktualizaci uzavřen</strong>             </p>             <p> </p>"
+      ],
+      "da": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>             Platformen for projektresultater er ikke tilgængelig – Der lukkes for adgang til platformen for projektresultater (VALOR) mellem 27/11/2015 og 2/12/2015, mens den opgraderes           </strong>             </p>             <p> </p>"
+      ],
+      "de": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>            Die Plattform VALOR zur Veröffentlichung von Projektergebnissen ist vom 27/11/2015 bis zum 02/12/2015 nicht zugänglich. Wir bitten um Verständnis.           </strong>             </p>             <p> </p>"
+      ],
+      "el": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Η πρόσβαση στην πλατφόρμα αποτελεσμάτων των έργων (VALOR) θα διακοπεί από 27/11/2015 έως 02/12/2015 για εργασίες αναβάθμισης</strong>             </p>             <p> </p>"
+      ],
+      "en": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>The Project Results Platform is currently unavailable for maintenance purposes; it will be available again soon.</strong>             </p>             <p> </p>"
+      ],
+      "es": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>             El acceso a la plataforma de resultados de proyectos (VALOR) permanecerá cerrado del 27/11/2015 al 02/12/2015 por una actualización           </strong>             </p>             <p> </p>"
+      ],
+      "et": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Projekti tulemuste platvorm ei ole kättesaadav. – Juurdepääs projekti tulemuste platvormile (VALOR) on selle ajakohastamiseks ajavahemikul 27.11.2015–2.12.2015 suletud.</strong>             </p>             <p> </p>"
+      ],
+      "fi": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Hankkeiden tuloksia esittelevää VALOR-sivustoa päivitetään, minkä vuoksi se on suljettuna 27.11.–2.12.2015.</strong>             </p>             <p> </p>"
+      ],
+      "fr": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>             L’accès à la plate-forme consacrée aux résultats de projets (VALOR) sera interrompu du 27/11/2015 au 02/12/2015 pour une mise à jour           </strong>             </p>             <p> </p>"
+      ],
+      "ga": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Ní bheidh teacht ar Ardán Torthaí an Tionscadail (VALOR) idir 27/11/2015 agus 02/12/2015 toisc go mbeidh uasghrádú á dhéanamh</strong>             </p>             <p> </p>"
+      ],
+      "hr": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>             Pristup platformi s rezultatima projekata (VALOR) bit će onemogućen u razdoblju od 27.11.2015 do 02.12.2015 zbog nadogradnje.           </strong>             </p>             <p> </p>"
+      ],
+      "hu": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Az Erasmus+ program keretében finanszírozott projekteket és azok eredményét bemutató platform (VALOR) 27/11/2015. és 02/12/2015. között rendszerfejlesztés miatt nem üzemel.</strong>             </p>             <p> </p>"
+      ],
+      "it": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>                   <span lang=\"IT\"                         style=\"font-size: 11pt; font-family: 'Calibri','sans-serif'; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: IT; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">L'accesso alla piattaforma con i risultati dei progetti (VALOR) sarà interrotto tra il 27/11/2015 e il 02/12/2015 per aggiornamento</span>                </strong>             </p>             <p> </p>"
+      ],
+      "lt": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Prieiga prie projektų rezultatų platformos VALOR nebus galima nuo 2015-11-27 iki 2015-12-02, nes sistema bus atnaujinama.</strong>             </p>             <p> </p>"
+      ],
+      "lv": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Projektu rezultātu platforma VALOR no 27/11/2015. līdz 02/12/2015 ir slēgta, jo tiek ieviesti jauninājumi.</strong>             </p>             <p> </p>"
+      ],
+      "mt": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>L-aċċess għall-Pjattaforma tar-Riżultati tal-Proġett (VALOR) se jkun magħluq bejn 27/11/2015 – 02/12/2015 għal operazzjoni ta' aġġornament</strong>             </p>             <p> </p>"
+      ],
+      "nl": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Het VALOR-platform is tussen 27.11.2015 en 02.12.2015 gesloten vanwege een upgrade.</strong>             </p>             <p> </p>"
+      ],
+      "pl": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>             Platforma VALOR, na której publikowane są rezultaty projektów, nie będzie działać od 27/11/2015 do 02/12/2015 r. z powodu prac konserwacyjnych           </strong>             </p>             <p> </p>"
+      ],
+      "pt": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>O acesso à plataforma de resultados de projetos (VALOR) será interrompido entre 27/11/2015 e 2/12/2015 devido a uma operação de atualização</strong>             </p>             <p> </p>"
+      ],
+      "ro": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Platforma rezultatelor proiectelor (VALOR) este indisponibilă – Aceasta este în curs de actualizare și nu va fi accesibilă în perioada 27.11.2015-2.12.2015.</strong>             </p>             <p> </p>"
+      ],
+      "sk": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Prístup k platforme bude z dôvodu aktualizácie prerušený od 27. 11. 2015 do 2. 12. 2015.</strong>             </p>             <p> </p>"
+      ],
+      "sl": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>Zaradi posodabljanja bo platforma o rezultatih projektov (VALOR) nedosegljiva od 27. 11. 2015 do 2. 12. 2015. </strong>             </p>             <p> </p>"
+      ],
+      "sv": [
+        "<p> </p>             <p> </p>             <p> </p>             <p style=\"text-align: center;\">                <strong>             Projektplattformen Valor är stängd för underhåll den 27/11/2015–02/12/2015           </strong>             </p>             <p> </p>"
+      ]
+    }
+  }
+}

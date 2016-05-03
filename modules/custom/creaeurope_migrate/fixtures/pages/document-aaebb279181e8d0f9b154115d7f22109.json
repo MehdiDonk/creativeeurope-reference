@@ -1,0 +1,88 @@
+{
+  "_id": "aaebb279181e8d0f9b154115d7f22109",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/literary-translation_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Literary translations"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe supports initiatives for the translation and promotion of literary works across EU markets, with the aim of increasing access to and readership of high quality European literature."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "culture",
+        "sub-programme",
+        "Creative Europe",
+        "translation",
+        "promotion",
+        "literary",
+        "work",
+        "literature",
+        "fiction",
+        "novels",
+        "short stories",
+        "plays",
+        "poetry",
+        "comic books",
+        "graphic novels",
+        "children's fiction",
+        "latin",
+        "greek",
+        "ebook"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"what\"/>What is it about?</h5>             <p>Creative Europe supports initiatives for the translation and promotion of literary works across EU markets, with the aim of increasing access to and readership of high quality European literature.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"for\"/>What does it support?</h5>             <ul>                <li>Translation and publication of a \"package\" of works of fiction from and into eligible languages;</li>                <li>Promotion of the translated \"package\", including the appropriate use of digital technologies in both the distribution and promotion of the works.</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"who\"/>Who can take part?</h5>             <p>Publishers or publishing houses can apply for literary translation opportunities. Individuals cannot apply.</p>             <p>More detailed information on participation is available in the guidelines for <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">specific calls for proposals</a>, as well as <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/culture/literary-translation_en\"                   target=\"_blank\">from the website of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/\"                   id=\"how\"/>How to apply?</h5>             <p>More detailed information on the application process is available in on the <a href=\"https://eacea.ec.europa.eu/creative-europe/actions/culture/literary-translation_en\"                   target=\"_blank\">website of EACEA</a>, as well as in the <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">calls for proposal section</a> and from the <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                   lang=\"en\">Creative Europe Desks</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>",
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=open#_type=culture-literary-translation\"                      title=\"Open calls\">Open calls</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm#_status=closed#_type=culture-literary-translation\"                      title=\"Closed calls\">Closed calls</a>                </li>             </ul>"
+      ]
+    },
+    "more_info_title": {
+      "en": [
+        "Calls for proposals"
+      ]
+    }
+  }
+}

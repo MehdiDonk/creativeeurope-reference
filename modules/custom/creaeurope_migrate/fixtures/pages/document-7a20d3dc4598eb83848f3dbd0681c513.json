@@ -1,0 +1,87 @@
+{
+  "_id": "7a20d3dc4598eb83848f3dbd0681c513",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/index_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "MEDIA sub-programme"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Creative-Europe"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The MEDIA sub-programme, a part of the Creative Europe programme, provides opportunities to organisations for a variety of activities in support of the sector."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "creative europe",
+        "media",
+        "sub-programme",
+        "overview",
+        "opportunities",
+        "audiovisual",
+        "film",
+        "television",
+        "development",
+        "distribution",
+        "sales agents",
+        "cinema",
+        "networks",
+        "festivals",
+        "video games",
+        "training",
+        "access",
+        "markets",
+        "slate funding",
+        "audience development",
+        "co-production funds",
+        "funding",
+        "financing",
+        "loan"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"what\"/>What is it?</h5>             <p>The Creative Europe programme has two sub-programmes, <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/index_en.htm\"                   lang=\"en\">Culture</a> and MEDIA, in addition to a <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/index_en.htm\"                   lang=\"en\">cross-sectoral strand</a>.</p>             <p>The MEDIA sub-programme, which supports the audiovisual and multimedia sector, provides opportunities for:</p>             <ul>                <li>Initiatives that aim to promote the <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/distribution_en.htm\"                      lang=\"en\">distribution of works</a> and the <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/access-market_en.htm\"                      lang=\"en\">access to markets</a>;</li>                <li>Initiatives for the <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/development_en.htm\"                      lang=\"en\">development of projects or a set of projects</a> (slate funding);</li>                <li>Support for the production of <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/tv-programming_en.htm\"                      lang=\"en\">television programmes</a> or <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/video-games_en.htm\"                      lang=\"en\">video games</a>;</li>                <li>Activities to <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/audience-dev_en.htm\"                      lang=\"en\">increase interest in and improve access to audiovisual works</a>;</li>                <li>Activities that promote interests in films, such as <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/cinema-networks_en.htm\"                      lang=\"en\">cinema networks</a> or <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/film-festivals_en.htm\"                      lang=\"en\">film festivals</a>;</li>                <li>Measures that facilitate <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/inter-coprod_en.htm\"                      lang=\"en\">international co-production and strengthen the circulation and distribution of works</a>;</li>                <li>Activities to <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/training_en.htm\"                      lang=\"en\">build the skills and capacities of audiovisual sector professionals</a>.</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"why\"/>Why is it needed?</h5>             <p>As outlined in the sections on <a href=\"http://ec.europa.eu/culture/policy/audiovisual-policies/index_en.htm\"                   lang=\"en\">support to the media sector</a> and <a href=\"http://ec.europa.eu/culture/policy/cultural-creative-industries/index_en.htm\"                   lang=\"en\">cultural and creative industries</a>, the audiovisual sector is transforming with the rise of digital technology.</p>             <p>This creates additional issues, such as the protection of intellectual property, securing access to financing in a relatively new and changing sector, and ensuring the proper distribution of works.</p>             <p>As such, Creative Europe aims to support initiatives that can generate a real impact for the sector across Europe, including supporting individual works, initiatives that promote new skills in the sector, and initiatives that promote international cooperation in the sector.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"detail\"/>Where can I find out more?</h5>             <p>More information on the opportunities available under the MEDIA sub-programme is available on <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media_en\"                   target=\"_blank\">the site of the Education, Audiovisual, and Culture Executive Agency (EACEA)</a>.</p>             <p>Individual calls for proposals can be found in <a href=\"http://ec.europa.eu/programmes/creative-europe/calls/index_en.htm\"                   lang=\"en\">the calls for proposals section</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/\"                   id=\"how\"/>How can I apply?</h5>             <p>More information on the application process is available on <a href=\"http://eacea.ec.europa.eu/creative-europe/actions/media_en\"                   target=\"_blank\">the site of the EACEA</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/culture/library/publications/university-film-school-networks_en.pdf\"                      lang=\"en\"                      target=\"_blank\">Guide to European University and Film School Networks</a>                </li>                <li>The <a href=\"http://ec.europa.eu/culture/library/publications/2014-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2014</a>, <a href=\"http://ec.europa.eu/culture/library/publications/2013-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2013</a>, and <a href=\"http://ec.europa.eu/culture/library/publications/2012-media-training-guide_en.pdf\"                      lang=\"en\"                      target=\"_blank\">2012</a> Training &amp; Networks guides</li>                <li>Information on <a href=\"http://ec.europa.eu/culture/tools/media-programme_en.htm\" lang=\"en\"                      target=\"_blank\"                      title=\"MEDIA programme 2007-2013\">the MEDIA programme for 2007-2013</a> </li>             </ul>"
+      ]
+    }
+  }
+}

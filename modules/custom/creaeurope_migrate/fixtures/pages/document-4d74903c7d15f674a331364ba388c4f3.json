@@ -1,0 +1,78 @@
+{
+  "_id": "4d74903c7d15f674a331364ba388c4f3",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/opportunities/index_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Creative Europe"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "Creative Europe is the European Commission's framework programme for support to the culture and audiovisual sectors.  "
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "european union",
+        "eu",
+        "creative",
+        "europe",
+        "culture",
+        "media",
+        "audiovisual",
+        "financing",
+        "funding",
+        "grant",
+        "grants",
+        "loan",
+        "project",
+        "initiative",
+        "culture",
+        "arts"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-100-Cultural Policy"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/\" id=\"what\"/>What is it about?</h5>             <p>Creative Europe is the European Commission's framework programme for support to the culture and audiovisual sectors.</p>             <p>Following on from the previous <a href=\"http://ec.europa.eu/culture/tools/culture-programme_en.htm\" lang=\"en\">Culture Programme</a> and <a href=\"http://ec.europa.eu/culture/tools/media-programme_en.htm\" lang=\"en\">MEDIA programme</a>, Creative Europe, with a budget of €1.46 billion (9% higher than its predecessors), will support:</p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/index_en.htm\"                      lang=\"en\">Culture sector initiatives</a>, such as those promoting cross-border cooperation, platforms, networking, and literary translation;</li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/index_en.htm\"                      lang=\"en\">Audiovisual sector initiatives</a>, such as those promoting the development, distribution, or access to audiovisual works;</li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/index_en.htm\"                      lang=\"en\">A cross-sectoral strand</a>, including a Guarantee Facility and transnational policy cooperation.</li>             </ul>             <p>The programme consists of two sub-programmes; the <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/index_en.htm\"                   lang=\"en\">Culture sub-programme</a> to promote the culture sector, and the <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/index_en.htm\"                   lang=\"en\">MEDIA sub-programme</a> to support the audiovisual sector.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/\" id=\"goals\"/>What does it intend to achieve?</h5>             <p>Creative Europe's stated aims are to:</p>             <ul>                <li>Help the cultural and creative sectors seize the opportunities of the digital age and globalisation;</li>                <li>Enable the sectors to reach their economic potential, contributing to sustainable growth, jobs, and social cohesion;</li>                <li>Give Europe's culture and media sectors access to new international opportunities, markets, and audiences.</li>             </ul>             <p>This will, specifically, involve providing funding for:</p>             <ul>                <li>250,000 artists and cultural professionals,</li>                <li>2,000 cinemas</li>                <li>800 films</li>                <li>4,500 book translations</li>             </ul>             <p>A financial guarantee facility of up to €750 million for small businesses active in the sector will also be established in 2016.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/\" id=\"who\"/>Who can take part?</h5>             <p>The Creative Europe programme is open to cultural and creative organisations from EU Member States, as well as non-EU Member States. Besides Norway and Iceland, the following countries are also eligible, having concluded agreements with the European Commission:</p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-albania_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Albania</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-bih_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Bosnia and Herzegovina</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-fyrom_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Former Yugoslav Republic of Macedonia</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-georgia_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Georgia</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-moldova_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Moldova</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-montenegro_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Montenegro</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-serbia_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Serbia</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-turkey_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to PDF\">Turkey</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/agreement-ukraine_en.pdf\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Agreement between the EU and Ukraine\">Ukraine</a>                </li>             </ul>             <p>More information on eligibility can be found in the <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                   target=\"_blank\"                   title=\"List of eligible countries on the EACEA site\">note on eligibility of non-EU countries</a>, as well as in the specific opportunity pages.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/\" id=\"how\"/>How can I apply?</h5>             <p>Individuals and organisations interested in applying for opportunities can find out more in the individual pages for:</p>             <ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/culture-support/index_en.htm\"                      lang=\"en\">Culture sector opportunities</a>;</li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/audiovisual-support/index_en.htm\"                      lang=\"en\">Audiovisual sector opportunities</a>;</li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/cross-sector-support/index_en.htm\"                      lang=\"en\">The cross-sectoral strand</a>.</li>             </ul>             <p>More detailed information on the application process is available on <a href=\"http://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">the website of the Education, Audiovisual, and Culture Executive Agency</a> (EACEA).</p>             <p>Results of previous calls can, likewise, be found on <a href=\"http://eacea.ec.europa.eu/creative-europe/selection-results_en\"                   target=\"_blank\">the website of the EACEA</a>.</p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R1295\"                      target=\"_blank\">Regulation establishing the programme</a>                </li>                <li>                   <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52011DC0786\"                      target=\"_blank\">Communication on the Creative Europe</a>                </li>                <li>                   <a href=\"http://europa.eu/rapid/press-release_MEMO-13-1009_en.htm\" lang=\"en\"                      target=\"_blank\">Frequently asked questions on the Creative Europe programme</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/opportunities/documents/ce-presentation_en.pdf\"                      lang=\"en\"                      target=\"_blank\">Presentation of the programme</a>                </li>                <li>                   <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52011SC1399\"                      target=\"_blank\">Creative Europe impact assessment</a>                </li>                <li>                   <a href=\"https://eacea.ec.europa.eu/creative-europe/library/eligibility-organisations-non-eu-countries_en\"                      target=\"_blank\"                      title=\"List of eligible countries on the EACEA site\">Eligibility of non-EU countries</a>                </li>                <li>                   <a href=\"http://eacea.ec.europa.eu/creative-europe_en\" target=\"_blank\">Creative Europe on the website of the Education, Audiovisual, and Culture Executive Agency</a>                </li>                <li>                   <a href=\"http://eacea.ec.europa.eu/creative-europe/selection-results_en\"                      target=\"_blank\">Results of Creative Europe calls for proposals</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/tools/creative-desks_en.htm\"                      lang=\"en\">Creative Europe Desks</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

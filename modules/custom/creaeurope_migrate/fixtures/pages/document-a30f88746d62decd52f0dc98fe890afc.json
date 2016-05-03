@@ -1,0 +1,75 @@
+{
+  "_id": "a30f88746d62decd52f0dc98fe890afc",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/architecture-prize_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European Union Prize for Contemporary Architecture"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European Union Prize for Contemporary Architecture is a biennial award to recognise and reward excellent examples of architectural works, and is complemented by the Emerging Architect Special Mention, awarded to a single architectural work."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "architecture",
+        "work",
+        "concept",
+        "design",
+        "structure",
+        "construction",
+        "technology",
+        "technique",
+        "architect",
+        "prize",
+        "special",
+        "mention"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-510-Architecture"
+      ]
+    },
+    "body": {
+      "en": [
+        "<p style=\"margin-left: -40px;\">                <iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"387\" mozallowfullscreen=\"true\"                        msallowfullscreen=\"true\"                        oallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/architecture-made-in-europe_en.htm\"                        webkitallowfullscreen=\"true\"                        width=\"688\"/>             </p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"what\"/>What is it?</h5>             <p>The European Union Prize for Contemporary Architecture is a biennial award to recognise and reward excellent examples of architectural works, and is complemented by the Emerging Architect Special Mention, awarded to a single architectural work.</p>             <p>The €60,000 Prize and €20,000 Special Mention are awarded to single works demonstrating excellence in conceptual, technical, and constructive terms. Both works additionally receive a sculpture evoking the Mies van der Rohe Pavilion in Barcelona.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"why\"/>What is it for?</h5>             <p>The Prize aims to raise awareness of excellence in the field of architecture, drawing attention to the contributions of European professionals in the development of new architectural concepts, techniques, and technologies.</p>             <p>It is managed jointly by the European Commission in cooperation with the Mies van der Rohe Foundation, which is based in Barcelona and supported by a network of 15 architecture institutions, as well as a committee of experts from 31 countries.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"more\"/>Where can I find out more?</h5>             <p>More information on the Prize and Special Mention, including past laureates, can be found on <a href=\"http://www.miesarch.com/\" target=\"_blank\">the website of the prize</a>.</p>             <div id=\"cStream\" style=\"margin-left: -10px;\">                <p/>                <p style=\"width: 180px; text-align: center; float: right; background-color: #009dc7; color: #ffffff; padding: 4px 12px; margin: -10px -10px 0 0;\">                   <a href=\"http://ec.europa.eu/programmes/creative-europe/gallery/videos/eu-mies-2015_en.htm\"                      lang=\"en\"                      style=\"text-decoration: none; letter-spacing: 1px; color: #ffffff;\"                      target=\"_blank\">OPEN FULL SCREEN</a>                </p>             </div>             <div>                <p>                   <script type=\"text/javascript\">//  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  $( document ).ready(function() { var iframe = document.createElement('iframe'); iframe.setAttribute(\"src\", \"/programmes/creative-europe/gallery/videos/eu-mies-2015_en.htm\"); iframe.setAttribute(\"width\", \"467\"); iframe.setAttribute(\"height\", \"342\"); iframe.setAttribute(\"frameborder\", \"0\"); iframe.setAttribute(\"scrolling\", \"no\"); document.getElementById(\"cStream\").appendChild(iframe); }); // </script>                </p>             </div>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/news/2015/0916-young-talent-architecture-prize_en.htm\"                      lang=\"en\"                      title=\"More on the prize\">Launch of the Young Talent Architecture Prize (YTAP)</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/events/2015/0915-shaping-cities-architecture_en.htm\"                      lang=\"en\"                      title=\"More on the event\">Shaping European Cities exhibition opening event 15 September</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/news/2015/0508-miesrohe-winner_en.htm\"                      lang=\"en\"                      title=\"See the winners\">Winner of EU Prize for Contemporary Architecture - Mies van der Rohe Award announced</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/news/2015/0225-mies-arch-five_en.htm\"                      lang=\"en\"                      title=\"Link to news item\">Five Finalists Announced for the 2015 EU Prize for Contemporary Architecture - Mies Van Der Rohe Award</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/made-in-europe_en.htm\"                      lang=\"en\"                      title=\"Made in Europe\">Made in Europe</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "_id": "8c9c17b200876d9cdbaab4c5a54c768b",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/literature-prize_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "European Union Prize for Literature"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/Culture"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "58-Document for general distribution (intended for the general public)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "The European Union Prize for Literature is an annual initiative to recognise the best emerging authors in Europe."
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "european union",
+        "eu",
+        "literature",
+        "author",
+        "circulation",
+        "works",
+        "book",
+        "creativity",
+        "culture",
+        "publishing",
+        "writing",
+        "prize",
+        "award"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-540-Books and Literature"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"what\"/>What is it?</h5>             <p>The European Union Prize for Literature is an annual initiative to recognise the best emerging authors in Europe.</p>             <p>Launched by the European Commission in 2009, the prize is open to the 37 countries countries participating in the Creative Europe programme for the cultural and creative sectors.</p>             <p>The prize is organised by a consortium consisting of the European Booksellers Federation, the European Writers' Council, and the Federation of European Publishers.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"why\"/>What does it aim to achieve?</h5>             <p>The prize is designed to:</p>             <ul>                <li>highlight the creativity and diverse wealth of Europe's contemporary literature;</li>                <li>promote a greater circulation of European literature;</li>                <li>help cross border sales of books;</li>                <li>foster greater interest in publishing, selling, and reading non-national literary works.</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"how\"/>How does it work?</h5>             <p>Each year, national juries in a third of the participating countries nominate their winning authors, under the stewardship of the managing consortium, allowing all countries and language areas to be represented over a three year period.</p>             <p>The jury then selects one candidate from each of the countries participating on the basis of requirements established by the European Commission. Candidates must, in particular:</p>             <ul>                <li>Be a citizen of one of the 12 countries selected</li>                <li>Have published between 2 and 4 works of fiction</li>                <li>Have published a nominated work in the past five years</li>             </ul>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"more\"/>Where can I found out more?</h5>             <p>More information is available on the website of <a href=\"http://www.euprizeliterature.eu/\" target=\"_blank\">the European Union Literature Prize</a>.</p>             <h5>                <a href=\"http://ec.europa.eu/programmes/creative-europe/actions/\" id=\"video\"/>Video of the 2014 ceremony with the participation of Tibor Navaracsics</h5>             <p>                <iframe allowFullScreen=\"true\" frameborder=\"0\" height=\"350\" id=\"videoplayerI095543\"                        mozallowfullscreen=\"true\"                        scrolling=\"no\"                        src=\"http://ec.europa.eu/avservices/play.cfm?ref=I095543&amp;videolang=EN&amp;devurl=http://ec.europa.eu/avservices/video/player/config.cfm\"                        webkitAllowFullScreen=\"true\"                        width=\"620\"/>             </p>             <p/>             <p>All photos of courtesy of <a href=\"http://www.euprizeliterature.eu/awards-ceremony/2014\" target=\"_blank\"                   title=\"Link to EUPL website\">EUPL</a>.</p>"
+      ]
+    },
+    "media_title": {
+      "en": [
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Logo of the EU Prize for Literature",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014",
+        "Award ceremony of the EU Prize for Literature 2014"
+      ]
+    },
+    "media_reference": {
+      "en": [
+        "/content/programmes/creative-europe/tools/documents/cnt_bin_ntl_XX_logo_literary.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-speech.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-turkey.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-winners.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-book.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-crowd.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-greece.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-handshake.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-handshake2.jpg",
+        "/content/programmes/creative-europe/images/eupl/cnt_bin_ntl_XX_eupl-latvia.jpg"
+      ]
+    },
+    "media_alternative_text": {
+      "en": [
+        "#literature-prize-logo",
+        "#literature-prize",
+        "#literature-prize",
+        "#literature-prize",
+        "#literature-prize",
+        "#literature-prize",
+        "#literature-prize",
+        "#literature-prize",
+        "#literature-prize",
+        "#literature-prize"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<ul>                <li>                   <a href=\"http://europa.eu/rapid/press-release_IP-14-1107_en.htm\" lang=\"en\"                      target=\"_blank\"                      title=\"Link to press release\">Press release announcing 2014 winners</a>                </li>                <li>                   <a href=\"http://ec.europa.eu/culture/events/2013/20130924-literature-prize_en.htm\"                      lang=\"en\"                      target=\"_blank\"                      title=\"Link to culture website\">Announcement of the winners of the 2013 prize</a>                </li>                <li>                   <a href=\"http://europa.eu/rapid/press-release_IP-13-877_en.htm\" lang=\"en\"                      target=\"_blank\"                      title=\"Link to press release\">Press release announcing 2013 winners</a>                </li>                <li>                   <a href=\"http://europa.eu/rapid/press-release_IP-12-1082_en.htm?locale=en\"                      target=\"_blank\"                      title=\"Link to press release\">Press release announcing 2012 winners</a>                </li>                <li>                   <a href=\"http://europa.eu/rapid/press-release_IP-11-1176_en.htm\" lang=\"en\"                      target=\"_blank\"                      title=\"Link to press release\">Press release announcing 2011 winners</a>                </li>             </ul>"
+      ]
+    }
+  }
+}

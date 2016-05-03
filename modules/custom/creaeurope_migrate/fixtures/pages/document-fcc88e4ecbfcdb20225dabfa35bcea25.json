@@ -1,0 +1,74 @@
+{
+  "_id": "fcc88e4ecbfcdb20225dabfa35bcea25",
+  "type": "common_page",
+  "default_language": "en",
+  "languages": [
+    "en"
+  ],
+  "fields": {
+    "original_url": {
+      "en": [
+        "http://ec.europa.eu/programmes/creative-europe/actions/prix-media_en.htm"
+      ]
+    },
+    "title_field": {
+      "en": [
+        "Prix MEDIA"
+      ]
+    },
+    "meta_reference": {
+      "en": [
+        "EUROPA/CULTURE"
+      ]
+    },
+    "meta_creator": {
+      "en": [
+        "COMM/EAC/E4"
+      ]
+    },
+    "meta_document_type": {
+      "en": [
+        "57-Web home page (text, logo, image of a department)"
+      ]
+    },
+    "meta_description": {
+      "en": [
+        "EU Prix Media"
+      ]
+    },
+    "meta_keywords": {
+      "en": [
+        "europa",
+        "european commission",
+        "institutions",
+        "news",
+        "calendar",
+        "organisation",
+        "commissioners",
+        "president",
+        "recruitment",
+        "contact",
+        "services",
+        "european union",
+        "eu",
+        "prix media",
+        "creative europe"
+      ]
+    },
+    "meta_classification": {
+      "en": [
+        "07-000-Culture, Sport and Tourism"
+      ]
+    },
+    "body": {
+      "en": [
+        "<h5>What is it?</h5>             <p>Every year the EU awards the 'Prix MEDIA' in recognition of a combination of high artistic quality with audience potentials. The prize is given to the best new film projects in development supported by Creative Europe. The award ceremony takes place annually during the International Film Festival in Cannes. </p>             <h5>How does it work?</h5>             <p>The prize is awarded to the best projects with box office potential submitted for development funding through the MEDIA sub-programme of Creative Europe. It can be fictional work, an animation project or a documentary film, though it must be intended for cinema release and have a potential to reach out for a wide European audience. A panel of independent experts and European Commission representatives selects the winner. The prize is received jointly by the writer and the producer of the winner work. </p>"
+      ]
+    },
+    "more_info_url": {
+      "en": [
+        "<p>                <a href=\"http://europa.eu/rapid/press-release_IP-14-557_en.htm\" lang=\"en\"                   target=\"_blank\"                   title=\"IP/14/557\">Press release </a>- Prix MEDIA 2014</p>"
+      ]
+    }
+  }
+}
