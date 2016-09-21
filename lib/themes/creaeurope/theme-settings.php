@@ -24,18 +24,6 @@
  */
 function creaeurope_form_system_theme_settings_alter(&$form, &$form_state) {
 
-  $form['headline'] = array(
-    '#type' => 'textfield',
-    '#title' => t('Headline'),
-    '#default_value' => theme_get_setting('headline'),
-    '#description' => t('Place this text in headline spot on your site.'),
-  );
-  $form['tagline'] = array(
-    '#type' => 'textfield',
-    '#title' => t('Tagline'),
-    '#default_value' => theme_get_setting('tagline'),
-    '#description' => t('Place this text in tagline spot on your site.'),
-  );
   $form['videohome_youtube_id'] = array(
     '#type' => 'textfield',
     '#title' => t('Video home Youtube ID'),
