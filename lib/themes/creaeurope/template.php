@@ -28,7 +28,7 @@ function creaeurope_preprocess_page(&$variables) {
   $main_menu_tree = menu_tree_all_data('main-menu');
   $variables['videoabout'] = theme_get_setting('videoabout');
   $variables['headline'] = t('Creative Europe');
-  $variables['tagline'] = t("Creative Europe is the European Commission's framework programme for support to the culture and audiovisual sectors.")
+  $variables['tagline'] = t("Creative Europe is the European Commission's framework programme for support to the culture and audiovisual sectors.");
   $variables['facebook'] = l($empty, theme_get_setting('facebook'), array('attributes' => array('class' => 'icon facebook')));
   $variables['twitter'] = l($empty, theme_get_setting('twitter'), array('attributes' => array('class' => 'icon twitter')));
   $variables['newsletter'] = l(t('Newsletter'), theme_get_setting('newsletter'), array('attributes' => array('class' => 'button button--medium button--primary')));
